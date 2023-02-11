@@ -4,8 +4,8 @@ STR = {
 	color_ui = { 12 65 140 }
 }
 CHO = {
-	color = rgb { 200 160 130 }
-	color_ui = rgb { 200 160 130 }
+	color = rgb { 255 190 190 }
+	color_ui = rgb { 255 190 190 }
 }
 TAI = {
 	color = rgb { 0 0 0 }
