@@ -5994,10 +5994,11 @@
  COG_autonomy_supervised_state:0 "콩고 공화국"
  COG_autonomy_supervised_state_DEF:0 "콩고 공화국"
  COG_autonomy_supervised_state_ADJ:0 "콩고 공화국"
-
  STR:0 "해협위원회"
  STR_DEF:0 "해협위원회"
  STR_ADJ:0 "해협위원회"
+ IRE_autonomy_supervised_state:0 "아일랜드 자유국"
+ IRE_autonomy_supervised_state_DEF:0 "아일랜드 자유국"
  
 
  #parties
@@ -6211,7 +6212,7 @@
  KUB_Voroshilov:0 "클리멘트 보로실로프"
  STR_committee:0 "해협위원회"
 
- #etc
+ #autonomy
  autonomy_warlord:0 "군벌"
 
  #ideologies

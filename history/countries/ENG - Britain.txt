@@ -191,6 +191,10 @@ if = {
 		}
 	}
 	set_autonomy = {
+		target = IRE
+		autonomous_state = autonomy_supervised_state
+	}
+	set_autonomy = {
 		target = MAL
 		autonomous_state = autonomy_integrated_puppet
 	}
