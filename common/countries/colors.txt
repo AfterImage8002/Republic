@@ -1,4 +1,12 @@
 #reload countrycolors
+GJC = {
+	color = rgb { 114 40 119 }
+	color_ui = rgb { 114 40 119 }
+}
+HNC = {
+	color = rgb { 183 166 123}
+	color_ui = rgb { 183 166 123 }
+}
 STR = {
 	color = rgb { 12 65 140 }
 	color_ui = { 12 65 140 }

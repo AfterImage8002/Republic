@@ -49,6 +49,55 @@ set_autonomy = {
 	autonomous_state = autonomy_warlord
 	freedom_level = 0.95
 }
+set_autonomy = {
+	target = SIC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = HNC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = GJC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+
+SIC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+HNC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+GJC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
 
 recruit_character = CHI_Sun
 recruit_character = CHI_chiang_kaishek

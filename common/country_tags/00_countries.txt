@@ -1,3 +1,6 @@
+
+GJC = "countries/Guiju.txt"
+HNC = "countries/Honam.txt"
 STR = "countries/Strait.txt"
 TAI = "countries/Taiwan.txt"
 CHO = "countries/Chosen.txt"
