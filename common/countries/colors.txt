@@ -4,12 +4,12 @@ STR = {
 	color_ui = { 12 65 140 }
 }
 CHO = {
-	color = rgb { 255 190 190 }
-	color_ui = rgb { 255 190 190 }
+	color = rgb { 240 240 240 }
+	color_ui = rgb { 240 240 240 }
 }
 TAI = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 240 240 240 }
+	color_ui = rgb { 240 240 240 }
 }
 TUR = {
 	color = rgb { 171 190 152 }
@@ -225,8 +225,8 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 220 220 220 }
+	color_ui = rgb { 220 220 220 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
