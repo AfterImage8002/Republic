@@ -513,7 +513,18 @@ spriteTypes = {
 		name = "GFX_ideology_conservative_liberalism"
 		texturefile = "gfx/interface/ideologies/conservative_liberalism.dds"
 	}
-
+	spriteType = {
+		name = "GFX_ideology_anarchist_communism"
+		texturefile = "gfx/interface/ideologies/anarchist_communism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_oligarchism"
+		texturefile = "gfx/interface/ideologies/oligarchism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_despotism"
+		texturefile = "gfx/interface/ideologies/despotism.dds"
+	}
 	spriteType = {
 		name = "GFX_ideology_tppism_central"
 		texturefile = "gfx/interface/ideologies/tppism_central.dds"
@@ -529,6 +540,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/anarchism.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_nazism"
+		texturefile = "gfx/interface/ideologies/nazism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/fascism_ideology.dds"
+	}
+
 	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"

@@ -7,8 +7,8 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=tppism_central
-			traits={ the_great_president the_founder_of_tpp the_father_of_all_chinese frained }
+			ideology=authoritarian_democracy
+			traits={ the_great_president the_founder_of_tpp frained }
 			
 			expire="1999.1.1.1"
 			id=-1

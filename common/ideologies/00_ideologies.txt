@@ -176,6 +176,7 @@ ideologies = {
 			left_communism = {
 			}
 			marxism = {
+				can_be_randomly_selected = no
 			}
 
 			leninism = {
@@ -185,9 +186,11 @@ ideologies = {
 			}
 
 			anti_revisionism = {
+				can_be_randomly_selected = no
 			}
 
 			anarchist_communism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -245,6 +248,7 @@ ideologies = {
 			}
 
 			gen_nazism = {
+				can_be_randomly_selected = no
 			}
 
 			fascism_ideology = {
@@ -254,6 +258,7 @@ ideologies = {
 			}
 
 			rexism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -313,11 +318,15 @@ ideologies = {
 			anarchism = {
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
+			authoritarian_democracy = {
 
+			}
 			moderatism = {
+				can_be_randomly_selected = no
 			}
 
 			centrism = {
+				can_be_randomly_selected = no
 			}
 		}
 

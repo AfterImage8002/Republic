@@ -297,18 +297,18 @@ set_convoys = 40
 }
 
 set_politics = {
-	ruling_party = progressive
+	ruling_party = neutrality
 	last_election = "1935.12.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	conservatism = 20
-	progressive = 26
+	conservatism = 15
+	neutrality = 31
 	socialism = 21
 	communism = 8
-	neutrality = 25
+	progressive = 25
 }
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }
