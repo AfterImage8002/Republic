@@ -69,6 +69,16 @@ set_autonomy = {
 	autonomous_state = autonomy_warlord
 	freedom_level = 0.95
 }
+set_autonomy = {
+	target = GSC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = YHC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
 
 SIC = {
 	set_politics = {
@@ -82,6 +92,28 @@ SIC = {
 	}
 }
 GDC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+GSC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+YHC = {
 	set_politics = {
 		ruling_party = neutrality
 		last_election = "1933.3.5"

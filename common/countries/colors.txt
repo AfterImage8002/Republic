@@ -1,4 +1,12 @@
 #reload countrycolors
+YHC = {
+	color = rgb { 188 163 154 }
+	color_ui = rgb { 188 163 154 }
+}
+GSC = {
+	color = rgb { 6 150 78 }
+	color_ui = rgb { 6 150 78 }
+}
 GDC = {
 	color = rgb {49 107 188 }
 	color_ui = rgb {49 107 188 }
