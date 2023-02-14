@@ -4,7 +4,7 @@ YHC = {
 	color_ui = rgb { 188 163 154 }
 }
 GSC = {
-	color = rgb { 6 150 78 }
+	color = rgb { 6 100 88 }
 	color_ui = rgb { 6 150 78 }
 }
 GDC = {
@@ -205,8 +205,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = rgb { 23 32 160 } #255 244 190
-	color_ui = rgb { 23 32 160 }
+	color = hsv { 0.18 0.6 0.9 } #255 244 190
+	color_ui = hsv { 0.18 0.3 0.9 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -297,11 +297,11 @@ SIA = {
 	color_ui = rgb { 222 247 198 }
 }
 SIK = {
-	color = rgb { 71 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 180 195 205 }
+	color_ui = rgb { 180 195 205 }
 }
 TIB = {
-	color = rgb { 80 115 45}
+	color = rgb { 30 85 45}
 	color_ui = rgb { 222 247 198 }
 }
 URG = {
@@ -322,7 +322,7 @@ USA = {
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
-	color = rgb { 108 140 42 }
+	color = rgb { 118 80 22 }
 	color_ui = rgb { 209 247 133 }
 }
 MEN = {
