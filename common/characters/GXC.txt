@@ -1,83 +1,107 @@
 characters={
-	SIK_sheng_shicai={
-		name=SIK_sheng_shicai
+	GXC_li_zongren={
+		name=GXC_li_zongren
 		portraits={
 			civilian={
-				large=GFX_portrait_SIK_sheng_shicai
+				large=GFX_portrait_GXC_li_zongren
 			}
 			army={
-				large="GFX_portrait_sheng_shicai"
-				small=GFX_portrait_SIK_sheng_shicai_small
-
+				small=GFX_portrait_GXC_li_zongren_small
+				large="GFX_portrait_li_zongren"
 			}
 		}
+		advisor={
+			slot = political_advisor
+			idea_token = GXC_li_zongren
+			allowed  = {
+				original_tag  = GXC
+			}
+			traits  = {
+				prince_of_terror 
+			}
+		}
+
 		country_leader={
 			ideology=stratocracy
-			traits = {opportunist}
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
 
-	SIK_chiang_yufen={
-		name=SIK_chiang_yufen
+	GXC_chen_jitang={
+		name=GXC_chen_jitang
 		portraits={
 			army={
-				large=GFX_portrait_SIK_chiang_yufen
-				small=GFX_portrait_SIK_chiang_yufen_small
+				large=GFX_portrait_GXC_chen_jitang
+				small=GFX_portrait_GXC_chen_jitang_small
 			}
 		}
+		advisor={
+			slot = army_chief
+			idea_token = GXC_chen_jitang
+			allowed = {
+				original_tag = GXC
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
 		corps_commander={
 			skill=3
-			attack_skill=4
-			defense_skill=2
-			planning_skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
 			logistics_skill=2
 			legacy_id=-1
 		}
 	}
 
-	SIK_kwong_jin={
-		name=SIK_kwong_jin
+	GXC_liu_peng={
+		name=GXC_liu_peng
 		portraits={
 			civilian={
-				large=GFX_portrait_SIK_kwong_jin
+				large=GFX_portrait_GXC_liu_peng
 			}
 		}
 		country_leader={
 			ideology=conservatism
-			traits={ captain_of_industry compassionate_gentleman }
-			expire="1952.1.1.12"
+			traits={ editor ideological_crusader }
+			expire="1943.1.1.12"
 			id=-1
 		}
 	}
 
-	SIK_luo_wei={
-		name=SIK_luo_wei
+	GXC_zhang_lu={
+		name=GXC_zhang_lu
 		portraits={
 			civilian={
-				large=GFX_portrait_SIK_luo_wei
+				large=GFX_portrait_GXC_zhang_lu
 			}
 		}
 		country_leader={
-			ideology=nazism
-			traits={ reluctant_interventionist dealbroker }
-			expire="1950.1.1.12"
+			ideology=leninism
+			traits={ dealbroker }
+			expire="1948.1.1.12"
 			id=-1
 		}
 	}
 
-	SIK_liang_jiang={
-		name=SIK_liang_jiang
+	GXC_li_ting={
+		name=GXC_li_ting
 		portraits={
 			civilian={
-				large=GFX_portrait_SIK_liang_jiang
+				large=GFX_portrait_GXC_li_ting
 			}
 		}
 		country_leader={
-			ideology=centrism
-			traits={ financial_expert }
-			expire="1947.1.1.12"
+			ideology=rexism
+			traits={ compassionate_gentleman }
+			expire="1953.1.1.12"
 			id=-1
 		}
 	}
@@ -87,20 +111,20 @@ characters={
 
 	# Claire Lee Chennault is in shared file
 
-	SIK_tan_ma={
-		name=SIK_tan_ma
+	GXC_yu_hanmou={
+		name=GXC_yu_hanmou
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_1"
+				small="GFX_idea_generic_army_asia_4"
 			}
 		}
 		advisor={
-			cost = 100	
+			cost = 100
 			slot = theorist
-			idea_token = SIK_tan_ma
+			idea_token = GXC_yu_hanmou
 			ledger = army
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
 			}
 			
 			traits = {
@@ -109,8 +133,8 @@ characters={
 		}
 	}
 
-	SIK_xie_peng={
-		name=SIK_xie_peng
+	GXC_bai_yeung={
+		name=GXC_bai_yeung
 		portraits={
 			army={
 				small="GFX_idea_generic_air_asia_2"
@@ -119,10 +143,10 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = SIK_xie_peng
+			idea_token = GXC_bai_yeung
 			ledger = air
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
 			}
 			
 			traits = {
@@ -130,9 +154,9 @@ characters={
 			}
 		}
 	}
-	
-	SIK_gao_jiang={
-		name=SIK_gao_jiang
+
+	GXC_heng_lo={
+		name=GXC_heng_lo
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_1"
@@ -141,10 +165,10 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = SIK_gao_jiang
+			idea_token = GXC_heng_lo
 			ledger = navy
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
 			}
 			
 			traits = {
@@ -158,41 +182,20 @@ characters={
 
 	# Alexander von Falkenhausen in shared file
 
-	SIK_yol_bars={
-		name=SIK_yol_bars
-		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_2"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = SIK_yol_bars
-			allowed = {
-				original_tag = SIK
-			}
-			traits = {
-				army_chief_defensive_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
+	# Chen Jitang is up there in this file along with other Unit and Country Leaders
 
-	SIK_ma_wei={
-		name=SIK_ma_wei
+	GXC_huang_shaohong={
+		name=GXC_huang_shaohong
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_4"
+				small="GFX_idea_generic_army_asia_1"
 			}
 		}
 		advisor={
 			slot = army_chief
-			idea_token = SIK_ma_wei
+			idea_token = GXC_huang_shaohong
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
 			}
 			traits = {
 				army_chief_offensive_2
@@ -207,8 +210,8 @@ characters={
 
 	### NAVY CHIEFS ###
 
-	SIK_sa_zhenbing={
-		name=SIK_sa_zhenbing
+	GXC_huo_duyi={
+		name=GXC_huo_duyi
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_1"
@@ -216,12 +219,12 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = SIK_sa_zhenbing
+			idea_token = GXC_huo_duyi
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
 			}
 			traits = {
-				navy_chief_commerce_raiding_2
+				navy_chief_naval_aviation_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -230,21 +233,21 @@ characters={
 		}
 	}
 
-	SIK_deng_tian={
-		name=SIK_deng_tian
+	GXC_bai_chongxi={
+		name=GXC_bai_chongxi
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_asia_2"
+				small="GFX_idea_generic_navy_asia_3"
 			}
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = SIK_deng_tian
+			idea_token = GXC_bai_chongxi
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
 			}
 			traits = {
-				navy_chief_decisive_battle_2
+				navy_chief_reform_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -258,21 +261,21 @@ characters={
 
 	# Claire Lee Chennault is in shared file
 
-	SIK_piotr_orlov={
-		name=SIK_piotr_orlov
+	GXC_wang_shuming={
+		name=GXC_wang_shuming
 		portraits={
 			army={
-				small="GFX_idea_generic_air_asia_3"
+				small="GFX_idea_generic_air_asia_1"
 			}
 		}
 		advisor={
 			slot = air_chief
-			idea_token = SIK_piotr_orlov
+			idea_token = GXC_wang_shuming
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
 			}
 			traits = {
-				air_chief_night_operations_2
+				air_chief_ground_support_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -281,21 +284,21 @@ characters={
 		}
 	}
 
-	SIK_yang_tian={
-		name=SIK_yang_tian
+	GXC_niu_keung={
+		name=GXC_niu_keung
 		portraits={
 			army={
-				small="GFX_idea_generic_air_asia_1"
+				small="GFX_idea_generic_air_asia_2"
 			}
 		}
 		advisor={
 			slot = air_chief
-			idea_token = SIK_yang_tian
+			idea_token = GXC_niu_keung
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
 			}
 			traits = {
-				air_chief_all_weather_2
+				air_chief_safety_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -307,8 +310,8 @@ characters={
 
 	### MILITARY HIGH COMMAND ###
 
-	SIK_cheng_fang={
-		name=SIK_cheng_fang
+	GXC_yang_hulin={
+		name=GXC_yang_hulin
 		portraits={
 			army={
 				small="GFX_idea_generic_air_asia_2"
@@ -316,37 +319,13 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = SIK_cheng_fang
+			idea_token = GXC_yang_hulin
 			ledger = air
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
 			}
 			traits = {
-				air_air_superiority_3
-			}
-			cost = 200
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-	SIK_mao_wu={
-		name=SIK_mao_wu
-		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_5"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = SIK_mao_wu
-			ledger = army
-			allowed = {
-				original_tag = SIK
-			}
-			traits = {
-				army_infantry_2
+				air_air_superiority_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -355,19 +334,43 @@ characters={
 		}
 	}
 
-	SIK_yu_wei={
-		name=SIK_yu_wei
+	GXC_do_liang={
+		name=GXC_do_liang
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_3"
+				small="GFX_idea_generic_army_asia_1"
 			}
 		}
-		advisor={	
+		advisor={
 			slot = high_command
-			idea_token = SIK_yu_wei
+			idea_token = GXC_do_liang
 			ledger = army
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
+			}
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	GXC_teng_qingshan={
+		name=GXC_teng_qingshan
+		portraits={
+			army={
+				small="GFX_idea_generic_army_asia_5"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = GXC_teng_qingshan
+			ledger = army
+			allowed = {
+				original_tag = GXC
 			}
 			traits = {
 				army_regrouping_2
@@ -379,22 +382,22 @@ characters={
 		}
 	}
 
-	SIK_kwong_tian={
-		name=SIK_kwong_tian
+	GXC_zha_zemin={
+		name=GXC_zha_zemin
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_1"
+				small="GFX_idea_generic_navy_asia_2"
 			}
 		}
 		advisor={
 			slot = high_command
-			idea_token = SIK_kwong_tian
-			ledger = army
+			idea_token = GXC_zha_zemin
+			ledger = navy
 			allowed = {
-				original_tag = SIK
+				original_tag = GXC
 			}
 			traits = {
-				army_logistics_2
+				navy_screen_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -403,7 +406,7 @@ characters={
 		}
 	}
 
-	
+
 	### POLITICAL ADVISORS ###
 
 	# Dai Li in shared file
@@ -412,59 +415,42 @@ characters={
 	# Kang Sheng in shared file
 	# Luo Ruiqing in shared file
 
-	SIK_isa_yusuf_alptekin={
-		name=SIK_isa_yusuf_alptekin
+	# Li Zongren is up there in this file along with other Country Leaders
+
+	GXC_li_jishen={
+		name=GXC_li_jishen
 		portraits={
-			civilian={
+			army={
 				small="GFX_idea_generic_political_advisor_asia_2"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = SIK_isa_yusuf_alptekin
+			idea_token = GXC_li_jishen
 			allowed  = {
-				original_tag  = SIK
+				original_tag  = GXC
 			}
 			traits  = {
-				captain_of_industry 
+				smooth_talking_charmer 
 			}
 		}
 	}
 
-	SIK_habibullah_huseinov={
-		name=SIK_habibullah_huseinov
+	GXC_lei_zhong={
+		name=GXC_lei_zhong
 		portraits={
-			civilian={
+			army={
 				small="GFX_idea_generic_political_advisor_asia_3"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = SIK_habibullah_huseinov
+			idea_token = GXC_lei_zhong
 			allowed  = {
-				original_tag  = SIK
+				original_tag  = GXC
 			}
 			traits  = {
-				armaments_organizer 
-			}
-		}
-	}
-
-	SIK_zhang_xiliang={
-		name=SIK_zhang_xiliang
-		portraits={
-			civilian={
-				small=GFX_portrait_SIK_zhang_xiliang_small
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = SIK_zhang_xiliang
-			allowed  = {
-				original_tag  = SIK
-			}
-			traits  = {
-				war_industrialist 
+				popular_figurehead 
 			}
 		}
 	}

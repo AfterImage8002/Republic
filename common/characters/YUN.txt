@@ -1,83 +1,94 @@
 characters={
-	SIK_sheng_shicai={
-		name=SIK_sheng_shicai
+	YUN_long_yun={
+		name=YUN_long_yun
 		portraits={
 			civilian={
-				large=GFX_portrait_SIK_sheng_shicai
+				large="GFX_portrait_yun_long_yun"
 			}
-			army={
-				large="GFX_portrait_sheng_shicai"
-				small=GFX_portrait_SIK_sheng_shicai_small
-
+			army = {
+				small=GFX_portrait_YUN_long_yun_small
+				large="GFX_portrait_yun_long_yun"
 			}
 		}
 		country_leader={
 			ideology=stratocracy
-			traits = {opportunist}
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
 
-	SIK_chiang_yufen={
-		name=SIK_chiang_yufen
+	YUN_lu_han={
+		name=YUN_lu_han
 		portraits={
 			army={
-				large=GFX_portrait_SIK_chiang_yufen
-				small=GFX_portrait_SIK_chiang_yufen_small
+				small=GFX_portrait_YUN_lu_han_small
+				large=GFX_portrait_YUN_lu_han
 			}
 		}
+		advisor={
+			slot = air_chief
+			idea_token = YUN_lu_han
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				air_chief_night_operations_2
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
 		corps_commander={
 			skill=3
 			attack_skill=4
 			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
+			planning_skill=1
+			logistics_skill=3
 			legacy_id=-1
 		}
 	}
 
-	SIK_kwong_jin={
-		name=SIK_kwong_jin
+	YUN_mao_dong={
+		name=YUN_mao_dong
 		portraits={
 			civilian={
-				large=GFX_portrait_SIK_kwong_jin
+				large=GFX_portrait_YUN_mao_dong
 			}
 		}
 		country_leader={
 			ideology=conservatism
-			traits={ captain_of_industry compassionate_gentleman }
-			expire="1952.1.1.12"
+			traits={ editor financial_expert }
+			expire="1956.1.1.12"
+			id=-1
+		}
+	}
+	
+	YUN_cheng_peng={
+		name=YUN_cheng_peng
+		portraits={
+			civilian={
+				large=GFX_portrait_YUN_cheng_peng
+			}
+		}
+		country_leader={
+			ideology=anarchist_communism
+			expire="1951.1.1.12"
 			id=-1
 		}
 	}
 
-	SIK_luo_wei={
-		name=SIK_luo_wei
+	YUN_hsia_wu={
+		name=YUN_hsia_wu
 		portraits={
 			civilian={
-				large=GFX_portrait_SIK_luo_wei
+				large=GFX_portrait_YUN_hsia_wu
 			}
 		}
 		country_leader={
-			ideology=nazism
-			traits={ reluctant_interventionist dealbroker }
-			expire="1950.1.1.12"
-			id=-1
-		}
-	}
-
-	SIK_liang_jiang={
-		name=SIK_liang_jiang
-		portraits={
-			civilian={
-				large=GFX_portrait_SIK_liang_jiang
-			}
-		}
-		country_leader={
-			ideology=centrism
-			traits={ financial_expert }
-			expire="1947.1.1.12"
+			ideology=falangism
+			expire="1946.1.1.12"
 			id=-1
 		}
 	}
@@ -87,20 +98,20 @@ characters={
 
 	# Claire Lee Chennault is in shared file
 
-	SIK_tan_ma={
-		name=SIK_tan_ma
+	YUN_pan_tian={
+		name=YUN_pan_tian
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_1"
 			}
 		}
 		advisor={
-			cost = 100	
+			cost = 100
 			slot = theorist
-			idea_token = SIK_tan_ma
+			idea_token = YUN_pan_tian
 			ledger = army
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			
 			traits = {
@@ -109,20 +120,20 @@ characters={
 		}
 	}
 
-	SIK_xie_peng={
-		name=SIK_xie_peng
+	YUN_zhu_hu={
+		name=YUN_zhu_hu
 		portraits={
 			army={
 				small="GFX_idea_generic_air_asia_2"
 			}
 		}
 		advisor={
-			cost = 100
+			cost = 100	
 			slot = theorist
-			idea_token = SIK_xie_peng
+			idea_token = YUN_zhu_hu
 			ledger = air
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			
 			traits = {
@@ -130,9 +141,9 @@ characters={
 			}
 		}
 	}
-	
-	SIK_gao_jiang={
-		name=SIK_gao_jiang
+
+	YUN_liao_fang={
+		name=YUN_liao_fang
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_1"
@@ -141,10 +152,10 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = SIK_gao_jiang
+			idea_token = YUN_liao_fang
 			ledger = navy
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			
 			traits = {
@@ -158,21 +169,21 @@ characters={
 
 	# Alexander von Falkenhausen in shared file
 
-	SIK_yol_bars={
-		name=SIK_yol_bars
+	YUN_li_jiang={
+		name=YUN_li_jiang
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_2"
+				small="GFX_idea_generic_army_asia_4"
 			}
 		}
-		advisor={
+		advisor={		
 			slot = army_chief
-			idea_token = SIK_yol_bars
+			idea_token = YUN_li_jiang
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			traits = {
-				army_chief_defensive_2
+				army_chief_drill_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -181,18 +192,18 @@ characters={
 		}
 	}
 
-	SIK_ma_wei={
-		name=SIK_ma_wei
+	YUN_zhang_wu={
+		name=YUN_zhang_wu
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_4"
+				small="GFX_idea_generic_army_asia_1"
 			}
 		}
-		advisor={
+		advisor={	
 			slot = army_chief
-			idea_token = SIK_ma_wei
+			idea_token = YUN_zhang_wu
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			traits = {
 				army_chief_offensive_2
@@ -207,8 +218,8 @@ characters={
 
 	### NAVY CHIEFS ###
 
-	SIK_sa_zhenbing={
-		name=SIK_sa_zhenbing
+	YUN_chen_zhao={
+		name=YUN_chen_zhao
 		portraits={
 			army={
 				small="GFX_idea_generic_navy_asia_1"
@@ -216,9 +227,9 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = SIK_sa_zhenbing
+			idea_token = YUN_chen_zhao
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			traits = {
 				navy_chief_commerce_raiding_2
@@ -230,21 +241,21 @@ characters={
 		}
 	}
 
-	SIK_deng_tian={
-		name=SIK_deng_tian
+	YUN_huang_dong={
+		name=YUN_huang_dong
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_asia_2"
+				small="GFX_idea_generic_navy_asia_3"
 			}
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = SIK_deng_tian
+			idea_token = YUN_huang_dong
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			traits = {
-				navy_chief_decisive_battle_2
+				navy_chief_reform_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -258,8 +269,10 @@ characters={
 
 	# Claire Lee Chennault is in shared file
 
-	SIK_piotr_orlov={
-		name=SIK_piotr_orlov
+	# Lu Han is up there in this file along with other Country Leaders and Unit Leaders
+
+	YUN_liu_zhao={
+		name=YUN_liu_zhao
 		portraits={
 			army={
 				small="GFX_idea_generic_air_asia_3"
@@ -267,35 +280,12 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = SIK_piotr_orlov
+			idea_token = YUN_liu_zhao
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			traits = {
-				air_chief_night_operations_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-	SIK_yang_tian={
-		name=SIK_yang_tian
-		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_1"
-			}
-		}
-		advisor={
-			slot = air_chief
-			idea_token = SIK_yang_tian
-			allowed = {
-				original_tag = SIK
-			}
-			traits = {
-				air_chief_all_weather_2
+				air_chief_safety_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -307,43 +297,43 @@ characters={
 
 	### MILITARY HIGH COMMAND ###
 
-	SIK_cheng_fang={
-		name=SIK_cheng_fang
+	YUN_liang_peng={
+		name=YUN_liang_peng
 		portraits={
 			army={
-				small="GFX_idea_generic_air_asia_2"
+				small="GFX_idea_generic_air_asia_1"
 			}
 		}
 		advisor={
 			slot = high_command
-			idea_token = SIK_cheng_fang
+			idea_token = YUN_liang_peng
 			ledger = air
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			traits = {
-				air_air_superiority_3
+				air_strategic_bombing_2
 			}
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
 	}
 
-	SIK_mao_wu={
-		name=SIK_mao_wu
+	YUN_hu_wei={
+		name=YUN_hu_wei
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_5"
 			}
 		}
-		advisor={
+		advisor={		
 			slot = high_command
-			idea_token = SIK_mao_wu
+			idea_token = YUN_hu_wei
 			ledger = army
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			traits = {
 				army_infantry_2
@@ -355,22 +345,22 @@ characters={
 		}
 	}
 
-	SIK_yu_wei={
-		name=SIK_yu_wei
+	YUN_luo_sun={
+		name=YUN_luo_sun
 		portraits={
 			army={
 				small="GFX_idea_generic_army_asia_3"
 			}
 		}
-		advisor={	
+		advisor={
 			slot = high_command
-			idea_token = SIK_yu_wei
+			idea_token = YUN_luo_sun
 			ledger = army
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			traits = {
-				army_regrouping_2
+				army_artillery_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -378,20 +368,20 @@ characters={
 			}
 		}
 	}
-
-	SIK_kwong_tian={
-		name=SIK_kwong_tian
+	
+	YUN_wang_jiang={
+		name=YUN_wang_jiang
 		portraits={
 			army={
-				small="GFX_idea_generic_army_asia_1"
+				small="GFX_idea_generic_army_asia_2"
 			}
 		}
 		advisor={
 			slot = high_command
-			idea_token = SIK_kwong_tian
+			idea_token = YUN_wang_jiang
 			ledger = army
 			allowed = {
-				original_tag = SIK
+				original_tag = YUN
 			}
 			traits = {
 				army_logistics_2
@@ -403,7 +393,7 @@ characters={
 		}
 	}
 
-	
+
 	### POLITICAL ADVISORS ###
 
 	# Dai Li in shared file
@@ -412,37 +402,37 @@ characters={
 	# Kang Sheng in shared file
 	# Luo Ruiqing in shared file
 
-	SIK_isa_yusuf_alptekin={
-		name=SIK_isa_yusuf_alptekin
+	YUN_zhou_zhirou={
+		name=YUN_zhou_zhirou
 		portraits={
-			civilian={
+			army={
 				small="GFX_idea_generic_political_advisor_asia_2"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = SIK_isa_yusuf_alptekin
+			idea_token = YUN_zhou_zhirou
 			allowed  = {
-				original_tag  = SIK
+				original_tag  = YUN
 			}
 			traits  = {
-				captain_of_industry 
+				compassionate_gentleman 
 			}
 		}
 	}
 
-	SIK_habibullah_huseinov={
-		name=SIK_habibullah_huseinov
+	YUN_liu_wenhui={
+		name=YUN_liu_wenhui
 		portraits={
-			civilian={
+			army={
 				small="GFX_idea_generic_political_advisor_asia_3"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = SIK_habibullah_huseinov
+			idea_token = YUN_liu_wenhui
 			allowed  = {
-				original_tag  = SIK
+				original_tag  = YUN
 			}
 			traits  = {
 				armaments_organizer 
@@ -450,21 +440,21 @@ characters={
 		}
 	}
 
-	SIK_zhang_xiliang={
-		name=SIK_zhang_xiliang
+	YUN_ding_zhipan={
+		name=YUN_ding_zhipan
 		portraits={
-			civilian={
-				small=GFX_portrait_SIK_zhang_xiliang_small
+			army={
+				small=GFX_portrait_YUN_ding_zhipan_small
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = SIK_zhang_xiliang
+			idea_token = YUN_ding_zhipan
 			allowed  = {
-				original_tag  = SIK
+				original_tag  = YUN
 			}
 			traits  = {
-				war_industrialist 
+				prince_of_terror 
 			}
 		}
 	}

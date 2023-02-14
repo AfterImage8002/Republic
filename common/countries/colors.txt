@@ -80,8 +80,8 @@ SOV = {
 	color_ui = rgb { 0 127 8 }
 }
 SWE = {
-	color = rgb { 20 75 137 }
-	color_ui = rgb { 20 75 137 }
+	color = rgb { 0 82 147 }
+	color_ui = rgb { 0 82 147 }
 }
 FRA = {
 	color = rgb { 0 8 168 }
@@ -205,8 +205,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
+	color = rgb { 23 32 160 } #255 244 190
+	color_ui = rgb { 23 32 160 }
 }
 CHL = {
 	color = rgb { 155 101 107 }

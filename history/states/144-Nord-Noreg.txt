@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = SWE
+		owner = NOR
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -36,7 +36,6 @@ state={
 			11050 1
 		}
 		add_core_of = NOR
-		add_core_of = SWE
 	}
 
 	provinces={
