@@ -1,4 +1,4 @@
-
+GDC = "countries/Gwangdong.txt"
 GJC = "countries/Guiju.txt"
 HNC = "countries/Honam.txt"
 STR = "countries/Strait.txt"

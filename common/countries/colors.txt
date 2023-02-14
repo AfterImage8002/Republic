@@ -1,4 +1,8 @@
 #reload countrycolors
+GDC = {
+	color = rgb {49 107 188 }
+	color_ui = rgb {49 107 188 }
+}
 GJC = {
 	color = rgb { 114 40 119 }
 	color_ui = rgb { 114 40 119 }
