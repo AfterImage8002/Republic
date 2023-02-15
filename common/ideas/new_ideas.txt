@@ -180,10 +180,5 @@ ideas = {
 				fascism_drift = 0.05
 			}
 		}
-		kimjamsang_byungsin = { 
-			modifier = {
-				communism_drift = 0.05
-			}
-		}
 	}
 }
