@@ -32,13 +32,13 @@ set_autonomy = {
 }
 "CHO" = {
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = neutrality
 		last_election = "1933.3.5"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		fascism = 100
+		neutrality = 100
 	}
 }
 set_autonomy = {

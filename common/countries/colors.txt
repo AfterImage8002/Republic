@@ -1,4 +1,24 @@
 #reload countrycolors
+YHC = {
+	color = rgb { 188 163 154 }
+	color_ui = rgb { 188 163 154 }
+}
+GSC = {
+	color = rgb { 6 100 88 }
+	color_ui = rgb { 6 150 78 }
+}
+GDC = {
+	color = rgb {49 107 188 }
+	color_ui = rgb {49 107 188 }
+}
+GJC = {
+	color = rgb { 114 40 119 }
+	color_ui = rgb { 114 40 119 }
+}
+HNC = {
+	color = rgb { 183 166 123}
+	color_ui = rgb { 183 166 123 }
+}
 STR = {
 	color = rgb { 12 65 140 }
 	color_ui = { 12 65 140 }
@@ -60,8 +80,8 @@ SOV = {
 	color_ui = rgb { 0 127 8 }
 }
 SWE = {
-	color = rgb { 20 75 137 }
-	color_ui = rgb { 20 75 137 }
+	color = rgb { 0 82 147 }
+	color_ui = rgb { 0 82 147 }
 }
 FRA = {
 	color = rgb { 0 8 168 }
@@ -277,11 +297,11 @@ SIA = {
 	color_ui = rgb { 222 247 198 }
 }
 SIK = {
-	color = rgb { 71 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 180 195 205 }
+	color_ui = rgb { 180 195 205 }
 }
 TIB = {
-	color = rgb { 80 115 45}
+	color = rgb { 30 85 45}
 	color_ui = rgb { 222 247 198 }
 }
 URG = {
@@ -302,7 +322,7 @@ USA = {
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
-	color = rgb { 108 140 42 }
+	color = rgb { 118 80 22 }
 	color_ui = rgb { 209 247 133 }
 }
 MEN = {

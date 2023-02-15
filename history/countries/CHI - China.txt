@@ -49,6 +49,103 @@ set_autonomy = {
 	autonomous_state = autonomy_warlord
 	freedom_level = 0.95
 }
+set_autonomy = {
+	target = SIC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = HNC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = GJC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = GDC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = GSC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = YHC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+
+SIC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+GDC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+GSC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+YHC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+HNC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+GJC = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
 
 recruit_character = CHI_Sun
 recruit_character = CHI_chiang_kaishek
@@ -297,7 +394,7 @@ set_convoys = 40
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = progressive
 	last_election = "1935.12.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -305,10 +402,10 @@ set_politics = {
 
 set_popularities = {
 	conservatism = 15
-	neutrality = 31
-	socialism = 21
-	communism = 8
-	progressive = 25
+	progressive = 31
+	socialism = 23
+	communism = 11
+	neutrality = 20
 }
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }

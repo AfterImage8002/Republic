@@ -1,5 +1,7 @@
 ﻿l_english:
- #just contries
+ #국명
+ 
+ GXC_neutrality:0 "광서군"
  VLA_neutrality:0 "블라디보스토크 사령부"
  VLA_neutrality_DEF:0 "블라디보스토크 사령부"
  VLA:0 "블라디보스토크"
@@ -17,6 +19,34 @@
  RUS:0 "아무르"
  RUS_DEF:0 "아무르"
  RUS_ADJ:0 "아무르"
+ HNC_DEF:0 "호남군벌"
+ HNC_ADJ:0 "호남군벌"
+ HNC:0 "호남군벌"
+ GJC_DEF:0 "귀주군벌"
+ GJC_ADJ:0 "귀주군벌"
+ GJC:0 "귀주군벌"
+ GDC_DEF:0 "광동군벌"
+ GDC_ADJ:0 "광동군벌"
+ GDC:0 "광동군벌"
+ YHC_DEF:0 "영하군벌"
+ YHC_ADJ:0 "영하군벌"
+ YHC:0 "영하군벌"
+ GSC_DEF:0 "감숙군벌"
+ GSC_ADJ:0 "감숙군벌"
+ GSC:0 "감숙군벌"
+
+ XSM_fascism:0 "청해군벌"
+ XSM_fascism_DEF:0 "청해군벌"
+ XSM_neutrality:0 "청해군벌"
+ XSM_neutrality_DEF:0 "청해군벌"
+ XSM_communism:0 "청해군벌"
+ XSM_communism_DEF:0 "청해군벌"
+ XSM_fascism_ADJ:0 "청해군벌"
+ XSM_neutrality_ADJ:0 "청해군벌"
+ XSM_communism_ADJ:0 "청해군벌"
+ XSM:0 "청해군벌"
+ XSM_DEF:0 "청해군벌"
+ XSM_ADJ:0 "청해군벌"
 
  SGE_fascism:0 "남독일 연방"
  SGE_fascism_DEF:0 "남독일 연방"
@@ -81,27 +111,6 @@
  CZE:0 "체코"
  CZE_DEF:0 "체코"
  CZE_ADJ:0 "체코"
- SWE_fascism:0 "스베아 리케"
- SWE_fascism_DEF:0 "스베아 리케"
- SWE_conservatism:0 "스웨덴-노르웨이"
- SWE_progressive:0 "스웨덴-노르웨이"
- SWE_conservatism_DEF:0 "스웨덴-노르웨이"
- SWE_progressive_DEF:0 "스웨덴-노르웨이"
- SWE_neutrality:0 "스웨덴-노르웨이 연합왕국"
- SWE_neutrality_DEF:0 "스웨덴-노르웨이 연합왕국"
- SWE_communism:0 "스웨덴-노르웨이 사회주의 연방"
- SWE_socialism:0 "스웨덴-노르웨이 사회주의 연방"
- SWE_communism_DEF:0 "스웨덴-노르웨이 사회주의 연방"
- SWE_socialism_DEF:0 "스웨덴-노르웨이 사회주의 연방"
- SWE_fascism_ADJ:0 "스웨덴-노르웨이 단일국"
- SWE_conservatism_ADJ:0 "스웨덴-노르웨이"
- SWE_progressive_ADJ:0 "스웨덴-노르웨이"
- SWE_neutrality_ADJ:0 "스웨덴-노르웨이"
- SWE_communism_ADJ:0 "스웨덴-노르웨이"
- SWE_socialism_ADJ:0 "스웨덴-노르웨이"
- SWE:0 "스웨덴-노르웨이"
- SWE_DEF:0 "스웨덴-노르웨이"
- SWE_ADJ:0 "스웨덴-노르웨이"
  DON_fascism:0 "돈 제국"
  DON_fascism_DEF:0 "돈 제국"
  DON_conservatism:0 "돈 공화국"
@@ -207,27 +216,27 @@
  SIC:0 "사천"
  SIC_DEF:0 "사천"
  SIC_ADJ:0 "사천"
- CHI_fascism:0 "중화민국 국민정부"
- CHI_fascism_DEF:0 "중화민국 국민정부"
- CHI_conservatism:0 "중화민국 국민정부"
- CHI_progressive:0 "중화민국 국민정부"
- CHI_conservatism_DEF:0 "중화민국 국민정부"
- CHI_progressive_DEF:0 "중화민국 국민정부"
- CHI_neutrality:0 "중화민국 국민정부"
- CHI_neutrality_DEF:0 "중화민국 국민정부"
- CHI_communism:0 "중화민국 국민정부"
- CHI_socialism:0 "중화민국 국민정부"
- CHI_communism_DEF:0 "중화민국 국민정부"
- CHI_socialism_DEF:0 "중화민국 국민정부"
- CHI_fascism_ADJ:0 "중화민국 국민정부"
- CHI_conservatism_ADJ:0 "중화민국 국민정부"
- CHI_progressive_ADJ:0 "중화민국 국민정부"
- CHI_neutrality_ADJ:0 "중화민국 국민정부"
- CHI_communism_ADJ:0 "중화민국 국민정부"
- CHI_socialism_ADJ:0 "중화민국 국민정부"
- CHI:0 "중화민국 국민정부"
- CHI_DEF:0 "중화민국 국민정부"
- CHI_ADJ:0 "중화민국 국민정부"
+ CHI_fascism:0 "중화민국"
+ CHI_fascism_DEF:0 "중화민국"
+ CHI_conservatism:0 "중화민국"
+ CHI_progressive:0 "중화민국"
+ CHI_conservatism_DEF:0 "중화민국"
+ CHI_progressive_DEF:0 "중화민국"
+ CHI_neutrality:0 "중화민국"
+ CHI_neutrality_DEF:0 "중화민국"
+ CHI_communism:0 "중화민국"
+ CHI_socialism:0 "중화민국"
+ CHI_communism_DEF:0 "중화민국"
+ CHI_socialism_DEF:0 "중화민국"
+ CHI_fascism_ADJ:0 "중화민국"
+ CHI_conservatism_ADJ:0 "중화민국"
+ CHI_progressive_ADJ:0 "중화민국"
+ CHI_neutrality_ADJ:0 "중화민국"
+ CHI_communism_ADJ:0 "중화민국"
+ CHI_socialism_ADJ:0 "중화민국"
+ CHI:0 "중화민국"
+ CHI_DEF:0 "중화민국"
+ CHI_ADJ:0 "중화민국"
  KOR_fascism:0 "고려 공화국"
  KOR_fascism_DEF:0 "고려 공화국"
  KOR_conservatism:0 "대한민국"
@@ -1883,27 +1892,7 @@
  SHX:0 "산서"
  SHX_DEF:0 "산서"
  SHX_ADJ:0 "산서"
- XSM_fascism:0 "서북삼마 자유국"
- XSM_fascism_DEF:0 "서북삼마 자유국"
- XSM_conservatism:0 "후이 공화국"
- XSM_progressive:0 "후이 공화국"
- XSM_conservatism_DEF:0 "후이 공화국"
- XSM_progressive_DEF:0 "후이 공화국"
- XSM_neutrality:0 "서북삼마"
- XSM_neutrality_DEF:0 "서북삼마"
- XSM_communism:0 "마가인민공화국"
- XSM_socialism:0 "마가인민공화국"
- XSM_communism_DEF:0 "마가인민공화국"
- XSM_socialism_DEF:0 "마가인민공화국"
- XSM_fascism_ADJ:0 "마"
- XSM_conservatism_ADJ:0 "마"
- XSM_progressive_ADJ:0 "마"
- XSM_neutrality_ADJ:0 "마"
- XSM_communism_ADJ:0 "마"
- XSM_socialism_ADJ:0 "마"
- XSM:0 "서북삼마"
- XSM_DEF:0 "서북삼마"
- XSM_ADJ:0 "마"
+
  MEN_fascism:0 "몽강연합자치정부"
  MEN_fascism_DEF:0 "몽강연합자치정부"
  MEN_conservatism:0 "몽강 공화국"
@@ -6001,7 +5990,7 @@
  IRE_autonomy_supervised_state_DEF:0 "아일랜드 자유국"
  
 
- #parties
+ #정당
  STR_neutrality_party:0 "해협위원회"
 
  ENG_conservatism_party:0 "보수당"
@@ -6096,13 +6085,14 @@
 
  CHI_communism_party:0 "공산당"
  CHI_communism_party_long:0 "중국공산당"
- CHI_progressive_party:0 "생산인민당"
+ CHI_neutrality_party:0 "국민당 (우파)"
+ CHI_neutrality_party:0 "중국국민당 (우파)"
  CHI_socialism_party:0 "국민당 (좌파)"
  CHI_socialism_party_long:0 "중국국민당 (좌파)"
  CHI_conservatism_party:0 "치공당"
- CHI_conservatism_party_:0 "중국치공당"
- CHI_neutrality_party:0 "국민당 (우파)"
- CHI_neutrality_party_long:0 "중국국민당 (우파)"
+ CHI_conservatism_party_long:0 "중국치공당"
+ CHI_progressive_party:0 "국민당 (중도파)"
+ CHI_progressive_party_long:0 "중국국민당 (중도파)"
  CHI_fascism_party:0 "진보당"
 
  BLR_communism_party:0 "벨라루스 사회주의 회의"
@@ -6144,7 +6134,7 @@
 
  
 
- #areas
+ #주
  STATE_909:0 "북부 슐레스비히"
  STATE_910:0 "라인란트 서부"
  STATE_51:0 "라인란트 동부"
@@ -6160,19 +6150,19 @@
  STATE_914:0 "해협"
  STATE_915:0 "수바우키"
  
- #cities
+ #도시
  VICTORY_POINTS_3529:0 "차리친"
  VICTORY_POINTS_3151:0 "페트로그라드"
  VICTORY_POINTS_11523:0 "포크롭스크"
  VICTORY_POINTS_9432:0 "슈메이카"
  VICTORY_POINTS_9833:0 "콘스탄티노플"
 
- #faction
+ #세력
  Commonwealth:0 "연합국"
  Intermarium:0 "인테르마리움"
  Entente:0 "협상국"
 
- #traits
+ #인물특성
  disorderly_administration:0 "무질서한 행정"
  provisional_government:0 "임시정부"
  small_general:0 "소원수"
@@ -6196,7 +6186,7 @@
  prince_of_east:0 "동방의 왕자"
  prime_minister_of_civilian:0 "문민의 총리"
 
- #character name
+ #사람이름
  KOR_CabinetMeeting_dem:0 "국무원"
  KOR_CabinetMeeting_com:0 "국무원"
  SGE_Rosa:0 "로자 룩셈부르크"
@@ -6217,11 +6207,12 @@
  ITA_Luigi_Einaudi:0 "루이지 에이나우디"
  KUB_Voroshilov:0 "클리멘트 보로실로프"
  STR_committee:0 "해협위원회"
+ MON_prince_demchugdongrub:0 "데므치그돈로브"
 
- #autonomy
+ #괴뢰국
  autonomy_warlord:0 "군벌"
 
- #ideologies
+ #이념
  conservatism:0 "보수주의"
  progressive:0 "진보주의"
  socialism:0 "사회주의"
@@ -6231,13 +6222,13 @@
  socialism_noun:0 "사회주의"
  neutrality_noun:0 "권위주의"
 
- #desc
+ #이념설명
  socialism_desc:0 "민주주의 체제"
  progressive_desc:0 "민주주의 체제"
  conservatism_desc:0 "민주주의 체제"
  social_democracy_desc:0 "§9사회민주주의§!\n\n사회민주주의는 독일의 정치인 에두아르트 베른슈타인이 수정주의적 마르크스주의를 발전시켜 확립한 사회주의 이념의 한 갈래이며, 사회주의 혁명을 거부하며 자유민주주의 수호와 자본주의 하에서의 소득 재분배, 복지 정책 등의 체제 개혁을 통한 사회 정의와 평등 실현을 추구하는 정치적, 사회적, 경제적 이념입니다."
  social_liberalism_desc:0 "§O사회자유주의§!\n\n사회자유주의는 철학적으로 사회적 시장경제를 기반으로 시민의 권리를 적극적으로 보호하는 자유주의를 의미하나, 상황에 따라 단순히 (사회적 보수주의에 대립하는) 사회적 자유주의를 의미하기도 합니다."
- tppism_central_desc:0 "§2삼민주의§\n\n삼민주의는 쑨원이 발표한 정치 강령으로, 민주주의, 민권주의, 민생주의를 뜻합니다."
+ tppism_central_desc:0 "§2삼민주의§!\n\n삼민주의는 쑨원이 발표한 정치 강령으로, 민주주의, 민권주의, 민생주의를 뜻합니다."
  left_communism_desc:0 "§R좌파공산주의§!\n\n좌파공산주의는 로자 룩셈부르크, 대니얼 드 레온과 같은 탈권위주의 공산주의자들이 정립한 공산주의 분파 사상입니다. 좌파공산주의는 마르크스주의와 레온의 이론 그리고 룩셈부르크주의가 합쳐졌다고 볼 수 있으며, 좌파공산주의자들은 레닌의 비자발적 혁명을 비판하고 '자발적 혁명론'을 주장하고, 직접민주주의적 공산주의를 주장합니다. 이론적으로는 마르크스주의와 거의 유사하지만, 공유재산제도의 확립이 구체화되어있고 민주집중제와 전위대 체계론에 반대합니다."
  liberal_democracy_desc:0 "§Y자유민주주의§!\n\n자유민주주의 또는 부르주아민주주의는 자유주의와 민주주의가 결합된 정치 원리 및 정부 형태이며, 인간의 존엄성을 바탕으로 하여 개인의 자유와 권리를 보장하는 헌법을 세우고 민주적 절차 아래 다수에 의해 선출된 대표자들이 입헌주의의 틀 내에서 의사 결정을 하는 체제를 의미합니다."
  social_conservatism_desc:0 "§4사회보수주의§!\n\n사회보수주의는 사회적으로 종교 및 문화 및 민족 혹은 국가적으로 전통적인 가치관 기준으로 바람직하다고 여겨지는 의무, 사회전통적인 가치를 옹호하고, 기존에 구축된 사회질서를 통해 사회적인 안정을 추구하는 이념입니다. 일반적으로 사회보수주의자들은 사회가 취약한 관계 네트워크 위에 구축되어 있고, 그렇기 때문에 정부가 기존 사회가 가졌던 폭넓은 범위의 전통적인 가치나 행동을 장려하거나 시행해야한다고 믿습니다."
@@ -6246,7 +6237,7 @@
  national_conservatism_desc:0 "§3국민보수주의§!\n\n국민보수주의는 국민주의에 기반을 두어 보수주의를 실현하는 이념입니다. 국민보수주의자들은 타 보수적인 가치보다도 개화된 민족주의적인 가치를 중시합니다."
  authoritarian_democracy:0 "권위민주주의"
  authoritarian_democracy_desc:0 "§g권위민주주의§!\n\n권위민주주의는 강력한 행정부와 의회로 대표되는 부분적 민주주의 체제입니다. 이것은 4가지의 대표적인 특성으로 특정되는데, '정치적 다원성의 제약', '감정에 기초한 정통성 기반', '극소한의 사회적 동원', 그리고 '비공식성'이 바로 그것입니다."
- market_socialism_desc:0 "§t시장사회주의§!는 생산수단의 공적, 협동적, 사회적 소유권에 기반해 시장경제를 지지하는 사회주의의 한 분파입니다. 이 이념은 공산국가의 경제 개방과 자본주의 요소 도입을 의미하는 경우도 있고, 노동자 자주관리제와 경제민주화를 통한 사회주의적 시장경제 체제를 의미하는 경우도 있습니다."
+ market_socialism_desc:0 "§t시장사회주의§!\n\n시장사회주의는 생산수단의 공적, 협동적, 사회적 소유권에 기반해 시장경제를 지지하는 사회주의의 한 분파입니다. 이 이념은 공산국가의 경제 개방과 자본주의 요소 도입을 의미하는 경우도 있고, 노동자 자주관리제와 경제민주화를 통한 사회주의적 시장경제 체제를 의미하는 경우도 있습니다."
  leninism:0 "전위당론"
  leninism_desc:0 "§R전위당론§!\n\n전위당론은 블랑키즘과 카를 카우츠키의 노동자 조직론에 영향을 받아 발전한 공산주의의 방법론으로, 단 하나 혹은 막강한 전위당이 사회주의 혁명을 지도하는 체제입니다. 전위당론자들은 공산주의 운동에서 산업 노동자에 기반한 모든 직업 혁명가들은 스스로의 이상에 따라 소부르주아적 편견을 가질 수 있다고 생각하고, 이와 더불에 노동자의 이익을 대변하는 모든 종류의 운동에 참가하는 산업노동자가 주도하는 '아래로부터의 사회주의'에 근거한 모든 운동이 실패했다는 점을 들어 노동자 대중의 파편화에 근거한 순수 자발적 혁명은 불가능하다고 봅니다. 또한, 그들은 교육 수준이 낮은 노동자들은 스스로 자본의 노예 생활을 자처함과 당의 지도 없이는 그들이 룸펜프롤레타리아 대열에 설 수 있음을 경고하고, 노동자 대다수가 아직 사회주의와 공산주의를 이해하지 못하기 때문에 단결체가 없는 혁명 행위에서 그들은 공산주의를 멋대로 해석하여, 그런 사상 분열이 혁명 행위의 분열로도 이어질 것이라 주장합니다."
  marxism_desc:0 "경제와 역사의 관점을 폭넓게 아우르며, 마르크스주의적 정치는 카를 마르크스의 이론을 정치적 실천으로 옮길 방법을 모색하고자 했습니다. 계급투쟁과 생산수단의 공유에 기반한 사회로의 이행이 필요함을 강조하는 것이 이 이념의 특징과도 같습니다."
@@ -6255,7 +6246,7 @@
  anti_revisionism_desc:0 "마르크스주의를 계승했다고 자처하는 많은 이념에 대한 반동인 반수정주의는, 원래의 혁명 이론을 이루는 핵심 요소를 유지하는것을 주장합니다. 자본주의 경제의 요소를 사회주의 국가에 도입하는 것에 주로 반발하며 이념 자체적으로 무엇이냐보다 무엇이 아니냐를 더 정의하고자 합니다."
  anarchist_communism:0 "아나키즘"
  anarchist_communism_desc:0 "§t아나키즘§!\n\n아나키즘은 지배와 권위를 부정하는 수많은 사상을 아우르는 이념이며, 기본적으로 '지배자의 부재'를 지향합니다. 아나키스트들은 기본적으로 기업에 부정적인 사회주의자들이며, 그럼에도 볼셰비즘과 멘셰비즘이 개량주의적이고 기회주의적인 성격을 가진다고 비판합니다. 아나키스트들은 프루동과 바쿠닌 등의 사상가가 정립한 경제관에 따라, 그리고 그들이 추구하는 정치구조에 따라 나뉘는데, 대표적인 아나키즘 사상으로는 아나코 생디칼리즘이 있습니다. 한편, 이러한 아나키즘은 동양에 퍼지면서 민족주의와 결합하거나 개량적인 모습을 보이기도 합니다."
- nazism_desc:0 "§L국가사회주의§!\n\n극도의 국가주의에 뿌리를 두는 국가사회주의는 파시즘 사상의 하나로써, 집단과 공동체를 개인보다 우선하며, 일반적인 파시즘에 우생학과 반유대주의가 결합한 이념입니다. 국가사회주의자들은 타 이념을 배척하는 성향을 가졌고, 민족의 순혈성을 중시합니다."
+ nazism_desc:0 "§8국가사회주의§!\n\n극도의 국가주의에 뿌리를 두는 국가사회주의는 파시즘 사상의 하나로써, 집단과 공동체를 개인보다 우선하며, 일반적인 파시즘에 우생학과 반유대주의가 결합한 이념입니다. 국가사회주의자들은 타 이념을 배척하는 성향을 가졌고, 민족의 순혈성을 중시합니다."
  gen_nazism_desc:0 "극도의 국가주의에 뿌리를 두는 국가사회주의는, 인종우월주의 사상에 의해 주도됩니다. 절대권력을 보유한 지도자 아래에서 공격적인 팽창주의와 국민이 단결하는 전체주의 국가를 지향합니다."
  fascism_ideology_desc:0 "§8파시즘§!\n\n다양한 국수주의 운동을 아우르는 파시즘은 강력한 지도자 아래 국민을 단결케 하여 국가에 헌신하는 것을 숭배합니다. 이들은 민족주의, 전체주의, 권위주의, 국수주의, 군국주의, 그리고 반공주의로 특정되며, 조합주의 경제이념이기도 합니다. 파시스트들은 마치 사민주의자들처럼 계급 협조가 국가차원에서 강요되어야 한다고 생각하고, 보수적 군중에 대한 대중동원을 지향합니다. 파시스트 운동은 어떠한 형태로든 평등한 사회가 이루어질 수 없다고 하며, 평등은 국가의 쇠락을 가져온다고 주장합니다. 따라서, 가지고 있는 사상, 국가, 성별, 신체 능력의 수준, 인종 등에 대한 평등을 광범위하게 반대하며, 인류 전체를 포괄하는 동시에 인류가 맞닥뜨리고 있는 자연은 평등을 본질적으로 부정한다고 생각합니다."
  falangism_desc:0 "§팔랑헤주의§!\n\n파시즘과 보수주의의 특성을 가지고 있는 권위주의 이념인 팔랑헤주의는, 국가와 가톨릭 정체성에 가치를 두고 있습니다."
@@ -6265,7 +6256,7 @@
  moderatism_desc:1 "온건주의는 온건한 자세나 방침을 취함으로 급진적인 우파나 좌파를 피하는 정부의 형태입니다."
  centrism_desc:1 "중도주의는 현재와 미래의 요구를 적절히 해결하고, 공공의 신뢰를 지지하며, 이러한 필요들의 맥락에서 위험과 능력을 고려하여 공익을 제공하는 상식적인 해결책을 달성하고자 하는 정부의 한 형태입니다."
 
-  #scinario
+  #시나리오
  GATHERING_STORM_NAME:0 "맑고 고요한 바람"
  GATHERING_STORM_DESC:0 "세계는 위협받고 있습니다. 프랑화 대위기 이후 세계의 경제는 다시 한 번 나락으로 떨어지고, 남독일에서는 독일 공산당이 봉기를 일으키는 데에 성공하였으며, 그들의 다음 목표는 세계 혁명이 될 것임이 너무나도 자명합니다. 또 이탈리아에서는 국민정서와 반대되는 정부의 행보로 국가의 정치적 위기가 심화되었으며, 아시아에서는 중원의 군벌들을 한 데로 통합할 수 있게 이끌었던 대총통 쑨원의 건강이 악화되고 있습니다. 대전쟁의 종결 이후 거의 20년이 흘렀지만, 세계는 여전히 기름 속에 쳐박혀 있습니다. 단 하나의 불씨가 모든 것을 태워버릴 것입니다."
  ENG_GATHERING_STORM_DESC:0 "프랑스의 유럽 패권 장악에 맞서는 균형의 수호자인 연합왕국은 대륙봉쇄령의 타격으로 한계까지 밀려났습니다. 그들은 더 이상 지체할 수 없습니다. 알 수 없는 무언가가 브리튼 열도를 곧 집어삼킬 것입니다."
@@ -6299,7 +6290,7 @@
  TUR_GATHERING_STORM_DESC:0 ""
  ETH_GATHERING_STORM_DESC:0 ""
 
- #ideas
+ #국민정신
  leipzig_constitution:0 "라이프치히 헌법"
  leipzig_constitution_desc:0 "대전쟁 직후, 1918년에 제헌 국민회의 의원 선출을 위한 선거가 있었습니다. 이 선거에는 여성에게도 선거권과 피선거권이 주어졌으며, 의석은 비례대표제로 배분되었습니다. 독일 사회민주당이 최대 의석을 확보했으며 중앙당, 독일 민주당과 연합해 연정을 구성했습니다. 국민회의는 첫 회의를 라이프치히에서 개최하였습니다. 이는 당시 베를린에서는 소요가 일어나고 있었으며, 의원들의 안전과 독립성을 위해 회의를 다른 곳에서 열 수밖에 없었기 때문이었습니다. 애초에 계획되었던 바이마르에 프랑스군이 주둔하고 있었기 때문에, 국민회의는 라이프치히에서 개최되었습니다. 국민회의에서 완성된 라이프치히 헌법은 근대헌법상 처음으로 소유권의 의무성(사회성)을 강조하고 인간다운 생존(생존권)을 보장하는 등 세계에서 가장 선진적인 헌법으로 평가받고 있습니다."
 
@@ -6338,7 +6329,7 @@
  failed_natioanl_policy:0 "실패한 민족 정책"
  failed_natioanl_policy_desc:0 "여러 강경책과 회유책이 전부 실패하게 됨에 따라 우리 공화국은 분리독립을 요구하는 민족들로 가득차게 되었습니다."
 
- #decisions
+ #결정
  fascist_propagation:0 "파시즘 선전"
  progressive_propagation:0 "진보주의 선전"
  conservatism_propagation:0 "보수주의 선전"
@@ -6346,9 +6337,12 @@
  communism_propagation:0 "공산주의 선전"
  socialism_propagation:0 "사회주의 선전"
 
- #events
+ #이벤트
  fascist_rallying:0 "파시스트 결집"
  additional_politic.1.t:0 "파시스트 결집"
  additional_politic.1.d:0 "많은 지지층들이 [THIS.GetFascistParty]을 떠나가자, 전국의 파시스트들은 서로간의 세부적인 방법론 간의 논쟁을 멈추고 다시금 이 나라에서 그들의 영향력을 잃어버리지 않게 대규모 집회를 개최하고 이를 선전하기 시작했습니다."
  additional_politic.1.a:0 "이것이 그들의 마지막 발악인가?"
  additional_politic.1.b:0 "우리도 이것에 맞서야 한다."
+
+ #로딩팁
+ 
