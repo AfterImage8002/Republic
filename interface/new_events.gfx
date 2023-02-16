@@ -1,0 +1,26 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_event_fascist_rallying"
+		texturefile = "gfx/event_pictures/event_fascist_rallying.dds"
+	}
+	SpriteType = {
+		name = "GFX_event_neutrality_rallying"
+		texturefile = "gfx/event_pictures/event_neutrality_rallying.dds"
+	}
+	SpriteType = {
+		name = "GFX_event_conservatism_rallying"
+		texturefile = "gfx/event_pictures/event_conservatism_rallying.dds"
+	}
+	SpriteType = {
+		name = "GFX_event_progressive_rallying"
+		texturefile = "gfx/event_pictures/event_progressive_rallying.dds"
+	}
+	SpriteType = {
+		name = "GFX_event_socialism_rallying"
+		texturefile = "gfx/event_pictures/event_socialism_rallying.dds"
+	}
+	SpriteType = {
+		name = "GFX_event_communism_rallying"
+		texturefile = "gfx/event_pictures/event_communism_rallying.dds"
+	}
+}

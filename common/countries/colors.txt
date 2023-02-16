@@ -1,4 +1,8 @@
 #reload countrycolors
+KRF = {
+	color = rgb { 220 220 220 }
+	color_ui = { 220 220 220 }
+}
 YHC = {
 	color = rgb { 188 163 154 }
 	color_ui = rgb { 188 163 154 }
@@ -24,15 +28,15 @@ STR = {
 	color_ui = { 12 65 140 }
 }
 CHO = {
-	color = rgb { 240 240 240 }
-	color_ui = rgb { 240 240 240 }
+	color = rgb { 220 220 220 }
+	color_ui = rgb { 220 220 220 }
 }
 TAI = {
-	color = rgb { 240 240 240 }
-	color_ui = rgb { 240 240 240 }
+	color = rgb { 220 220 220 }
+	color_ui = rgb { 220 220 220 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
+	color = rgb { 161 161 161 }
 	color_ui = rgb { 222 247 198 }
 }
 RUS = {
@@ -101,7 +105,7 @@ CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
 }
 POL = {
-	color = rgb { 214 102 139 }
+	color = rgb { 168 89 124 }
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
@@ -125,7 +129,7 @@ SPR = {
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
-	color = rgb { 67 127 63 }
+	color = rgb { 47 107 43 }
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
@@ -141,7 +145,7 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 GRE = {
-	color = rgb { 93 181 227 }
+	color = rgb { 148 178 220 }
 	color_ui = rgb { 121 235 255 }
 }
 ALB = {
@@ -173,7 +177,7 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
+	color = rgb { 209 126 98 }
 	color_ui = rgb { 255 164 127 }
 }
 AFG = {
@@ -205,7 +209,7 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
+	color = rgb { 36 82 145 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
 CHL = {
@@ -432,7 +436,7 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 44 115 186 }
+	color = rgb { 44 115 156 }
 	color_ui = rgb { 44 115 186 }	
 }
 

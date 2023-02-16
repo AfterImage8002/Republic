@@ -5,22 +5,183 @@ country_event = {
 	desc = {
 		text = additional_politic.1.d
 	}
-	picture = GFX_report_event_ace_promoted
+	picture = GFX_event_fascist_rallying
 	trigger = {
-		fascism < 1
+		AND = {
+			NOT = {has_idea = fascist_rallying}
+			fascism < 0.01
+			NOT = {has_country_leader_ideology	 = stratocracy}
+		}
 	}
 	option = {
 		name = additional_politic.1.a
-		effect_tooltip = {
-			add_political_power = -20
-			
+		add_political_power = -10
+		add_timed_idea = {
+			idea = fascist_rallying
+			days = 240
 		}
 	}
 	option = {
 		name = additional_politic.1.b
-		effect_tooltip = {
-			add_political_power = -50
-		
+		add_political_power = -20
+		add_timed_idea = {
+			idea = fascist_rallying
+			days = 120
+		}
+	}
+}
+country_event = {
+	id = additional_politic.2
+	title = additional_politic.2.t
+	desc = {
+		text = additional_politic.2.d
+	}
+	picture = GFX_event_neutrality_rallying
+	trigger = {
+		AND = {
+			NOT = {has_idea = neutrality_rallying}
+			neutrality < 0.01
+			NOT = {has_country_leader_ideology	 = stratocracy}
+		}
+	}
+	option = {
+		name = additional_politic.2.a
+		add_political_power = -10
+		add_timed_idea = {
+			idea = neutrality_rallying
+			days = 240
+		}
+	}
+	option = {
+		name = additional_politic.2.b
+		add_political_power = -20
+		add_timed_idea = {
+			idea = neutrality_rallying
+			days = 120
+		}
+	}
+}
+country_event = {
+	id = additional_politic.3
+	title = additional_politic.3.t
+	desc = {
+		text = additional_politic.3.d
+	}
+	picture = GFX_event_conservatism_rallying
+	trigger = {
+		AND = {
+			NOT = {has_idea = conservatism_rallying}
+			conservatism < 0.01
+			NOT = {has_country_leader_ideology	 = stratocracy}
+		}
+	}
+	option = {
+		name = additional_politic.1.a
+		add_political_power = -10
+		add_timed_idea = {
+			idea = conservatism_rallying
+			days = 240
+		}
+	}
+	option = {
+		name = additional_politic.1.b
+		add_political_power = -20
+		add_timed_idea = {
+			idea = conservatism_rallying
+			days = 120
+		}
+	}
+}
+country_event = {
+	id = additional_politic.4
+	title = additional_politic.4.t
+	desc = {
+		text = additional_politic.4.d
+	}
+	picture = GFX_event_progressive_rallying
+	trigger = {
+		AND = {
+			NOT = {has_idea = progressive_rallying}
+			progressive < 0.01
+			NOT = {has_country_leader_ideology	 = stratocracy}
+		}
+	}
+	option = {
+		name = additional_politic.1.a
+		add_political_power = -10
+		add_timed_idea = {
+			idea = progressive_rallying
+			days = 240
+		}
+	}
+	option = {
+		name = additional_politic.1.b
+		add_political_power = -20
+		add_timed_idea = {
+			idea = progressive_rallying
+			days = 120
+		}
+	}
+}
+country_event = {
+	id = additional_politic.5
+	title = additional_politic.5.t
+	desc = {
+		text = additional_politic.5.d
+	}
+	picture = GFX_event_socialism_rallying
+	trigger = {
+		AND = {
+			NOT = {has_idea = socialism_rallying}
+			socialism < 0.01
+			NOT = {has_country_leader_ideology  = stratocracy}
+		}
+	}
+	option = {
+		name = additional_politic.1.a
+		add_political_power = -10
+		add_timed_idea = {
+			idea = socialism_rallying
+			days = 240
+		}
+	}
+	option = {
+		name = additional_politic.1.b
+		add_political_power = -20
+		add_timed_idea = {
+			idea = socialism_rallying
+			days = 120
+		}
+	}
+}
+country_event = {
+	id = additional_politic.6
+	title = additional_politic.6.t
+	desc = {
+		text = additional_politic.6.d
+	}
+	picture = GFX_event_communism_rallying
+	trigger = {
+		AND = {
+			NOT = {has_idea = communism_rallying}
+			NOT = {has_country_leader_ideology	 = stratocracy}
+			communism < 0.01
+		}
+	}
+	option = {
+		name = additional_politic.1.a
+		add_political_power = -10
+		add_timed_idea = {
+			idea = communism_rallying
+			days = 240
+		}
+	}
+	option = {
+		name = additional_politic.1.b
+		add_political_power = -20
+		add_timed_idea = {
+			idea = communism_rallying
+			days = 120
 		}
 	}
 }

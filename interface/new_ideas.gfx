@@ -8,21 +8,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/suppression_for_kpd.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_threat_from_south"
-		texturefile = "gfx/interface/ideas/threat_from_south.dds"
-	}
-	SpriteType = {
 		name = "GFX_idea_threat_from_west"
 		texturefile = "gfx/interface/ideas/threat_from_west.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_threat_from_north"
-		texturefile = "gfx/interface/ideas/threat_from_north.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_threat_from_east"
-		texturefile = "gfx/interface/ideas/threat_from_east.dds"
-	}
+	}	
 	SpriteType = {
 		name = "GFX_idea_political_polarization"
 		texturefile = "gfx/interface/ideas/political_polarization.dds"
@@ -63,5 +51,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_failed_natioanl_policy"
 		texturefile = "gfx/interface/ideas/failed_natioanl_policy.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_fascist_rallying"
+		texturefile = "gfx/interface/ideas/fascist_rallying.dds"
 	}
 }

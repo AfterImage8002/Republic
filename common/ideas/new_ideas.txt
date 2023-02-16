@@ -171,13 +171,57 @@ ideas = {
 			}
 		}
 		fascist_rallying = {
-			picture = proletarian_parliament
+			picture = fascist_rallying
 			allowed = {always = yes}
 			available = {always = yes}
-			cancle = {}
 			allowed_civil_war = {always = no}
-			modifier = {
-				fascism_drift = 0.05
+			modifier = { 
+				fascism_drift = 0.01
+			}
+		}
+		neutrality_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				neutrality_drift = 0.01
+			}
+		}
+		conservatism_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				conservatism_drift = 0.01
+			}
+		}
+		progressive_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				progressive_drift = 0.01
+			}
+		}
+		socialism_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				socialism_drift = 0.01
+			}
+		}
+		communism_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				communism_drift = 0.01
 			}
 		}
 	}

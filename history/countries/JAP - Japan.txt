@@ -25,6 +25,12 @@ recruit_character = JAP_reijirou
 		var = collaboration_formed_by
 	}
 }
+"KRF" = {
+	set_variable = {
+		var = collaboration_formed_by
+	}
+}
+
 
 set_autonomy = {
 	target = CHO
@@ -45,15 +51,30 @@ set_autonomy = {
 	target = TAI
 	autonomous_state = autonomy_collaboration_government
 }
+set_autonomy = {
+	target = KRF
+	autonomous_state = autonomy_collaboration_government
+}
 "TAI" = {
 	set_politics = {
-		ruling_party = fascism
+		ruling_party = neutrality
 		last_election = "1933.3.5"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		fascism = 100
+		neutrality = 100
+	}
+}
+"KRF" = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
 	}
 }
 

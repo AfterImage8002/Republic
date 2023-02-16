@@ -1,4 +1,5 @@
-YHC = "countries/Youngha.txt	"
+KRF = "countries/Karafuto.txt"
+YHC = "countries/Youngha.txt"
 GSC = "countries/Gamsuk.txt"
 GDC = "countries/Gwangdong.txt"
 GJC = "countries/Guiju.txt"
