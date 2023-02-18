@@ -5995,7 +5995,7 @@
  IRE_autonomy_supervised_state_DEF:0 "아일랜드 자유국"
  
 
- #정당
+ #정당명
  STR_neutrality_party:0 "해협위원회"
 
  ENG_conservatism_party:0 "보수당"
@@ -6012,16 +6012,16 @@
  HOL_socialism_party:0 "사회민주노동자당"
 
  RHI_conservatism_party:0 "라인 공화당"
- RHI_progressive_party:0 "R독일민주연합 (금지됨)"
- RHI_socialism_party:0 "R독립사회당 (금지됨)"
- RHI_communism_party:0 "R공산당 (금지됨)"
- RHI_fascism_party:0 "R국가당 (금지됨)"
+ RHI_progressive_party:0 "§R독일민주연합 (금지됨)§!"
+ RHI_socialism_party:0 "§R독립사회당 (금지됨)§!"
+ RHI_communism_party:0 "§R공산당 (금지됨)§!"
+ RHI_fascism_party:0 "§R국가당 (금지됨)§!"
  RHI_neutrality_party:0 "라인 인민당"
 
  GER_conservatism_party:0 "중앙당"
  GER_progressive_party:0 "독일 인민당"
  GER_socialism_party:0 "사회민주당"
- GER_communism_party:0 "R독일 공산당 (금지됨)"
+ GER_communism_party:0 "§R독일 공산당 (금지됨)§!"
  GER_neutrality_party:0 "국가인민당"
  GER_fascism_party:0 "독일노동자당"
  GER_fascism_party_long:0 "독일노동자당"
@@ -6037,7 +6037,7 @@
  SGE_communism_party:0 "독일 공산당"
  SGE_fascism_party:0 "독일 노동자당 (좌파)"
  SGE_progressive_party:0 "독일 독립사회민주당"
- SGE_conservatism_party:0 "R금지됨"
+ SGE_conservatism_party:0 "§R금지됨§!"
  
  SOV_progressive_party:0 "진보당"
  SOV_conservatism_party:0 "입헌민주당"
@@ -6074,7 +6074,7 @@
  AUS_conservatism_party:0 "조국전선 (좌파)"
  AUS_progressive_party:0 "오스트리아 민주연합"
  AUS_socialism_party:0 "오스트리아 사회민주노동자당"
- AUS_communism_party:0 "R오스트리아 공산당 (금지됨)"
+ AUS_communism_party:0 "§R오스트리아 공산당 (금지됨)"
  AUS_fascism_party:0 "조국전선"
  AUS_neutrality_party:0 "권위주의"
 
@@ -6082,7 +6082,7 @@
  JAP_conservatism_party:0 "입헌정우회"
  JAP_progressive_party:0 "입헌민정당"
  JAP_socialism_party:0 "사회대중당"
- JAP_communism_party:0 "R일본공산당 (금지됨)"
+ JAP_communism_party:0 "§R일본공산당 (금지됨)"
  JAP_fascism_party:0 "국민동맹"
 
  CHO_fascism_party:0 "조선총독부"
@@ -6102,8 +6102,8 @@
 
  BLR_communism_party:0 "벨라루스 사회주의 회의"
  BLR_socialism_party:0 "벨라루스 사회주의 회의"
- BLR_conservatism_party:0 "R금지됨"
- BLR_progressive_party:0 "R금지됨"
+ BLR_conservatism_party:0 "§R금지됨§!"
+ BLR_progressive_party:0 "§R금지됨§!"
 
  UKR_progressive_party:0 "민족민주동맹"
  UKR_conservatism_party:0 "보수당"
@@ -6309,7 +6309,7 @@
  political_polarization_desc:0 "대공황과 프랑화 위기를 연속으로 겪은 국민들은, 중앙당과 사회민주당 모두에게 실망하였습니다. 그들은 독일의 대안을 찾아 떠날 것이며, 이는 극단주의적인 사상의 부흥으로 이어지고 있습니다."
 
  suppression_for_kpd:0 "독일 공산당 탄압"
- suppression_for_kpd_desc:0 "KPD, 즉 독일 공산당은 폭력적인 혁명을 통해 사회주의 국가를 지향하는 위험한 정당입니다. 이들은 스파르타쿠스 봉기 이후에 북독일에서 금지되었지만, 여전히 지하조직으로서 활동하고 있음은 누구나 알고 있는 공공연한 사실입니다. 공화국의 국체를 수호하기 위해서는 이들에 대한 강경한 탄압을 하지 않을 수 없습니다."
+ suppression_for_kpd_desc:0 "KPD, 즉 독일 공산당은 폭력적인 혁명을 통해 사회주의 국가를 지향하는 위험한 정당입니다. 이들은 스파르타쿠스 봉기 이후에 북독일에서 금지되었지만, 여전히 지하조직으로서 활동하고 있음은 누구나 알고 있는 공공연한 사실입니다. 공화제를 수호하기 위해서는 이들에 대한 강경한 탄압을 하지 않을 수 없습니다."
 
  economic_depression:0 "경제 불황"
  economic_depression_desc:0 "프랑화 위기로 인한 경제 불황이 세계를 강타하고 있습니다."
@@ -6326,7 +6326,7 @@
  large_scale_exile:0 "대규모 탈출"
  large_scale_exile_desc:0 "많은 지식인들과 기득권 인구가 혁명과 분쟁을 피해 주변 국가로 탈출하고 있습니다. 어서 조치를 취하지 않으면 국익의 지속적인 손실을 초래할 것입니다."
  french_interference:0 "프랑스 간섭"
- french_interference_desc:0 "대전쟁 이후 프랑스의 자치령으로 편입된 우리 라인 연방은 프랑스 정부의 압력 아래서 반프랑스 성향의 단체들과 독일 통일을 주장하는 정당들을 탄압해왔습니다. 또한 우리가 행사하는 여러 권한이 프랑스 정부에도 똑같거나 더 강하게 주어졌으며, 이는 우리 국민들의 바람과 전혀 일치하지 않습니다. 우리 정부는 언제나 국민들에게 미움받고 있습니다."
+ french_interference_desc:0 "대전쟁 이후 프랑스의 피감독국으로 편입된 우리 라인 연방은 프랑스 정부의 압력 아래서 반프랑스 성향의 단체들과 독일 통일을 주장하는 정당들을 탄압해왔습니다. 또한 우리가 행사하는 여러 권한이 프랑스 정부에도 똑같거나 더 강하게 주어졌으며, 이는 우리 국민들의 바람과 전혀 일치하지 않습니다. 우리 정부는 언제나 국민들에게 미움받고 있습니다."
 
  proletarian_parliament:0 "프롤레타리아 평의회"
  proletarian_parliament_desc:0 "프롤레타리아 평의회는 프롤레타리아의 민주주의 제도를 보수적으로 유지하기 위해 조직된 기구입니다. 프롤레타리아 평의회에서는 다당제가 보장되며, 노동계급 전원을 포괄하는 보편적인 선거권이 주어집니다. 프롤레타리아 평의회는 직접민주주의를 지향하며, 볼셰비키들의 전위당 체계론과 민주집중제를 멀리합니다."

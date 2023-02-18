@@ -1,0 +1,11 @@
+#Titles
+defined_text = {
+    name = get_super_event_title
+	
+    text = {
+        trigger = {
+            has_global_flag = asd
+        }
+        localization_key = "super_event_asd"
+    }
+}
