@@ -11,6 +11,7 @@ country_event = {
 			NOT = {has_idea = fascist_rallying}
 			fascism < 0.01
 			NOT = {has_country_leader_ideology	 = stratocracy}
+			NOT = {has_idea = fascism_forbiden}
 		}
 	}
 	option = {
@@ -42,6 +43,7 @@ country_event = {
 			NOT = {has_idea = neutrality_rallying}
 			neutrality < 0.01
 			NOT = {has_country_leader_ideology	 = stratocracy}
+			NOT = {has_idea = neutrality_forbiden}
 		}
 	}
 	option = {
@@ -73,6 +75,7 @@ country_event = {
 			NOT = {has_idea = conservatism_rallying}
 			conservatism < 0.01
 			NOT = {has_country_leader_ideology	 = stratocracy}
+			NOT = {has_idea = conservatism_forbiden}
 		}
 	}
 	option = {
@@ -104,6 +107,7 @@ country_event = {
 			NOT = {has_idea = progressive_rallying}
 			progressive < 0.01
 			NOT = {has_country_leader_ideology	 = stratocracy}
+			NOT = {has_idea = progressive_forbiden}
 		}
 	}
 	option = {
@@ -135,6 +139,7 @@ country_event = {
 			NOT = {has_idea = socialism_rallying}
 			socialism < 0.01
 			NOT = {has_country_leader_ideology  = stratocracy}
+			NOT = {has_idea = socialism_forbiden}
 		}
 	}
 	option = {
@@ -166,6 +171,7 @@ country_event = {
 			NOT = {has_idea = communism_rallying}
 			NOT = {has_country_leader_ideology	 = stratocracy}
 			communism < 0.01
+			NOT = {has_idea = communism_forbiden}
 		}
 	}
 	option = {

@@ -224,5 +224,59 @@ ideas = {
 				communism_drift = 0.01
 			}
 		}
+		communism_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = communism}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
+		socialism_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = socialism}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
+		progressive_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = progressive}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
+		conservatism_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = conservatism}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
+		neutrality_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = neutrality}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
+		fascism_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = fascism}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
 	}
 }

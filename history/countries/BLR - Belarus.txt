@@ -84,6 +84,8 @@ if = {
 
 add_ideas = {
 	economic_depression
+	fascism_banned
+	fascism_forbiden
 }
 
 set_politics = {
