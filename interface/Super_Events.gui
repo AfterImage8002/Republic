@@ -47,7 +47,7 @@ guiTypes = {
 		iconType = {
 			name = "sp_event_text_underlay"
 			spriteType = "GFX_sp_event_underlay"
-			position = { x = 195 y = 332 }
+			position = { x = 205 y = 335 }
 		}
 		
 		buttonType = {
@@ -60,7 +60,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "super_quote"
-			position = { x = 225 y = 336 }
+			position = { x = 238 y = 340 }
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "[get_super_event_quote]"

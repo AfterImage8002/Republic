@@ -1454,14 +1454,14 @@
  SIA:0 "시암"
  SIA_DEF:0 "시암"
  SIA_ADJ:0 "시암"
- SIK_fascism:0 "독재정 신강"
- SIK_fascism_DEF:0 "독재정 신강"
- SIK_conservatism:0 "신강독립공화국"
- SIK_progressive:0 "신강독립공화국"
- SIK_conservatism_DEF:0 "신강독립공화국"
- SIK_progressive_DEF:0 "신강독립공화국"
- SIK_neutrality:0 "신강국"
- SIK_neutrality_DEF:0 "신강국"
+ SIK_fascism:0 "신강군벌"
+ SIK_fascism_DEF:0 "신강군벌"
+ SIK_conservatism:0 "신강군벌"
+ SIK_progressive:0 "신강군벌"
+ SIK_conservatism_DEF:0 "신강군벌"
+ SIK_progressive_DEF:0 "신강군벌"
+ SIK_neutrality:0 "신강군벌"
+ SIK_neutrality_DEF:0 "신강군벌"
  SIK_communism:0 "신강군벌"
  SIK_socialism:0 "신강군벌"
  SIK_communism_DEF:0 "신강군벌"
@@ -6012,16 +6012,16 @@
  HOL_socialism_party:0 "사회민주노동자당"
 
  RHI_conservatism_party:0 "라인 공화당"
- RHI_progressive_party:0 "§R독일민주연합 (금지됨)"
- RHI_socialism_party:0 "§R독립사회당 (금지됨)"
- RHI_communism_party:0 "§R공산당 (금지됨)"
- RHI_fascism_party:0 "§R국가당 (금지됨)"
+ RHI_progressive_party:0 "§R독일민주연합 (금지됨)§!"
+ RHI_socialism_party:0 "§R독립사회당 (금지됨)§!"
+ RHI_communism_party:0 "§R공산당 (금지됨)§!"
+ RHI_fascism_party:0 "§R국가당 (금지됨)§!"
  RHI_neutrality_party:0 "라인 인민당"
 
  GER_conservatism_party:0 "중앙당"
  GER_progressive_party:0 "독일 인민당"
  GER_socialism_party:0 "사회민주당"
- GER_communism_party:0 "§R독일 공산당 (금지됨)"
+ GER_communism_party:0 "§R독일 공산당 (금지됨)§!"
  GER_neutrality_party:0 "국가인민당"
  GER_fascism_party:0 "독일노동자당"
  GER_fascism_party_long:0 "독일노동자당"
@@ -6037,7 +6037,7 @@
  SGE_communism_party:0 "독일 공산당"
  SGE_fascism_party:0 "독일 노동자당 (좌파)"
  SGE_progressive_party:0 "독일 독립사회민주당"
- SGE_conservatism_party:0 "§R금지됨"
+ SGE_conservatism_party:0 "§R금지됨§!"
  
  SOV_progressive_party:0 "진보당"
  SOV_conservatism_party:0 "입헌민주당"
@@ -6074,7 +6074,7 @@
  AUS_conservatism_party:0 "조국전선 (좌파)"
  AUS_progressive_party:0 "오스트리아 민주연합"
  AUS_socialism_party:0 "오스트리아 사회민주노동자당"
- AUS_communism_party:0 "§R오스트리아 공산당 (금지됨)"
+ AUS_communism_party:0 "§R오스트리아 공산당 (금지됨)§!"
  AUS_fascism_party:0 "조국전선"
  AUS_neutrality_party:0 "권위주의"
 
@@ -6082,7 +6082,7 @@
  JAP_conservatism_party:0 "입헌정우회"
  JAP_progressive_party:0 "입헌민정당"
  JAP_socialism_party:0 "사회대중당"
- JAP_communism_party:0 "§R일본공산당 (금지됨)"
+ JAP_communism_party:0 "§R일본공산당 (금지됨)§!"
  JAP_fascism_party:0 "국민동맹"
 
  CHO_fascism_party:0 "조선총독부"
@@ -6102,8 +6102,8 @@
 
  BLR_communism_party:0 "벨라루스 사회주의 회의"
  BLR_socialism_party:0 "벨라루스 사회주의 회의"
- BLR_conservatism_party:0 "§R금지됨"
- BLR_progressive_party:0 "§R금지됨"
+ BLR_conservatism_party:0 "§R금지됨§!"
+ BLR_progressive_party:0 "§R금지됨§!"
 
  UKR_progressive_party:0 "민족민주동맹"
  UKR_conservatism_party:0 "보수당"
@@ -6139,7 +6139,8 @@
 
  
 
- #주
+ #주명
+ STATE_731:0 "테셀로니키"
  STATE_909:0 "북부 슐레스비히"
  STATE_910:0 "라인란트 서부"
  STATE_51:0 "라인란트 동부"
@@ -6154,6 +6155,7 @@
  STATE_913:0 "아다파자리"
  STATE_914:0 "해협"
  STATE_915:0 "수바우키"
+ STATE_916:0 "중앙 마케도니아"
  
  #도시
  VICTORY_POINTS_3529:0 "차리친"
@@ -6339,9 +6341,9 @@
  failed_natioanl_policy_desc:0 "여러 강경책과 회유책이 전부 실패하게 됨에 따라 우리 공화국은 분리독립을 요구하는 민족들로 가득차게 되었습니다."
 
  fascist_rallying:0 "파시스트 결집"
- fascist_rallying_desc:0 "많은 지지층들이 [THIS.GetFascistParty]§! 세력을 떠나가자, 전국의 파시스트들은 서로간의 세부적인 방법론 간의 논쟁을 멈추고, 다시금 이 나라에서 그들의 영향력을 잃어버리지 않게 대규모 집회를 개최하며 이를 선전하기 시작했습니다."
+ fascist_rallying_desc:0 "많은 지지층들이 [THIS.GetFascistParty] 세력을 떠나가자, 전국의 파시스트들은 서로간의 세부적인 방법론 간의 논쟁을 멈추고, 다시금 이 나라에서 그들의 영향력을 잃어버리지 않게 대규모 집회를 개최하며 이를 선전하기 시작했습니다."
  neutrality_rallying:0 "권위주의자 결집"
- neutrality_rallying_desc:0 "많은 지지층들이 [THIS.GetNeutralParty]§! 세력을 떠나가자, 전국의 권위주의자들은 서로간의 세부적인 방법론 간의 논쟁을 멈추고, 다시금 이 나라에서 그들의 영향력을 잃어버리지 않게 대규모 집회를 개최하며 이를 선전하기 시작했습니다."
+ neutrality_rallying_desc:0 "많은 지지층들이 [THIS.GetNeutralParty] 세력을 떠나가자, 전국의 권위주의자들은 서로간의 세부적인 방법론 간의 논쟁을 멈추고, 다시금 이 나라에서 그들의 영향력을 잃어버리지 않게 대규모 집회를 개최하며 이를 선전하기 시작했습니다."
  conservatism_rallying:0 "보수주의자 집회"
  conservatism_rallying_desc:0 "많은 지지층들이 보수주의 세력을 떠나가자, 전국의 보수주의자들은 서로간의 세부적인 방법론 간의 논쟁을 멈추고, 다시금 이 나라에서 그들의 영향력을 잃어버리지 않게 대규모 집회를 개최하며 이를 선전하기 시작했습니다."
  progressive_rallying:0 "진보주의자 집회"
@@ -6349,7 +6351,7 @@
  socialism_rallying:0 "사회주의자 대회"
  socialism_rallying_desc:0 "많은 지지층들이 사회주의 세력을 떠나가자, 전국의 사회주의자들은 서로간의 세부적인 방법론 간의 논쟁을 멈추고, 다시금 이 나라에서 그들의 영향력을 잃어버리지 않게 대규모 집회를 개최하며 이를 선전하기 시작했습니다."
  communism_rallying:0 "공산주의자 시위"
- communism_rallying_desc:0 "많은 지지층들이 [THIS.GetCommunistParty]§! 세력을 떠나가자, 전국의 공산주의자들은 서로간의 세부적인 방법론 간의 논쟁을 멈추고, 다시금 이 나라에서 그들의 영향력을 잃어버리지 않게 대규모 집회를 개최하며 이를 선전하기 시작했습니다."
+ communism_rallying_desc:0 "많은 지지층들이 [THIS.GetCommunistParty] 세력을 떠나가자, 전국의 공산주의자들은 서로간의 세부적인 방법론 간의 논쟁을 멈추고, 다시금 이 나라에서 그들의 영향력을 잃어버리지 않게 대규모 집회를 개최하며 이를 선전하기 시작했습니다."
 
  communism_forbiden:0 "사그라드는 공산주의"
  socialism_forbiden:0 "사그라드는 사회주의"
