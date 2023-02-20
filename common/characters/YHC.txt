@@ -1,14 +1,14 @@
 characters={
-	GDC_Xu={
-		name=GDC_Xu
+	YHC_Mahongkui = {
+		name = YHC_Mahongkui
 		portraits={
 			civilian={
-				large="gfx/leaders/GDC/Xu.dds"
+				large="gfx/leaders/YHC/Ma_Hongkui.dds"
 			}
 		}
 		country_leader={
 			ideology=stratocracy
-			traits={  }
+			traits={}   
 			expire="1999.1.1.1"
 			id=-1
 		}

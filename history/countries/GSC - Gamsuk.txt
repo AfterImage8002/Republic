@@ -1,4 +1,4 @@
-capital = 592
+capital = 283
 
 if = {
 	limit = {
@@ -8,7 +8,9 @@ if = {
 		CHI_ineffective_bureaucracy_warlord
 	}
 }
-recruit_character = GDC_Xu
+
+recruit_character = GSC_Ma_Hongbin
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

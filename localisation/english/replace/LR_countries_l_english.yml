@@ -6193,7 +6193,7 @@
  prince_of_east:0 "동방의 왕자"
  prime_minister_of_civilian:0 "문민의 총리"
 
- #사람이름
+ #사람이름 인명 캐릭터
  KOR_CabinetMeeting_dem:0 "국무원"
  KOR_CabinetMeeting_com:0 "국무원"
  SGE_Rosa:0 "로자 룩셈부르크"
@@ -6215,6 +6215,11 @@
  KUB_Voroshilov:0 "클리멘트 보로실로프"
  STR_committee:0 "해협위원회"
  MON_prince_demchugdongrub:0 "데므치그돈로브"
+ YHC_Ma_Hongkui:0 "마홍쿠이"
+ GDC_Xu:0 "쉬충즈"
+ GSC_Ma_Hongbin:0 "마훙빈"
+ HNC_Tanyenkai:0 "탄옌카이"
+ GJC_He:0 "허잉친"
 
  #괴뢰국
  autonomy_warlord:0 "군벌"

@@ -1,9 +1,9 @@
 characters={
-	GDC_Xu={
-		name=GDC_Xu
+	GSC_Ma_Hongbin={
+		name=GSC_Ma_Hongbin
 		portraits={
 			civilian={
-				large="gfx/leaders/GDC/Xu.dds"
+				large="gfx/leaders/GSC/Ma_Hongbin.dds"
 			}
 		}
 		country_leader={
