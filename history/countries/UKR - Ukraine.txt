@@ -28,6 +28,7 @@ recruit_character = UKR_Kost_Levytsky
 
 add_ideas = {
 	economic_depression
+	Anti_Russian_Sentiment
 }
 
 if = {
