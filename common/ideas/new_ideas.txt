@@ -338,6 +338,7 @@ ideas = {
 				monthly_population = 0.1
 				stability_factor = 0.03
 			}
-		}	
+		}
+			
 	}
 }
