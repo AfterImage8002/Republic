@@ -1,4 +1,4 @@
-﻿capital = 202 #Kiev
+capital = 202 #Kiev
 give_guarantee = STR
 oob = "UKR_1936"
 
@@ -28,7 +28,10 @@ recruit_character = UKR_Kost_Levytsky
 
 add_ideas = {
 	economic_depression
-	Anti_Russian_Sentiment
+	Ukraine_leftest_Threat
+	Ukraine_granary_of_europe
+	Ukraine_kazacks_legacy
+	Ukraine_nationalism
 }
 
 if = {
