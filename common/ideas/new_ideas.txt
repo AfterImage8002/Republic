@@ -278,5 +278,10 @@ ideas = {
 				
 			}
 		}
+		support = {
+			modifier = {
+				industrial_factory_donations = 3
+			}
+		}
 	}
 }
