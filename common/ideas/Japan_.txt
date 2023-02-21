@@ -190,13 +190,13 @@ ideas = {
 			picture = jap_zaibatsu
 			
 			modifier = {
-				political_power_cost = 0.25
-				trade_laws_cost_factor = 0.25
-				economy_cost_factor = 0.25
-				production_speed_industrial_complex_factor = 0.05
-				production_speed_arms_factory_factor = 0.05
-				production_speed_dockyard_factor = 0.05
-				consumer_goods_factor = 0.05
+				political_power_cost = 0.8
+				trade_laws_cost_factor = 0.5
+				economy_cost_factor = 0.5
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = 0.15
+				production_speed_dockyard_factor = 0.15
+				consumer_goods_factor = 0.1
 			}
 		}
 
@@ -1474,9 +1474,5 @@ ideas = {
 			traits = { tank_manufacturer }
 		}	
 	}
-	support = {
-		modifier = {
-			industrial_factory_donations = 3
-		}
-	}
+	
 }

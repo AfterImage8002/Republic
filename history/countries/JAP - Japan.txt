@@ -2,7 +2,7 @@
 
 
 
-set_stability = 0.4 #baseline, THE EMPEROR PROTECTS
+set_stability = 0.0 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.4
 set_political_power = 30
 
@@ -14,7 +14,7 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
+	JAP_hirohito
 	JAP_zaibatsus
 }
 

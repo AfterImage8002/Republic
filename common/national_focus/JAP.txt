@@ -53,7 +53,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			industrial_factory_donations = 3
-			add_ideas = support
+			add_ideas = supports
 			hidden_effect = {
 				JAP = {country_event = jap.3}
 			}
