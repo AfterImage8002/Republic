@@ -2,8 +2,9 @@
 
 
 
-set_stability = 0.0 #baseline, THE EMPEROR PROTECTS
-set_war_support = 0.0
+set_stability = 0.4 #baseline, THE EMPEROR PROTECTS
+set_war_support = 0.4
+set_political_power = 30
 
 set_research_slots = 4
 set_fuel_ratio = 1.0

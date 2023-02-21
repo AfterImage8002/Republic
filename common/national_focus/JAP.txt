@@ -15,6 +15,12 @@ focus_tree = {
 		cost = 1.00
 		x = 7
 		y = 0
+		completion_reward = {
+			add_stability = 0.2
+			hidden_effect = {
+				JAP = {country_event = jap.1}
+			}
+		}
 
 	}
 	focus = {
@@ -24,6 +30,12 @@ focus_tree = {
 		cost = 1.00
 		prerequisite = {
 			focus = JAP_focus_1
+		}
+		completion_reward = {
+			add_political_power = 100
+			hidden_effect = {
+				JAP = {country_event = jap.2}
+			}
 		}
 		x = 5
 		y = 1
@@ -39,7 +51,13 @@ focus_tree = {
 		}
 		x = 7
 		y = 1
-
+		completion_reward = {
+			industrial_factory_donations = 3
+			add_ideas = support
+			hidden_effect = {
+				JAP = {country_event = jap.3}
+			}
+		}
 	}
 	focus = {
 		id = JAP_focus_4
@@ -51,7 +69,9 @@ focus_tree = {
 		}
 		x = 9
 		y = 1
-
+		completion_reward = {
+			JAP = {country_event = jap.4}
+		}
 	}
 	focus = {
 		id = JAP_focus_5
@@ -69,7 +89,15 @@ focus_tree = {
 		}
 		x = 6
 		y = 2
-
+		completion_reward = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.15
+			}
+			hidden_effect = {
+				JAP = {country_event = jap.5}
+			}
+		}
 	}
 	focus = {
 		id = JAP_focus_6
@@ -87,6 +115,12 @@ focus_tree = {
 		}
 		x = 8
 		y = 2
+		completion_reward = {
+			add_stability = 0.1
+			hidden_effect = {
+				JAP = {country_event = jap.6}
+			}
+		}
 
 	}
 	focus = {

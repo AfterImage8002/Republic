@@ -279,22 +279,65 @@ ideas = {
 			}
 		}
 		Anti_Russian_Sentiment = {
-			picture =
 			allowed = {}
 			available = {}
 			allowed_civil_war = {always = no}
 			removal_cost = -1
 			modifier = {
-				trade_opinion_factor = -0.3
 				on_add = {
                 	country_lock_all_division_template = yes
 					target = SOV
             	}
+
             	on_remove = {
                 	country_lock_all_division_template = no
 					target = SOV
             	}
 			}
 		}
+		Ukraine_nationalism = {
+			allowed = {}
+			available = {}
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				surrender_limit = 0.05
+			}
+		}
+		Ukraine_kazacks_legacy = {
+			allowed = {}
+			available = {}
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				cavalry_attack_factor = 0.15
+				cavalry_defence_factor = 0.15
+			}
+		}
+		Ukraine_leftest_Threat = {
+			allowed = {}
+			available = {}
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				communism_drift = 0.005
+				socialism_drift = 0.005
+				political_power_factor = -0.1
+				war_support_factor = -0.15
+			}
+		}
+		Ukraine_granary_of_europe = {
+			allowed = {}
+			available = {}
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.1
+				stability_factor = 0.03
+			}
+		}	
 	}
 }
