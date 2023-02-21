@@ -378,7 +378,7 @@
  SCORE_CALC_SCORE_MULT:0 "\nx$MULT$ 점수 배율"
  CLOSE:0 "닫기"
  CLOSE_TOOLTIP:0 "§T닫기§!"
- LOAD_GFX:0 "볼셰비키를 격퇴하는 중"
+ LOAD_GFX:0 "공화당을 지지하는 중"
  LOAD_FLAGS:0 "국기를 제정하는 중"
  PROC_FLAGS:0 "국기를 게양하는 중"
  FE_CONTINUE:0 "계속하기"

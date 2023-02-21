@@ -11,8 +11,8 @@ if = {
 
 set_autonomy = {
 	target = TIB
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.85
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
 }
 set_autonomy = {
 	target = GXC
