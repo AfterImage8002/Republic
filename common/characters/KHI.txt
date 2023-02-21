@@ -1,13 +1,13 @@
 characters = {
     KHI_Sayid_Abdullah = {
-        name = Sayid_Abdullah
+        name = KHI_Sayid_Abdullah
         portraits = {
             civilian = {
                 large = "gfx/leaders/KHI/Sayid_Abdullah.dds"
             }
         }
         country_leader = {
-            ideology = neutrality
+            ideology = despotism
             traits = {} 
             expire = "1999.1.1"
             id = -1

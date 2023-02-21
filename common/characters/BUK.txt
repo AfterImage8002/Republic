@@ -1,13 +1,13 @@
 characters = {
-    BUK_Muhammad Alim = {
-        name = Muhammad_Alim
+    BUK_Muhammad_Alim = {
+        name = BUK_Muhammad_Alim
         portraits = {
             civilian = {
                 large = "gfx/leaders/BUK/Muhammad_Alim.dds"
             }
         }
         country_leader = {
-            ideology = neutrality
+            ideology = despotism
             traits = {} 
             expire = "1999.1.1"
             id = -1
