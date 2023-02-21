@@ -88,3 +88,5 @@ set_popularities = {
 #		#
 #	}
 #}
+
+recruit_character = KYR_Kichik_Ergash
