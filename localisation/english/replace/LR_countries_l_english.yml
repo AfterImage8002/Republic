@@ -6245,12 +6245,12 @@
  neutrality_drift:0 "매일 권위주의 지지도"
 
  #이념설명
- communism_desc:0 "[THIS.GetRulingParty]"
- neutrality_desc:0 "[THIS.GetRulingParty]"
- fascism_desc:0 "[THIS.GetRulingParty]"
- socialism_desc:0 "[THIS.GetRulingParty]"
- progressive_desc:0 "[THIS.GetRulingParty]"
- conservatism_desc:0 "[THIS.GetRulingParty]"
+ communism_desc:0 "사회주의 체제"
+ neutrality_desc:0 "권위주의 체제"
+ fascism_desc:0 "계급협조 체제"
+ socialism_desc:0 "계급협조 체제"
+ progressive_desc:0 "자본주의 체제"
+ conservatism_desc:0 "자본주의 체제"
 
  social_democracy_desc:0 "§9사회민주주의§!\n\n사회민주주의는 독일의 정치인 에두아르트 베른슈타인이 수정주의적 마르크스주의를 발전시켜 확립한 사회주의 이념의 한 갈래이며, 사회주의 혁명을 거부하며 자유민주주의 수호와 자본주의 하에서의 소득 재분배, 복지 정책 등의 체제 개혁을 통한 사회 정의와 평등 실현을 추구하는 정치적, 사회적, 경제적 이념입니다."
  social_liberalism_desc:0 "§O사회자유주의§!\n\n사회자유주의는 철학적으로 사회적 시장경제를 기반으로 시민의 권리를 적극적으로 보호하는 자유주의를 의미하나, 상황에 따라 단순히 (사회적 보수주의에 대립하는) 사회적 자유주의를 의미하기도 합니다."
