@@ -1,0 +1,16 @@
+characters = {
+    KRF_Takeshi_Imamura = {
+        name = KRF_Takeshi_Imamura
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/KRF/Takeshi_Imamura.dds"
+            }
+        }
+        country_leader = {
+            ideology = stratocracy
+            traits = {}
+            expire = "1999.1.1"
+            id=-1
+        }
+    }
+}

@@ -22,3 +22,5 @@ set_popularities = {
 	communism = 30
 	neutrality = 2
 }
+
+recruit_character = KRF_Takeshi_Imamura
