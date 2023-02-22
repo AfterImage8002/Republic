@@ -6080,12 +6080,12 @@
  AUS_fascism_party:0 "조국전선"
  AUS_neutrality_party:0 "권위주의"
 
- JAP_neutrality_party:0 "황도파"
+ JAP_neutrality_party:0 "군부 (황도파)"
  JAP_conservatism_party:0 "입헌정우회"
  JAP_progressive_party:0 "입헌민정당"
  JAP_socialism_party:0 "사회대중당"
  JAP_communism_party:0 "§R일본공산당 (금지됨)§!"
- JAP_fascism_party:0 "국민동맹"
+ JAP_fascism_party:0 "군부 (통제파)"
 
  CHO_fascism_party:0 "조선총독부"
  TAI_fascism_party:0 "대만총독부"

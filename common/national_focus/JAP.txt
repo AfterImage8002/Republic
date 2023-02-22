@@ -12,9 +12,9 @@ focus_tree = {
 		id = JAP_focus_1
 		text = JAP_focus_1
 		icon = GFX_goal_unknown
-		cost = 1.00
-		x = 7
-		y = 0
+		cost = 2.00
+		x = 5
+		y = 2
 		completion_reward = {
 			add_stability = 0.2
 			hidden_effect = {
@@ -27,67 +27,28 @@ focus_tree = {
 		id = JAP_focus_2
 		text = JAP_focus_2
 		icon = GFX_goal_unknown
-		cost = 1.00
-		prerequisite = {
-			focus = JAP_focus_1
-		}
+		cost = 2.00
 		completion_reward = {
 			add_political_power = 100
 			hidden_effect = {
 				JAP = {country_event = jap.2}
 			}
 		}
-		x = 5
+		x = 7
 		y = 1
 
 	}
-	focus = {
-		id = JAP_focus_3
-		text = JAP_focus_3
-		icon = GFX_goal_unknown
-		cost = 1.00
-		prerequisite = {
-			focus = JAP_focus_1
-		}
-		x = 7
-		y = 1
-		completion_reward = {
-			industrial_factory_donations = 3
-			add_ideas = supports
-			hidden_effect = {
-				JAP = {country_event = jap.3}
-			}
-		}
-	}
-	focus = {
-		id = JAP_focus_4
-		text = JAP_focus_4
-		icon = GFX_goal_unknown
-		cost = 1.00
-		prerequisite = {
-			focus = JAP_focus_1
-		}
-		x = 9
-		y = 1
-		completion_reward = {
-			JAP = {country_event = jap.4}
-		}
-	}
+	
+	
 	focus = {
 		id = JAP_focus_5
 		text = JAP_focus_5
 		icon = GFX_goal_unknown
-		cost = 1.00
-		prerequisite = {
-			focus = JAP_focus_3
-		}
-		prerequisite = {
+		cost = 2.00
+		quisite = {
 			focus = JAP_focus_2
 		}
-		prerequisite = {
-			focus = JAP_focus_4
-		}
-		x = 6
+		x = 9
 		y = 2
 		completion_reward = {
 			add_popularity = {
@@ -99,30 +60,7 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = JAP_focus_6
-		text = JAP_focus_6
-		icon = GFX_goal_unknown
-		cost = 1.00
-		prerequisite = {
-			focus = JAP_focus_4
-		}
-		prerequisite = {
-			focus = JAP_focus_3
-		}
-		prerequisite = {
-			focus = JAP_focus_2
-		}
-		x = 8
-		y = 2
-		completion_reward = {
-			add_stability = 0.1
-			hidden_effect = {
-				JAP = {country_event = jap.6}
-			}
-		}
-
-	}
+	
 	focus = {
 		id = JAP_focus_7
 		text = JAP_focus_7
@@ -133,7 +71,10 @@ focus_tree = {
 			focus = JAP_focus_5
 		}
 		prerequisite = {
-			focus = JAP_focus_6
+			focus = JAP_focus_2
+		}
+		prerequisite = {
+			focus = JAP_focus_1
 		}
 		x = 7
 		y = 3

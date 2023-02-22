@@ -4,7 +4,9 @@ country_event = {
 	title = jap.1.t
 	desc = jap.1.d
 	picture = GFX_report_event_chinese_soldiers_01
-
+	mean_time_to_happen = {
+		days = 3
+	}
 	is_triggered_only = yes
 	
 	option = {
@@ -17,7 +19,9 @@ country_event = {
 	title = jap.2.t
 	desc = jap.2.d
 	picture = GFX_report_event_chinese_soldiers_01
-
+	mean_time_to_happen = {
+		days = 3
+	}
 	is_triggered_only = yes
 	
 	option = {
@@ -30,7 +34,9 @@ country_event = {
 	title = jap.3.t
 	desc = jap.3.d
 	picture = GFX_report_event_chinese_soldiers_01
-
+	mean_time_to_happen = {
+		days = 3
+	}
 	is_triggered_only = yes
 	
 	option = {
@@ -45,7 +51,9 @@ country_event = {
 	title = jap.4.t
 	desc = jap.4.d
 	picture = GFX_report_event_chinese_soldiers_01
-
+	mean_time_to_happen = {
+		days = 3
+	}
 	is_triggered_only = yes
 	
 	option = {
@@ -79,7 +87,9 @@ country_event = {
 	title = jap.5.t
 	desc = jap.5.d
 	picture = GFX_report_event_chinese_soldiers_01
-
+	mean_time_to_happen = {
+		days = 3
+	}
 	is_triggered_only = yes
 	
 	option = {
@@ -99,7 +109,9 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
-	
+	mean_time_to_happen = {
+		days = 3
+	}
 	option = {
 		name = jap.6.a
 		JAP = {
@@ -107,7 +119,29 @@ country_event = {
 				ideology = neutrality
 				popularity = 0.10
 			}
-			add_stabiltiy = -0.15
+			hidden_effect = {
+				add_stability = -0.15
+			}
+	
+		}
+	}
+}
+country_event = {
+	id = jap.7
+	title = jap.7.t
+	desc = jap.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+    fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		tag = JAP
+		date = 1936.2.26
+	}
+	
+	option = {
+		name = jap.7.a
+		JAP = {
+			
 		}
 	}
 }
