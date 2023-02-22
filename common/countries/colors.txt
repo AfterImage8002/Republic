@@ -441,17 +441,17 @@ UKR = {
 }
 
 AZR = {
-	color = rgb { 69  151  49 }
+	color = rgb { 205 149 21 }
 	color_ui = rgb { 69  151  49 }
 }
 
 GEO = {
-	color = rgb { 255  150  150 }
+	color = rgb { 131 96 48  }
 	color_ui = rgb { 255  204  204 }
 }
 
 ARM = {
-	color = rgb { 176  102  180 }
+	color = rgb { 136  62  140 }
 	color_ui = rgb { 176  102  180 }
 }
 
@@ -795,7 +795,7 @@ CIN = {
 	color_ui = rgb { 0 153 0 }
 }
 DAG = {
-	color = rgb { 0 204 255 }
+	color = rgb { 39 113 119 }
 	color_ui = rgb { 0 163 204 }
 }
 BYA = {
