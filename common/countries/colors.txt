@@ -942,3 +942,7 @@ TTS = {
 	color = rgb { 230 230 0 }
 	color_ui = rgb { 179 179 0 }
 }
+TUK = {
+	color = rgb { 0 114 206 }
+	color_ui = rgb { 0 114 104 }
+}
