@@ -114,7 +114,6 @@ leader_traits = {
 	}
 	provisional_government = {
 		random = no
-		political_power_factor = -0.20
-		weekly_casualties_war_support = 0.01
+		stability_factor = -0.1
 	}
 }

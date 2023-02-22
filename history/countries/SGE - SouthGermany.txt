@@ -19,7 +19,7 @@ starting_train_buffer = 2
 set_fuel_ratio = 0.8
 
 # starting_truck_buffer = 0.8
-recruit_character = SGE_Rosa
+recruit_character = SGE_Spartacus
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -342,17 +342,13 @@ set_war_support = 0.2
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1935.10.1"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	communism = 43
-	socialism = 13
-	fascism = 17
-	neutrality = 7
-	progressive = 20
+	neutrality = 100
 }
 
 

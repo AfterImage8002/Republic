@@ -18,12 +18,14 @@ state={
 		victory_points = {
 			6701 3 
 		}
-		add_core_of = KUB
+		victory_points = {
+			3682 5 
+		}
 		add_core_of = DAG
 	}
 
 	provinces = {
-		683 700 712 728 1450 3668 3682 3711 4463 6701 6730 6748 7554 7624 9645 11632 
+		1450 3668 3682 3711 4463 6701 7554 7624 9645
 	}
 
 	local_supplies = 0.0 

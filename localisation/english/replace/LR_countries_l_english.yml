@@ -57,8 +57,8 @@
  SGE_progressive:0 "남독일 연방"
  SGE_conservatism_DEF:0 "남독일 연방"
  SGE_progressive_DEF:0 "남독일 연방"
- SGE_neutrality:1 "남독일 연방"
- SGE_neutrality_DEF:1 "남독일 연방"
+ SGE_neutrality:1 "스파르타쿠스 연맹"
+ SGE_neutrality_DEF:1 "스파르타쿠스 연맹"
  SGE_communism:0 "남독일 평의회 공화국"
  SGE_socialism:0 "남독일 평의회 공화국"
  SGE_communism_DEF:0 "남독일 평의회 공화국"
@@ -6034,11 +6034,11 @@
  ZAK_fascism_party:0 "국가인민당"
  SIC_neutrality_party:0 "사천군벌"
 
- SGE_neutrality_party:0 "전 인민 볼셰비키 연대"
- SGE_socialism_party:0 "독일 전국노동연맹"
- SGE_communism_party:0 "독일 공산당"
- SGE_fascism_party:0 "독일 노동자당 (좌파)"
- SGE_progressive_party:0 "독일 독립사회민주당"
+ SGE_neutrality_party:0 "혁명위원회"
+ SGE_socialism_party:0 "§R금지됨§!"
+ SGE_communism_party:0 "§R금지됨§!"
+ SGE_fascism_party:0 "§R금지됨§!"
+ SGE_progressive_party:0 "§R금지됨§!"
  SGE_conservatism_party:0 "§R금지됨§!"
  
  SOV_progressive_party:0 "진보당"
@@ -6148,7 +6148,7 @@
 
  
 
- #주명
+ #주명 지역 지명
  STATE_731:0 "테셀로니키"
  STATE_909:0 "북부 슐레스비히"
  STATE_910:0 "라인란트 서부"
@@ -6173,6 +6173,7 @@
  VICTORY_POINTS_11523:0 "포크롭스크"
  VICTORY_POINTS_9432:0 "슈메이카"
  VICTORY_POINTS_9833:0 "콘스탄티노플"
+ VICTORY_POINTS_3682:0 "미르칸슈라"
 
  #세력
  Commonwealth:0 "연합국"
@@ -6236,6 +6237,7 @@
  KRF_Takeshi_Imamura:0 "타케시 이마무라"
  KYR_Kichik_Ergash:0 "에르가쉬 쿠르바시"
  DAG_Rasulbek_Kaitbekov:0 "라술벡 카이트베코프"
+ SGE_Spartacus:0 "스파르타쿠스 연맹"
 
  #괴뢰국
  autonomy_warlord:0 "군벌"
