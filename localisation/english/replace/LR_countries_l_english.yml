@@ -6148,7 +6148,7 @@
 
  
 
- #주명
+ #주명 지역 지명
  STATE_731:0 "테셀로니키"
  STATE_909:0 "북부 슐레스비히"
  STATE_910:0 "라인란트 서부"
@@ -6173,6 +6173,7 @@
  VICTORY_POINTS_11523:0 "포크롭스크"
  VICTORY_POINTS_9432:0 "슈메이카"
  VICTORY_POINTS_9833:0 "콘스탄티노플"
+ VICTORY_POINTS_3682:0 "미르칸슈라"
 
  #세력
  Commonwealth:0 "연합국"
