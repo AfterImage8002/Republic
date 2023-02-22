@@ -1,0 +1,76 @@
+focus_tree = {
+	id = SGA
+	country = {
+		factor = 1
+	}
+	default = yes
+	focus = {
+		id = SGE_focus_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 9
+		y = 0
+
+	}
+	focus = {
+		id = SGE_focus_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_0
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = SGE_focus_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_0
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = SGE_focus_4
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_0
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = SGE_focus_5
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_2
+		}
+		prerequisite = {
+			focus = newfocus_3
+		}
+		prerequisite = {
+			focus = newfocus_1
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = SGE_focus_6
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_4
+		}
+		x = 9
+		y = 3
+
+	}
+}
