@@ -13,4 +13,18 @@ characters={
 			id=-1
 		}
 	}
+	SGE_Spartacus={
+		name=SGE_Spartacus
+		portraits={
+			civilian={
+				large="gfx/leaders/SGE/spartacus.dds"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits={ provisional_government }
+			expire="1936.9.22"
+			id=-1
+		}
+	}
 }
