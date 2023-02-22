@@ -88,9 +88,19 @@ if = {
 }
 
 set_popularities = {
-	fascism = 34
-	democratic = 30
-	communism = 36
+	conservatism = 8
+	progressive = 12
+	communism = 3
+	socialism = 57
+	neutrality = 10
+	fascism = 10
+}
+
+set_politics = {
+	ruling_party = socialism 
+	last_election = "1933.1.7"
+	election_frequency = 72
+	elections_allowed = no
 }
 
 create_country_leader = {
