@@ -457,7 +457,6 @@ set_popularities = {
 }
 
 
-create_faction = Commonwealth
 add_to_faction = ENG
 #add_to_faction = FRA
 add_to_faction = CAN
