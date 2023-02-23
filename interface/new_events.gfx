@@ -23,4 +23,12 @@ spriteTypes = {
 		name = "GFX_event_communism_rallying"
 		texturefile = "gfx/event_pictures/event_communism_rallying.dds"
 	}
+	spriteTypes = {
+		name = "GFX_SGE_event_SPARTAKUS"
+		texturefile = "gfx/event_pictures/GFX_EVENT_SPARTAKUS_LEAGUE.dds"
+	}
+	spriteTypes = {
+		name = "GFX_SGE_event_kingcut
+		texturefile = "gfx/event_pictures/GFX_EVENT_KING_CUT.dds
+	}
 }

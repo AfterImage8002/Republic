@@ -1,0 +1,17 @@
+add_namespace = SGE
+country_event = {
+    id = SGE.1
+    title = SGE.1.t
+    desc = SGE.1.d
+    picture = GFX_SGE_event_SPARTAKUS
+    mean_time_to_happen = {
+        days = 3
+    }
+    is_triggered_only = yes
+
+    option = {
+        name = SGE.1.a
+        add_war_support = 0.05
+        add_stability = 0.05
+    }
+}
