@@ -89,7 +89,7 @@ SWE = {
 }
 FRA = {
 	color = rgb { 0 8 168 }
-	color_ui = rgb { 0 8 168 }
+	color_ui = rgb { 20 28 188 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -105,7 +105,7 @@ CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
 }
 POL = {
-	color = rgb { 168 89 124 }
+	color = rgb { 168 69 124 }
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
@@ -437,7 +437,7 @@ ICE = {
 
 UKR = {
 	color = rgb { 44 115 156 }
-	color_ui = rgb { 44 115 186 }	
+	color_ui = rgb { 44 115 186 }
 }
 
 AZR = {
