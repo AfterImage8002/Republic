@@ -26,7 +26,6 @@ state={
 		}
 		add_core_of = TUR
 		add_core_of = ARM
-		add_core_of = ZAK
 	}
 
 	provinces={
