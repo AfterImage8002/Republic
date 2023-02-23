@@ -14,7 +14,12 @@ focus_tree = {
 		cost = 10.00
 		x = 9
 		y = 0
-
+		completion_reward = {
+			add_political_power = 50
+			hidden_effect = {
+				SGE = {country_event = SGE.1}
+			}
+		}
 	}
 	focus = {
 		id = SGE_focus_2
