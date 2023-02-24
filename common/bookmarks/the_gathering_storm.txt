@@ -336,21 +336,6 @@ bookmarks = {
 			}
 		}
 		
-		"PRC"={
-			minor = yes
-			history = "PRC_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				PRC_the_long_march_1
-				PRC_low_popular_support_3
-				PRC_power_struggles
-			}
-			focuses = {
-				PRC_infiltration
-				PRC_maoism
-				PRC_anti_japanese_expedition
-			}
-		}
 		"MAN"={
 			minor = yes
 			history = "MAN_GATHERING_STORM_DESC"
