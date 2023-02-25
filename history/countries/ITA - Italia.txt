@@ -446,7 +446,6 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	add_ideas = MTG_naval_treaty_cheating
 }
 
 
@@ -493,7 +492,6 @@ if = {
 		limit = {
 			has_dlc = "Man the Guns"
 		}
-		remove_ideas = MTG_naval_treaty_adherent
 	}
 	#adding ministers
 	add_ideas = {
