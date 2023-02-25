@@ -189,7 +189,7 @@ if = {
 	}
 	set_autonomy = {
 		target = IRE
-		autonomous_state = autonomy_supervised_state
+		autonomous_state = autonomy_free_state
 	}
 	set_autonomy = {
 		target = MAL

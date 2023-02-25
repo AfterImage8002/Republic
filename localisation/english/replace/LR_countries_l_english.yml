@@ -6242,6 +6242,7 @@
 
  #괴뢰국
  autonomy_warlord:0 "군벌"
+ autonomy_free_state:0 "자유국"
 
  #이념
  conservatism:0 "보수주의"
