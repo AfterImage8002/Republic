@@ -95,6 +95,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_autonomy_free_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_free_state.dds"
+	}
+
+	spriteType = {
 		name = "GFX_autonomy_free_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_freedom_icon.dds"
 	}
