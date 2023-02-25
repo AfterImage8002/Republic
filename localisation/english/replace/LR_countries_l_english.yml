@@ -6166,6 +6166,9 @@
  STATE_915:0 "수바우키"
  STATE_916:0 "중앙 마케도니아"
  STATE_917:0 "키즐랴르"
+ STATE_918:0 "간도"
+ STATE_919:0 "가지안테프"
+ STATE_920:0 "톈진"
  
  #도시
  VICTORY_POINTS_3529:0 "차리친"
@@ -6174,6 +6177,7 @@
  VICTORY_POINTS_9432:0 "슈메이카"
  VICTORY_POINTS_9833:0 "콘스탄티노플"
  VICTORY_POINTS_3682:0 "미르칸슈라"
+ VICTORY_POINTS_10068:0 "톈진"
 
  #세력
  Commonwealth:0 "연합국"
