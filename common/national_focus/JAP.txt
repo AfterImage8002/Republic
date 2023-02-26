@@ -23,21 +23,7 @@ focus_tree = {
 		}
 
 	}
-	focus = {
-		id = JAP_focus_2
-		text = JAP_focus_2
-		icon = GFX_goal_unknown
-		cost = 2.00
-		completion_reward = {
-			add_political_power = 100
-			hidden_effect = {
-				JAP = {country_event = jap.2}
-			}
-		}
-		x = 7
-		y = 1
-
-	}
+	
 	
 	
 	focus = {
@@ -45,7 +31,7 @@ focus_tree = {
 		text = JAP_focus_5
 		icon = GFX_goal_unknown
 		cost = 2.00
-		quisite = {
+		prerequisite = {
 			focus = JAP_focus_2
 		}
 		x = 9
@@ -60,24 +46,40 @@ focus_tree = {
 			}
 		}
 	}
-	
+	focus = {
+		id = JAP_focus_2
+		text = JAP_focus_2
+		icon = GFX_goal_unknown
+		cost = 2.00
+		completion_reward = {
+			add_political_power = 100
+			hidden_effect = {
+				JAP = {country_event = jap.2}
+			}
+		}
+		prerequisite = {
+			focus = JAP_focus_1
+		}
+		prerequisite = {
+			focus = JAP_focus_5
+		}
+		x = 7
+		y = 2
+
+	}
 	focus = {
 		id = JAP_focus_7
 		text = JAP_focus_7
 		icon = GFX_goal_unknown
 		cancelable = no
-		cost = 5.00
-		prerequisite = {
-			focus = JAP_focus_5
-		}
+		cost = 30.00
+		
 		prerequisite = {
 			focus = JAP_focus_2
 		}
-		prerequisite = {
-			focus = JAP_focus_1
-		}
+		
 		x = 7
-		y = 3
+		y = 4
 
 	}
 }
