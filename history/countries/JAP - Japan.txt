@@ -13,9 +13,10 @@ add_ideas = {
 	state_shintoism
 	limited_exports
 	limited_conscription
-	partial_economic_mobilisation
+	civilian_economy
 	JAP_hirohito
 	JAP_zaibatsus
+	JAP_SMRC
 }
 
 recruit_character = JAP_reijirou

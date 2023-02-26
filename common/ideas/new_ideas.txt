@@ -349,5 +349,16 @@ ideas = {
 				industrial_factory_donations = 3
 			}
 		}	
+		JAP_SMRC = {
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+	
+			picture = JAP_SMRC
+				
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_rail_way_factor = 0.05
+			}
+		}
 	}
 }
