@@ -11,7 +11,7 @@ country_event = {
 	
 	option = {
 		name = jap.1.a
-		add_stability = -0.18
+		add_stability = -0.30
 	}
 }
 country_event = {
@@ -26,7 +26,7 @@ country_event = {
 	
 	option = {
 		name = jap.2.a
-		add_political_power = -120
+		add_political_power = -150
 	}
 }
 country_event = {

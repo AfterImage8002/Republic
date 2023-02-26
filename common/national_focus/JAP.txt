@@ -16,12 +16,15 @@ focus_tree = {
 		x = 5
 		y = 1
 		completion_reward = {
-			add_stability = 0.2
+			add_stability = 0.1
 			hidden_effect = {
-				country_event = {
-					id = jap.1
-					days = 3
+				JAP = {
+					country_event = {
+						id = jap.1
+						days = 3
+					}
 				}
+				
 			}
 		}
 
@@ -42,10 +45,13 @@ focus_tree = {
 				popularity = -0.15
 			}
 			hidden_effect = {
-				country_event = {
-					id = jap.5
-					days = 3
+				JAP = {
+					country_event = {
+						id = jap.5
+						days = 3
+					}
 				}
+				
 			}
 		}
 	}
@@ -57,9 +63,16 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			hidden_effect = {
-				country_event = {
-					id = jap.2
-					days = 3
+				JAP = {
+					country_event = {
+						id = jap.2
+						days = 3
+					}
+					country_event = {
+						id = jap.7
+						days = 15
+						random_hours = 6
+					}
 				}
 			}
 		}

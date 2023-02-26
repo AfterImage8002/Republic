@@ -20,7 +20,10 @@ ideas = {
 			modifier = {
 				industry_air_damage_factor = -0.2
 				army_org_factor = 0.2
+				fascism_drift = 0.01
+				neutrality_drift = 0.01
 			}
+			
 		}
 	
 	

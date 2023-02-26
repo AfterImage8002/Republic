@@ -1811,7 +1811,7 @@ political_actions = {
 
     	visible = {
 			AND = {
-				socialism > 0.6
+				fascism < 0.6
 				has_government = socialism
 			}
 		}
@@ -1829,7 +1829,7 @@ political_actions = {
         }
 	
 		modifier = {
-			fascism_drift = +0.04
+			fascism_drift = 0.04
 			stability_weekly = 0.007
 		}
 	
@@ -1854,7 +1854,7 @@ political_actions = {
 
     	visible = {
 			AND = {
-				conservatism > 0.6
+				conservatism < 0.6
 				has_government = conservatism
 			}
 		}
@@ -1872,7 +1872,7 @@ political_actions = {
         }
 	
 		modifier = {
-			conservatism_drift = +0.04
+			conservatism_drift = 0.04
 			stability_weekly = 0.007
 		}
 	
@@ -1897,7 +1897,7 @@ political_actions = {
 
     	visible = {
 			AND = {
-				communism > 0.6
+				communism < 0.6
 				has_government = communism
 			}
 		}
@@ -1915,7 +1915,7 @@ political_actions = {
         }
 	
 		modifier = {
-			communism_drift = +0.04
+			communism_drift = 0.04
 			stability_weekly = 0.007
 		}
 	
@@ -1940,7 +1940,7 @@ political_actions = {
 
     	visible = {
 			AND = {
-				socialism > 0.6
+				socialism < 0.6
 				has_government = socialism
 			}
 		}
@@ -1958,7 +1958,7 @@ political_actions = {
         }
 	
 		modifier = {
-			socialism_drift = +0.04
+			socialism_drift = 0.04
 			stability_weekly = 0.007
 		}
 	
@@ -1983,7 +1983,7 @@ political_actions = {
 
     	visible = {
 			AND = {
-				socialism > 0.6
+				progressive < 0.6
 				has_government = socialism
 			}
 		}
@@ -2001,7 +2001,7 @@ political_actions = {
         }
 	
 		modifier = {
-			progressive_drift = +0.04
+			progressive_drift = 0.04
 			stability_weekly = 0.007
 		}
 	
