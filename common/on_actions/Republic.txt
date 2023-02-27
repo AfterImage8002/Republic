@@ -1,0 +1,19 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			CHI = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			MAN = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			HNC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GDC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GXC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			SIC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			PRC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GJC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			YUN = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			SHX = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			XSM = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			YHC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GSC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+		}
+	}
+}

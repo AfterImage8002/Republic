@@ -16,12 +16,44 @@ focus_tree = {
 		x = 5
 		y = 1
 		completion_reward = {
-			add_stability = 0.2
+			add_stability = 0.1
 			hidden_effect = {
-				JAP = {country_event = jap.1}
+				JAP = {
+					country_event = {
+						id = jap.1
+						days = 3
+					}
+				}
+				
 			}
 		}
 
+	}
+	
+	
+	
+	focus = {
+		id = JAP_focus_5
+		text = JAP_focus_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		x = 9
+		y = 1
+		completion_reward = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.15
+			}
+			hidden_effect = {
+				JAP = {
+					country_event = {
+						id = jap.5
+						days = 3
+					}
+				}
+				
+			}
+		}
 	}
 	focus = {
 		id = JAP_focus_2
@@ -31,51 +63,40 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			hidden_effect = {
-				JAP = {country_event = jap.2}
+				JAP = {
+					country_event = {
+						id = jap.2
+						days = 3
+					}
+					country_event = {
+						id = jap.7
+						days = 15
+						random_hours = 6
+					}
+				}
 			}
+		}
+		prerequisite = {
+			focus = JAP_focus_1
+		}
+		prerequisite = {
+			focus = JAP_focus_5
 		}
 		x = 7
-		y = 1
+		y = 2
 
 	}
-	
-	
-	focus = {
-		id = JAP_focus_5
-		text = JAP_focus_5
-		icon = GFX_goal_unknown
-		cost = 2.00
-		quisite = {
-			focus = JAP_focus_2
-		}
-		x = 9
-		y = 1
-		completion_reward = {
-			add_popularity = {
-				ideology = conservatism
-				popularity = -0.15
-			}
-			hidden_effect = {
-				JAP = {country_event = jap.5}
-			}
-		}
-	}
-	
 	focus = {
 		id = JAP_focus_7
 		text = JAP_focus_7
 		icon = GFX_goal_unknown
 		cancelable = no
 		cost = 5.00
-		prerequisite = {
-			focus = JAP_focus_5
-		}
+		
 		prerequisite = {
 			focus = JAP_focus_2
 		}
-		prerequisite = {
-			focus = JAP_focus_1
-		}
+		
 		x = 7
 		y = 3
 
