@@ -28,7 +28,7 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GFX_EVENT_SPARTAKUS_LEAGUE.dds"
 	}
 	spriteTypes = {
-		name = "GFX_SGE_event_kingcut
-		texturefile = "gfx/event_pictures/GFX_EVENT_KING_CUT.dds
+		name = "GFX_SGE_event_kingcut"
+		texturefile = "gfx/event_pictures/GFX_EVENT_KING_CUT.dds"
 	}
 }
