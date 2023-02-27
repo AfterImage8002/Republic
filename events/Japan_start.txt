@@ -119,8 +119,8 @@ country_event = {
 				ideology = neutrality
 				popularity = 0.10
 			}
+			add_stability = -0.15
 			hidden_effect = {
-				add_stability = -0.15
 			}
 	
 		}
