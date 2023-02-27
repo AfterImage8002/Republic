@@ -1,0 +1,22 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_Jap_focus_1
+        textureFile = "gfx/interface/goals/JAP_new_focus_1.dds"
+    }
+    spriteType = {
+        name = GFX_Jap_focus_2
+        textureFile = "gfx/interface/goals/JAP_focus_2.dds"
+    }
+    spriteType = {
+        name = GFX_Jap_focus_3
+        textureFile = "gfx/interface/goals/JAP_focus_3.dds"
+    }
+    spriteType = {
+        name = GFX_Jap_focus_4
+        textureFile = "gfx/interface/goals/JAP_focus_4.dds"
+    }
+    spriteType = {
+        name = GFX_Jap_focus_5
+        textureFile = "gfx/interface/goals/JAP_focus_5.dds"
+    }
+}
