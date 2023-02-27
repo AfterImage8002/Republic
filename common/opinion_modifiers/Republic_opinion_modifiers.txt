@@ -13,4 +13,12 @@ opinion_modifiers = {
 		value = -60
 		decay = 0
 	}
-} #end of modifiers	
+	ukraine_anti_russian = {
+		value = -80
+		decay = 0
+	}
+} 
+
+
+
+#end of modifiers	

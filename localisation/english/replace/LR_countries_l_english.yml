@@ -6150,6 +6150,7 @@
  STATE_911:0 "북크리샤나"
  STATE_912:0 "북부 도브루자"
  STATE_77:0 "남부 도브루자"
+ STATE_797:0 "콘스탄티노플"
  STATE_194:0 "페트로그라드"
  STATE_217:0 "차리친"
  STATE_83:0 "남크리샤나"
@@ -6413,6 +6414,7 @@
 
  #의견
  manchurian_incident:0 "만주사변"
+ ukraine_anti_russian:0 "반러시아 정서"
 
 
 
