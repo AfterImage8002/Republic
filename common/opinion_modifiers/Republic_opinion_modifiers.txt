@@ -9,5 +9,8 @@
 # trade = yes/no
 
 opinion_modifiers = {
-	
+	manchurian_incident = {
+		value = -60
+		decay = 0
+	}
 } #end of modifiers	
