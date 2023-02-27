@@ -72,11 +72,6 @@ focus_tree = {
 						id = jap.2
 						days = 3
 					}
-					country_event = {
-						id = jap.7
-						days = 15
-						random_hours = 6
-					}
 				}
 			}
 		}
