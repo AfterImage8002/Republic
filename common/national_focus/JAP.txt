@@ -88,18 +88,7 @@ focus_tree = {
 		icon = GFX_Jap_focus_3
 		cost = 2.00
 		completion_reward = {
-			add_timed_idea = {
-				idea = supports
-				days = 200
-			}
-			hidden_effect = {
-				JAP = {
-					country_event = {
-						id = jap.3
-						days = 3
-					}
-				}
-			}
+			CHO = {country_event = {id = jap.9}}
 		}
 		prerequisite = {
 			focus = JAP_focus_1

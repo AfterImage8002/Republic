@@ -42,7 +42,23 @@ country_event = {
 	option = {
 		name = jap.3.a
 		JAP = {
-			remove_ideas = supports
+			add_political_power = -30
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 	}
 }
@@ -151,5 +167,43 @@ country_event = {
 	
 	option = {
 		name = jap.7.a
+	}
+}
+
+country_event = {
+	id = jap.9
+	title = jap.9.t
+	desc = jap.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		ai_chance = {
+			base = 1
+		}
+		name = jap.9.a
+		JAP = {country_event = {id = jap.3}}
+	}
+	
+	option = {
+		name = jap.9.b
+		JAP = {country_event = {id = jap.10}}
+	}
+}
+country_event = {
+	id = jap.10
+	title = jap.10.t
+	desc = jap.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = jap.10.a
+		JAP = {
+			add_timed_idea = {
+				idea = supports
+				days = 200
+			}
+		}
 	}
 }
