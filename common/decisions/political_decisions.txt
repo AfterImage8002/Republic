@@ -1984,7 +1984,7 @@ political_actions = {
     	visible = {
 			AND = {
 				progressive < 0.6
-				has_government = socialism
+				has_government = progressive
 			}
 		}
 

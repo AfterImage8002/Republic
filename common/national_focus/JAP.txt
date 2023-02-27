@@ -12,11 +12,11 @@ focus_tree = {
 		id = JAP_focus_1
 		text = JAP_focus_1
 		icon = GFX_goal_unknown
-		cost = 2.00
+		cost = 1.00
 		x = 7
 		y = 1
 		completion_reward = {
-			add_stability = 0.1
+			add_stability = 0.3
 			hidden_effect = {
 				JAP = {
 					country_event = {
@@ -118,7 +118,7 @@ focus_tree = {
 		text = JAP_focus_7
 		icon = GFX_goal_unknown
 		cancelable = no
-		cost = 5.00
+		cost = 1.00
 		
 		prerequisite = {
 			focus = JAP_focus_2
@@ -130,6 +130,12 @@ focus_tree = {
 			focus = JAP_focus_5
 		}
 		
+		completion_reward = {
+			country_event = jap.8
+			hidden_effect = {
+				country_event = jap.7
+			}	
+		}
 		x = 7
 		y = 3
 
