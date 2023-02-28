@@ -191,13 +191,12 @@ country_event = {
 		JAP = {country_event = {id = jap.10}}
 		custom_effect_tooltip = jap.9_tt
 		hidden_effect = {
-			load_focus_tree = chosen_collapse
 			CHO = {
+				load_focus_tree = chosen_collapse
 				country_event = {
 					id = cho_col.4
 					days = 45
 				}
-				
 				country_event = {
 					id = cho_col.5
 					days = 80

@@ -15,7 +15,6 @@ focus_tree = {
 		completion_reward = { 
 			add_war_support = -1
 			add_stability = -0.2
-			
 			hidden_effect = {
 				country_event = cho_col.1
 			}
