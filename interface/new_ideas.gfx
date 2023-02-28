@@ -60,4 +60,12 @@ spriteTypes = {
 		name = "GFX_idea_JAP_SMRC"
 		texturefile = "gfx/interface/ideas/SMRC.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_CHO_COL_strike"
+		texturefile = "gfx/interface/ideas/CHO_COL_strike.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_CHO_COL_complaint"
+		texturefile = "gfx/interface/ideas/CHO_COL_complaint.dds"
+	}
 }
