@@ -3,7 +3,6 @@ focus_tree = {
 	country = { 
 		modifier = {
 			add = -1
-			tag = CHO
 		}	
 	}
 	focus = {
