@@ -33,7 +33,7 @@ country_event = {
 		add_command_power = -10
 		CHO = {
 			add_ideas = {
-				CHO_COL_strike
+				CHO_COL_strike_
 			}
 		}
 	}
@@ -50,7 +50,7 @@ country_event = {
 		name = cho_col.3.a
 		CHO = {
 			add_ideas = {
-				CHO_COL_complaint
+				CHO_COL_complaint_
 			}
 		}
 		

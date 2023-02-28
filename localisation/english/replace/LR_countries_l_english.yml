@@ -6405,11 +6405,11 @@
  JAP_SMRC:0 "남만주철도주식회사"
  JAP_SMRC_desc:0 "우리는 만철로부터 조선과 만주에서의 수익을 통한 막대한 이익을 얻고 있습니다."
  
- CHO_COL_strike:0 "대규모 파업"
- CHO_COL_strike_desc:0 "조선반도에서 거대한 소용돌이가 치고 있습니다. 노동자들은 자신들의 §R노동환경 개선§!과 §C참정권 보장§!을 요구하며 대규모 파업을 이어나갑니다."
+ CHO_COL_strike_:0 "대규모 파업"
+ CHO_COL_strike__desc:0 "조선반도에서 거대한 소용돌이가 치고 있습니다. 노동자들은 자신들의 §R노동환경 개선§!과 §C참정권 보장§!을 요구하며 대규모 파업을 이어나갑니다."
 
- CHO_COL_complaint:0 "일본인 항의"
- CHO_COL_complaint_desc:0 "많은 일본인 지주와 기업가가 불안정한 외지를 떠나 내지로 되돌아가고 있습니다."
+ CHO_COL_complaint_:0 "일본인 항의"
+ CHO_COL_complaint__desc:0 "많은 일본인 지주와 기업가가 불안정한 외지를 떠나 내지로 되돌아가고 있습니다."
 
  #결정
  fascist_propagation:0 "파시즘 선전"

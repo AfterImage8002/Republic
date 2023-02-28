@@ -253,7 +253,7 @@ ideas = {
 				production_speed_rail_way_factor = 0.05
 			}
 		}
-		CHO_COL_strike = {
+		CHO_COL_strike_ = {
 			allowed_civil_war = {always = no}
 			removal_cost = -1
 			allowed = {
@@ -266,7 +266,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.3
 			}
 		}
-		CHO_COL_complaint = {
+		CHO_COL_complaint_ = {
 			allowed_civil_war = {always = no}
 			removal_cost = -1
 			allowed = {
