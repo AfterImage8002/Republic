@@ -154,6 +154,7 @@ country_event = {
 	}
 	option = {
 		name = jap.7.b
+		
 	}
 }
 
@@ -188,6 +189,21 @@ country_event = {
 	option = {
 		name = jap.9.b
 		JAP = {country_event = {id = jap.10}}
+		custom_effect_tooltip = jap.9_tt
+		hidden_effect = {
+			load_focus_tree = chosen_collapse
+			CHO = {
+				country_event = {
+					id = cho_col.4
+					days = 45
+				}
+				
+				country_event = {
+					id = cho_col.5
+					days = 80
+				}
+			}
+		}
 	}
 }
 country_event = {

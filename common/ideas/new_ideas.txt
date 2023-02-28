@@ -253,6 +253,28 @@ ideas = {
 				production_speed_rail_way_factor = 0.05
 			}
 		}
+		CHO_COL_strike = {
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+	
+			picture = CHO_COL_strike
+				
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_factory_efficiency_gain_factor = -0.3
+			}
+		}
+		CHO_COL_complaint = {
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+	
+			picture = CHO_COL_complaint
+				
+			modifier = {
+				political_power_cost = 2.00
+				production_speed_buildings_factor = -0.2
+			}
+		}
 	}
 	hidden_ideas = {
 		fascist_rallying = {

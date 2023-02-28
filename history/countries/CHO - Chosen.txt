@@ -22,4 +22,8 @@ set_popularities = {
 	socialism = 25
 	communism = 25
 }
+
+add_ideas = {
+	economic_depression
+}
 recruit_character = CHO_Itou
