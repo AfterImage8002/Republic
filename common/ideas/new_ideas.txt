@@ -245,7 +245,7 @@ ideas = {
 		JAP_SMRC = {
 			allowed_civil_war = {always = no}
 			removal_cost = -1
-	
+			
 			picture = JAP_SMRC
 				
 			modifier = {
@@ -256,7 +256,9 @@ ideas = {
 		CHO_COL_strike = {
 			allowed_civil_war = {always = no}
 			removal_cost = -1
-	
+			allowed = {
+				tag = CHO
+			}
 			picture = CHO_COL_strike
 				
 			modifier = {
@@ -267,7 +269,9 @@ ideas = {
 		CHO_COL_complaint = {
 			allowed_civil_war = {always = no}
 			removal_cost = -1
-	
+			allowed = {
+				tag = CHO
+			}
 			picture = CHO_COL_complaint
 				
 			modifier = {
