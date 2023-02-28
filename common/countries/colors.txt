@@ -1,4 +1,8 @@
 #reload countrycolors
+RFR = {
+	color = rgb { 150 0 15}
+	color_ui = rgb {150 0 15}
+}
 KRF = {
 	color = rgb { 220 220 220 }
 	color_ui = { 220 220 220 }
@@ -555,11 +559,11 @@ D03 = {
 	color_ui = rgb { 245 123 38 }
 }
 D04 = {
-	color = rgb { 150 0 15 }
+	color = rgb { 0 0 0 }
 	color_ui = rgb { 150 0 15 }
 }
 D05 = {
-	color = rgb { 150 0 15  }
+	color = rgb { 0 0 0  }
 	color_ui = rgb { 150 0 15 }
 }
 D06 = {

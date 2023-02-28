@@ -5995,6 +5995,10 @@
  STR_ADJ:0 "해협위원회"
  IRE_autonomy_free_state:0 "아일랜드 자유국"
  IRE_autonomy_free_state_DEF:0 "아일랜드 자유국"
+
+ RFR:0 "프랑스 혁명위원회"
+ RFR_DEF:0 "프랑스 혁명위원회"
+ RFR_ADJ:0 "프랑스 혁명위원회"
  
 
  #정당명
