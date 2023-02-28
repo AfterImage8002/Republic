@@ -28,11 +28,6 @@ focus_tree = {
 		x = 7
 		y = 0
 		completion_reward = {
-			CHO = {
-				add_ideas = {
-					CHO_COL_strike
-				}
-			}
 			
 			country_event = cho_col.2
 		}

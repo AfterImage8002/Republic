@@ -7,7 +7,7 @@ country_event = {
 	picture = GFX_0
 
 	is_triggered_only = yes
-
+	fire_only_once = yes
 	option = {
 		name = cho_col.1.a
 		add_stability = 0.05
@@ -27,10 +27,15 @@ country_event = {
 	picture = GFX_0
 
 	is_triggered_only = yes
-
+	fire_only_once = yes
 	option = {
 		name = cho_col.2.a
-		add_war_support = -0.5
+		add_command_power = -10
+		CHO = {
+			add_ideas = {
+				CHO_COL_strike
+			}
+		}
 	}
 }
 
@@ -40,7 +45,7 @@ country_event = {
 	desc = cho_col.3.d
 	picture = GFX_0
 	is_triggered_only = yes
-
+	fire_only_once = yes
 	option = {
 		name = cho_col.3.a
 		CHO = {
@@ -58,7 +63,7 @@ country_event = {
 	picture = GFX_0
 	fire_only_once = yes
 	is_triggered_only = yes
-
+	fire_only_once = yes
 	option = {
 		recruit_character = CHO_Gov
 		retire_country_leader = yes
@@ -96,7 +101,7 @@ country_event = {
 	picture = GFX_0
 
 	is_triggered_only = yes
-
+	fire_only_once = yes
 	option = {
 		name = cho_col.5.a
 	}
