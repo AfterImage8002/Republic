@@ -138,3 +138,8 @@ music = {
 	file = "listen_all_workers.ogg"
 	volume = 1.00
 }
+music = {
+	name = "La_marse"
+	file = "Marse.ogg"
+	volume = 1.00
+}

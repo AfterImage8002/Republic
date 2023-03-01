@@ -275,3 +275,13 @@ music = {
 		
 	}
 }
+music = {
+	song = "La_marse"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
