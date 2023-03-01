@@ -25,6 +25,8 @@ set_technology = {
 	fleet_in_being = 1
 }
 recruit_character = UKR_Kost_Levytsky
+recruit_character = UKR_nestor_mahkno
+recruit_character = UKR_Stefan_Bandera
 
 add_ideas = {
 	economic_depression
