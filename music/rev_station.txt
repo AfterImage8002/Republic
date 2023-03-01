@@ -11,15 +11,6 @@ music = {
 	
 }
 music = {
-	song = "yeondae"
-	chance = {
-		modifier = {
-			factor = 1
-			always = yes
-		}
-	}
-}
-music = {
 	song = "redsun"
 	chance = {
 		modifier = {
