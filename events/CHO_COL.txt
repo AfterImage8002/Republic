@@ -138,3 +138,15 @@ news_event = {
 		}
 	}
 }
+
+country_event = {
+	id = cho_col.7
+	title = cho_col.6.t
+	desc = cho_col.6.d
+	picture = GFX_0
+	is_triggered_only = yes
+	option = {
+		name = cho_col.6.a
+		play_song = red_sun
+	}
+}
