@@ -260,7 +260,7 @@ country_event = {
 	}
 	option = {
 		name = jap_k.11.a
-		custom_effect_tooltip = jap_k.11_tt
+		
 		add_manpower = 10000
 		JAP = {
 			add_timed_idea = {
@@ -268,6 +268,7 @@ country_event = {
 				days = 20
 			}
 		}
+		custom_effect_tooltip = jap_k.11_tt
 	}
 }
 country_event = {
