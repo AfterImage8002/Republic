@@ -389,5 +389,10 @@ ideas = {
 				
 			}
 		}
+		to_surrender = {
+			modifier = {
+				surrender_limit = -0.99
+			}
+		}
 	}
 }
