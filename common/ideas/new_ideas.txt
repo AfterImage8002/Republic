@@ -293,7 +293,7 @@ ideas = {
 		}
 		JAP_kudeta_army = {
 			modifier = {
-				conscription = -0.03
+				conscription = -0.6 
 			}
 		}
 	}

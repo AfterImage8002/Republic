@@ -6421,7 +6421,8 @@
  CHO_COL_complaint__desc:0 "많은 일본인 지주와 기업가가 불안정한 외지를 떠나 내지로 되돌아가고 있습니다."
 
  young_japs_support:0 "청년 장교들의 지원"
- JAP_kudeta_army:0 "쿠데타군"
+ JAP_kudeta_army:0 "군부 간의 결투"
+ JAP_kudeta_army_desc:0 "작금의 내란은 그저 군부간의 결투일 뿐입니다. 군부와 민간인들은 서로에게 간섭하고 싶지 않아합니다."
 
  #결정
  fascist_propagation:0 "파시즘 선전"
