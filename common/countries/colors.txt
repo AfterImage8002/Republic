@@ -559,7 +559,7 @@ D03 = {
 	color_ui = rgb { 245 123 38 }
 }
 D04 = {
-	color = rgb { 0 0 0 }
+	color = rgb { 140 140 140 }
 	color_ui = rgb { 150 0 15 }
 }
 D05 = {

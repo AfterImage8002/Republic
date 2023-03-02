@@ -149,6 +149,48 @@ country_event = { #황도파 on
 	fire_only_once = yes
 	option = {
 		name = jap.7.a
+		hidden_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.5
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -1
+			}
+			start_civil_war = {
+				ruling_party = neutrality
+				ideology = progressive
+				size = 0.8
+				capital = 531
+				states = {
+					526 528 529 530 531 532 533 534 535 536 555 633 645 646 647 648 684 743 745
+				}
+				
+			}
+			random_other_country = {
+				limit = {
+					original_tag = jap
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.5
+				}
+				add_popularity = {
+					ideology = conservatism
+					popularity = 0.10
+				}
+				add_popularity = {
+					ideology = socialism
+					popularity = 0.10
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+		}
+		
 	}
 	option = {
 		name = jap.7.b
@@ -177,13 +219,16 @@ country_event = { #조선총독부에게 선택강요
 	is_triggered_only = yes
 	option = {
 		ai_chance = {
-			base = 1
+			factor = 30
 		}
 		name = jap.9.a
 		JAP = {country_event = {id = jap.3}}
 	}
 	
 	option = {
+		ai_chance = {
+			factor = 0
+		}
 		name = jap.9.b
 		JAP = {country_event = {id = jap.10}}
 		custom_effect_tooltip = jap.9_tt
