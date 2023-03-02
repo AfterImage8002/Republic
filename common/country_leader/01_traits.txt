@@ -12,6 +12,12 @@
 
 ###Todo remove commented advisor experience gains
 leader_traits = {
+	military_government = {
+		random = no
+		political_power_cost = 0.1
+		planning_speed = 0.2
+		max_planning_factor = 0.2
+	}
 	conservative_general = {
 		random = yes
 		political_power_factor = -0.1

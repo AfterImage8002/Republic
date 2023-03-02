@@ -1190,8 +1190,8 @@
  JAP_progressive:0 "일본국"
  JAP_conservatism_DEF:0 "일본국"
  JAP_progressive_DEF:0 "일본국"
- JAP_neutrality:0 "일본 막부"
- JAP_neutrality_DEF:0 "일본 막부"
+ JAP_neutrality:0 "일본 군사정부"
+ JAP_neutrality_DEF:0 "일본 군사정부"
  JAP_communism:0 "일본인민공화국"
  JAP_socialism:0 "일본인민공화국"
  JAP_communism_DEF:0 "일본인민공화국"
@@ -6177,6 +6177,7 @@
  VICTORY_POINTS_9833:0 "콘스탄티노플"
  VICTORY_POINTS_3682:0 "미르칸슈라"
  VICTORY_POINTS_10068:0 "톈진"
+ VICTORY_POINTS_7125:0 "경성"
 
  #세력
  Commonwealth:0 "연합국"
@@ -6206,6 +6207,7 @@
  red_napoleon:0 "붉은 나폴레옹"
  prince_of_east:0 "동방의 왕자"
  prime_minister_of_civilian:0 "문민의 총리"
+ military_government:0 "군사정부"
 
  #사람이름 인명 캐릭터
  KOR_CabinetMeeting_dem:0 "국무원"
@@ -6244,7 +6246,8 @@
  DAG_Rasulbek_Kaitbekov:0 "라술벡 카이트베코프"
  SGE_Spartacus:0 "스파르타쿠스 연맹"
  SIC_Liu:0 "류샹"
- CHO_Gov:0 "조선총독부"
+ CHO_Gov:0 "공격받은 조선총독부"
+ JAP_kudeta:0 "황도파 장교회의"
 
  #괴뢰국
  autonomy_warlord:0 "군벌"
@@ -6417,6 +6420,9 @@
  CHO_COL_complaint_:0 "일본인 항의"
  CHO_COL_complaint__desc:0 "많은 일본인 지주와 기업가가 불안정한 외지를 떠나 내지로 되돌아가고 있습니다."
 
+ young_japs_support:0 "청년 장교들의 지원"
+ JAP_kudeta_army:0 "쿠데타군"
+
  #결정
  fascist_propagation:0 "파시즘 선전"
  progressive_propagation:0 "진보주의 선전"
@@ -6428,6 +6434,43 @@
  #의견
  manchurian_incident:0 "만주사변"
  ukraine_anti_russian:0 "반러시아 정서"
+
+ #음악
+ bandiera:0 "[이탈리아] 적기"
+ redsun:0 "[중국] 하늘의 붉은 태양"
+ warsaw:0 "[폴란드] 바르샤바 시민"
+ red_flag:0 "[영국] 붉은 깃발"
+ solidarity:0 "[미국] 연대여 영원하라"
+ einheitsfront:0 "[독일] 통일전선의 노래"
+ comrad:0 "[한국] 동지가"
+ arbeit:0 "[오스트리아] 빈의 노동자들"
+ our_best:0 "[일본] 힘내자"
+ Quand:0 "[프랑스] 동지여, 아침은 언제 밝아오는가"
+ with_tito:0 "[유고슬라비아] 원수 티토와 함께"
+ hungary_song:0 "[헝가리] 해방의 노래"
+ norway_song:0 "[노르웨이] 비밀스러운 행진"
+ which_side:0 "[미국] 그대는 어느 편인가"
+ internationale:0 "[프랑스] 인터내셔널가"
+ cze_partisan:0 "[체코] 파르티잔의 길을 따라"
+ sov_partisan:0 "[러시아] 파르티잔의 노래"
+ red_army_strongest:0 "[러시아] 붉은 군대는 가장 강력하다"
+ battle_going:0 "[러시아] 그리고 또 다시 전투는 계속된다"
+ for_im:0 "[한국] 임을 위한 행진곡"
+ ami:0 "[독일] 미제는 꺼져라!"
+ best_korea:0 "[조선] 애국가"
+ oktobersong:0 "[독일] 10월의 노래"
+ was_wollen:0 "[독일] 무엇을 위해 축배를 들겠는가"
+ cuba:0 "[쿠바] 쿠바, 쿠바는 얼마나 아름다운가!"
+ anarch:0 "[우크라이나] 어머니 아나키즘은 아이들을 사랑하신다"
+ spain_anarch:0 "[스페인] 인민의 아들들이여"
+ listen_workers:0 "[일본] 들어라, 만국의 노동자"
+ La_marse:0 "[프랑스] 마르세유의 노래"
+ #슈퍼이벤트 음악
+ yangyang:0 "[한국] 양양가"
+ young_japs:0 "[일본] 청년일본의 노래"
+ #채널
+ a_rev_station:0 "혁명을 향하여"
+ a_rev_station_TITLE:0 "혁명을 향하여"
 
 
 

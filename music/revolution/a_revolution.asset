@@ -1,0 +1,145 @@
+music = {
+	name = "bandiera"
+	file = "Bandiera_Rossa.ogg"
+	volume = 1.00
+}
+music = {
+	name = "redsun"
+	file = "Red_Sun.ogg"
+	volume = 1.00
+}
+music = {
+	name = "warsaw"
+	file = "Warsyava.ogg"
+	volume = 1.00
+}
+music = {
+	name = "red_flag"
+	file = "Red_flag.ogg"
+	volume = 1.00
+}
+music = {
+	name = "solidarity"
+	file = "solidarity_forever.ogg"
+	volume = 1.00
+}
+music = {
+	name = "einheitsfront"
+	file = "einheitsfront.ogg"
+	volume = 1.00
+}
+music = {
+	name = "comrad"
+	file = "Comrad.ogg"
+	volume = 1.00
+}
+music = {
+	name = "arbeit"
+	file = "AvW.ogg"
+	volume = 1.00
+}
+music = {
+	name = "our_best"
+	file = "Lets_do_our_best.ogg"
+	volume = 1.00
+}
+music = {
+	name = "Quand"
+	file = "Quand feratil jour camarade Mireille Mathieu.ogg"
+	volume = 1.00
+}
+music = {
+	name = "with_tito"
+	file = "With Marshal Tito.ogg"
+	volume = 1.00
+}
+music = {
+	name = "hungary_song"
+	file = "A felszabadulas dala.ogg"
+	volume = 1.00
+}
+music = {
+	name = "norway_song"
+	file = "Hemmeleg oppmarsj.ogg"
+	volume = 1.00
+}
+music = {
+	name = "which_side"
+	file = "Which Side Are You On.ogg"
+	volume = 1.00
+}
+music = {
+	name = "internationale"
+	file = "Linternationale.ogg"
+	volume = 1.00
+}
+music = {
+	name = "cze_partisan"
+	file = "Partizanskym Chodnikom.ogg"
+	volume = 1.00
+}
+music = {
+	name = "sov_partisan"
+	file = "Soviet_partisan.ogg"
+	volume = 1.00
+}
+music = {
+	name = "oktobersong"
+	file = "Oktobersong.ogg"
+	volume = 1.00
+}
+music = {
+	name = "battle_going"
+	file = "Battle_going.ogg"
+	volume = 1.00
+}
+music = {
+	name = "for_im"
+	file = "for_im.ogg"
+	volume = 1.00
+}
+music = {
+	name = "ami"
+	file = "ami_go_home.ogg"
+	volume = 1.00
+}
+music = {
+	name = "best_korea"
+	file = "best_korea.ogg"
+	volume = 1.00
+}
+music = {
+	name = "red_army_strongest"
+	file = "Red_army_strongest.ogg"
+	volume = 1.00
+}
+music = {
+	name = "was_wollen"
+	file = "Was_wollen_bier_tricken.ogg"
+	volume = 1.00
+}
+music = {
+	name = "cuba"
+	file = "Cuba_beautiful.ogg"
+	volume = 1.00
+}
+music = {
+	name = "anarch"
+	file = "anarchymama.ogg"
+	volume = 1.00
+}
+music = {
+	name = "spain_anarch"
+	file = "Hijos del pueblo.ogg"
+	volume = 1.00
+}
+music = {
+	name = "listen_workers"
+	file = "listen_all_workers.ogg"
+	volume = 1.00
+}
+music = {
+	name = "La_marse"
+	file = "Marse.ogg"
+	volume = 1.00
+}

@@ -23,12 +23,37 @@ spriteTypes = {
 		name = "GFX_event_communism_rallying"
 		texturefile = "gfx/event_pictures/event_communism_rallying.dds"
 	}
-	spriteTypes = {
+	spriteType = {
 		name = "GFX_SGE_event_SPARTAKUS"
 		texturefile = "gfx/event_pictures/GFX_EVENT_SPARTAKUS_LEAGUE.dds"
 	}
-	spriteTypes = {
+	spriteType = {
 		name = "GFX_SGE_event_kingcut"
 		texturefile = "gfx/event_pictures/GFX_EVENT_KING_CUT.dds"
 	}
+	spriteType = {
+		name = "GFX_event_jap.1"
+		texturefile = "gfx/event_pictures/event_jap_1.dds"
+	}
+	spriteType = {
+		name = "GFX_event_jap.2"
+		texturefile = "gfx/event_pictures/event_jap_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_jap.3"
+		texturefile = "gfx/event_pictures/event_jap_3.dds"
+	}
+	spriteType = {
+		name = "GFX_event_jap.5"
+		texturefile = "gfx/event_pictures/event_jap_5.dds"
+	}
+	spriteType = {
+		name = "GFX_event_jap.7"
+		texturefile = "gfx/event_pictures/event_jap_7.dds"
+	}
+	spriteType = {
+		name = "GFX_event_jap.9"
+		texturefile = "gfx/event_pictures/event_jap_9.dds"
+	}
+	
 }

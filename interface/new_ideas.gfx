@@ -68,4 +68,9 @@ spriteTypes = {
 		name = "GFX_idea_CHO_COL_complaint"
 		texturefile = "gfx/interface/ideas/CHO_COL_complaint.dds"
 	}
+	spriteType = {
+		name = "rev_music"
+		texturefile = "gfx/interface/rev_music_on.dds"
+		noOfFrames = 2
+	}
 }

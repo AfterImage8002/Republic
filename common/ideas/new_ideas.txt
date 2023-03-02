@@ -243,7 +243,7 @@ ideas = {
 			}
 		}	
 		JAP_SMRC = {
-			allowed_civil_war = {always = no}
+			allowed_civil_war = {always = yes}
 			removal_cost = -1
 			
 			picture = JAP_SMRC
@@ -277,6 +277,23 @@ ideas = {
 			modifier = {
 				political_power_cost = 2.00
 				production_speed_buildings_factor = -0.2
+			}
+		}
+		young_japs_support = {
+			modifier = {
+				attack_bonus_against_cores = 0.2
+				army_speed_factor = 0.2
+			}
+		}
+		JAP_socialism_acception = {
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		JAP_kudeta_army = {
+			modifier = {
+				conscription = -0.03
 			}
 		}
 	}
@@ -340,7 +357,7 @@ ideas = {
 			allowed = {always = yes}
 			cancel = {has_government = communism}
 			allowed_civil_war = {always = no}
-			modifier = { 
+			modifier = {
 				
 			}
 		}
@@ -389,5 +406,11 @@ ideas = {
 				
 			}
 		}
+		to_surrender = {
+			modifier = {
+				surrender_limit = -0.99
+			}
+		}
+		
 	}
 }

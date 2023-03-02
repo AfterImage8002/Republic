@@ -29,3 +29,34 @@ defined_text = {
         localization_key = "sp_event_asd_REMARK"
     }
 }
+
+defined_text = {
+    name = get_super_event_title
+	
+    text = {
+        trigger = {
+            has_global_flag = koudouha
+        }
+        localization_key = "super_event_koudouha"
+    }
+}
+defined_text = {
+    name = get_super_event_quote
+    
+    text = {
+        trigger = {
+            has_global_flag = koudouha
+        }
+        localization_key = "sp_event_koudouha_QUOTE"
+    }
+}
+defined_text = {
+    name = get_super_event_remark
+    
+    text = { 
+        trigger = {
+            has_global_flag = koudouha
+        }
+        localization_key = "sp_event_koudouha_REMARK"
+    }
+}
