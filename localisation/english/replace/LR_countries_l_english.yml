@@ -6423,6 +6423,8 @@
  young_japs_support:0 "청년 장교들의 지원"
  JAP_kudeta_army:0 "군부 간의 결투"
  JAP_kudeta_army_desc:0 "작금의 내란은 그저 군부간의 결투일 뿐입니다. 군부와 민간인들은 서로에게 간섭하고 싶지 않아합니다."
+ JAP_k_last_defence:0 "최후의 방어"
+ JAP_k_last_attack:0 "최후의 공세"
 
  #결정
  fascist_propagation:0 "파시즘 선전"

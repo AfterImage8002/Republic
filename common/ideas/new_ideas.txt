@@ -296,6 +296,16 @@ ideas = {
 				conscription = -0.6 
 			}
 		}
+		JAP_k_last_defence = {
+			modifier = {
+				army_defence_factor = 0.5
+			}
+		}
+		JAP_k_last_attack = {
+			modifier = {
+				army_attack_factor = 0.5
+			}
+		}
 	}
 	hidden_ideas = {
 		fascist_rallying = {
