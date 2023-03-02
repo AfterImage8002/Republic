@@ -239,7 +239,7 @@ country_event = {
 		JAP = {
 			add_timed_idea = {
 				idea = JAP_k_last_defence
-				days = 30
+				days = 20
 			}
 		}
 	}
@@ -251,7 +251,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = JAP
-		date > 1936.8.1
+		date > 1936.7.1
 		controls_state = 534
 		controls_state = 533
 		NOT = {
@@ -265,7 +265,7 @@ country_event = {
 		JAP = {
 			add_timed_idea = {
 				idea = JAP_k_last_attack
-				days = 30
+				days = 20
 			}
 		}
 	}
@@ -287,6 +287,12 @@ country_event = {
 		add_manpower = 10000
 		custom_effect_tooltip = jap_k.12_tt
 		hidden_effect = {
+			random_other_country = {
+				limit = {
+					original_tag = JAP
+				}
+				set_province_controller = 1182
+			}
 			add_ideas = {
 				to_surrender
 			}
