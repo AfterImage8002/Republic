@@ -1,4 +1,20 @@
 characters = {
+
+	JAP_kudeta = {
+		name = JAP_kudeta
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/kudeta.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {
+				military_government
+				provisional_government
+			}
+		}
+	}
 	JAP_reijirou = {
 		name = JAP_reijirou
 		portraits = {

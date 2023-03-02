@@ -1,0 +1,185 @@
+add_namespace = jap_k
+
+country_event = {
+	id = jap_k.1
+	title = jap_k.1.t
+	desc = jap_k.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jap_k.1.a
+		remove_ideas = {
+			JAP_zaibatsus
+		}
+		random_core_state = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		random_core_state = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = jap_k.2
+	title = jap_k.2.t
+	desc = jap_k.2.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jap_k.2.a
+		add_manpower = 10000
+	}
+}
+country_event = {
+	id = jap_k.3
+	title = jap_k.3.t
+	desc = jap_k.3.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jap_k.3.a
+		add_ideas = {
+			JAP_kudeta_army
+		}
+	}
+}
+country_event = {
+	id = jap_k.4
+	title = jap_k.4.t
+	desc = jap_k.4.d
+	is_triggered_only = yes
+	option = {
+		name=jap_k.4.a
+		530 = {
+			set_demilitarized_zone = yes
+		}
+		528 = {
+			set_demilitarized_zone = yes
+		}
+		536 = {
+			set_demilitarized_zone = yes
+		}
+		535 = {
+			set_demilitarized_zone = yes
+		}
+		534 = {
+			set_demilitarized_zone = yes
+		}
+		526 = {
+			set_demilitarized_zone = yes
+		}
+	}
+}
+country_event = {
+	id = jap_k.5
+	title = jap_k.5.t
+	desc = jap_k.5.d
+	is_triggered_only = yes
+	option = {
+		ai_chance = {
+			factor = 30
+		}
+		name = jap_k.5.a
+		CHI = {
+			transfer_state = 743
+		}
+		743 = {
+			set_demilitarized_zone = yes
+		}
+		hidden_effect = {
+			MAN = {
+				country_event = {
+					id = jap_k.6
+					days = 15
+				}
+			}
+		}
+		JAP = {add_opinion_modifier = { target = CHI modifier = occupy_ting }}
+		add_threat = 0.01
+		hidden_effect = {
+			JAP = {
+				country_event = jap_k.7
+			}
+			random_other_country = {
+				limit = {
+					original_tag = jap
+				}
+				country_event = jap_k.7
+			}
+		}
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = jap_k.5.b
+		add_political_power = -30
+	}
+}
+country_event = {
+	id = jap_k.6
+	title = jap_k.6.t
+	desc = jap_k.6.d
+	is_triggered_only = yes
+	option = {
+		ai_chance = {
+			factor = 30
+		}
+		name = jap_k.6.a
+		MAN = {
+			transfer_state = 745
+		}
+		745 = {
+			set_demilitarized_zone = yes
+		}
+		JAP = {add_opinion_modifier = { target = CHI modifier = occupy_daren }}
+		add_threat = 0.01
+		hidden_effect = {
+			JAP = {
+				country_event = jap_k.8
+			}
+			random_other_country = {
+				limit = {
+					original_tag = jap
+				}
+				country_event = jap_k.8
+			}
+		}
+	}
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+		name = jap_k.5.b
+		add_political_power = -30
+	}
+}
+country_event = {
+	id = jap_k.7
+	title = jap_k.7.t
+	desc = jap_k.7.d
+	is_triggered_only = yes
+	option = {
+		name = jap_k.7.a
+		add_war_support = -0.1
+	}
+}
+country_event = {
+	id = jap_k.8
+	title = jap_k.8.t
+	desc = jap_k.8.d
+	is_triggered_only = yes
+	option = {
+		name = jap_k.7.a
+		add_war_support = -0.1
+	}
+}

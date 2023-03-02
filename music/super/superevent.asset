@@ -1,0 +1,10 @@
+music = {
+    name = "yangyang"
+    file = "yangyang.ogg"
+    volume = 0.90
+}
+music = {
+    name = "young_japs"
+    file = "young_japs.ogg"
+    volume = 0.90
+}

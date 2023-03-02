@@ -17,6 +17,15 @@ opinion_modifiers = {
 		value = -80
 		decay = 0
 	}
+
+	occupy_ting = {
+		value = -30
+		decay = 0
+	}
+	occupy_daren = {
+		value = -30
+		decay = 0
+	}
 } 
 
 

@@ -19,6 +19,11 @@ guiTypes = {
             position = {x = 11 y = 72}
         }
 		
+		iconType = {
+            name = "Super_Event_Image_koudouha"
+            spriteType = "GFX_sp_event_koudouha"
+            position = {x = 11 y = 72}
+        }
 
 		
 		background = {

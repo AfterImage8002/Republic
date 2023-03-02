@@ -5,6 +5,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_sp_event_koudouha"
+		texturefile = "gfx/super_events/koudouha.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_sp_event_window"
 		textureFile = "gfx/Super_Event_Window.dds"
 	}

@@ -112,7 +112,7 @@ country_event = { #정우회 비난했다가 지들이 욕먹음
 		JAP = {
 			add_popularity = {
 				ideology = progressive
-				popularity = -0.15
+				popularity = -0.2
 			}
 		}
 	}
@@ -148,6 +148,9 @@ country_event = { #황도파 on
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
+		ai_chance = {
+			factor = 0
+		}
 		name = jap.7.a
 		hidden_effect = {
 			add_popularity = {
@@ -171,6 +174,10 @@ country_event = { #황도파 on
 				}
 				
 			}
+			country_event = super.2
+			recruit_character = JAP_kudeta
+			retire_country_leader = yes
+			load_focus_tree = JAP_k
 			random_other_country = {
 				limit = {
 					original_tag = jap
@@ -195,12 +202,21 @@ country_event = { #황도파 on
 					neutrality_forbiden
 				}
 			}
+			country_event = jap_k.3
+			CHI = {
+				country_event = {
+					id = jap_k.5
+					days = 10
+				}
+			}
 		}
 		
 	}
 	option = {
 		name = jap.7.b
-		
+		ai_chance = {
+			factor = 30
+		}
 	}
 }
 
@@ -277,21 +293,32 @@ country_event = {
 	desc = jap.11.d
 	picture = GFX_1
 	fire_only_once = yes
+	hidden = no
 	trigger = {
 		tag = JAP
 		has_civil_war = yes
-		controls_state = 529
-		controls_state = 531
+		controls_province = 7072
+		controls_province = 1092
 	}
 	option = {
 		name=jap.11.a
-		random_other_country = {
-			limit = {
-				original_tag = JAP
+		
+		hidden_effect = {
+			random_other_country = {
+				limit = {
+					original_tag = JAP
+				}
+				add_ideas = {
+					to_surrender
+				}
 			}
-			add_ideas = {
-				to_surrender
+			JAP = {
+				country_event = {
+					id = jap_k.4
+					days = 15
+				}
 			}
+			
 		}
 	}
 }
