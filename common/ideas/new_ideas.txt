@@ -294,6 +294,7 @@ ideas = {
 		JAP_kudeta_army = {
 			modifier = {
 				conscription = -0.6 
+				surrender_limit = 0.5
 			}
 		}
 		JAP_k_last_defence = {
