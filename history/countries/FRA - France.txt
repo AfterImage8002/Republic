@@ -357,9 +357,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	limited_conscription
 	FRA_inefficient_economy_2
 	economic_depression
 	threat_from_west
