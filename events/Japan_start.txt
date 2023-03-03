@@ -424,7 +424,7 @@ country_event = { #정치인 컷!
 		name = jap.13.b
 		custom_effect_tooltip = jap.13.b_tt
 		add_to_variable = {
-			var_jap_rev = -15
+			var_jap_rev = -10
 		}
 		ai_chance = {
 			factor = 0
