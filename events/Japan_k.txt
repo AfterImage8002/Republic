@@ -296,6 +296,11 @@ country_event = {
 					original_tag = JAP
 				}
 				set_province_controller = 1182
+				set_province_controller = 4188
+				set_province_controller = 4184
+				set_province_controller = 4100
+				set_province_controller = 993
+				set_province_controller = 1097
 			}
 			add_ideas = {
 				to_surrender
