@@ -228,9 +228,16 @@ country_event = {
 	trigger = {
 		tag = JAP
 		date > 1936.5.1
-		NOT = {
-			controls_state = 535	
-			controls_state = 532
+		OR = {
+			NOT = {
+				controls_state = 535
+			}
+			NOT = {
+				controls_state = 532
+			}
+			NOT = {
+				controls_state = 533
+			}
 		}
 	}
 	option = {
