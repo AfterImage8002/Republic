@@ -309,6 +309,12 @@ ideas = {
 				army_speed_factor = 0.4
 			}
 		}
+		JAP_good_serach = {
+			modifier = {
+				army_core_attack_factor	 = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
 	}
 	hidden_ideas = {
 		fascist_rallying = {
