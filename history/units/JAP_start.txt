@@ -1,4 +1,4 @@
-﻿division_template = {
+division_template = {
 	name = "Hohei Shidan" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
 	division_names_group = JAP_INF_01
 									# 1 engineering regiment, 1 recon regiment
@@ -124,7 +124,7 @@ units = {
 		location = 9859 #Ominato Naval Base
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.3
 		
 	}
 	division = {
@@ -132,7 +132,7 @@ units = {
 		location = 1399 #Shumshu
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8	
+		start_equipment_factor = 0.3	
 	}
 	division = { # "Karafuto Dokuritsu Konsei Ryodan"
 		division_name = {
@@ -141,8 +141,7 @@ units = {
 		}
 		location = 12446 #Toyohara
 		division_template = "Dokuritsu Konsei Ryodan"
-		start_equipment_factor = 0.8
-		force_equipment_variants = { light_tank_chassis_0 = { owner = JAP version_name = "Type 94 Tankette" } }
+		start_experience_factor = 0.3
 	}
 
 	#Chuo Homengun - East Japan Army
@@ -153,7 +152,7 @@ units = {
 		}
 		location = 7087 #Shizuoka
 		division_template = "Hohei Shidan"
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
 	}
 	division = { # "Konoe Shidan"
 		division_name = {
@@ -240,11 +239,36 @@ units = {
 		}
 		location = 7186 #Taipei
 		division_template = "Hohei Shidan"
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
 	}
 
 
-	
+	#Chosen Gun - Korea Army
+	division = { # "19 'Tora' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 4052 #Pyongyang
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = { # "20 'Asa' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 7125 #Seoul
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Chinkai Kichi Kaiheidan"
+		location = 4056 #Pusan
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
 
 
 	### Island IJN Garrisons ###
@@ -357,126 +381,6 @@ units = {
 		start_equipment_factor = 0.3
 		
 	}
-
-
-	##### Kwantung Army #####
-	#Garrisons
-
-	division = {
-		name = "Manshu Tetsudo Shubitai" # Manchuria Railway Guard
-		location = 11771 #Mukden
-		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9	
-	}
-	division = {
-		name = "Kantogun Shureibu Keibitai"
-		location = 4572 #Hsinking
-		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9		
-	}
-	division = {
-		name = "Ryojun Kichi Shubitai"
-		location = 1150 #Dalian
-		division_template = "Chuton-chi Shidan"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.9		
-	}
-	division = { # "9 'Take' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 9
-		}
-		location = 3944 #Near Changkufeng Lake
-		division_template = "Hohei Shidan"
-		start_equipment_factor = 0.9
-	}
-	division = { # "14 'Sho' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 14
-		}
-		location = 3843 #Eastern Manchuria
-		division_template = "Hohei Shidan"
-		start_equipment_factor = 0.9
-	}
-	
-	# 5 Homengun - 5th Field Army
-	division = {
-		name = "3 Dokuritsu Shubirentai"
-		location = 10521
-		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-		
-	}
-	division = {
-		name = "4 Dokuritsu Shubirentai"
-		location = 10368
-		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-		
-	}
-	division = {
-		name = "5 Dokuritsu Shubirentai"
-		location = 10698
-		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-		
-	}
-	division = {
-		name = "6 Dokuritsu Shubirentai"
-		location = 12500
-		division_template = "Chuton-chi Shidan"		# Japanese garrison (better than militia, but still with older equipment)
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-		
-	}
-	division = { # "8 'Sugi' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 8
-		}
-		location = 1693
-		division_template = "Hohei Shidan"
-		start_experience_factor = 0.3
-	}
-	division = { # "12 'Ken' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 12
-		}
-		location = 7569
-		division_template = "Hohei Shidan"
-		start_experience_factor = 0.3
-	}
-	
-	
-
-
-	#2 Homengun - 2nd Field Army
-
-	division = { # "10 'Tetsu' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 10
-		}
-		location = 881
-		division_template = "Hohei Shidan"
-		start_experience_factor = 0.3
-	}
-	division = { # "16 'Kaki' Hohei Shidan"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 16
-		}
-		location = 9768
-		division_template = "Hohei Shidan"
-		start_experience_factor = 0.3
-	}
 	division = {
 		location = 1117
 		division_template = "Hohei Shidan"
@@ -549,7 +453,24 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}
+
+
+	##### Kwantung Army #####
+	#Garrisons
+
+	division = {
+		name = "Ryojun Kichi Shubitai"
+		location = 1150 #Dalian
+		division_template = "Chuton-chi Shidan"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3		
+	}
 }
+
+
+
+
+
 
 
 #########################
@@ -586,17 +507,4 @@ instant_effect =
 		progress = 0.4
 		efficiency = 50
 	}
-
-	add_equipment_production = {
-		equipment = {
-			type = light_tank_chassis_1
-			creator = "JAP" 
-			version_name = "Type 95 Ha-Go"
-		}
-		requested_factories = 1
-		progress = 0.4
-		efficiency = 50
-	}
-	
 }
-
