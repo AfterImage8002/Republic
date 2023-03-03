@@ -6475,6 +6475,8 @@
  #채널
  a_rev_station:0 "혁명을 향하여"
  a_rev_station_TITLE:0 "혁명을 향하여"
-
+ 
+ #변수
+ var_jap_rev:0 "황도파 궐기의 위험"
 
 
