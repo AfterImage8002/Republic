@@ -592,6 +592,18 @@ country_event = {
 					days = 20
 				}
 			}
+			
+			if = {
+				limit = {
+					JAP = {
+						is_ai = yes
+					}
+				}
+				add_timed_idea = {
+					idea=JAP_real_army
+					days = 150
+				}
+			}
 		}
 		
 		526 = {
@@ -698,6 +710,17 @@ country_event = {
 				country_event = {
 					id = jap_k.5
 					days = 20
+				}
+			}
+			if = {
+				limit = {
+					JAP = {
+						is_ai = yes
+					}
+				}
+				add_timed_idea = {
+					idea=JAP_real_army
+					days = 150
 				}
 			}
 		}

@@ -429,6 +429,13 @@ ideas = {
 				surrender_limit = -0.99
 			}
 		}
-		
+		JAP_real_army = {
+			modifier = {
+				army_attack_factor = 0.5
+				army_defence_factor = 0.5
+				army_morale_factor = 0.5
+				army_org_factor = 0.5
+			}
+		}
 	}
 }
