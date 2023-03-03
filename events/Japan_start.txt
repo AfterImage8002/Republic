@@ -557,12 +557,28 @@ country_event = {
 				recruit_character = JAP_kudeta
 				retire_country_leader = yes
 				add_popularity = {
-					ideology = neutrality
-					popularity = 0.3
-				}
-				add_popularity = {
 					ideology = fascism
 					popularity = -1
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 1
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				add_popularity = {
+					ideology = socialism
+					popularity = 0.15
+				}
+				add_popularity = {
+					ideology = progressive
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = conservatism
+					popularity = 0.1
 				}
 				add_ideas = {
 					fascism_forbiden
@@ -649,12 +665,28 @@ country_event = {
 				recruit_character = JAP_kudeta
 				retire_country_leader = yes
 				add_popularity = {
-					ideology = neutrality
-					popularity = 0.3
-				}
-				add_popularity = {
 					ideology = fascism
 					popularity = -1
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 1
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				add_popularity = {
+					ideology = socialism
+					popularity = 0.15
+				}
+				add_popularity = {
+					ideology = progressive
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = conservatism
+					popularity = 0.1
 				}
 				add_ideas = {
 					fascism_forbiden
