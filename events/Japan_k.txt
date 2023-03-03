@@ -11,17 +11,18 @@ country_event = {
 		name = jap_k.1.a
 		remove_ideas = {
 			JAP_zaibatsus
+			JAP_SMRC
 		}
 		random_core_state = {
 			add_building_construction = {
 				type = industrial_complex
-				level = 1
+				level = 2
 			}
 		}
 		random_core_state = {
 			add_building_construction = {
 				type = industrial_complex
-				level = 1
+				level = 2
 			}
 		}
 	}
@@ -197,8 +198,9 @@ country_event = {
 	desc = jap_k.9.d
 	fire_only_once = yes
 	trigger = {
-		tag = JAP
-		date > 1936.4.1
+		original_tag = JAP
+		has_government = neutrality
+		date = 1936.4.1
 		has_civil_war = yes
 	}
 	option = {
@@ -223,7 +225,8 @@ country_event = {
 	desc = jap_k.10.d
 	fire_only_once = yes
 	trigger = {
-		tag = JAP
+		original_tag = JAP
+		has_government = neutrality
 		date = 1936.5.1
 		OR = {
 			NOT = {
@@ -240,11 +243,9 @@ country_event = {
 	option = {
 		name = jap_k.10.a
 		add_manpower = 10000
-		JAP = {
-			add_timed_idea = {
-				idea = JAP_k_last_defence
-				days = 20
-			}
+		add_timed_idea = {
+			idea = JAP_k_last_defence
+			days = 20
 		}
 	}
 }
@@ -254,8 +255,9 @@ country_event = {
 	desc = jap_k.11.d
 	fire_only_once = yes
 	trigger = {
-		tag = JAP
-		date > 1936.7.1
+		original_tag = JAP
+		has_government = neutrality
+		date = 1936.7.1
 		NOT = {
 			controls_state = 531
 		}
@@ -264,11 +266,9 @@ country_event = {
 		name = jap_k.11.a
 		
 		add_manpower = 10000
-		JAP = {
-			add_timed_idea = {
-				idea = JAP_k_last_attack
-				days = 20
-			}
+		add_timed_idea = {
+			idea = JAP_k_last_attack
+			days = 20
 		}
 		custom_effect_tooltip = jap_k.11_tt
 	}
@@ -279,8 +279,9 @@ country_event = {
 	desc = jap_k.12.d
 	fire_only_once = yes
 	trigger = {
-		tag = JAP
-		date > 1936.9.1
+		original_tag = JAP
+		has_government = neutrality
+		date = 1936.9.1
 		NOT = {
 			controls_state = 529
 		}
@@ -308,7 +309,10 @@ country_event = {
 	desc = jap_k.13.d
 	fire_only_once = yes
 	trigger = {
-		tag = JAP
+		original_tag = JAP
+		NOT = {
+			has_government = neutrality
+		}
 		date = 1936.5.1
 		AND = {
 			controls_state = 532
@@ -318,15 +322,10 @@ country_event = {
 	}
 	option = {
 		name = jap_k.10.a
-		random_other_country = {
-			limit = {
-				original_tag = JAP
-			}
-			add_manpower = 10000
-			add_timed_idea = {
-				idea = JAP_k_last_defence
-				days = 20
-			}
+		add_manpower = 10000
+		add_timed_idea = {
+			idea = JAP_k_last_defence
+			days = 20
 		}
 	}
 }

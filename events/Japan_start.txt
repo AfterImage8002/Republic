@@ -148,9 +148,11 @@ country_event = { #황도파 on
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
+		name = jap.7.a
 		ai_chance = {
 			factor = 0
 		}
+		
 		name = jap.7.a
 		hidden_effect = {
 			add_popularity = {
@@ -224,12 +226,20 @@ country_event = { #황도파 on
 				set_demilitarized_zone = yes
 			}
 		}
-		
 	}
 	option = {
+		country_event = jap.12
+		282 = {
+			set_demilitarized_zone = yes
+		}
 		name = jap.7.b
 		ai_chance = {
-			factor = 30
+			factor = 40
+		}
+		hidden_effect = {
+			set_variable = {
+				var_jap_rev = 40
+			}
 		}
 	}
 }
@@ -309,7 +319,8 @@ country_event = {
 	fire_only_once = yes
 	hidden = no
 	trigger = {
-		tag = JAP
+		original_tag = JAP
+		has_government = neutrality
 		has_civil_war = yes
 		controls_province = 7072
 		controls_province = 1092
@@ -333,6 +344,223 @@ country_event = {
 				}
 			}
 			
+		}
+	}
+}
+country_event = { #육군과의 접촉
+	id = jap.12
+	title = jap.12.t
+	desc = jap.12.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #만나지 마 → 천황이 좋아함
+		country_event = {
+			id = jap.13
+			days = 1
+		}
+		custom_effect_tooltip = jap.12.a_tt
+		name = jap.12.a
+		add_to_variable = {
+			var_jap_rev = 40
+		}
+		ai_chance = {
+			factor = 1
+		}
+		set_variable = {
+			tenno = 1
+		}
+	}
+	option = { #만나 → 천황이 싫어함
+		country_event = {
+			id = jap.13
+			days = 1
+		}
+		name = jap.12.b
+		
+		custom_effect_tooltip = jap.12.b_tt
+		add_to_variable = {
+			var_jap_rev = -5
+		}
+		ai_chance = {
+			factor = 0
+		}
+		set_variable = {
+			tenno = 0
+		}
+	}
+}
+
+country_event = { #해군과의 접촉
+	id = jap.13
+	title = jap.13.t
+	desc = jap.13.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #해군과의 접촉
+			country_event = {
+			id = jap.14
+			days = 1
+		}
+		name = jap.13.a
+		
+		custom_effect_tooltip = jap.13.a_tt
+		add_to_variable = {
+			var_jap_rev = 40
+		}
+		ai_chance = {
+			factor = 1
+		}
+		add_to_variable = {
+			tenno = 1
+		}
+	}
+	option = {
+		country_event = {
+			id = jap.14
+			days = 1
+		}
+		name = jap.13.b
+		custom_effect_tooltip = jap.13.b_tt
+		add_to_variable = {
+			var_jap_rev = -5
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = { #결과
+	id = jap.14
+	title = jap.14.t
+	desc = jap.14.d
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #결과
+		name = jap.14.a
+		if = {
+			limit = {
+				check_variable = {
+					tenno = 2
+				}
+			}	
+		}
+		else = {
+			random = {
+				chance = var:var_jap_rev
+				country_event = jap.15
+				country_event = super.2
+			}
+		}
+		282 = {
+			set_demilitarized_zone = no
+		}
+		clear_variable = var_jap_rev
+		clear_variable = tenno
+	}
+}
+country_event = {
+	id = jap.15
+	title = jap.15.t
+	desc = jap.15.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = jap.15.a	
+		hidden_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.5
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -1
+			}
+			282 = {
+				set_demilitarized_zone = no
+			}
+			add_ideas = {
+				fascism_forbiden
+			}
+			start_civil_war = {
+				ruling_party = progressive
+				ideology = neutrality
+				size = 0.3
+				capital = 282
+				states = {
+					282
+				}
+			}
+			country_event = super.2
+			JAP = {
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.7
+				}
+				add_popularity = {
+					ideology = conservatism
+					popularity = 0.3
+				}
+				add_popularity = {
+					ideology = socialism
+					popularity = 0.2
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.1
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = -1
+				}
+				add_ideas = {
+					neutrality_forbiden
+				}
+				set_province_controller = 7016
+				set_province_controller = 1113
+				set_province_controller = 4000
+				set_province_controller = 11908
+				set_province_controller = 993
+				set_province_controller = 4100
+				set_province_controller = 1097
+				
+			}
+			random_other_country = {
+				limit = {
+					original_tag = jap
+					
+				}
+				load_focus_tree = JAP_k
+				recruit_character = JAP_kudeta
+				retire_country_leader = yes
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.5
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = -1
+				}
+				add_ideas = {
+					fascism_forbiden
+				}
+				
+			}
+			country_event = jap_k.3
+			CHI = {
+				country_event = {
+					id = jap_k.5
+					days = 10
+				}
+			}
+		}
+		
+		526 = {
+			set_demilitarized_zone = yes
+		}
+		555 = {
+			set_demilitarized_zone = yes
 		}
 	}
 }

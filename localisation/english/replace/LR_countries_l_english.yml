@@ -723,7 +723,7 @@
  SWI_conservatism_DEF:1 "스위스 연방"
  SWI_progressive_DEF:1 "스위스 연방"
  SWI_neutrality:1 "헬베티아 군사정부"
- SWI_neutrality_DEF:1 "헬베티아 군사정부"
+ SWI_neutrality_DEF:1 "헬베티아 군사정부" #이거 레플에 나옴 표절 ㄴㄴ요
  SWI_communism:0 "스위스 연합주"
  SWI_socialism:0 "스위스 연합주"
  SWI_communism_DEF:0 "스위스 연합주"
@@ -6210,6 +6210,7 @@
  STATE_919:0 "가지안테프"
  STATE_920:0 "톈진"
  STATE_8:0 "뤽샹부르"
+ STATE_921:0 "오이펜 말메디"
  
  #도시
  VICTORY_POINTS_3529:0 "차리친"
@@ -6521,6 +6522,8 @@
  #채널
  a_rev_station:0 "혁명을 향하여"
  a_rev_station_TITLE:0 "혁명을 향하여"
-
+ 
+ #변수
+ var_jap_rev:0 "황도파 궐기의 위험"
 
 
