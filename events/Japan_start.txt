@@ -207,6 +207,8 @@ country_event = { #황도파 on
 				set_province_controller = 11908
 				set_province_controller = 993
 				set_province_controller = 4100
+				set_province_controller = 1097
+				
 			}
 			country_event = jap_k.3
 			CHI = {
@@ -214,6 +216,12 @@ country_event = { #황도파 on
 					id = jap_k.5
 					days = 10
 				}
+			}
+			526 = {
+				set_demilitarized_zone = yes
+			}
+			555 = {
+				set_demilitarized_zone = yes
 			}
 		}
 		

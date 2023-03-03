@@ -82,9 +82,6 @@ country_event = {
 		534 = {
 			set_demilitarized_zone = yes
 		}
-		526 = {
-			set_demilitarized_zone = yes
-		}
 		529 = {
 			set_demilitarized_zone = yes
 		}
@@ -227,7 +224,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = JAP
-		date > 1936.5.1
+		date = 1936.5.1
 		OR = {
 			NOT = {
 				controls_state = 535
@@ -301,6 +298,34 @@ country_event = {
 			}
 			add_ideas = {
 				to_surrender
+			}
+		}
+	}
+}
+country_event = {
+	id = jap_k.13
+	title = jap_k.13.t
+	desc = jap_k.13.d
+	fire_only_once = yes
+	trigger = {
+		tag = JAP
+		date = 1936.5.1
+		AND = {
+			controls_state = 532
+			controls_state = 533
+			controls_state = 535
+		}
+	}
+	option = {
+		name = jap_k.10.a
+		random_other_country = {
+			limit = {
+				original_tag = JAP
+			}
+			add_manpower = 10000
+			add_timed_idea = {
+				idea = JAP_k_last_defence
+				days = 20
 			}
 		}
 	}
