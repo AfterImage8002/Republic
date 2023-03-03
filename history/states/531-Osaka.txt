@@ -24,17 +24,16 @@ state={
 				naval_base = 3
 
 			}
+			
 
 		}
 		victory_points = {
 			7072 40
 		}
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 5
-			}
+		victory_points = {
+			11960 40
 		}
+		
 
 	}
 
