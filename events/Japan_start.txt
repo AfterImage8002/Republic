@@ -201,6 +201,12 @@ country_event = { #황도파 on
 				add_ideas = {
 					neutrality_forbiden
 				}
+				set_province_controller = 7016
+				set_province_controller = 1113
+				set_province_controller = 4000
+				set_province_controller = 11908
+				set_province_controller = 993
+				set_province_controller = 4100
 			}
 			country_event = jap_k.3
 			CHI = {

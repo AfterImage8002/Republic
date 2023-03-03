@@ -227,7 +227,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = JAP
-		date > 1936.6.1
+		date > 1936.5.1
 		NOT = {
 			controls_state = 535	
 			controls_state = 532
@@ -252,8 +252,6 @@ country_event = {
 	trigger = {
 		tag = JAP
 		date > 1936.7.1
-		controls_state = 534
-		controls_state = 533
 		NOT = {
 			controls_state = 531
 		}
@@ -278,7 +276,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = JAP
-		date > 1936.11.1
+		date > 1936.9.1
 		NOT = {
 			controls_state = 529
 		}
