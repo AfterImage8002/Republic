@@ -281,7 +281,7 @@ country_event = {
 	trigger = {
 		original_tag = JAP
 		has_government = neutrality
-		date = 1936.9.1
+		date > 1936.9.1
 		NOT = {
 			controls_state = 529
 		}

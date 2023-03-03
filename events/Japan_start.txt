@@ -409,9 +409,6 @@ country_event = { #정치인 컷!
 		add_to_variable = {
 			var_jap_rev = 20
 		}
-		ai_chance = {
-			factor = 1
-		}
 		set_variable = {
 			JAP_pol = 5
 		}
@@ -426,18 +423,12 @@ country_event = { #정치인 컷!
 		add_to_variable = {
 			var_jap_rev = -10
 		}
-		ai_chance = {
-			factor = 0
-		}
 	}
 	option = {
 		name = jap.13.c
 		custom_effect_tooltip = jap.13.c_tt
 		add_to_variable = {
 			tenno = 1
-		}
-		ai_chance = {
-			factor = 0
 		}
 		country_event = {
 			id = jap.14
@@ -511,21 +502,10 @@ country_event = {
 		}
 		name = jap.15.a	
 		hidden_effect = {
-			
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.5
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = -1
-			}
 			282 = {
 				set_demilitarized_zone = no
 			}
-			add_ideas = {
-				fascism_forbiden
-			}
+			
 			start_civil_war = {
 				ruling_party = progressive
 				ideology = neutrality
@@ -578,7 +558,7 @@ country_event = {
 				retire_country_leader = yes
 				add_popularity = {
 					ideology = neutrality
-					popularity = 0.5
+					popularity = 0.3
 				}
 				add_popularity = {
 					ideology = fascism
@@ -593,7 +573,7 @@ country_event = {
 			CHI = {
 				country_event = {
 					id = jap_k.5
-					days = 10
+					days = 20
 				}
 			}
 		}
@@ -615,19 +595,8 @@ country_event = {
 		
 		name = jap.15.a	
 		hidden_effect = {
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.5
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = -1
-			}
 			282 = {
 				set_demilitarized_zone = no
-			}
-			add_ideas = {
-				fascism_forbiden
 			}
 			start_civil_war = {
 				ruling_party = progressive
@@ -681,7 +650,7 @@ country_event = {
 				retire_country_leader = yes
 				add_popularity = {
 					ideology = neutrality
-					popularity = 0.5
+					popularity = 0.3
 				}
 				add_popularity = {
 					ideology = fascism
@@ -696,7 +665,7 @@ country_event = {
 			CHI = {
 				country_event = {
 					id = jap_k.5
-					days = 10
+					days = 20
 				}
 			}
 		}
