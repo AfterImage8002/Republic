@@ -951,6 +951,6 @@ TUK = {
 	color_ui = rgb { 0 114 104 }
 }
 RDA = {
-	color = rgb { 30 0 165 }
+	color = rgb { 13 18 51 }
 	color_ui = rgb = { 30 0 165 }
 }
