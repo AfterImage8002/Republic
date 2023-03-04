@@ -97,4 +97,22 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = JAP_k_arms_app
+		cost = 5
+		x = 5
+		y = 5
+		prerequisite = {
+			focus = JAP_k_admin_system
+		}
+		prerequisite = {
+			focus = JAP_k_accept_socialism
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 50000
+			}
+		}
+	}
 }
