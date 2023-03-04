@@ -6521,14 +6521,24 @@
  spain_anarch:0 "[스페인] 인민의 아들들이여"
  listen_workers:0 "[일본] 들어라, 만국의 노동자"
  La_marse:0 "[프랑스] 마르세유의 노래"
+ inter_arr:0 "[어레인지] 인터내셔널가"
+ katyu:0 "[어레인지] 카츄샤"
+ listen:0 "[어레인지] 들어라, 만국의 노동자"
+ polyu:0 "[어레인지] 초원"
+ red_army_arr:0 "[어레인지] 붉은 군대는 가장 강력하다"
+ red_flag_arr:0 "[어레인지] 붉은 깃발"
+ ruin:0 "[어레인지] 폐허에서 부활하여"
+ sov_army_arr:0 "[어레인지] 소련군 찬가"
+ sov_arr:0 "[어레인지] 연방찬가"
+ tachan:0 "[어레인지] 타찬카"
+ warsza:0 "[어레인지] 바르샤바 시민"
  #슈퍼이벤트 음악
  yangyang:0 "[한국] 양양가"
  young_japs:0 "[일본] 청년일본의 노래"
  #채널
  a_rev_station:0 "혁명을 향하여"
  a_rev_station_TITLE:0 "혁명을 향하여"
- 
- #변수
- var_jap_rev:0 "황도파 궐기의 위험"
+ arrange:0 "그 시절의 시민들"
+ arrange_TITLE:0 "그 시절의 시민들"
 
 

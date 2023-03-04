@@ -206,16 +206,6 @@ music = {
 	}
 }
 music = {
-	song = "best_korea"
-	chance = {
-		modifier = {
-			factor = 1
-			always = yes
-		}
-		
-	}
-}
-music = {
 	song = "red_army_strongest"
 	chance = {
 		modifier = {

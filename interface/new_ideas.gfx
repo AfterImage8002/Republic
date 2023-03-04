@@ -73,4 +73,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/rev_music_on.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "arr_music"
+		texturefile = "gfx/interface/arr_music_on.dds"
+		noOfFrames = 2
+	}
 }
