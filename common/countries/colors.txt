@@ -1,7 +1,7 @@
 #reload countrycolors
 FRL = {
-	color = rgb { 13 18 51 }
-	color_ui = rgb { 13 18 51 }
+	color = rgb { 33 38 81 }
+	color_ui = rgb { 33 38 81 }
 }
 RFR = {
 	color = rgb { 150 0 15}
