@@ -1,4 +1,8 @@
 #reload countrycolors
+FRL = {
+	color = rgb { 13 18 51 }
+	color_ui = rgb { 13 18 51 }
+}
 RFR = {
 	color = rgb { 150 0 15}
 	color_ui = rgb {150 0 15}
@@ -951,6 +955,6 @@ TUK = {
 	color_ui = rgb { 0 114 104 }
 }
 RDA = {
-	color = rgb { 13 18 51 }
+	color = rgb { 30 0 165 }
 	color_ui = rgb = { 30 0 165 }
 }
