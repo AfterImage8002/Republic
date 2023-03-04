@@ -19,7 +19,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_k_jaibatsu_exploitation
-		cost = 5
+		cost = 4
 		x = 3
 		y = 2
 		prerequisite = {
@@ -54,7 +54,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_k_accept_socialism
-		cost = 5
+		cost = 4
 		x = 7
 		y = 4
 		prerequisite = {
@@ -99,7 +99,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_k_arms_app
-		cost = 5
+		cost = 4
 		x = 5
 		y = 5
 		prerequisite = {
@@ -111,7 +111,7 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_1
-				amount = 50000
+				amount = 5000
 			}
 		}
 	}
