@@ -51,6 +51,27 @@ country_event = {
 		add_ideas = {
 			JAP_kudeta_army
 		}
+		if = {
+			limit = {
+				AND = {
+					THIS = {
+						is_ai = yes
+						NOT = {
+							has_government = neutrality
+						}
+					}
+					random_other_country = {
+						limit = {
+							original_tag = JAP
+						}
+						is_ai = no
+					}
+				}
+			}
+			add_ideas = {
+				JAP_real_army
+			}
+		}
 		random_other_country = {
 			limit = {
 				original_tag = JAP
@@ -323,7 +344,7 @@ country_event = {
 	option = {
 		name = jap_k.10.a
 		add_manpower = 10000
-		add_timed_idea = {
+		add_timed_idea = { 
 			idea = JAP_k_last_defence
 			days = 20
 		}

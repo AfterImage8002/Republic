@@ -314,8 +314,34 @@ ideas = {
 				army_core_defence_factor = 0.05
 			}
 		}
+		JAP_for_dem = {
+			modifier = {
+				fascism_drift = 0.03
+			}
+		}
+		JAP_for_tou = {
+			modifier = {
+				progressive_drift = 0.01
+				conservatism_drift = 0.01
+				socialism_drift = 0.01
+			}
+		}
+		JAP_real_army = {
+			allowed = {
+				has_civil_war = yes
+			}
+			modifier = {
+				army_attack_factor = 0.5
+				army_defence_factor = 0.5
+				army_morale_factor = 0.5
+				army_org_factor = 0.5
+				supply_consumption_factor = -0.5
+			}
+		}
+		
 	}
 	hidden_ideas = {
+		
 		fascist_rallying = {
 			picture = fascist_rallying
 			allowed = {always = yes}
@@ -429,13 +455,6 @@ ideas = {
 				surrender_limit = -0.99
 			}
 		}
-		JAP_real_army = {
-			modifier = {
-				army_attack_factor = 0.5
-				army_defence_factor = 0.5
-				army_morale_factor = 0.5
-				army_org_factor = 0.5
-			}
-		}
+		
 	}
 }
