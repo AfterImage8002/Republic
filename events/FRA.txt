@@ -10,6 +10,75 @@ country_event = {
 
     option = {
         name = FRA_event.1.a
-        RFR = { transfer_state = 16}
     }
+}
+
+country_event = {
+    id = FRA_event.2
+    title = FRA_event.2.t 
+    desc = FRA_event.2.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.1.a 
+    }
+}
+
+country_event = {
+    id = FRA_event.3
+    title = FRA_event.3.t
+    desc = FRA_event.3.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = FRA_event.3.a
+    }
+}
+
+country_event = {
+    id = FRA_event.4
+    title = FRA_event.4.t
+    desc = FRA_event.4.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.4.a
+    }
+}
+
+country_event = {
+    id = FRA_event.5
+    title = FRA_event.5.t
+    desc = FRA_event.5.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.5.a
+    }
+}
+
+country_event = {
+    id = FRA_event.6
+    title = FRA_event.6.t
+    desc = FRA_event.6.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.6.a
+    }
+}
+
+country_event = {
+    id = FRA_event.7
+    title = FRA_event.7.t
 }
