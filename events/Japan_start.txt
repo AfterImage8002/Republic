@@ -620,6 +620,16 @@ country_event = {
 					days = 150
 				}
 			}
+			else = {
+				random_other_country = {
+					limit = {
+						original_tag = JAP
+					}
+					add_ideas = {
+						JAP_real_army
+					}
+				}
+			}
 		}
 		
 		526 = {
@@ -740,6 +750,16 @@ country_event = {
 					days = 150
 				}
 			}
+			else = {
+				random_other_country = {
+					limit = {
+						original_tag = JAP
+					}
+					add_ideas = {
+						JAP_real_army
+					}
+				}
+			}
 		}
 		
 		526 = {
@@ -748,7 +768,7 @@ country_event = {
 		555 = {
 			set_demilitarized_zone = yes
 		}
-
+		
 		JAP = {
 			add_ideas = {
 				JAP_good_serach

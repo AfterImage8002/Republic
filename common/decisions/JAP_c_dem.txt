@@ -1,6 +1,6 @@
 affect_dem = {
 	dem_unity = {
-		allowed = {
+		visible = {
 			has_completed_focus = JAP_c_for_demo
 		}
 		icon = generic_prepare_civil_war
@@ -23,7 +23,7 @@ affect_dem = {
 		}
 	}
 	attack_tou = {
-		allowed = {
+		visible = {
 			has_completed_focus = JAP_c_for_demo
 		}
 		icon = generic_prepare_civil_war
@@ -37,7 +37,7 @@ affect_dem = {
 		}
 	}
 	checking_soc = {
-		allowed = {
+		visible = {
 			has_completed_focus = JAP_c_for_demo
 		}
 		icon = generic_prepare_civil_war
@@ -51,7 +51,7 @@ affect_dem = {
 		}
 	}
 	draft = {
-		allowed = {
+		visible = {
 			has_completed_focus = JAP_c_for_demo
 		}
 		icon = generic_prepare_civil_war

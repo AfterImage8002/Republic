@@ -326,9 +326,6 @@ ideas = {
 				socialism_drift = 0.01
 			}
 		}
-		
-	}
-	hidden_ideas = {
 		JAP_real_army = {
 			allowed = {
 				has_civil_war = yes
@@ -338,8 +335,13 @@ ideas = {
 				army_defence_factor = 0.5
 				army_morale_factor = 0.5
 				army_org_factor = 0.5
+				supply_consumption_factor = -0.5
 			}
 		}
+		
+	}
+	hidden_ideas = {
+		
 		fascist_rallying = {
 			picture = fascist_rallying
 			allowed = {always = yes}
