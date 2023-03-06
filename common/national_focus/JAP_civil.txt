@@ -64,6 +64,8 @@ focus_tree = {
 					type = arms_factory
 					level = 2
 				}
+			}
+			random_state = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
