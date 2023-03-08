@@ -17,10 +17,18 @@ state={
 		}
 		
 		victory_points = {
-			4052 1
+			4052 10
+		}	
+		victory_points = {
+			12040 5
+		}	
+		victory_points = {
+			3981 3
+		}	
+		victory_points = {
+			11835 3
 		}	
 		add_core_of = CHO
-		add_core_of = KOR
 	}
 
 	provinces={
