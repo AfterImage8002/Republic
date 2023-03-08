@@ -172,7 +172,7 @@
  sp_event_asd_QUOTE:0 ""단순하게 살아라. 현대인은 쓸데없는 절차와 일 때문에 얼마나 복잡한 삶을 살아가는가?"\n-이드리스 샤흐"
  sp_event_asd_REMARK:0 "만세!"
  super_event_koudouha:0 "황도파 궐기"
- sp_event_koudouha_QUOTE:0 ""존황토간, 천황을 받들어 간신들을 토벌하다."\n- 황도파 구호"
+ sp_event_koudouha_QUOTE:0 ""존황토간, 천황을 받들어 간신들을 토벌하라."\n- 황도파 구호"
  sp_event_koudouha_REMARK:0 "지는 해는 어두운 밤을 예고한다."
 
  #중점

@@ -27,4 +27,18 @@ characters={
 			id=-1
 		}
 	}
+	KOR_yeo = {
+		name = KOR_yeo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/KOR_yeo.dds"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits={national_integralist provisional_government}
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
 }
