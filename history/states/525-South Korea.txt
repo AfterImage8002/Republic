@@ -28,9 +28,6 @@ state=
 		victory_points = {
 			10110 3
 		}
-
-
-		add_core_of = KOR
 		add_core_of = CHO
 
 	}
