@@ -22,6 +22,9 @@ focus_tree = {
 		cost = 1
 		x = 2
 		y = 2
+		mutually_exclusive = {
+			focus = JAP_c_for_tou
+		}
 		prerequisite = {
 			focus = JAP_c_tenno
 		}

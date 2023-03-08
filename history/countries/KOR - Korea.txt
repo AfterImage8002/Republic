@@ -2,6 +2,7 @@
 
 oob = "KOR_1936"
 
+recruit_character = KOR_yeo
 # Starting tech
 set_politics = {
 	ruling_party = neutrality
