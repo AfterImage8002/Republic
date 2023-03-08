@@ -49,6 +49,9 @@ country_event = {
 
     option = {
         name = FRA_event.4.a
+        set_variable = {
+            B = 1
+        }
     }
 }
 
@@ -62,6 +65,9 @@ country_event = {
 
     option = {
         name = FRA_event.5.a
+        set_variable = {
+            A = 1
+        }
     }
 }
 
@@ -70,11 +76,21 @@ country_event = {
     title = FRA_event.6.t
     desc = FRA_event.6.d
 
+    trigger = {
+        check_variable = {
+            B = 1
+        }
+        check_variable = {
+            A = 1
+        }
+    }
+
     fire_only_once = yes
-    is_triggered_only = yes
 
     option = {
         name = FRA_event.6.a
+        clear_variable = A
+        clear_variable = B
     }
 }
 
