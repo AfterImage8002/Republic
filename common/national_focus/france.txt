@@ -58,7 +58,6 @@
 		y = 3
 		completion_reward = {
 			add_political_power = 50
-			add_stability = 0.05
 			country_event = FRA_event.4
 		}
 	}
@@ -84,10 +83,7 @@
 		prerequisite = {
 			focus = FRA_money_by_country
 		}
-		prerequisite = {
-			focus = FRA_building_by_country
-		}
-		x = 8
+		x = 7
 		y = 4
 		completion_reward = {
 			country_event = {
@@ -106,7 +102,21 @@
 		prerequisite = {
 			focus = FRA_NEW_FOCUS_18
 		}
+		prerequisite = {
+			focus = FRA_money_plus
+		}
 		x = 8
 		y = 5
+	}
+
+	focus = {
+		id = FRA_money_plus
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = FRA_building_by_country
+		}
+		x = 9
+		y = 4
 	}
 }
