@@ -16,6 +16,7 @@ state={
 
 		}
 		add_core_of = COG
+		set_demilitarized_zone = yes
 
 	}
 
