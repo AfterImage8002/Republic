@@ -523,6 +523,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/anarchist_communism.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_leninism"
+		texturefile = "gfx/interface/ideologies/leninism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_stalinism"
+		texturefile = "gfx/interface/ideologies/stalinism.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_oligarchism"
 		texturefile = "gfx/interface/ideologies/oligarchism.dds"
 	}

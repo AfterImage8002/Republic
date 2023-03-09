@@ -177,15 +177,18 @@ ideologies = {
 		types = {
 
 			left_communism = {
+				can_be_randomly_selected = yes
 			}
 			marxism = {
 				can_be_randomly_selected = no
 			}
 
 			leninism = {
+				can_be_randomly_selected = yes
 			}
 
 			stalinism = {
+				can_be_randomly_selected = yes
 			}
 
 			anti_revisionism = {
