@@ -72,7 +72,6 @@
 		y = 3
 		completion_reward = {
 			add_political_power = 50
-			add_stability = 0.05
 			country_event = FRA_event.5
 		}
 	}	
@@ -86,12 +85,6 @@
 		x = 7
 		y = 4
 		completion_reward = {
-			country_event = {
-				hidden_effect = {
-					custom_effect_tooltip = FRA_CT_1
-					add_ideas = FRA_Inflation
-				}
-			}
 		}
 	}
 

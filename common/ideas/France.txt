@@ -26,5 +26,66 @@ ideas = {
             }
         }
         
+        FRA_colony_disturbance = {
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                resistance_activity = 0.1
+                compliance_growth = -0.1
+				resistance_growth = 0.1
+                stability_factor = -0.05
+                add_war_support = -0.05
+                required_garrison_factor = 0.05
+            }
+        }
+
+        FRA_colony_disturbance_west_africa = {
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                resistance_activity = 0.1
+                compliance_growth = -0.1
+			    resistance_growth = 0.1
+                stability_factor = -0.05
+                add_war_support = -0.05
+                required_garrison_factor = 0.05
+            }
+        }
+        FRA_colony_disturbance_south_africa = {
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                resistance_activity = 0.1
+                compliance_growth = -0.1
+				resistance_growth = 0.1
+                stability_factor = -0.05
+                add_war_support = -0.05
+                required_garrison_factor = 0.05
+            }
+        }
     }
 }

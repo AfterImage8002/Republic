@@ -80,17 +80,14 @@ country_event = {
         check_variable = {
             B = 1
         }
-        check_variable = {
-            A = 1
-        }
     }
 
     fire_only_once = yes
 
     option = {
         name = FRA_event.6.a
-        clear_variable = A
         clear_variable = B
+        add_ideas = FRA_Inflation
     }
 }
 
@@ -99,10 +96,80 @@ country_event = {
     title = FRA_event.7.t
     desc = FRA_event.7.d
 
+    trigger = {
+        check_variable = {
+            A = 1
+        }
+    }
+
     fire_only_once = yes
-    is_triggered_only = yes
 
     option = {
         name = FRA_event.7.a
+        country_event = FRA_event.8 
+    }
+}
+
+country_event = {
+    id = FRA_event.8
+    title = FRA_event.8.t
+    desc = FRA_event.8.d
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = FRA_event.8.a
+        add_stability = -0.05
+        add_ideas = FRA_colony_disturbance
+        set_variable = {
+            FRA_colony = 1
+        }
+    }
+}
+
+country_event = {
+    id = FRA_event.9
+    title = FRA_event.9.t
+    desc = FRA_event.9.d
+
+    trigger = {
+        check_variable = {
+            FRA_colony = 1
+        }
+        has_ideas = FRA_colony_disturbance
+    }
+    fire_only_once = yes
+
+    option = {
+        name = FRA_event.9.a
+        add_stability = -0.05
+        add_ideas = FRA_colony_disturbance_west_africa
+        set_variable = {
+            FRA_colony_2 = 1
+        }
+        clear_variable = FRA_colony
+    }
+}
+
+country_event = {
+    id = FRA_event.10
+    title = FRA_event.10.t
+    desc = FRA_event.10.d
+
+    trigger = {
+        check_variable = {
+            FRA_colony_2 = 1
+        }
+        has_ideas = FRA_colony_disturbance_west_africa
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = FRA_event.10.a
+        add_stability = -0.05
+        add_ideas = FRA_colony_disturbance_south_africa
+        clear_variable = FRA_colony_2
     }
 }
