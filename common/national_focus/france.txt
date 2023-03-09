@@ -40,7 +40,7 @@
 		prerequisite = {
 			focus = FRA_solve_problem
 		}
-		x = 6
+		x = 8
 		y = 2
 		completion_reward = {
 			country_event = FRA_event.3 
@@ -54,11 +54,10 @@
 		prerequisite = {
 			focus = FRA_FOCUS_FRANG_solve
 		}
-		x = 5
+		x = 9
 		y = 3
 		completion_reward = {
 			add_political_power = 50
-			add_stability = 0.05
 			country_event = FRA_event.4
 		}
 	}
@@ -75,16 +74,8 @@
 			add_political_power = 50
 			add_stability = 0.05
 			country_event = FRA_event.5
-			hidden_effect = {
-				FRA = {
-					country_event = {
-						id = FRA_event.6
-						days = 7
-					}
-				}
-			}
 		}
-	}
+	}	
 	focus = {
 		id = FRA_NEW_FOCUS_18
 		icon = GFX_goal_unknown
@@ -92,67 +83,18 @@
 		prerequisite = {
 			focus = FRA_money_by_country
 		}
-		prerequisite = {
-			focus = FRA_building_by_country
-		}
-		x = 6
+		x = 7
 		y = 4
 		completion_reward = {
 			country_event = {
 				hidden_effect = {
-					add_ideas
+					custom_effect_tooltip = FRA_CT_1
+					add_ideas = FRA_Inflation
 				}
 			}
 		}
 	}
-	focus = {
-		id = FRA_solve_industry
-		icon = GFX_goal_unknown
-		cost = 2.00
-		prerequisite = {
-			focus = FRA_solve_problem
-		}
-		x = 10
-		y = 2
 
-	}
-	focus = {
-		id = FRA_OLD_factory_fix
-		icon = GFX_goal_unknown
-		cost = 2.00
-		prerequisite = {
-			focus = FRA_solve_industry
-		}
-		x = 9
-		y = 3
-
-	}
-	focus = {
-		id = FRA_OLD_industry_refix
-		icon = GFX_goal_unknown
-		cost = 2.00
-		prerequisite = {
-			focus = FRA_solve_industry
-		}
-		x = 11
-		y = 3
-
-	}
-	focus = {
-		id = FRA_tool_supply
-		icon = GFX_goal_unknown
-		cost = 2.00
-		prerequisite = {
-			focus = FRA_OLD_factory_fix
-		}
-		prerequisite = {
-			focus = FRA_OLD_industry_refix
-		}
-		x = 1
-		y = 1
-		relative_position_id = FRA_OLD_factory_fix
-
-	}
 	focus = {
 		id = FRA_final_focus_1
 		icon = GFX_goal_unknown
@@ -161,10 +103,20 @@
 			focus = FRA_NEW_FOCUS_18
 		}
 		prerequisite = {
-			focus = FRA_tool_supply
+			focus = FRA_money_plus
 		}
 		x = 8
 		y = 5
+	}
 
+	focus = {
+		id = FRA_money_plus
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = FRA_building_by_country
+		}
+		x = 9
+		y = 4
 	}
 }

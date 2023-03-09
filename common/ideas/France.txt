@@ -1,6 +1,30 @@
 ideas = {
     country = {
+        
+        FRA_Inflation = {
+            allowed  = {
+                always = no
+            }
 
+            allowed_civil_war = {
+                not = {
+                    has_government = Conservatism
+                }
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.3
+                industry_repair_factor = -0.2
+                line_change_production_efficiency_factor = -0.35
+                production_speed_buildings_factor = -0.35
+                production_speed_industrial_complex_factor = -0.2
+                production_speed_arms_factory_complex_factor = -0.2
+                stability_factor = -0.3
+                war_support_factor = -0.6
+            }
+        }
         
     }
 }
