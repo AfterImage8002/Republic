@@ -9,7 +9,9 @@ recruit_character = MAL_onn_jaafar
 recruit_character = MAL_lai_teck
 recruit_character = MAL_ibrahim_hj_yaacob
 recruit_character = MAL_winston_tyron
-
+add_ideas = {
+	ENGs_exploitation
+}
 
 # Starting tech
 # clone of UK

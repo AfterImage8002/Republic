@@ -326,7 +326,12 @@ ideas = {
 				socialism_drift = 0.01
 			}
 		}
-		
+		ENGs_exploitation = {
+			modifier = {
+				monthly_population = -0.5
+				production_factory_efficiency_gain_factor = -1
+			}
+		}
 		
 	}
 	hidden_ideas = {

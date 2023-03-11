@@ -1,5 +1,7 @@
 ﻿capital = 276
-
+add_ideas = {
+	ENGs_exploitation
+}
 if = {
 	limit = {
 		NOT = {
