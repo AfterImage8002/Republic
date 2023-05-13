@@ -1,0 +1,10 @@
+focus_tree = {
+	id = KRF_focus
+	country = {
+		factor = 0
+		modifier = {
+			tag = KRF
+			add = 30
+		}
+	}
+}

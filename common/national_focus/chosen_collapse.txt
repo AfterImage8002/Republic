@@ -1,0 +1,47 @@
+focus_tree = {
+	id = chosen_collapse
+	country = { 
+		modifier = {
+			add = -1
+		}	
+	}
+	focus = {
+		id = CHO_COL_big_protest
+		icon = GFX_CHO_focus_1
+		cost = 3.00
+		x = 5
+		y = 0
+		completion_reward = { 
+			add_war_support = -1
+			add_stability = -0.2
+			hidden_effect = {
+				country_event = cho_col.1
+			}
+		}
+	}
+	focus = {
+		id = CHO_COL_big_strike
+		icon = GFX_CHO_focus_2
+		cost = 3.00
+		x = 7
+		y = 0
+		completion_reward = {
+			country_event = cho_col.2
+		}
+	}
+	focus = {
+		id = CHO_COL_complaint
+		icon = GFX_CHO_focus_3
+		cost = 3.00
+		x = 9
+		y = 0
+		completion_reward = {
+			add_political_power = -100
+			
+			hidden_effect = {
+				country_event = cho_col.3
+			}
+			
+		}
+	}
+}

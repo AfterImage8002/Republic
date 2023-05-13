@@ -1,0 +1,136 @@
+focus_tree = {
+	id = SGE_start
+	country = {
+		factor = 0
+		modifier = {
+			tag = SGE
+			add = 20
+		}
+	}
+	default = yes
+	focus = {
+		id = SGE_focus_1
+		icon = GFX_goal_unknown
+		cost = 1.00
+		x = 9
+		y = 0
+		completion_reward = {
+			add_political_power = 50
+			hidden_effect = {
+				SGE = {country_event = SGE.1}
+				set_variable = {
+					sge_1 = 1
+				}
+			}
+			unlock_decision_category_tooltip = SGE_rev
+		}
+	}
+	focus = {
+		id = SGE_focus_2
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = SGE_focus_1
+		}
+		x = 6
+		y = 1
+		completion_reward = {
+			country_event = {
+				days = 4
+				id = SGE.2
+			}
+		}
+
+	}
+	focus = {
+		id = SGE_focus_3
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = SGE_focus_1
+		}
+		completion_reward = {
+			country_event = {
+				days = 4
+				id = SGE.3
+			}
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = SGE_focus_4
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = SGE_focus_1
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = large_scale_exile
+				add_idea = small_scale_exile
+				
+			}
+			add_manpower = -3000
+			every_country = {
+				limit = {
+					has_idea = threat_from_west
+				}
+				swap_ideas = {
+					remove_idea = threat_from_west
+					add_idea = sge_affect
+				}
+			}
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = SGE_focus_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = SGE_focus_4
+		}
+		prerequisite = {
+			focus = SGE_focus_3
+		}
+		prerequisite = {
+			focus = SGE_focus_2
+		}
+		x = 9
+		y = 2
+		completion_reward = {
+			country_event = SGE.7
+			hidden_effect = {
+				country_event = {
+					id = SGE.4
+					days = 4
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = SGE_focus_6
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = SGE_focus_5 
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			set_variable = {
+				sge_ele = 1
+			}
+			unlock_decision_category_tooltip = SGE_ele
+		}
+		
+		x = 9
+		y = 3
+
+	}
+}
+

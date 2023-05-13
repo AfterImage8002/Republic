@@ -1,0 +1,22 @@
+﻿capital = 605
+
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+
+set_stability = 0.75
+set_war_support = 0.3
+
+recruit_character = SIC_Liu
+#Trade
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+

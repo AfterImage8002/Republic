@@ -1,0 +1,121 @@
+ideas = {
+    country = {
+        
+        FRA_Inflation = {
+            allowed  = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                not = {
+                    has_government = Conservatism
+                }
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                consumer_goods_factor = 0.3
+                industry_repair_factor = -0.2
+                line_change_production_efficiency_factor = -0.35
+                production_speed_buildings_factor = -0.35
+                production_speed_industrial_complex_factor = -0.2
+                production_speed_arms_factory_complex_factor = -0.2
+                stability_factor = -0.3
+                war_support_factor = -0.6
+            }
+        }
+        
+        FRA_colony_disturbance = {
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                resistance_activity = 0.1
+                compliance_growth = -0.1
+				resistance_growth = 0.1
+                stability_factor = -0.05
+                add_war_support = -0.05
+                required_garrison_factor = 0.05
+            }
+        }
+
+        FRA_colony_disturbance_west_africa = {
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                resistance_activity = 0.1
+                compliance_growth = -0.1
+			    resistance_growth = 0.1
+                stability_factor = -0.05
+                add_war_support = -0.05
+                required_garrison_factor = 0.05
+            }
+        }
+        FRA_colony_disturbance_south_africa = {
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                resistance_activity = 0.1
+                compliance_growth = -0.1
+				resistance_growth = 0.1
+                stability_factor = -0.05
+                add_war_support = -0.05
+                required_garrison_factor = 0.05
+            }
+        }
+        FRA_ggaim = {
+            allowed = {
+                always = no
+            }
+            
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.03
+            }
+        }
+        FRA_gumri = {
+            allowed = {
+                always = no
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.
+            }
+        }
+    }
+}

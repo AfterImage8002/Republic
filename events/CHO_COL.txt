@@ -1,0 +1,153 @@
+add_namespace = cho_col
+
+country_event = {
+	id = cho_col.1
+	title = cho_col.1.t
+	desc = cho_col.1.d
+	picture = GFX_0
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.1.a
+		add_stability = 0.05
+		add_political_power = -100
+	}
+	option = {
+		name = cho_col.1.b
+		add_stability = 0.1
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = cho_col.2
+	title = cho_col.2.t
+	desc = cho_col.2.d
+	picture = GFX_0
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.2.a
+		add_command_power = -10
+		CHO = {
+			add_ideas = {
+				CHO_COL_strike_
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cho_col.3
+	title = cho_col.3.t
+	desc = cho_col.3.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.3.a
+		CHO = {
+			add_ideas = {
+				CHO_COL_complaint_
+			}
+		}
+		
+	}
+}
+country_event = {
+	id = cho_col.4
+	title = cho_col.4.t
+	desc = cho_col.4.d
+	picture = GFX_0
+	fire_only_once = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		recruit_character = CHO_Gov
+		retire_country_leader = yes
+		name = cho_col.4.a
+		
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = progressive
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		hidden_effect = {
+			news_event = cho_col.6
+		}
+	}
+}
+country_event = {
+	id = cho_col.5
+	title = cho_col.5.t
+	desc = cho_col.5.d
+	picture = GFX_0
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.5.a
+		
+		hidden_effect = {
+			KOR = {
+				transfer_state = 527
+			}
+			declare_war_on = {
+				target = KOR
+				type = annex_everything
+			}
+		}
+		KOR = {
+			change_tag_from = CHO
+		}
+	}
+	option = {
+		name = cho_col.5.b
+	}
+}
+
+news_event = {
+	id = cho_col.6
+	title = cho_col.6.t
+	desc = cho_col.6.d
+	picture = GFX_0
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = cho_col.6.a
+		trigger = {
+			NOT = {
+				tag = JAP
+				tag = TAI
+				tag = KRF
+			}
+		}
+	}
+	option = {
+		name = cho_col.6.b
+		trigger = {
+			OR = {
+				tag = JAP
+				tag = TAI
+				tag = KRF
+			}
+		}
+	}
+}

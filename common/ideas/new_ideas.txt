@@ -1,0 +1,600 @@
+ideas = {
+	country = {
+		RHI_german_economy_unity = {
+			picture = german_economy_unity
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2
+				war_support_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+			targeted_modifier = {
+				tag = GER
+				trade_cost_for_target_factor = -0.5
+			}
+		}
+		GER_german_economy_unity = {
+			picture = german_economy_unity
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2
+				war_support_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+			targeted_modifier = {
+				tag = RHI
+				trade_cost_for_target_factor = -0.5
+			}
+		}
+
+		CHI_give_money_to_mrc= {
+			picture = JAP_SMRC
+			removal_cost = -1
+			targeted_modifier = {
+				tag = MRC
+				cic_to_target_factor = 0.1 #10% Of your factories are belong to us
+				mic_to_target_factor = 0.1				
+			}
+			modifier = {
+				production_speed_rail_way_factor = 0.1
+			}
+		}
+		give_money_to_mrc= {
+			picture = JAP_SMRC
+			removal_cost = -1
+			targeted_modifier = {
+				tag = MRC
+				cic_to_target_factor = 0.3 #10% Of your factories are belong to us
+				mic_to_target_factor = 0.3				
+			}
+			modifier = {
+				production_speed_rail_way_factor = 0.1
+			}
+		}
+		
+		economic_depression = {
+			picture = economic_depression
+			allowed = {}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {always = yes}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.4
+				stability_factor = -0.3
+				political_power_cost = 1
+				monthly_population = -0.4
+				production_speed_buildings_factor = -0.3
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.5
+				industrial_capacity_factory = -0.2
+			}
+		}
+		threat_from_west = { #남독일 영향력
+			picture = threat_from_west
+			allowed = {}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {}
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.02
+				war_support_factor = 0.1
+				weekly_manpower	= 40
+			}
+		}
+		sge_affect = { 
+			picture = threat_from_west
+			allowed = {}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {}
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.01
+				war_support_factor = 0.1
+			}
+		}
+		political_polarization = {
+			piture = political_polarization
+			allowed = {tag = GER}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {}
+			removal_cost = -1
+			modifier = {
+				communism_drift = 0.02
+				fascism_drift = 0.02
+				neutrality_drift = 0.01
+				stability_weekly = -0.01
+			}
+		}
+		suppression_for_kpd = {
+			picture = suppression_for_kpd
+			allowed = {tag = GER}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {}
+			removal_cost = -1
+			modifier = {
+				communism_drift = -0.02
+				stability_factor = 0.2
+				political_power_cost = 2
+			}
+		}
+		leipzig_constitution = {
+			picture = leipzig_constitution
+			allowed = {tag = GER}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {}
+			removal_cost = -1
+			modifier = {
+				drift_defence_factor = -0.3
+				stability_factor = 0.3
+				political_power_factor = 0.2
+			}
+		}
+		revolution_propagation = {
+			picture = revlution_propagation
+			allowed = {tag = SGE}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size	= 9999
+			}
+		}
+		collective_capitalist_resistance = {
+			picture = sporadic_capitalist_resistance
+			allowed = {tag = SGE}
+			available = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.4
+				industrial_capacity_factory = -0.2
+			}
+		}
+		sporadic_capitalist_resistance = {
+			picture = sporadic_capitalist_resistance
+			allowed = {tag = SGE}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.1
+			}
+		}
+		Spartakusbund = {
+			picture = Spartakusbund
+			allowed = {tag = SGE}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				max_planning_factor	= -0.3
+				army_org_factor = 0.1
+				army_morale_factor = 0.1
+				conscription_factor = 0.05
+			}
+		}
+		large_scale_exile = {
+			picture = large_scale_exile
+			allowed = {tag = SGE}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				weekly_manpower	= -240
+				research_speed_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.2
+			}
+		}
+		small_scale_exile = {
+			picture = small_scale_exile
+			allowed = {tag = SGE}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				weekly_manpower	= -10
+			}
+		}
+		french_interference = {
+			picture = french_interference
+			allowed = {}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				political_power_cost = 1
+			}
+		}
+		building_reconstruction = {
+			picture = french_interference
+			allowed = {}
+			available = {}
+			cancle = {date < 1936.5.5}
+			allowed_civil_war = {always = yes}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+		
+		proletarian_parliament = {
+			picture = proletarian_parliament
+			allowed = {}
+			available = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				political_power_factor = 0.1
+				drift_defence_factor = -0.5
+			}
+		}
+		failed_natioanl_policy = {
+			picture = failed_natioanl_policy
+			allowed = {}
+			available = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				compliance_growth = -0.8
+				resistance_growth = 1.0
+			}
+		}
+		
+		Anti_Russian_Sentiment = {
+			allowed = {}
+			available = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				on_add = {
+                	country_lock_all_division_template = yes
+					target = SOV
+            	}
+
+            	on_remove = {
+                	country_lock_all_division_template = no
+					target = SOV
+            	}
+			}
+		}
+		Ukraine_nationalism = {
+			allowed = {}
+			available = {}
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				surrender_limit = 0.05
+			}
+		}
+		Ukraine_kazacks_legacy = {
+			allowed = {}
+			available = {}
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				cavalry_attack_factor = 0.15
+				cavalry_defence_factor = 0.15
+			}
+		}
+		Ukraine_leftest_Threat = {
+			allowed = {}
+			available = {}
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				communism_drift = 0.005
+				socialism_drift = 0.005
+				political_power_factor = -0.1
+				war_support_factor = -0.15
+			}
+		}
+		Ukraine_granary_of_europe = {
+			allowed = {}
+			available = {}
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.1
+				stability_factor = 0.03
+			}
+		}
+		supports = {
+			allowed = {}
+			available = {}
+			cancle = {}
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}	
+		JAP_SMRC = {
+			allowed_civil_war = {always = yes}
+			removal_cost = -1
+			
+			picture = JAP_SMRC
+				
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_rail_way_factor = 0.15
+			}
+		}
+		CHO_COL_strike_ = {
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			allowed = {
+				tag = CHO
+			}
+			picture = CHO_COL_strike
+				
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_factory_efficiency_gain_factor = -0.3
+			}
+		}
+		CHO_COL_complaint_ = {
+			allowed_civil_war = {always = no}
+			removal_cost = -1
+			allowed = {
+				tag = CHO
+			}
+			picture = CHO_COL_complaint
+				
+			modifier = {
+				political_power_cost = 2.00
+				production_speed_buildings_factor = -0.2
+			}
+		}
+		young_japs_support = {
+			modifier = {
+				army_speed_factor = 0.3
+			}
+		}
+		JAP_socialism_acception = {
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		JAP_kudeta_army = {
+			modifier = {
+				conscription = -0.8
+				surrender_limit = 1
+			}
+		}
+		JAP_k_last_defence = {
+			modifier = {
+				army_org_factor = 0.4
+				army_morale_factor = 0.4
+			}
+		}
+		JAP_k_last_attack = {
+			modifier = {
+				army_attack_factor = 0.4
+				army_speed_factor = 0.4
+			}
+		}
+		JAP_good_serach = {
+			modifier = {
+				army_core_attack_factor	 = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+		JAP_for_dem = {
+			modifier = {
+				fascism_drift = 0.3
+			}
+		}
+		JAP_for_tou = {
+			modifier = {
+				progressive_drift = 0.01
+				conservatism_drift = 0.01
+				socialism_drift = 0.01
+			}
+		}
+		ENGs_exploitation = {
+			modifier = {
+				monthly_population = -0.5
+				production_factory_efficiency_gain_factor = -1
+			}
+		}
+		MSY_conspiracy_theory = {
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.5
+				political_power_factor = -0.5
+			}
+		}
+		MSY_Siberia_conflict = {
+			modifier = {
+				consumer_goods_factor = 0.05
+				conscription = -0.02
+			}
+		}
+		MSY_land_of_the_exiles = {
+			modifier = {
+				weekly_manpower = 500
+				stability_weekly = -0.005
+			}
+		}
+		CKK_gathering_exiles = {
+			modifier = {
+				weekly_manpower = 500
+				stability_factor = -0.1
+			}
+		}
+		CKK_Cavarly = {
+			modifier = {
+				cavalry_attack_factor = 0.15
+				army_speed_factor = 0.1
+			}
+		}
+		CKK_revolt = {
+			modifier = {
+				stability_weekly = -0.01
+				political_power_cost = 0.1
+			}
+		}
+		MRC_army = {
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.1
+				supply_consumption_factor = -0.1
+				consumer_goods_factor = 0.2
+				
+			}
+			targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = 0.2
+			}
+		}
+	}
+	hidden_ideas = {
+		JAP_real_army = {
+			allowed = {
+				has_civil_war = yes
+			}
+			modifier = {
+				army_attack_factor = 0.8
+				army_defence_factor = 0.8
+				army_morale_factor = 0.8
+				army_org_factor = 0.8
+				supply_consumption_factor = -0.8
+			}
+		}
+		
+		fascist_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				fascism_drift = 0.01
+			}
+		}
+		neutrality_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				neutrality_drift = 0.01
+			}
+		}
+		conservatism_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				conservatism_drift = 0.01
+			}
+		}
+		progressive_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				progressive_drift = 0.01
+			}
+		}
+		socialism_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				socialism_drift = 0.01
+			}
+		}
+		communism_rallying = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			available = {always = yes}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				communism_drift = 0.01
+			}
+		}
+		communism_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = communism}
+			allowed_civil_war = {always = no}
+			modifier = {
+				
+			}
+		}
+		socialism_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = socialism}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
+		progressive_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = progressive}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
+		conservatism_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = conservatism}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
+		neutrality_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = neutrality}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
+		fascism_forbiden = {
+			picture = fascist_rallying
+			allowed = {always = yes}
+			cancel = {has_government = fascism}
+			allowed_civil_war = {always = no}
+			modifier = { 
+				
+			}
+		}
+		to_surrender = {
+			modifier = {
+				surrender_limit = -1
+			}
+		}
+		
+	}
+}

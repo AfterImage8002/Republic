@@ -1,0 +1,16 @@
+characters={
+	FER_tukhachevsky={
+		name=FER_tukhachevsky
+		portraits={
+			civilian={
+				large="gfx/leaders/FER/tukhachevsky.dds"
+			}
+		}
+		country_leader={
+			ideology=war_communism
+			traits={red_napoleon}
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}

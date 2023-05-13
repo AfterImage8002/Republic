@@ -1,0 +1,16 @@
+characters={
+	STR_committee={
+		name=STR_committee
+		portraits={
+			civilian={
+				large="gfx/leaders/STR/STR_committee.png"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits = {}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

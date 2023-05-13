@@ -1,0 +1,10 @@
+focus_tree = {
+	id = VIN_focus
+	country = {
+		factor = 0
+		modifier = {
+			tag = VIN
+			add = 30
+		}
+	}
+}

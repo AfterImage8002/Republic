@@ -1,0 +1,40 @@
+﻿l_english:
+ #결정
+ fascist_propagation:0 "파시즘 선전"
+ progressive_propagation:0 "진보주의 선전"
+ conservatism_propagation:0 "보수주의 선전"
+ neutrality_propagation:0 "권위주의 선전"
+ communism_propagation:0 "공산주의 선전"
+ socialism_propagation:0 "사회주의 선전"
+
+ JAP_c_dem:0 "민주주의 수호"
+ dem_unity:0 "반군부 정당 연대"
+ attack_tou:0 "통제파 비난"
+ checking_soc:0 "사회대중당 견제"
+ draft:0 "의용무사 모집"
+
+ SGE_rev:0 "혁명의 불꽃이 사그라들지 않도록"
+ sge_sta_regens:0 "레겐스부르크 확보"
+ sge_sta_nui:0 "뉘른베르크 확보"
+ sge_sta_st:0 "슈투트가르트 확보"
+
+ SGE_ele:0 "전인민 총선거"
+ sge_ele_kpd_r:0 "공산당 우파 선거 활동"
+ sge_ele_kpd_l:0 "공산당 좌파 선거 활동"
+ sge_ele_dap:0 "노동자당 좌파 선거 활동"
+ sge_ele_mission:0 "개표 임박"
+ 
+ CKK_rev:0 "반혁명에 맞서다"
+ CKK_mob:0 "혁명에 동원"
+ CKK_coup:0 "반혁명의 모래시계"
+ CKK_coup_tt:0 "§R군관구는 지금 위태롭습니다. 토착민들의 우리에 대한 지지가 악화되기 전에 어서 이곳을 빠져나가야 합니다.§!"
+
+ WSY_knife:0 "시베리아 공작"
+ WSY_attack_yam:0 "야말리아에 폭동 사주"
+ WSY_attack_sur:0 "수르구트에 폭동 사주"
+ WSY_attack_nov:0 "노보시비르스크에 폭동 사주"
+ WSY_attack_corn:0 "비료 공급원 타격"
+
+ MRC_attacks:0 "관동군 작전계획"
+ MRC_attack_sandong:0 "산동사변"
+ MRC_attack_yeolha:0 "열하사변"

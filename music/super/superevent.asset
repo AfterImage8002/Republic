@@ -1,0 +1,26 @@
+music = {
+    name = "yangyang"
+    file = "yangyang.ogg"
+    volume = 0.90
+}
+music = {
+    name = "young_japs"
+    file = "young_japs.ogg"
+    volume = 0.90
+}
+music = {
+    name = "sup_inter"
+    file = "inter.ogg"
+}
+music = {
+    name = "senter_siberia_end"
+    file = "soviet_end.ogg"
+}
+music = {
+    name = "france_civil_war"
+    file = "france_civil_war.ogg"
+}
+music = {
+    name = "china_civil_war"
+    file = "china_civil_war.ogg"
+}

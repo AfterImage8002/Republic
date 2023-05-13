@@ -1,0 +1,297 @@
+music_station = "a_rev_station"
+
+music = {
+	song = "bandiera"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+	
+}
+music = {
+	song = "redsun"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "warsaw"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "red_flag"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "solidarity"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "einheitsfront"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "comrad"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "arbeit"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "our_best"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "Quand"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "with_tito"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "hungary_song"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "norway_song"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "which_side"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "internationale"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "cze_partisan"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "sov_partisan"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "oktobersong"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "battle_going"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "for_im"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "ami"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "red_army_strongest"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "was_wollen"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "cuba"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "anarch"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "spain_anarch"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "listen_workers"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "La_marse"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "Shune_light_into_darkness"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "Cruel_cruel_world"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}

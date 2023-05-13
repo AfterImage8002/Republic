@@ -1,0 +1,102 @@
+music_station = "arrange"
+
+music = {
+	song = "inter_arr"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "katyu"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "listen"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "polyu"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "red_army_arr"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "red_flag_arr"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "ruin"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "sov_army_arr"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "sov_arr"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
+	song = "tachan"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+
+muic = {
+	song = "warsza"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}

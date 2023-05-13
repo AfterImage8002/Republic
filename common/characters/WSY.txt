@@ -1,0 +1,16 @@
+characters={
+	WSY_Yagoda={
+		name=WSY_Yagoda
+		portraits={
+			civilian={
+				large="gfx/leaders/WSY/Yagoda.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={head_of_NKVD}
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}

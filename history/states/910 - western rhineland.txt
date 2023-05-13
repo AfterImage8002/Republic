@@ -1,0 +1,39 @@
+
+state={
+	id=910
+	name="STATE_910"
+	manpower = 3144743
+	resources={
+		steel=15 # was: 54
+	}
+
+
+	state_category = metropolis
+	history={
+		owner = FRA
+		victory_points = {
+			587 5 
+		}
+		#victory_points = {
+		#	3444 5
+		#}
+		#victory_points = {
+		#	3547 1
+		#}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = RHI
+	}
+
+	provinces={
+		587 3444 3547 9522 
+	}
+	
+
+	local_supplies=0.0 
+}

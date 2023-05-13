@@ -1,0 +1,10 @@
+focus_tree = {
+	id = MLI_focus
+	country = {
+		factor = 0
+		modifier = {
+			tag = MLI
+			add = 30
+		}
+	}
+}

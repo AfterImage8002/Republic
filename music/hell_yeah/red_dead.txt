@@ -1,0 +1,52 @@
+music_station = "red_dead"
+
+music = {
+	song = "Shune_light_into_darkness"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "Cruel_cruel_world"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "May_i"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "your_my_brother"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "american_venom"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}

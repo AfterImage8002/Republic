@@ -1,0 +1,16 @@
+characters = {
+    BYA_Tsydenova = {
+        name = BYA_Tsydenova
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BYA/Tsydenova.dds"
+            }
+        }
+        country_leader = {
+            ideology = stalinism
+            traits = {} 
+            expire = "1999.1.1"
+            id = -1
+        }
+    }
+}

@@ -1,0 +1,16 @@
+characters={
+	HNC_Tanyenkai={
+		name=HNC_Tanyenkai
+		portraits={
+			civilian={
+				large="gfx/leaders/HNC/TanYenKai.dds"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits={  }
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}

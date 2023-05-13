@@ -1,0 +1,30 @@
+characters={
+	CHO_Itou={
+		name=CHO_Itou
+		portraits={
+			civilian={
+				large="gfx/leaders/CHO/CHO_Itou.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={  }
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+	CHO_Gov={
+		name=CHO_Gov
+		portraits={
+			civilian={
+				large="gfx/leaders/CHO/CHO_Gov.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			traits={  }
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}

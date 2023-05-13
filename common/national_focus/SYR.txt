@@ -1,0 +1,10 @@
+focus_tree = {
+	id = SYR_focus
+	country = {
+		factor = 0
+		modifier = {
+			tag = SYR
+			add = 30
+		}
+	}
+}

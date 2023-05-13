@@ -1,0 +1,30 @@
+characters = {
+    KAZ_Baitursynuly = {
+        name = KAZ_Baitursynuly
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/KAZ/Baitursynuly.png"
+            }
+        }
+        country_leader = {
+            ideology = liberal_democracy
+            traits = {}
+            expire = "1999.1.1"
+            id=-1
+        }
+    }
+    KAZ_Bukharin = {
+        name = KAZ_Bukharin
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/KAZ/Bukharin.dds"
+            }
+        }
+        country_leader = {
+            ideology = war_communism
+            traits = {}
+            expire = "1999.1.1"
+            id=-1
+        }
+    }
+}

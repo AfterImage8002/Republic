@@ -1,0 +1,558 @@
+add_namespace = FRA_event
+
+country_event = {
+    id = FRA_event.1
+    title = FRA_event.1.t 
+    desc = FRA_event.1.d 
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.1.a
+    }
+}
+
+country_event = {
+    id = FRA_event.2
+    title = FRA_event.2.t 
+    desc = FRA_event.2.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.2.a 
+    }
+}
+
+country_event = {
+    id = FRA_event.3
+    title = FRA_event.3.t
+    desc = FRA_event.3.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = FRA_event.3.a
+    }
+}
+
+country_event = {
+    id = FRA_event.4
+    title = FRA_event.4.t
+    desc = FRA_event.4.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.4.a
+        set_variable = {
+            B = 1
+        }
+    }
+}
+
+country_event = {
+    id = FRA_event.5
+    title = FRA_event.5.t
+    desc = FRA_event.5.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.5.a
+        set_variable = {
+            A = 1
+        }
+    }
+}
+
+country_event = {
+    id = FRA_event.6
+    title = FRA_event.6.t
+    desc = FRA_event.6.d
+
+    trigger = {
+        check_variable = {
+            B =  1
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = FRA_event.6.a
+        clear_variable = B
+        add_ideas = FRA_Inflation
+    }
+}
+
+country_event = {
+    id = FRA_event.7
+    title = FRA_event.7.t
+    desc = FRA_event.7.d
+
+    trigger = {
+        check_variable = {
+            A = 1
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = FRA_event.7.a
+        country_event = FRA_event.8 
+    }
+}
+
+country_event = {
+    id = FRA_event.8
+    title = FRA_event.8.t
+    desc = FRA_event.8.d
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = FRA_event.8.a
+        add_stability = -0.05
+        add_ideas = FRA_colony_disturbance
+        set_variable = {
+            FRA_colony = 1
+        }
+    }
+}
+
+country_event = {
+    id = FRA_event.9
+    title = FRA_event.9.t
+    desc = FRA_event.9.d
+
+    trigger = {
+        check_variable = {
+            FRA_colony = 1
+        }
+        has_ideas = FRA_colony_disturbance
+    }
+    fire_only_once = yes
+
+    option = {
+        name = FRA_event.9.a
+        add_stability = -0.05
+        add_ideas = FRA_colony_disturbance_west_africa
+        set_variable = {
+            FRA_colony_2 = 1
+        }
+        clear_variable = FRA_colony
+    }
+}
+
+country_event = {
+    id = FRA_event.10
+    title = FRA_event.10.t
+    desc = FRA_event.10.d
+
+    trigger = {
+        check_variable = {
+            FRA_colony_2 = 1
+        }
+        has_ideas = FRA_colony_disturbance_west_africa
+    }
+
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.10.a
+        add_stability = -0.05
+        add_ideas = FRA_colony_disturbance_south_africa
+        clear_variable = FRA_colony_2
+    }
+}
+
+country_event = { #대충 아사자 증가
+    id = FRA_event.11
+    title = FRa_evnet.11.t
+    desc = FRA_event.11.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.11.a
+        add_stability = -0.1
+        add_war_support = -0.05
+        add_ideas = FRA_ggaim
+        country_event = FRA_event.12
+    }
+}
+
+country_event = { #기업들 다 좆됐음
+    id = FRA_event.12
+    title = FRA_event.12.t
+    desc = FRA_event.12.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.12.a
+        add_stability = -0.1
+        add_war_support = -0.05
+        country_event = FRA_event.13
+    }
+}
+
+country_event = { #사회주의자들의 시위
+    id = FRA_event.13
+    title = FRA_event.13.t
+    desc = FRA_event.13.d 
+
+    is_triggered_only = yes
+    
+    option = {
+        name = FRA_event.13.a
+        add_stability = -0.05
+        add_war_support = -0.1
+        country_event = FRA_event.14
+    }
+}
+
+country_event = { #파시스트들이 시위함
+    id = FRA_event.14
+    title = FRA_event.14.t
+    desc = FRA_event.14.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.14.a
+        add_stability = -0.05
+        add_war_support = -0.03
+        country_event = FRA_event.15
+    }
+}
+
+country_event = {
+    id = FRA_event.15
+    title = FRA_event.15.t
+    desc = FRA_event.15.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.15.a
+        hidden_effect = {
+            RFR = {
+                transfer_state = 16
+            }
+            hidden_effect = {
+                every_state = {
+                    limit = {
+                        is_owned_by = FRA
+                    }
+                    
+                    set_demilitarized_zone = yes
+                }
+                every_state = {
+                    limit = {
+                        is_core_of = FRA
+                    }
+                    add_core_of = RFR
+                    add_core_of = FRL
+                }
+                16 = {
+                    set_demilitarized_zone = no
+                }
+                25 = {
+                    set_demilitarized_zone = no
+                }
+                31 = {
+                    set_demilitarized_zone = no
+                }
+                country_event = {
+                    id = FRA_Event.16
+                    days = 4
+                }
+            }
+        }
+    }
+}
+country_event = {
+    id = FRA_event.16
+    title = FRA_event.15.t
+    desc = FRA_event.15.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.15.a
+        RFR = {
+            transfer_state = 15
+        }
+        hidden_effect = {
+            country_event = {
+                id = FRA_Event.17
+                days = 4
+            }
+        }
+    }
+}
+country_event = {
+    id = FRA_event.17
+    title = FRA_event.15.t
+    desc = FRA_event.15.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.15.a
+        RFR = {
+            transfer_state = 785
+        }
+        hidden_effect = {
+            country_event = {
+                id = FRA_Event.18
+                days = 4
+            }
+        }
+    }
+}
+country_event = {
+    id = FRA_event.18
+    title = FRA_event.15.t
+    desc = FRA_event.15.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.15.a
+        RFR = {
+            transfer_state = 30
+        }
+        hidden_effect = {
+            country_event = {
+                id = FRA_Event.19
+                days = 4
+            }
+        }
+    }
+}
+country_event = { #혁명위원회로 건너가기
+    id = FRA_event.19
+    title = FRA_event.15.t
+    desc = FRA_event.15.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.15.a
+        RFR = {
+            change_tag_from = FRA
+        }
+        hidden_effect = {
+            country_event = {
+                id = FRA_Event.20
+                days = 4
+            }
+        }
+    }
+    option = {
+        name = FRA_event.15.a
+        hidden_effect = {
+            country_event = {
+                id = FRA_Event.20
+                days = 4
+            }
+        }
+    }
+}
+
+country_event = { #자유국민전선
+    id = FRA_event.20
+    title = FRA_event.15.t
+    desc = FRA_event.15.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.15.a
+        FRL = {
+            transfer_state = 27
+            transfer_state = 20
+            transfer_state = 32
+            transfer_state = 735
+        }
+        20 = {
+            set_demilitarized_zone = no
+        }
+        FRL = {
+            change_tag_from = FRA
+        }
+        hidden_effect = {
+            country_event = {
+                id = FRA_Event.21
+                days = 4
+            }
+        }
+    }
+    option = {
+        name = FRA_event.15.a
+        FRL = {
+            transfer_state = 27
+            transfer_state = 20
+            transfer_state = 32
+            transfer_state = 735
+        }
+        20 = {
+            set_demilitarized_zone = no
+        }
+        hidden_effect = {
+            country_event = {
+                id = FRA_Event.21
+                days = 4
+            }
+        }
+    }
+}
+country_event = { #내전 ㄱㄱ
+    id = FRA_event.21
+    title = FRA_event.15.t
+    desc = FRA_event.15.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.15.a
+        every_state = {
+            limit = {
+                OR = {
+                    is_owned_by = FRA
+                    is_owned_by = RFR
+                    is_owned_by = FRL
+                }
+                
+            }
+            set_demilitarized_zone = no
+        }
+        RFR = {
+            declare_war_on = {
+                target = FRA
+                type = annex_everything
+            }
+        }
+        FRL = {
+            declare_war_on = {
+                target = RFR
+                type = annex_everything
+            }
+        }
+        FRA = {
+            set_capital = {
+                state = 19
+            }
+        }
+        hidden_effect = {
+            country_event = {
+                id = FRA_event.22
+                days = 10
+            }
+            every_country = {
+                news_event = super_news_event.1
+            }
+        }
+    }
+}
+country_event = { #방위군
+    id = FRA_event.22
+    title = FRA_event.15.t
+    desc = FRA_event.15.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.15.a
+        end_puppet = RHI
+        RHI = {
+            leave_faction = yes
+        }
+        RDA = {
+            transfer_state = 34
+            transfer_state = 8
+            transfer_state = 921
+            transfer_state = 910
+            transfer_state = 42
+            transfer_state = 28
+            transfer_state = 17
+            transfer_state = 6
+        }
+        every_state = {
+            limit = {
+                is_owned_by = RDA
+                is_core_of = FRA
+            }
+            add_core_of = RDA
+        }
+        hidden_effect = {
+            country_event = {
+                id = FRA_event.23
+                days = 5
+            }
+        }
+    }
+}
+country_event = { #식민지의 괴뢰국 단계 없애기
+    id = FRA_event.23
+    title = FRA_event.15.t
+    desc = FRA_event.15.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.15.a
+        set_autonomy = { #나중에 프랑스만의 괴뢰국 단계를 만들든가 해야지
+            target = MOR
+            autonomy_state = autonomy_warlord
+        }
+        set_autonomy = {
+            target = TUN
+            autonomy_state = autonomy_warlord
+        }
+        set_autonomy = {
+            target = MLI
+            autonomy_state = autonomy_warlord
+        }
+        set_autonomy = {
+            target = CHA
+            autonomy_state = autonomy_warlord
+        }
+        set_autonomy = {
+            target = VIN
+            autonomy_state = autonomy_warlord
+        }
+        set_autonomy = {
+            target = MAD
+            autonomy_state = autonomy_warlord
+        }
+        set_autonomy = {
+            target = SYR
+            autonomy_state = autonomy_warlord
+        }
+        set_autonomy = {
+            target = KUR
+            autonomy_state = autonomy_warlord
+        }
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    is_puppet_of = FRA
+                }
+                set_politics = {
+                    ruling_party = neutrality
+                }
+            }
+        }
+    }
+}

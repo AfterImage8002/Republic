@@ -1,0 +1,19 @@
+focus_tree = {
+	id = minor_focus
+	country = {
+		factor = 0
+		modifier = {
+			OR = {
+				tag = KUB
+				tag = KAZ
+				tag = FER
+				tag = VLA
+				tag = UKR
+				tag = BLR
+				tag = MRC
+				tag = LBA
+			}
+			add = 30
+		}
+	}
+}

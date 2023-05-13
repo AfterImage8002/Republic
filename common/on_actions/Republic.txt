@@ -1,0 +1,36 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			CHI = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			MAN = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			HNC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GDC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GXC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			SIC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			PRC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GJC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			YUN = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			SHX = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			XSM = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			YHC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GSC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			UKR = {add_opinion_modifier = { target = SOV modifier = ukraine_anti_russian }}
+		}
+		SOV = {
+			every_state = {
+				limit = {
+					or ={
+					is_owned_and_controlled_by = WSY
+					is_owned_and_controlled_by = KAZ
+					is_owned_and_controlled_by = MSY
+					is_owned_and_controlled_by = FER
+					is_owned_and_controlled_by = BYA
+					is_owned_and_controlled_by = VLA
+					is_owned_and_controlled_by = RUS
+					}
+				}
+				add_core_of = SOV
+			}
+		}
+	}
+}

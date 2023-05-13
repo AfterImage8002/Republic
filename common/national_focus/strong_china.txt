@@ -1,0 +1,255 @@
+focus_tree = {
+	id = china_china_china_china_is_strong
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HEL
+		}
+	}
+	default = no
+	focus = {
+		id = ssunwon_is_not_dead
+		icon = GFX_goal_unknown
+		cost = 0.20
+		mutually_exclusive = {
+			focus = ssunwon_is_ai_robotdesu
+		}
+		x = 8
+		y = 1
+		completion_reward = {
+			remove_country_leader_trait = frained
+			add_country_leader_trait = frained_but_ssunwon_is_strong
+		}
+
+	}
+	focus = {
+		id = china_warlord_annex
+		icon = GFX_goal_unknown
+		cost = 0.20
+		prerequisite = {
+			focus = ssunwon_is_not_dead
+			focus = ssunwon_is_ai_robotdesu
+		}
+		x = 9
+		y = 2
+		completion_reward = {
+			annex_country = {
+				target = SHX
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = YHC
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = GSC
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = MON
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = MAN
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = MRC
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = HNC
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = XSM
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = SIK
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = SIC
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = GJC
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = YUN
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = GXC
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = GDC
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = TIB
+				transfer_troops = yes
+			}
+		}
+
+	}
+	focus = {
+		id = ssunwon_is_ai_robotdesu
+		icon = GFX_goal_unknown
+		cost = 0.20
+		mutually_exclusive = {
+			focus = ssunwon_is_not_dead
+		}
+		x = 10
+		y = 1
+		completion_reward = {
+			remove_country_leader_trait = frained
+			add_country_leader_trait = buntang_ssunwondesu
+		}
+
+	}
+	focus = {
+		id = overpower_manpower_focus
+		icon = GFX_goal_unknown
+		cost = 0.20
+		prerequisite = {
+			focus = ssunwon_is_not_dead
+			focus = ssunwon_is_ai_robotdesu
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+			add_manpower = 70511200
+		}
+
+	}
+	focus = {
+		id = annex_russia_warlord
+		icon = GFX_goal_unknown
+		cost = 0.20
+		prerequisite = {
+			focus = china_warlord_annex
+		}
+		x = 8
+		y = 3
+		completion_reward = {
+			annex_country = {
+				target = BYA
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = RUS
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = VLA
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = FER
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = MSY
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = WSY
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = KAZ
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = KUB
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = SOV
+				transfer_troops = yes
+			}
+			
+		}
+
+	}
+	focus = {
+		id = usa_warlord_annex
+		icon = GFX_goal_unknown
+		cost = 0.20
+		prerequisite = {
+			focus = china_warlord_annex
+		}
+		x = 10
+		y = 3
+		completion_reward = {
+			annex_country = {
+				target = USA
+				transfer_troops = yes
+			}
+			
+		}
+
+	}
+	focus = {
+		id = need_more_gun_please_lol
+		icon = GFX_goal_unknown
+		cost = 0.20
+		prerequisite = {
+			focus = ssunwon_is_ai_robotdesu
+			focus = ssunwon_is_not_dead
+		}
+		x = 12
+		y = 2
+		completion_reward = {
+			add_stability = 10
+		}
+
+	}
+	focus = {
+		id = anti_japan_focus_overpower
+		icon = GFX_goal_unknown
+		cost = 0.20
+		prerequisite = {
+			focus = annex_russia_warlord
+		}
+		prerequisite = {
+			focus = usa_warlord_annex
+		}
+		x = 9
+		y = 4
+		completion_reward = {
+			every_state ={
+				limit = {
+					is_owned_by = CHI
+				}
+				is_core_of = CHI
+			}
+			declare_war_on = {
+				target = JAP
+				type = annex_everything
+			}
+			load_oob = JAP_1939
+			load_oob = JAP_1936
+			load_oob = JAP_1939
+			load_oob = JAP_1936
+			load_oob = JAP_1939
+			load_oob = JAP_1936
+			load_oob = JAP_1939
+			load_oob = JAP_1936
+			load_oob = JAP_1939
+			load_oob = JAP_1936
+			load_oob = JAP_1939
+			load_oob = JAP_1936
+			load_oob = JAP_1939
+			load_oob = JAP_1936
+			load_oob = JAP_1939
+			load_oob = JAP_1936
+		}
+
+	}
+}

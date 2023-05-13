@@ -1,0 +1,93 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			CHI = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			MAN = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			HNC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GDC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GXC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			SIC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			PRC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GJC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			YUN = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			SHX = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			XSM = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			YHC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			GSC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
+			UKR = {add_opinion_modifier = { target = SOV modifier = ukraine_anti_russian }}
+		if = {
+			every_state = {
+					limit = {
+						or = {
+						is_core_of = MSY
+						is_core_of = WSY
+						is_core_of = KAZ
+						is_core_of = KUB
+						is_core_of = BYA
+						is_core_of = FER
+						is_core_of = RUS
+						is_core_of = VLA
+						
+						}
+					}
+					add_core_of = SOV
+				}
+			}
+		}
+		
+		}
+		on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+				original_tag = SLO
+				has_war_with = HUN
+				}
+			HUN = {
+				white_peace = SLO
+				annex_country = {
+				target = SLO
+				transfer_troops = no
+					}
+				country_event = {
+					id = hungary_slo_event.1 days = 2
+				}
+				}
+			}
+			
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					43 = { is_controlled_by = SLO }
+				}
+				every_country = {
+					limit = {
+						has_war_with = SLO
+					}
+					white_peace = SLO
+				}
+				SLO = {
+					country_event = { id = hungary_slo_event.2 }
+				}
+			}
+			if = {
+				limit = {
+					328 = { is_controlled_by = MRC }
+				}
+				every_country = {
+					limit = {
+						has_war_with = MRC
+					}
+					white_peace = MRC
+				}
+				MRC = {
+					country_event = { id = china.1015 }
+				}
+			}
+		}
+	}
+}
+

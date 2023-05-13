@@ -1,0 +1,124 @@
+focus_tree = {
+	id = FRA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	focus = {
+		id = FRA_NEW_FOCUS_1
+		icon = GFX_france_dawn
+		cost = 2.00
+		x = 8
+		y = 0
+		completion_reward = {
+			add_political_power = -50
+			country_event = FRA_event.1 
+		}
+	}
+	focus = {
+		id = FRA_solve_problem
+		icon = GFX_FRA_solve_problem
+		cost = 2.00
+		prerequisite = {
+			focus = FRA_NEW_FOCUS_1
+		}
+		x = 8
+		y = 1
+		completion_reward = {
+			country_event = FRA_event.2 
+			add_political_power = 10
+		}
+	}
+	focus = {
+		id = FRA_FOCUS_FRANG_solve
+		icon = GFX_focus_fra_devalue_the_franc
+		cost = 2.00
+		prerequisite = {
+			focus = FRA_solve_problem
+		}
+		x = 8
+		y = 2
+		completion_reward = {
+			country_event = FRA_event.3 
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = FRA_building_by_country
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = FRA_FOCUS_FRANG_solve
+		}
+		x = 9
+		y = 3
+		completion_reward = {
+			add_political_power = 50
+			country_event = FRA_event.4
+		}
+	}
+	focus = {
+		id = FRA_money_by_country
+		icon = GFX_FRA_money_by_country
+		cost = 2.00
+		prerequisite = {
+			focus = FRA_FOCUS_FRANG_solve
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			add_political_power = 50
+			country_event = FRA_event.5
+		}
+	}	
+	focus = {
+		id = FRA_NEW_FOCUS_18
+		icon = GFX_FRA_NEW_FOCUS_18
+		cost = 5.00
+		prerequisite = {
+			focus = FRA_money_by_country
+		}
+		x = 7
+		y = 4
+		completion_reward = {
+			add_political_power = -30
+			country_event = FRA_ggaim
+		}
+	}
+
+	focus = {
+		id = FRA_final_focus_1
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = FRA_NEW_FOCUS_18
+		}
+		prerequisite = {
+			focus = FRA_money_plus
+		}
+		x = 8
+		y = 5
+		completion_reward = {
+			country_event = FRA_event.11
+		}
+	}
+
+	focus = {
+		id = FRA_money_plus
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = FRA_building_by_country
+		}
+		x = 9
+		y = 4
+		completion_reward = {
+			add_ideas = FRA_ggaim
+			add_political_power = 50
+		}
+	}
+}

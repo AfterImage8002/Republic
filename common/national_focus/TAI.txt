@@ -1,0 +1,10 @@
+focus_tree = {
+	id = TAI_focus
+	country = {
+		factor = 0
+		modifier = {
+			tag = TAI
+			add = 30
+		}
+	}
+}

@@ -1,0 +1,77 @@
+bookmarks = {
+	bookmark = {
+		name = "DEMOCRACY_NAME"
+		desc = "DEMOCRACY_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_democracy"
+		default_country = "GER"
+		default = no
+		
+		"SPR"={
+			history = "SPR_DEMOCRACY_DESC"
+			ideology = conservatism
+			available = { has_dlc = "La Resistance" } 
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+		}
+		"USA"={
+			history = "USA_DEMOCRACY_DESC"
+			ideology = progressive
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}
+		"ENG"={
+			history = "ENG_DEMOCRACY_DESC"
+			ideology = conservatism
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				george_v
+			}
+			focuses = {
+				ENG_imperial_federation
+				ENG_the_kings_party
+				ENG_organize_the_blackshirts
+			}
+		}
+		"GER"={
+			history = "GER_DEMOCRACY_DESC"
+			ideology = socialism
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_1
+			}
+			focuses = {
+				GER_anschluss
+				GER_danzig_or_war
+				GER_revive_the_kaiserreich
+			}
+		}
+		
+
+		
+		
+
+
+		# minors from DLC ####
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

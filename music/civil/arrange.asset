@@ -1,0 +1,56 @@
+music = {
+	name = "inter_arr"
+	file = "international.ogg"
+	volume = 1.00
+}
+music = {
+	name = "katyu"
+	file = "katyu.ogg"
+	volume = 1.00
+}
+music = {
+	name = "listen"
+	file = "listen.ogg"
+	volume = 1.00
+}
+music = {
+	name = "polyu"
+	file = "polyu.ogg"
+	volume = 1.00
+}
+music = {
+	name = "red_army_arr"
+	file = "red_army_arr.ogg"
+	volume = 1.00
+}
+music = {
+	name = "red_flag_arr"
+	file = "red_flag_arr.ogg"
+	volume = 1.00
+}
+music = {
+	name = "ruin"
+	file = "ruin.ogg"
+	volume = 1.00
+}
+music = {
+	name = "sov_army_arr"
+	file = "song_soviet_army.ogg"
+	volume = 1.00
+}
+music = {
+	name = "sov_arr"
+	file = "soviet.ogg"
+	volume = 1.00
+}
+music = {
+	name = "tachan"
+	file = "tachan.ogg"
+	volume = 1.00
+}
+
+muic = {
+	name = "warsza"
+	file = "warsza.ogg"
+	volume = 1.00
+}

@@ -1,0 +1,10 @@
+focus_tree = {
+	id = MON_focus
+	country = {
+		factor = 0
+		modifier = {
+			tag = MON
+			add = 30
+		}
+	}
+}

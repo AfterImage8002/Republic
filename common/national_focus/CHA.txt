@@ -1,0 +1,11 @@
+focus_tree = {
+	id = CHA_focus
+	country = {
+		factor = 0
+		modifier = {
+			tag = CHA
+			add = 30
+		}
+	}
+	
+}
