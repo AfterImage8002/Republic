@@ -4,7 +4,7 @@ state={
 	name="STATE_951"
 
 	history={
-		owner = JAP
+		owner = CHO
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -18,15 +18,7 @@ state={
 			}
 
 		}
-		add_core_of = KOR
-		add_core_of = DNG
-		1945.8.15 = {
-			owner = KOR
-		}
-		1945.10.3 = {
-			owner = PRK
-			add_core_of = PRK
-		}
+		add_core_of = CHO
 	}
 
 	provinces={

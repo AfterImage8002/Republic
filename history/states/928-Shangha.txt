@@ -4,6 +4,9 @@ state={
 	provinces={
 		4042 7014 10034 12052 12076 
 	}
+	history = {
+		owner = SAX
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

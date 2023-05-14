@@ -4,7 +4,7 @@ state={
 	name="STATE_946"
 
 	history={
-		owner = JAP
+		owner = CHO
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -24,17 +24,7 @@ state={
 		victory_points = {
 			11915 3 
 		}
-		add_core_of = KOR
-		1945.8.15 = {
-			owner = KOR
-
-		}
-		1945.10.3 = {
-			owner = PRK
-			add_core_of = PRK
-
-		}
-
+		add_core_of = CHO
 	}
 
 	provinces={
