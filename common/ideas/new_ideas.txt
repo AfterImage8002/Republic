@@ -51,7 +51,7 @@ ideas = {
 		}
 		
 		economic_depression = {
-			picture = economic_depression
+			picture = FRA_Franc_Crisis
 			allowed = {}
 			available = {}
 			cancle = {}
