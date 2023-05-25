@@ -1,13 +1,18 @@
 state={
 	id=929
 	name="STATE_929"
+	state_category = city
 	provinces={
 		4091 11928 
 	}
 	history = {
-		owner = SAX
+		owner = CHI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+		}
 	}
-	manpower=0
+	manpower=4783290
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

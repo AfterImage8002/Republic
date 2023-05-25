@@ -80,16 +80,6 @@ spriteTypes = {
 		name = "GFX_idea_MSY_ending_ideas"
 		texturefile = "gfx/interface/ideas/outlaw_ideas_picture.png"
 	}
-	SpriteType = {
-		name = "GFX_idea_FRA_Franc_Crisis" # 프랑화 위기
-		texturefile = "gfx/interface/ideas/FRA_Franc_Crisis.dds"
-	}
-	SpriteType = {
-		name = "GFX_idea_FRA_Colonization" # 식민지 수탈
-		texturefile = "gfx/interface/ideas/FRA_Colonization.dds"
-	}
-	
-	
 	spriteType = {
 		name = "rev_music"
 		texturefile = "gfx/interface/rev_music_on.dds"

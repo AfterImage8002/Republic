@@ -47,6 +47,10 @@ MRC_attacks = {
 						on_win = MRC.2
 					}
 				}
+				add_timed_idea = {
+					idea = MRC_incident
+					days = 60
+				}
 			}
 			
 		}

@@ -1,13 +1,4 @@
-﻿division_template = {
-	name = "Bubing Shi"				# Regular Infantry Division (brigade sized)
-	division_names_group = MAN_INF_01
-									# Militia-level training and equipment
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-}
+﻿
 division_template = {
 	name = "Qu Jun"					# "District Army" (garrison)
 	division_names_group = MAN_GAR_01
@@ -19,6 +10,9 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 	priority = 0
 }
@@ -44,7 +38,7 @@ units = {
 		location = 11771
 		division_template = "Qu Jun"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 1
 	}
 	division = { # "2 Qu Jun"
 		division_name = {
@@ -93,7 +87,7 @@ units = {
 			name_order = 1
 		}
 		location = 11771
-		division_template = "Qibing Shi"
+		division_template = "Qu Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.9
 	}
@@ -103,7 +97,7 @@ units = {
 			name_order = 2
 		}
 		location = 11771
-		division_template = "Qibing Shi"
+		division_template = "Qu Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.9
 	}
@@ -113,7 +107,7 @@ units = {
 			name_order = 3
 		}
 		location = 11771
-		division_template = "Qibing Shi"
+		division_template = "Qu Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.9
 	}
@@ -123,7 +117,7 @@ units = {
 			name_order = 4
 		}
 		location = 11771
-		division_template = "Qibing Shi"
+		division_template = "Qu Jun"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.9
 	}

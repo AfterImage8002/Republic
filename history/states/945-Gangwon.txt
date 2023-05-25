@@ -22,7 +22,7 @@ state={
 			13271 3 
 		}
 		victory_points = {
-			12011 3 
+			9936 3
 		}
 		add_core_of = CHO
 	}

@@ -16,6 +16,12 @@ state={
 
 		}
 		add_core_of = CHO
+		victory_points = {
+			11775 3
+		}
+		victory_points = {
+			11835 5
+		}
 	}
 
 	provinces={

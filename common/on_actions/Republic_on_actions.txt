@@ -77,12 +77,7 @@ on_actions = {
 				limit = {
 					328 = { is_controlled_by = MRC }
 				}
-				every_country = {
-					limit = {
-						has_war_with = MRC
-					}
-					white_peace = MRC
-				}
+				
 				MRC = {
 					country_event = { id = china.1015 }
 				}

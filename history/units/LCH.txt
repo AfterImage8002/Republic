@@ -145,6 +145,76 @@ units = {
 	}
 	division = {
 		name = "Left Unit"
+		location = 10003
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Left Unit"
+		location = 10003
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Left Unit"
+		location = 10003
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Left Unit"
+		location = 10003
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Left Unit"
+		location = 10003
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Left Unit"
+		location = 10003
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Left Unit"
+		location = 10003
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Left Unit"
+		location = 10003
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Left Unit"
+		location = 10003
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Left Unit"
+		location = 10003
+		division_template = "Sanjiao Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Left Unit"
 		location = 7126
 		division_template = "Sanjiao Jun"
 		start_experience_factor = 0.1

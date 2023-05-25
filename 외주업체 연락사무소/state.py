@@ -3,3 +3,6 @@ states = ['AK0', 'AL0', 'AR0', 'AZ0', 'CA0', 'CO0', 'CT0', 'DE0', 'FL0', 'GA0', 
 for i, state in enumerate(states):
     state_tag = f"{state} = {{\n    color = rgb {{ 20 133 237 }}\n    color_ui = rgb {{ 87 160 255 }}\n}}"
     print(f"#{i}:\n {state_tag}")
+
+
+print('버그가 안고쳐져~~~')

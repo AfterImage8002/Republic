@@ -1806,6 +1806,12 @@ country_event = { #좌파 : 난 여기서 빠져나가야겠어!
 			transfer_state = 620
 			transfer_state = 750
 			transfer_state = 920
+			transfer_state = 931
+			transfer_state = 930
+			transfer_state = 933
+			transfer_state = 932
+			transfer_state = 934
+			transfer_state = 935
 			recruit_character = CHI_wang_jingwei
 			retire_country_leader = yes
 			load_oob = LCH
@@ -1951,6 +1957,19 @@ country_event = { #관동주의 만주국 침략전쟁 - the end
 			transfer_state = 610
 			transfer_state = 609
 			set_cosmetic_tag = MAN_lose
+			
+		}
+		CHI = {
+			release_autonomy = {
+				target = MAN
+				autonomy_state = autonomy_warlord
+			}
+		}
+		every_country = {
+			limit = {
+				has_war_with = MRC
+			}
+			white_peace = MRC
 		}
 	}
 

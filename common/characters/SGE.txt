@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=leninism
+			ideology=stalinism
 			traits={ }
 			expire="1955.9.22"
 			id=-1

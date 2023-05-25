@@ -23,6 +23,7 @@ focus_tree = {
 				}
 			}
 			unlock_decision_category_tooltip = SGE_rev
+			
 		}
 	}
 	focus = {

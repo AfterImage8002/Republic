@@ -51,7 +51,7 @@ ideas = {
 		}
 		
 		economic_depression = {
-			picture = FRA_Franc_Crisis
+			picture = economic_depression
 			allowed = {}
 			available = {}
 			cancle = {}
@@ -464,7 +464,12 @@ ideas = {
 			}
 			targeted_modifier = {
 				tag = CHI
-				attack_bonus_against = 0.2
+				attack_bonus_against = 0.35
+			}
+		}
+		MRC_incident = {
+			modifier = {
+				army_attack_factor = 0.2
 			}
 		}
 	}
