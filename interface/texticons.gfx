@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "texticon_KMT"
+		texturefile = "gfx/interface/LR_texticons/texticon_KMT.dds"
+	}
+}
