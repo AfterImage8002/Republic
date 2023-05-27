@@ -28,3 +28,4 @@ add_ideas = {
 	give_money_to_mrc
 }
 recruit_character = CHO_Itou
+recruit_character = CHO_saito_macoto
