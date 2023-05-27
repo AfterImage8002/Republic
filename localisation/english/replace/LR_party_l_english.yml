@@ -90,11 +90,11 @@ new_CKK_neutrality_party:0 "백군 사령부"
  MAN_communism_party:0 "국민당 (좌파)"
  MAN_fascism_party:0 "중화인민연합"
  KOR_neutrality_party:0 "건국동맹" #여운형
- KOR_conservatism_party:0 "한국국민당" #김구
- KOR_conservatism_party_long:0 "한국국민당"
- KOR_communism_party:0 "조선공산당" #박헌영
+ KOR_conservatism_party:0 "건국동맹" #김구
+ KOR_conservatism_party_long:0 "건국동맹"
+ KOR_communism_party:0 "건국동맹" #박헌영
  KOR_fascism_party:0 "" #ㅁ?ㄹ
- KOR_socialism_party:0 "조선민족혁명당" #김원봉
+ KOR_socialism_party:0 "건국동맹" #김원봉
  KOR_progressive_party:0 "민족혁명당" #김규식 (여운형이 후에 합류)
  DON_neutrality_party:0 "국민회의"
  DON_democratic_party:0 "자유당"

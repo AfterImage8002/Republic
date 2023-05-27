@@ -107,7 +107,8 @@ country_event = {
 		
 		hidden_effect = {
 			KOR = {
-				transfer_state = 527
+				transfer_state = 951
+				transfer_state = 953
 			}
 			declare_war_on = {
 				target = KOR
