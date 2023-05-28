@@ -91,6 +91,10 @@ country_event = {
 		}
 		hidden_effect = {
 			news_event = cho_col.6
+			country_event = {
+				id = cho_col.5
+				days = 60
+			}
 		}
 	}
 }
@@ -104,11 +108,14 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = cho_col.5.a
-		
+		ai_chance = {
+			factor = 100
+		}
 		hidden_effect = {
 			KOR = {
 				transfer_state = 951
 				transfer_state = 953
+				load_oob = KOR.txt
 			}
 			declare_war_on = {
 				target = KOR

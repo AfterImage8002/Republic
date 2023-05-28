@@ -119,7 +119,7 @@ new_CKK_neutrality_party:0 "백군 사령부"
  JAP_communism_party:0 "§R일본공산당 (금지됨)§!"
  JAP_fascism_party:0 "군부 (통제파)"
 
- CHO_fascism_party:0 "조선총독부"
+ CHO_conservatism_party:0 "총독부"
  TAI_fascism_party:0 "대만총독부"
 
  CHI_communism_party:0 "공산당"

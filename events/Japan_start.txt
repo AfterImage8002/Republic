@@ -162,10 +162,6 @@ country_event = { #황도파 on
 					id = cho_col.4
 					days = 45
 				}
-				country_event = {
-					id = cho_col.5
-					days = 80
-				}
 			}
 			add_popularity = {
 				ideology = neutrality
