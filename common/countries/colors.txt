@@ -1,4 +1,8 @@
 #reload countrycolors
+PRM = {
+	color = rgb {143 10 10}
+	color_ui = rgb {255 168 168}
+}
 LCH = {
 	color = rgb {255 88 88}
 	color_ui = rgb {255 168 168}
