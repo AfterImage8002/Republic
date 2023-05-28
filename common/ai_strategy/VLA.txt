@@ -1,0 +1,18 @@
+VLA_vol = {
+	allowed = {
+		original_tag = VLA
+		has_country_leader = VLA_Trotsky
+	}
+	enable = {
+		has_idea = VLA_support
+	}
+	abort = {
+		NOT = {	has_idea = VLA_support }
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = kor
+		value = 9999
+	}
+}

@@ -44,4 +44,25 @@ focus_tree = {
 			
 		}
 	}
+	focus = {
+		id = CHO_COL_keijo
+		cost = 10
+		x = 7
+		y = 2
+		completion_reward = {
+			add_war_support = -0.1
+			hidden_effect = {
+				load_oob = CHO_col
+			}
+		}
+		prerequisite = {
+			focus = CHO_COL_big_protest
+		}
+		prerequisite = {
+			focus = CHO_COL_big_strike
+		}
+		prerequisite = {
+			focus = CHO_COL_complaint
+		}
+	}
 }

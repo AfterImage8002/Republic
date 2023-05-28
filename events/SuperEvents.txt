@@ -40,11 +40,6 @@ country_event = {	#2.26
         set_global_flag = koudouha
 		play_song = "young_japs"
 		CHO = {
-			load_focus_tree = chosen_collapse
-			country_event = {
-				id = cho_col.4
-				days = 45
-			}
 		}
 	}
 }

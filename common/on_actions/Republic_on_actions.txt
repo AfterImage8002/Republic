@@ -82,7 +82,61 @@ on_actions = {
 					country_event = { id = china.1015 }
 				}
 			}
+			if = {
+				limit = {
+					944 = { is_controlled_by = KOR }
+				}
+				KOR = {
+					country_event = cho_col.10
+				}
+			}
+			if = {
+				limit = {
+					952 = { is_controlled_by = KOR }
+					527 = { is_controlled_by = KOR }
+				}
+				KOR = {
+					country_event = cho_col.11
+				}
+			}
+			if = {
+				limit = {
+					946 = { is_controlled_by = KOR }
+					
+				}
+				KOR = {
+					country_event = cho_col.12
+				}
+			}
+			if = {
+				limit = {
+					953 = { is_controlled_by = KOR }
+					943 = { is_controlled_by = KOR }
+				}
+				KOR = {
+					country_event = cho_col.7
+				}
+			}
+			if = {
+				limit = {
+					941 = { is_controlled_by = KOR }
+					949 = { is_controlled_by = KOR }
+				}
+				KOR = {
+					country_event = cho_col.9
+				}
+			}
+			if = {
+				limit = {
+					942 = { is_controlled_by = KOR }
+					950 = { is_controlled_by = KOR }
+				}
+				KOR = {
+					country_event = cho_col.8
+				}
+			}
 		}
 	}
+	
 }
 

@@ -1,5 +1,21 @@
 ideas = {
 	country = {
+		VLA_support = {
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 999
+				send_volunteers_tension = -1
+
+			}
+		}
+		KOR_ind_war = {
+			modifier = {
+				surrender_limit = 1
+			}
+			allowed = {
+				has_war = yes
+			}
+		}
 		RHI_german_economy_unity = {
 			picture = german_economy_unity
 			modifier = {
@@ -366,7 +382,10 @@ ideas = {
 		}
 		young_japs_support = {
 			modifier = {
-				army_speed_factor = 0.3
+				army_speed_factor = 0.1
+				supply_consumption_factor = -0.3
+				out_of_supply_factor = -0.5
+				no_supply_grace = 24
 			}
 		}
 		JAP_socialism_acception = {

@@ -4603,7 +4603,7 @@
  OCC_subject_DEF:1 "$OVERLORDADJ$령 옥시타니아"
  KAR_FIN_subject:0 "카리알라"
  KUR_FRA_subject:0 "쿠르디스탄 위임통치령"
- CHO_JAP_subject:0 "조선총독부"
+ CHO:0 "조선총독부"
  KRF_JAP_subject:0 "가라후토"
  KRF_JAP_subject_DEF:0 "가라후토"
  KRF_JAP_subject_ADJ:0 "가라후토"

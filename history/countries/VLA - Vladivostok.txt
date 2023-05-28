@@ -1,6 +1,6 @@
 ﻿capital = 408 #vladivostok
 
-#oob = "VLA_1936"
+oob = VLA
 
 set_research_slots = 3
 

@@ -7,6 +7,36 @@ focus_tree = {
 			add = -10
 		}
 	}
+	focus = { #조선에 개입
+		id = MRC_focus_chosen
+		cost = 8
+		x = 20
+		y = 1
+		available = {
+			CHO = {
+				exists = yes
+			}
+			KOR = {
+				exists = yes
+			}
+			KOR = {
+				has_war_with = CHO
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = KOR
+				type = annex_everything
+			}
+			diplomatic_relation = {
+				country = CHO
+				relation = military_access
+			}
+		}
+	}
 	focus = {
 		id = MRC_focus_1
 		cost = 3

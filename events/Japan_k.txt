@@ -36,7 +36,10 @@ country_event = {
 	
 	option = {
 		name = jap_k.2.a
-		add_manpower = 10000
+		add_manpower = 3000
+		hidden_effect = {
+			load_oob = JAP_k_support
+		}
 	}
 }
 country_event = {
@@ -262,7 +265,10 @@ country_event = {
 	}
 	option = {
 		name = jap_k.10.a
-		add_manpower = 10000
+		hidden_effect = {
+			load_oob = JAP_k_support
+		}
+		add_manpower = 3000
 		add_timed_idea = {
 			idea = JAP_k_last_defence
 			days = 20
@@ -285,10 +291,13 @@ country_event = {
 	option = {
 		name = jap_k.11.a
 		
-		add_manpower = 10000
+		add_manpower = 3000
 		add_timed_idea = {
 			idea = JAP_k_last_attack
 			days = 20
+		}
+		hidden_effect = {
+			load_oob = JAP_k_support
 		}
 		custom_effect_tooltip = jap_k.11_tt
 	}

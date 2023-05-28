@@ -13,7 +13,7 @@ focus_tree = {
 		completion_reward = { 
 			add_timed_idea = {
 				idea = young_japs_support
-				days = 50
+				days = 100
 			}	
 		}
 	}
@@ -49,7 +49,10 @@ focus_tree = {
 			focus = JAP_k_appeal
 		}
 		completion_reward = { 
-			add_manpower = 10000
+			add_manpower = 3000
+			hidden_effect = {
+				load_oob = JAP_k_support
+			}
 		}
 	}
 	focus = {

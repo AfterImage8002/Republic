@@ -1,0 +1,104 @@
+focus_tree = {
+	id = korea_focus
+	country = {
+		factor = 0
+		modifier = {
+			tag = kor
+			add = 10
+		}
+	}
+	focus = {
+		id = KOR_focus_1
+		cost = 2
+		x = 7
+		y = 0
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { #조선혁명군
+		id = KOR_focus_2
+		cost = 4
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = KOR_focus_1
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+			hidden_effect = {
+				load_oob = KOR_jhg
+			}
+		}
+	}
+	focus = { #한국독립군
+		id = KOR_focus_3
+		cost = 4
+		x = 6
+		y = 1
+		prerequisite = {
+			focus = KOR_focus_1
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.05
+			}
+			hidden_effect = {
+				load_oob = KOR_hdg
+			}
+		}
+	}
+	focus = { #유격대
+		id = KOR_focus_4
+		cost = 4
+		x = 8
+		y = 1
+		prerequisite = {
+			focus = KOR_focus_1
+		}
+		available = {
+			has_war_with = MRC
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			kor = {
+				set_state_controller = 918
+			}
+			hidden_effect = {
+				load_oob = KOR_yug
+			}
+		}
+	}
+	focus = { #트로츠키와의 합작
+		id = KOR_focus_5
+		cost = 4
+		x = 10
+		y = 1
+		prerequisite = {
+			focus = KOR_focus_1
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = VLA
+				modifier = goal_of_rev
+			}
+			VLA = {
+				add_timed_idea = {
+					idea = VLA_support
+					days = 300
+				}
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+		}
+	}
+}

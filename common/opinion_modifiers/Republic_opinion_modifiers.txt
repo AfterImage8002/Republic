@@ -26,6 +26,10 @@ opinion_modifiers = {
 		value = -30
 		decay = 0
 	}
+	goal_of_rev = {
+		value = 100
+		decay = 0
+	}
 } 
 
 
