@@ -1,11 +1,9 @@
-
 state={
-	id=408
-	name="STATE_408"
-	resources={
-		chromium=20.000
+	id=958
+	name="STATE_958"
+	provinces={
+		664 681 837 3695 3723 3739 3753 6686 6715 6833 9639 9641 11624 11626 11629 11643 11765 11777 
 	}
-
 	history={
 		owner = VLA
 		victory_points = {
@@ -15,23 +13,12 @@ state={
 			infrastructure = 2
 			dockyard = 1
 			air_base = 5
-			957 = {
-				naval_base = 8
-				coastal_bunker = 3
-
-			}
-
 		}
 		add_core_of = VLA
 		add_core_of = RUS
-
-	}
-
-	provinces={
-		957 3787 3811 3977 6684 6838 6961 6989 9762 9895 9926 11745 11750 11879 11904 
 	}
 	manpower=841465
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=town
 	local_supplies=0.000
 }
