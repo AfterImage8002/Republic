@@ -59,7 +59,7 @@ characters={
 		name=SGE_Pick
 		portraits={
 			civilian={
-				large="gfx/leaders/SGE/Pick.dds"
+				large="gfx/leaders/SGE/빌헬름_피크.png"
 			}
 		}
 		country_leader={
