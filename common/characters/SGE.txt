@@ -31,7 +31,7 @@ characters={
 		name=SGE_Thalman
 		portraits={
 			civilian={
-				large="gfx/leaders/SGE/Thalman.dds"
+				large="gfx/leaders/SGE/텔만.png"
 			}
 		}
 		country_leader={
@@ -73,7 +73,7 @@ characters={
 		name=SGE_Otto
 		portraits={
 			civilian={
-				large="gfx/leaders/SGE/Otto.dds"
+				large="gfx/leaders/SGE/오토_뮐레.png"
 			}
 		}
 		country_leader={
@@ -143,7 +143,7 @@ characters={
 		name=SGE_Strasser
 		portraits={
 			civilian={
-				large="gfx/leaders/SGE/Strasser.dds"
+				large="gfx/leaders/SGE/슈트라서.png"
 			}
 		}
 		country_leader={
