@@ -115,7 +115,7 @@ country_event = {
 			KOR = {
 				transfer_state = 951
 				transfer_state = 953
-				load_oob = KOR.txt
+				load_oob = KOR
 			}
 			declare_war_on = {
 				target = KOR
