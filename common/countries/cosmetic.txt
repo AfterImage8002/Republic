@@ -1011,3 +1011,7 @@ SIK_VANILLA = {
 	color = rgb { 71 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
+CA0_FREE_STATES = {
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
+}

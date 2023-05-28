@@ -2044,3 +2044,103 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = usa.200
+	title = usa.200.t
+	desc = usa.200.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = usa.200.a
+		CA0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 378
+			set_capital = {
+				state = 378
+			}
+		}
+		NM0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 375
+		}
+		TX0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 376
+		}
+		AZ0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 377
+		}
+		UT0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 380
+		}
+		hidden_effect = {
+			country_event = { id = usa.201 days = 15 }
+		}
+	}
+}
+country_event = {
+	id = usa.201
+	title = usa.200.t
+	desc = usa.201.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = usa.200.a
+		NV0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 379
+		}
+		WY0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 381
+		}
+		ID0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 387
+		}
+		OR0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 385
+		}
+		WA0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 386
+		}
+		TN0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 388
+		}
+		NY0 = {
+			set_cosmetic_tag = CA0_FREE_STATES
+			transfer_state = 382
+		}
+		USA = {
+			set_cosmetic_tag = USA_NUSA
+			end_puppet = PHI
+		}
+		country_event = {
+			id = usa.202 days = 30
+		}
+	}
+}
+country_event = {
+	id = usa.202
+	title = usa.202.t
+	desc = usa.202.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = usa.202.a
+		add_ideas = USA_Megacorps
+		add_ideas = USA_Gang_prablem
+		add_ideas = USA_Disorderly_society
+		remove_ideas = great_depression 
+		remove_ideas = home_of_the_free
+		remove_ideas = economic_depression
+	}
+}

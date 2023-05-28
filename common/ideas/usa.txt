@@ -1,6 +1,26 @@
 ideas = {
 
 	country = {
+		USA_Megacorps = {
+			picture = usa_great_depression_3
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.5
+				consumer_goods_factor = 0.15
+				conscription_factor = -0.5
+				local_resources_factor = 0.2
+			}
+
+		}
 		great_depression = {
 			picture = usa_great_depression_3
 			
