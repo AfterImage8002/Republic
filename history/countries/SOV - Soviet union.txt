@@ -691,7 +691,7 @@ add_to_faction = MSY
 add_to_faction = BYA
 add_to_faction = FER
 add_to_faction = VLA
-add_to_faction = RUS
+add_to_faction = PRM
 
 starting_train_buffer = 3.0
 

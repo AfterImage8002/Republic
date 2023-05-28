@@ -1,3 +1,4 @@
+PRM = "countries/Perm.txt"
 LCH = "countries/Left China.txt"
 IRK = "countries/Irkutsk.txt"
 MSY = "countries/Middle Syberia.txt"

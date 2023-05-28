@@ -1,5 +1,9 @@
 ﻿l_english:
  #국명
+ PRM:0 "페름"
+ PRM_communism:0 "페름 소비에트 사회주의 공화국"
+ PRM_communism_DEF:0 "페름 소비에트 사회주의 공화국"
+ PRM_communism_ADJ:0 "페름 소비에트 사회주의 공화국"
  KRF:0 "사할린"
  KRF_DEF:0 "사할린"
  KRF_ADJ:0 "사할린"
