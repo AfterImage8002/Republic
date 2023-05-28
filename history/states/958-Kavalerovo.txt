@@ -15,7 +15,6 @@ state={
 			air_base = 5
 		}
 		add_core_of = VLA
-		add_core_of = RUS
 	}
 	manpower=841465
 	buildings_max_level_factor=1.000
