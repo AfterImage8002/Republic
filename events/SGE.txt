@@ -355,40 +355,6 @@ country_event = { #공산당 좌파 집회
             ideology = communism
             popularity = 0.3
         }
-        recruit_character = SGE_Korsch
-        hidden_effect = {
-            retire_ideology_leader = communism
-        }
-        name = SGE.9.a
-        if = {
-            limit = {
-                neutrality > 0.3
-            }
-            set_popularities = {
-                communism = 40
-                socialism = 21
-                fascism = 30
-                neutrality = 3
-                conservatism = 3
-                progressive = 3
-            }
-        }
-        set_popularities = {
-            communism = 40
-            socialism = 25
-            fascism = 35
-        }
-    }
-    option = {
-        hidden_effect = {
-            complete_national_focus = SGE_Kl_focus_1
-            load_focus_tree = SGE_Kl
-        }
-        add_stability = 0.1
-        add_popularity = {
-            ideology = communism
-            popularity = 0.3
-        }
         recruit_character = SGE_Mattik
         hidden_effect = {
             retire_country_leader = yes
