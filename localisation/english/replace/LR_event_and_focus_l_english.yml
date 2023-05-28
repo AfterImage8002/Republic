@@ -536,6 +536,12 @@
  JAP_k_admin_system:0 "지휘체계 재정립"
  JAP_k_arms_app:0 "무기충당"
 
+ USA_focus_fake_1:0 "우리의 상황"
+ USA_focus_fake_2:0 "대공항"
+ USA_focus_fake_3:0 "경제 불황"
+ USA_focus_fake_4:0 "부셔저가는 아메리카 드림"
+ USA_focus_fake_5:0 "자유의 고향?"
+
  # 건들 ㄴ
  MSY_focus_0:0 "동토에 금이 그어지다"
  MSY_focus_1:0 "우리가 가진 것들"
