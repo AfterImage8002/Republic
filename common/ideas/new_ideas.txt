@@ -1,5 +1,12 @@
 ideas = {
 	country = {
+		KOR_yugyeok = {
+			modifier = {
+				army_org_factor = 0.1
+				army_speed_factor = 0.1
+				supply_consumption_factor = -0.1
+			}
+		}
 		VLA_support = {
 			modifier = {
 				send_volunteer_divisions_required = -1

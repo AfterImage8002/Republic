@@ -358,11 +358,12 @@ country_event = { #만주와 휴전
 	desc = cho_col.13.d
 	picture = GFX_0
 	trigger = {
+		tag = KOR
 		CHO = {
 			exists = no
 		}
 		MRC = {
-			surrender_progress > 0.05
+			surrender_progress < 95
 		}
 		KOR = {
 			has_war_with = MRC
