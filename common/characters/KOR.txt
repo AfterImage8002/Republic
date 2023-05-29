@@ -1,32 +1,4 @@
 characters={
-	KOR_CabinetMeeting_dem={
-		name=KOR_CabinetMeeting_dem
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/CabinetMeeting.png"
-			}
-		}
-		country_leader={
-			ideology=conservatism
-			traits={ provisional_government }
-			expire="1999.1.1.1"
-			id=-1
-		}
-	}
-	KOR_CabinetMeeting_com={
-		name=KOR_CabinetMeeting_com
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/CabinetMeeting.png"
-			}
-		}
-		country_leader={
-			ideology=leninism
-			traits={ }
-			expire="1999.1.1.1"
-			id=-1
-		}
-	}
 	KOR_yeo = {
 		name = KOR_yeo
 		portraits = {
@@ -35,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=stratocracy
+			ideology=social_democracy
 			traits={national_integralist provisional_government}
 			expire="1999.1.1.1"
 			id=-1

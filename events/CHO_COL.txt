@@ -363,7 +363,7 @@ country_event = { #만주와 휴전
 			exists = no
 		}
 		MRC = {
-			surrender_progress < 95
+			surrender_progress < 0.95
 		}
 		KOR = {
 			has_war_with = MRC

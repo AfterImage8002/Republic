@@ -164,6 +164,9 @@ focus_tree = {
 			527 = {
 				is_controlled_by = KOR
 			}
+			525 = {
+				is_controlled_by = KOR
+			}
 		}
 		completion_reward = {
 			hidden_effect = {

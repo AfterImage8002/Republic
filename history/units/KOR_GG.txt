@@ -22,4 +22,14 @@ units = {
 		division_template = "workers"
 		start_equipment_factor = 1
 	}
+	division = { # "19 'Tora' Hohei Shidan"
+		location = 7125
+		division_template = "workers"
+		start_equipment_factor = 1
+	}
+	division = { # "19 'Tora' Hohei Shidan"
+		location = 7125
+		division_template = "workers"
+		start_equipment_factor = 1
+	}
 }
