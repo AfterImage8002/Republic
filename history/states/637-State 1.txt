@@ -4,16 +4,14 @@ state = {
 	name = "STATE_637" #Kamchatka
 
 	history = {
-		owner = JAP 
+		owner = RAW
 		buildings = {
 			infrastructure = 1
 			12207 = {
 				naval_base = 1
-
 			}
-
 		}
-		add_core_of = SOV
+		add_core_of = RAW
 		add_core_of = FER
 	}
 

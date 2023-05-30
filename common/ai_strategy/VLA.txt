@@ -12,6 +12,6 @@ VLA_vol = {
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "KOR"
-		value = 999999
+		value = 999
 	}
 }

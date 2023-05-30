@@ -41,6 +41,10 @@ give_guarantee = MRC
 MRC = {
 	give_military_access = JAP
 }
+give_guarantee = RAW
+RAW = {
+	give_military_access = JAP
+}
 set_autonomy = {
 	target = CHO
 	autonomous_state = autonomy_colony

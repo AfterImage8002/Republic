@@ -27,13 +27,5 @@ characters={
 			id=-1
 		}
 	}
-	RUS_Kolchak={
-		name= RUS_Kolchak
-		portraits={
-			civilian={
-				large="gfx/leaders/RUS/Portrait_RUS_Aleksandr_Kolchak.png"
-			}
-		}
-		
-	}
+	
 }

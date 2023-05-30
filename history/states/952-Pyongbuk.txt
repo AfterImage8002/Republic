@@ -17,17 +17,17 @@ state={
 		}
 		add_core_of = CHO
 		victory_points = {
-			11775 3
+			11775 1
 		}
 		victory_points = {
-			11835 5
+			11835 3
 		}
 	}
 
 	provinces={
 		906 912 978 6963 9795 9918 11775 11828 11835 11896 
 	}
-	manpower=2338261
+	manpower=1338261
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.000

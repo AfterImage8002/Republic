@@ -6,7 +6,8 @@ state = {
 	
 	state_category = pastoral
 	history = {
-		owner = KRF
+		owner = RAW
+		add_core_of = RAW
 		add_core_of = KRF
 		buildings = {
 			infrastructure = 2
