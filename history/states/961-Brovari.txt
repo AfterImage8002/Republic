@@ -1,27 +1,20 @@
 
 state={
-	id=228
-	name="STATE_228"
-
+	id=961
+	name="STATE_961"
 	history={
 		owner = UKR
-		victory_points = {
-			9461 1 
-		}
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_claim_by = RUS
 		add_core_of = UKR
-
 	}
-
 	provinces={
-		6505 9446 9461 
+		489 582 9543 11530 11557 
 	}
-	manpower=2167411
+	state_category=rural
+	manpower=1234567
 	buildings_max_level_factor=1.000
-	state_category=town
 	local_supplies=0.000
 }
