@@ -23,7 +23,7 @@ ideas = {
 				army_speed_factor = 0.1
 				supply_consumption_factor = -0.1
 			}
-			allowed = {
+			available = {
 				has_war = yes
 			}
 		}
@@ -39,7 +39,7 @@ ideas = {
 			modifier = {
 				surrender_limit = 1
 			}
-			allowed = {
+			available = {
 				has_war = yes
 			}
 		}

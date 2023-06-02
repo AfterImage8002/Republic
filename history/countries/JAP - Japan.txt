@@ -63,6 +63,7 @@ set_autonomy = {
 set_autonomy = {
 	target = TAI
 	autonomous_state = autonomy_wtt_imperial_protectorate
+	freedom_level = 0.1
 }
 set_autonomy = {
 	target = KRF
