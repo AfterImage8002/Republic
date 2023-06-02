@@ -13,7 +13,7 @@ spriteTypes = {
     }
     spriteType = {
         name = GFX_Jap_focus_4
-        textureFile = "gfx/interface/goals/정우회.png"
+        textureFile = "gfx/interface/goals/JAP_focus_4.dds"
     }
     spriteType = {
         name = GFX_Jap_focus_5
@@ -30,37 +30,5 @@ spriteTypes = {
     spriteType = {
         name = GFX_CHO_focus_3
         textureFile = "gfx/interface/goals/CHO_COL_complaint.dds"
-    }
-    spriteType = {
-        name = "GFX_france_dawn"
-        textureFile = "gfx/interface/goals/닭은새벽녘에울고.png"
-    }
-    spriteType = {
-        name = "GFX_FRA_solve_problem"
-        textureFile = "gfx/interface/goals/사회문제해결.png"
-    }
-    spriteType = {
-        name = "GFX_FRA_NEW_FOCUS_18"
-        textureFile = "gfx/interface/goals/진압.png"
-    }
-    spriteType = {
-        name = "GFX_FRA_money_by_country"
-        textureFile = "gfx/interface/goals/식민지할당량증가.png"
-    }
-    spriteType = {
-        name = "GFX_msy_first_focus"
-        textureFile = "gfx/interface/goals/우리가 가진것들.png"
-    }
-    spriteType = {
-        name = "GFX_msy_nothing_focus"
-        textureFile = "gfx/interface/goals/가진게없다.png"
-    }
-    spriteType = {
-        name = "GFX_china_focus_first"
-        textureFile = "gfx/interface/goals/중국의새로운해.dds"
-    }
-    spriteType = {
-        name = "GFX_Atrhur_morgan_portrait"
-        textureFile = "gfx/leaders/USA/Portrait_arthur_morgan.png"
     }
 }
