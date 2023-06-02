@@ -2,6 +2,17 @@ MAN_lose = {
 	color = rgb { 150 50 0 }
 	color_ui = rgb { 150 50 0 }
 }
+
+KSOV = {
+	color = rgb { 143 10 10 }
+	color_ui = rgb { 143 10 10 }
+}
+
+KSOV_w = {
+	color = rgb { 143 10 10 }
+	color_ui = rgb { 143 10 10 }
+}
+
 CHI_rescue = {
 	color = rgb {0 61 112}
 	color_ui = rgb {0 61 112}

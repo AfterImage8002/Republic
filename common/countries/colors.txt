@@ -1227,3 +1227,40 @@ WY0 = {
     color = rgb { 20 133 237 }
     color_ui = rgb { 87 160 255 }
 }
+
+JEO = {
+	color = rgb { 218 254 0 }
+	color_ui = rgb { 218 254 0 }
+}
+JBO = {
+	color = rgb { 245 187 87 }
+	color_ui = rgb { 245 187 87 }
+}
+CHN = {
+	color = rgb{ 179 230 211 }
+	color_ui = rgb{ 179 230 211 }
+}
+CHB = {
+	color = rgb{ 240 222 215 }
+	color_ui = rgb{ 240 222 215 }
+}
+BUS = {
+	color = rgb{ 82 94 169 }
+	color_ui = rgb{ 82 94 169 }
+}
+DAE = {
+	color = rgb{ 113 169 204 }
+	color_ui = rgb{ 113 169 204 }
+}
+SUL = {
+	color = rgb{ 144 238 144 }
+	color_ui = rgb{ 144 238 144 }
+}
+DBK = {
+	color = rgb{ 163 88 152 }
+	color_ui = rgb{ 163 88 152 }
+}
+HHE = {
+	color = rgb{ 153 135 98 }
+	color_ui = rgb{ 153 135 98 }
+}

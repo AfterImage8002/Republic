@@ -281,6 +281,18 @@ TTS = "countries/The Two Sicilies.txt"
 FRL = "countries/Nation army.txt"
 RDA = "countries/Rhine defend army.txt"
 
+#### KSOV ####
+
+JEO = "countries/Korea.txt"
+JBO = "countries/Korea.txt"
+CHN = "countries/Korea.txt"
+CHB = "countries/Korea.txt"
+BUS = "countries/Korea.txt"
+DAE = "countries/Korea.txt"
+SUL = "countries/Korea.txt"
+DBK = "countries/Korea.txt"
+HHE = "countries/Korea.txt"
+
 #### UNITED STATES STATES FILE ####
 AK0 = "countries/USA.txt" #Alaska
 AL0 = "countries/USA.txt" #Alabama
@@ -334,5 +346,3 @@ WV0 = "countries/USA.txt" #West Virginia
 WY0 = "countries/USA.txt" #Wyoming
 
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")
-
-
