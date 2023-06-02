@@ -693,6 +693,7 @@ add_to_faction = FER
 add_to_faction = VLA
 add_to_faction = PRM
 add_to_faction = RUS
+add_to_faction = UKS
 
 starting_train_buffer = 3.0
 

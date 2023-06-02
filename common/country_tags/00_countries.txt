@@ -1,3 +1,4 @@
+UKS = "countries/Ukraine Soviet Republic.txt"
 RAW = "countries/White Army.txt"
 PRM = "countries/Perm.txt"
 LCH = "countries/Left China.txt"
