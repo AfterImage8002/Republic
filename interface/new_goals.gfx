@@ -31,4 +31,20 @@ spriteTypes = {
         name = GFX_CHO_focus_3
         textureFile = "gfx/interface/goals/CHO_COL_complaint.dds"
     }
+    spriteType = {
+        name = GFX_france_dawn
+        textureFile = "gfx/interface/goals/닭은_새벽속에서_울고.png"
+    }
+    spriteType = {
+        name = GFX_FRA_solve_problem
+        textureFile = "gfx/interface/goals/사회문제해결.png"
+    }
+    spriteType = {
+        name = GFX_FRA_money_by_country
+        textureFile = "gfx/interface/goals/식민지할당량증가.png"
+    }
+    spriteType = {
+        name = GFX_FRA_NEW_FOCUS_18
+        textureFile = "gfx/interface/goals/진압.png"
+    }
 }

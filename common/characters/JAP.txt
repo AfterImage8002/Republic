@@ -19,7 +19,7 @@ characters = {
 		name = JAP_reijirou
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/JAP/reijirou.png"
+				large = "gfx/leaders/JAP/와카츠키_레이지로.png"
 			}
 		}
 		country_leader = {
