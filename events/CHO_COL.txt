@@ -368,6 +368,12 @@ country_event = { #만주와 휴전
 		KOR = {
 			has_war_with = MRC
 		}
+		every_state = {
+			limit = {
+				is_owned_by = KOR
+			}
+			is_owned_and_controlled_by = KOR
+		}
 	}
 	fire_only_once = yes
 	option = {
