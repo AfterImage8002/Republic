@@ -1,5 +1,32 @@
 ideas = {
 	country = {
+		CHO_culture_rule = {
+			modifier = {
+				political_power_factor = 0.1
+				drift_defence_factor = -0.2
+				consumer_goods_factor = 0.08
+				custom_modifier_tooltip = CHO_culture_rule_tt
+			}
+		}
+		KOR_daisyo = {
+			modifier = {
+				drift_defence_factor = -0.1
+				political_power_gain = 0.1
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+		}
+		KOR_yugyeok = {
+			modifier = {
+				army_org_factor = 0.1
+				army_speed_factor = 0.1
+				supply_consumption_factor = -0.1
+			}
+			available = {
+				has_war = yes
+			}
+		}
 		VLA_support = {
 			modifier = {
 				send_volunteer_divisions_required = -1
@@ -12,7 +39,7 @@ ideas = {
 			modifier = {
 				surrender_limit = 1
 			}
-			allowed = {
+			available = {
 				has_war = yes
 			}
 		}

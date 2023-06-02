@@ -32,6 +32,7 @@ focus_tree = {
 			hidden_effect = {
 				load_oob = KOR_jhg
 			}
+			custom_effect_tooltip = KOR_focus_2_tt
 		}
 	}
 	focus = { #한국독립군
@@ -50,6 +51,7 @@ focus_tree = {
 			hidden_effect = {
 				load_oob = KOR_hdg
 			}
+			custom_effect_tooltip = KOR_focus_3_tt
 		}
 	}
 	focus = { #유격대
@@ -74,6 +76,7 @@ focus_tree = {
 			hidden_effect = {
 				load_oob = KOR_yug
 			}
+			custom_effect_tooltip = KOR_focus_4_tt
 		}
 	}
 	focus = { #트로츠키와의 합작
@@ -99,6 +102,104 @@ focus_tree = {
 				ideology = communism
 				popularity = 0.1
 			}
+		}
+	}
+	focus = { #제주에서 말 수급
+		id = KOR_focus_6
+		cost = 4
+		x = 7
+		y = 2
+		prerequisite = {
+			focus = KOR_focus_1
+		}
+		available = {
+			947 = {
+				is_controlled_by = KOR
+			}
+		}
+		completion_reward = {
+			hidden_effect = {
+				load_oob = KOR_GW
+			}
+			custom_effect_tooltip = KOR_focus_6_tt
+		}
+	}
+	focus = { #경성 무기공장
+		id = KOR_focus_7
+		cost = 4
+		x = 5
+		y = 2
+		prerequisite = {
+			focus = KOR_focus_1
+		}
+		available = {
+			525 = {
+				is_controlled_by = KOR
+			}
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 3000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 400
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 600
+			}
+		}
+	}
+	focus = { #무장한 노동자들
+		id = KOR_focus_8
+		cost = 4
+		x = 9
+		y = 2
+		prerequisite = {
+			focus = KOR_focus_1
+		}
+		available = {
+			527 = {
+				is_controlled_by = KOR
+			}
+			525 = {
+				is_controlled_by = KOR
+			}
+		}
+		completion_reward = {
+			hidden_effect = {
+				load_oob = KOR_GG
+			}
+			custom_effect_tooltip = KOR_focus_8_tt
+		}
+	}
+	focus = { #유격전 실시
+		id = KOR_focus_9
+		cost = 4
+		x = 7
+		y = 4
+		prerequisite = {
+			focus = KOR_focus_8
+			
+		}
+		prerequisite = {
+			focus = KOR_focus_7
+			
+		}
+		prerequisite = {
+			focus = KOR_focus_6
+			
+		}
+		completion_reward = {
+			army_experience = 50
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			add_ideas = KOR_yugyeok
 		}
 	}
 }

@@ -1974,3 +1974,16 @@ country_event = { #관동주의 만주국 침략전쟁 - the end
 	}
 
 }
+
+country_event = { #황도파 봉기다 이 샛기야 ㅋㅋ
+	id = china.1016
+	title = china.1016.t
+	desc = china.1016.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = china.1016.a
+		remove_ideas = MRC_army
+	}
+
+}

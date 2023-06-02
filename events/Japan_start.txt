@@ -156,6 +156,12 @@ country_event = { #황도파 on
 		name = jap.7.a
 		hidden_effect = {
 			end_puppet = CHO
+			MRC = {
+				country_event = {
+					id = china.1016
+					days = 20
+				}
+			}
 			CHO = {
 				load_focus_tree = chosen_collapse
 				country_event = {

@@ -559,9 +559,18 @@
 
  KOR_focus_1:0 "독립전쟁"
  KOR_focus_2:0 "조선혁명군의 도착"
+ KOR_focus_2_tt:0 "§t조선혁명군 사단이 합류합니다.§!"
  KOR_focus_3:0 "한국독립군의 지원"
+ KOR_focus_3_tt:0 "§C한국독립군 사단이 합류합니다.§!"
  KOR_focus_4:0 "만주 유격단 포섭"
+ KOR_focus_4_tt:0 "§g유격단 사단이 합류합니다.§!"
  KOR_focus_5:0 "트로츠키와의 교섭"
+ KOR_focus_6:0 "제주 기병사단"
+ KOR_focus_6_tt:0 "§G기병 사단이 합류합니다.§!"
+ KOR_focus_7:0 "경성 군수공업"
+ KOR_focus_8:0 "무장한 노동자들"
+ KOR_focus_8_tt:0 "§R무장한 노동자들이 합류합니다.§!"
+ KOR_focus_9:0 "유격전"
 
  # 건들 ㄴ
  MSY_focus_0:0 "동토에 금이 그어지다"

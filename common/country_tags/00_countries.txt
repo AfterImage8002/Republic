@@ -1,3 +1,4 @@
+RAW = "countries/White Army.txt"
 PRM = "countries/Perm.txt"
 LCH = "countries/Left China.txt"
 IRK = "countries/Irkutsk.txt"

@@ -358,6 +358,7 @@ country_event = { #만주와 휴전
 	desc = cho_col.13.d
 	picture = GFX_0
 	trigger = {
+		tag = KOR
 		CHO = {
 			exists = no
 		}

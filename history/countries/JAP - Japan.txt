@@ -41,6 +41,10 @@ give_guarantee = MRC
 MRC = {
 	give_military_access = JAP
 }
+give_guarantee = RAW
+RAW = {
+	give_military_access = JAP
+}
 set_autonomy = {
 	target = CHO
 	autonomous_state = autonomy_colony
@@ -59,6 +63,7 @@ set_autonomy = {
 set_autonomy = {
 	target = TAI
 	autonomous_state = autonomy_wtt_imperial_protectorate
+	freedom_level = 0.1
 }
 set_autonomy = {
 	target = KRF

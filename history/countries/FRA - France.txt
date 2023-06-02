@@ -45,42 +45,42 @@ set_autonomy = {
 set_autonomy = {
 	target = KUR
 	autonomous_state = autonomy_colony
-	freedom_level = 0.4
+	freedom_level = 0.6
 }
 set_autonomy = {
 	target = MLI
 	autonomous_state = autonomy_colony
-	freedom_level = 0.1
+	freedom_level = 0.6
 }
 set_autonomy = {
 	target = MAD
 	autonomous_state = autonomy_colony
-	freedom_level = 0.1
+	freedom_level = 0.6
 }
 set_autonomy = {
 	target = CHA
 	autonomous_state = autonomy_colony
-	freedom_level = 0.1
+	freedom_level = 0.6
 }
 set_autonomy = {
 	target = MOR
 	autonomous_state = autonomy_colony
-	freedom_level = 0.1
+	freedom_level = 0.6
 }
 set_autonomy = {
 	target = TUN
 	autonomous_state = autonomy_colony
-	freedom_level = 0.1
+	freedom_level = 0.6
 }
 set_autonomy = {
 	target = VIN
 	autonomous_state = autonomy_colony
-	freedom_level = 0.1
+	freedom_level = 0.6
 }
 set_autonomy = {
 	target = SYR
 	autonomous_state = autonomy_colony
-	freedom_level = 0.1
+	freedom_level = 0.6
 }
 "TUN" = {
 	set_politics = {

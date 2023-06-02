@@ -28,7 +28,7 @@ state={
 			7125 50 
 		}
 		victory_points = {
-			12040 10 
+			12040 30 
 		}
 		victory_points = {
 			7221 10 
@@ -47,7 +47,7 @@ state={
 			7021 5 
 		}
 		victory_points = {
-			10036 10 
+			10036 3 
 		}
 		add_core_of = KOR
 		add_core_of = CHO
@@ -57,7 +57,7 @@ state={
 	provinces={
 		7125 7221 10036 12040 13258 13259 13269 13270 
 	}
-	manpower=9112310
+	manpower=4112310
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

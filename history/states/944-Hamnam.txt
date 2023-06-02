@@ -10,6 +10,7 @@ state={
 	history={
 		owner = CHO
 		buildings = {
+			dockyard = 2
 			infrastructure = 3
 			industrial_complex = 1
 			848 = {
@@ -36,7 +37,7 @@ state={
 	provinces={
 		848 852 3803 3852 3904 3981 6922 6928 9899 11878 
 	}
-	manpower=1236105
+	manpower=636105
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

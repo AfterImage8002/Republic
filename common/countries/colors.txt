@@ -1,4 +1,8 @@
 #reload countrycolors
+RAW = {
+	color = rgb {72 143 68}
+	color_ui = rgb {255 255 255}
+}
 PRM = {
 	color = rgb {143 10 10}
 	color_ui = rgb {255 168 168}

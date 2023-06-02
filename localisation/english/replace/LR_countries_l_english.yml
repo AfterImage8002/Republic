@@ -1,5 +1,11 @@
 ﻿l_english:
  #국명
+ KOR_ind:0 "건국동맹"
+
+ RAW:0 "극동 백군 정부"
+ RAW_DEF:0 "백군"
+ RAW_ADJ:0 "백군"
+
  PRM:0 "페름"
  PRM_communism:0 "페름 소비에트 사회주의 공화국"
  PRM_communism_DEF:0 "페름 소비에트 사회주의 공화국"
@@ -4607,7 +4613,7 @@
  KRF_JAP_subject:0 "가라후토"
  KRF_JAP_subject_DEF:0 "가라후토"
  KRF_JAP_subject_ADJ:0 "가라후토"
- CHO_DEF:0 "조선"
+ CHO_DEF:0 "조선총독부"
  CHO_ADJ:0 "조선"
 
  COR_fascism:0 "코르시카 형제국"

@@ -19,10 +19,10 @@ state={
 
 		}
 		victory_points = {
-			10065 5 
+			10065 3
 		}
 		victory_points = {
-			1003 5
+			1003 3
 		}
 		add_core_of = CHO
 	}
@@ -30,7 +30,7 @@ state={
 	provinces={
 		1003 4107 7070 7155 10065 11915 13267 13268 
 	}
-	manpower=6334105
+	manpower=3334105
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000
