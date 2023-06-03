@@ -157,11 +157,11 @@ country_event = {
 	option = {
 		name = msy_evnet.6.a
 		
-		RUS = {
+		RAW = {
 			change_tag_from = MSY
 		}
 		hidden_effect = {
-			RUS = {
+			RAW = {
 				country_event = { id = russia.1 days = 3}
 			}
 			KHA = {
@@ -788,15 +788,6 @@ country_event = {
 		hidden_effect = {
 		add_stability = -0.05
 		add_political_power = 200
-		add_country_leader_role = {
-					Character = RUS_Kolchak
-					country_leader = {
-						expire = "1965.1.1"
-						ideology = stratocracy
-						traits = {  }
-					}
-					promote_leader = yes
-				}
 		set_country_flag = RUSSIA_IS_BACK
 		leave_faction = yes
 		set_cosmetic_tag = RUS_LR
@@ -816,6 +807,10 @@ country_event = {
 		country_event = {
 			id = russia.2
 			days = 3
+		}
+		annex_country = {
+			target = RUS
+			transfer_troops = yes
 		}
 		}
 		
