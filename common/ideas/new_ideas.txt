@@ -1,5 +1,6 @@
 ideas = {
 	country = {
+		
 		CHO_culture_rule = {
 			modifier = {
 				political_power_factor = 0.1
@@ -33,6 +34,16 @@ ideas = {
 				send_volunteer_size = 999
 				send_volunteers_tension = -1
 
+			}
+		}
+		KOR_ind_war_1 = {
+			modifier = {
+				surrender_limit = 1
+				army_core_attack_factor = 0.3
+				army_core_defence_factor = 0.3
+			}
+			available = {
+				has_war = yes
 			}
 		}
 		KOR_ind_war = {
@@ -85,8 +96,8 @@ ideas = {
 			removal_cost = -1
 			targeted_modifier = {
 				tag = MRC
-				cic_to_target_factor = 0.3 #10% Of your factories are belong to us
-				mic_to_target_factor = 0.3				
+				cic_to_target_factor = 0.2 #10% Of your factories are belong to us
+				mic_to_target_factor = 0.2				
 			}
 			modifier = {
 				production_speed_rail_way_factor = 0.1
@@ -517,6 +528,22 @@ ideas = {
 			modifier = {
 				army_attack_factor = 0.2
 			}
+		}
+	}
+	industrial_concern = {
+		CHO_ODC = { #동양척식주식회사
+			targeted_modifier = {
+				tag = JAP
+				cic_to_target_factor = 0.2
+				mic_to_target_factor = 0.2	
+			}
+			allowed = {
+				tag = CHO
+			}
+			allowed_to_remove = {
+				always = no
+			}
+			traits = { industrial_concern }
 		}
 	}
 	hidden_ideas = {

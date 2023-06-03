@@ -150,6 +150,14 @@ focus_tree = {
 				type = support_equipment
 				amount = 600
 			}
+			add_equipment_to_stockpile = {
+				type = train_equipment
+				amount = 2
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 10
+			}
 		}
 	}
 	focus = { #무장한 노동자들

@@ -367,13 +367,9 @@ country_event = { #만주와 휴전
 		}
 		KOR = {
 			has_war_with = MRC
+			surrender_progress < 0.01
 		}
-		every_state = {
-			limit = {
-				is_owned_by = KOR
-			}
-			is_owned_and_controlled_by = KOR
-		}
+		
 	}
 	fire_only_once = yes
 	option = {
@@ -381,5 +377,27 @@ country_event = { #만주와 휴전
 		white_peace = MRC
 		add_war_support = 0.1
 		add_stability = 0.1
+	}
+}
+
+country_event = { #압록강과 두만강까지!
+	id = cho_col.14
+	title = cho_col.14.t
+	desc = cho_col.14.d
+	picture = GFX_0
+	trigger = {
+		tag = KOR
+		has_war_with = MRC
+		CHO = {
+			exists = no
+		}
+	}
+	fire_only_once = yes
+	option = {
+		name = cho_col.14.a
+		swap_ideas = {
+			remove_idea = KOR_ind_war
+			add_idea = KOR_ind_war_1
+		}
 	}
 }

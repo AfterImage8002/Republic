@@ -1812,7 +1812,7 @@ political_actions = {
     	visible = {
 			AND = {
 				fascism < 0.6
-				has_government = socialism
+				has_government = fascism
 			}
 		}
 
