@@ -551,6 +551,17 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		sphere_idea_kek_leader = {
+			allowed = {
+				original_tag = JAP
+			}
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
 		}
 		JAP_real_army = {
 			allowed = {

@@ -2,6 +2,21 @@ defined_text = {
 	name = "bookmark_pictures"
 }
 defined_text = {
+	name = GetEconomicSphereEffects
+	text = {
+		trigger = {
+			has_idea = sphere_idea_kek
+		}
+		localization_key = koueiken_tooltip
+	}
+	text = {
+		trigger = {
+			has_idea = sphere_idea_kek_leader
+		}
+		localization_key = koueiken_tooltip_leader
+	}
+}
+defined_text = {
 	name = GetEconomicSphereName
 	text = {
 		trigger = {

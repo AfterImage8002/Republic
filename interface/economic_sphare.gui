@@ -7,7 +7,7 @@ guiTypes = {
 			name = "koueiken_button"
 			position = { x = 0 y = 0 }
 			spriteType = "e_s_kek"
-			pdx_tooltip = koueiken_tooltip
+			pdx_tooltip = koueiken_tool
 			pdx_tooltip_delayed = koueiken_tooltip_desc
 		}
 
