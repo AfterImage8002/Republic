@@ -30,6 +30,8 @@ add_ideas = {
 	economic_depression
 	CHO_ODC
 	free_trade
+	sphere_idea_kek
 }
+add_to_array = { JAP.KEK = THIS }
 recruit_character = CHO_Itou
 recruit_character = CHO_saito_macoto

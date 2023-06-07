@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "e_s_kek"
+		texturefile = "gfx/interface/e_s/kek.png"
+		legacy_lazy_load = no
+	}
+}

@@ -22,4 +22,6 @@ add_ideas = {
 	extensive_conscription
 	JAP_SMRC
 	MRC_army
+	sphere_idea_kek
 }
+add_to_array = { JAP.KEK = THIS }

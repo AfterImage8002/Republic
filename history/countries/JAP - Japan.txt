@@ -17,6 +17,7 @@ add_ideas = {
 	JAP_hirohito
 	JAP_zaibatsus
 	JAP_SMRC
+	sphere_idea_kek
 }
 
 recruit_character = JAP_reijirou

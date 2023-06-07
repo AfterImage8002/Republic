@@ -16,11 +16,14 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+add_ideas = {
+	sphere_idea_kek
+}
 set_popularities = {
 	conservatism = 50
 	fascism = 18
 	communism = 30
 	neutrality = 2
 }
-
+add_to_array = { JAP.KEK = THIS }
 recruit_character = KRF_Takeshi_Imamura

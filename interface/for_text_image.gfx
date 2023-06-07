@@ -4,4 +4,9 @@ spriteTypes = {
 		texturefile = "gfx/for_text_image/for_text_image_KMT.png"
 		legacy_lazy_load = no
 	}
+	SpriteType = {
+		name = "for_text_image_KEK"
+		texturefile = "gfx/for_text_image/for_text_image_KEK.png"
+		legacy_lazy_load = no
+	}
 }

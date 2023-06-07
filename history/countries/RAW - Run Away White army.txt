@@ -8,7 +8,9 @@ set_technology = {
 	support_weapons = 1
 }
 
-
+add_ideas = {
+	sphere_idea_kek
+}
 
 set_research_slots = 2
 set_convoys = 5
@@ -22,5 +24,4 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
-
-
+add_to_array = { JAP.KEK = THIS }

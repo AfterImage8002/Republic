@@ -547,6 +547,11 @@ ideas = {
 		}
 	}
 	hidden_ideas = {
+		sphere_idea_kek = {
+			allowed = {
+				always = yes
+			}
+		}
 		JAP_real_army = {
 			allowed = {
 				has_civil_war = yes

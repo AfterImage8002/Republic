@@ -9,7 +9,10 @@ set_technology = {
 }
 
 set_convoys = 5
-
+add_ideas = {
+	sphere_idea_kek
+}
+add_to_array = { JAP.KEK = THIS }
 set_politics = {
 	ruling_party = conservatism
 	last_election = "1936.1.1"
