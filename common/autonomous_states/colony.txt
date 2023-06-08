@@ -7,6 +7,7 @@ autonomy_state = {
 	
 	manpower_influence = 0.7
 	
+	
 	rule = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
 		
