@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = AFG
 	}
-	manpower=841
+	manpower=291430000
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

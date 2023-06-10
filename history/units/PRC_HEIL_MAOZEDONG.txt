@@ -53,7 +53,7 @@ units = {
 	}
 	
 	### Provincial Forces ###
-	division = { #  "1 Shensi Juntuán"
+	division = { #  "1 Fujuan Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
@@ -63,7 +63,7 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division = { #  "2 Shensi Juntuán"
+	division = { #  "2 Fujuan Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
@@ -73,7 +73,7 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division = { #  "3 Shensi Juntuán"
+	division = { #  "3 Fujuan Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
@@ -83,7 +83,7 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division = { #  "4 Shensi Juntuán"
+	division = { #  "4 Fujuan Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 4
@@ -93,7 +93,7 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division = { #  "5 Shensi Juntuán"
+	division = { #  "5 Fujuan Juntuán"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 5
