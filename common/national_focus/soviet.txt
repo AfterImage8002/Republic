@@ -6640,8 +6640,6 @@ focus_tree = {
 		relative_position_id = SOV_strengthen_the_mobilization_plan
 		cost = 5
 
-		mutually_exclusive = { focus = SOV_beaten_but_not_defeated }
-
 		allow_branch = {
 			if = {
 				limit = {
@@ -15050,13 +15048,13 @@ ai_will_do = {
 
 
 
-#   #  ##  #  #  ##  ###   ##  #  # ###  ## ###     ###  ###   ##  #  #  ##  #  # 
-## ## #  # ## # #  # #  # #  # #  #  #  #    #      #  # #  # #  # ## # #  # #  # 
-# # # #  # # ## #### ###  #    ####  #   #   #      ###  ###  #### # ## #    #### 
-#   # #  # #  # #  # #  # #  # #  #  #    #  #      #  # #  # #  # #  # #  # #  # 
-#   #  ##  #  # #  # #  #  ##  #  # ### ##   #      ###  #  # #  # #  #  ##  #  # 
-
-	focus = {
+##   #  ##  #  #  ##  ###   ##  #  # ###  ## ###     ###  ###   ##  #  #  ##  #  # 
+### ## #  # ## # #  # #  # #  # #  #  #  #    #      #  # #  # #  # ## # #  # #  # 
+## # # #  # # ## #### ###  #    ####  #   #   #      ###  ###  #### # ## #    #### 
+##   # #  # #  # #  # #  # #  # #  #  #    #  #      #  # #  # #  # #  # #  # #  # 
+##   #  ##  #  # #  # #  #  ##  #  # ### ##   #      ###  #  # #  # #  #  ##  #  # 
+#
+# 	focus = {
 		id = SOV_beaten_but_not_defeated
 		icon = GFX_goal_generic_war_with_comintern
 		x = 61
@@ -15131,9 +15129,9 @@ ai_will_do = {
 			}
 			mark_focus_tree_layout_dirty = yes
 		}
-	}
-
-	focus = {
+# 	}
+# 
+# 	focus = {
 		id = SOV_unification_of_the_exiles
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { focus = SOV_beaten_but_not_defeated }
@@ -15165,9 +15163,9 @@ ai_will_do = {
 			SOV_paranoia_low_increase_effect = yes
 			custom_effect_tooltip = SOV_unification_of_the_exiles_tt
 		}
-	}
-
-	focus = {
+# 	}
+# 
+#	focus = {
 		id = SOV_womens_fascist_movement
 		icon = GFX_focus_SOV_womens_fascist_movement
 		prerequisite = { focus = SOV_unification_of_the_exiles }
@@ -15202,10 +15200,10 @@ ai_will_do = {
 			effect_tooltip = { add_ideas = SOV_fascist_womens_movement_idea }
 			set_country_flag = SOV_fascist_womens_movement_flag
 		}
-		
-	}
-
-	focus = {
+#		
+#	}
+#
+#	focus = {
 		id = SOV_the_true_tsars
 		icon = GFX_focus_SOV_the_true_tsars
 		prerequisite = { focus = SOV_unification_of_the_exiles }
@@ -15244,9 +15242,9 @@ ai_will_do = {
 			effect_tooltip = { add_ideas = SOV_the_true_tsars_idea }		
 			set_country_flag = SOV_the_true_tsars_flag
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_national_unification
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = SOV_unification_of_the_exiles }
@@ -15284,10 +15282,10 @@ ai_will_do = {
 			custom_effect_tooltip = SOV_national_unification_tt 
 			set_country_flag = SOV_national_unification_flag
 		}
-	}
-
-
-	focus = {
+#	}
+#
+#
+#	focus = {
 		id = SOV_embrace_the_black_hundreds
 		icon = GFX_focus_generic_little_entente
 		prerequisite = { 
@@ -15323,9 +15321,9 @@ ai_will_do = {
 			custom_effect_tooltip = SOV_embrace_the_black_hundreds_tt
 			add_political_power = 50 
 		}
-
-	}
-	focus = {
+#
+#	}
+#	focus = {
 		id = SOV_covert_operations
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = { focus = SOV_embrace_the_black_hundreds }
@@ -15352,9 +15350,9 @@ ai_will_do = {
 			add_political_power = 50
 			custom_effect_tooltip = SOV_covert_operations_tt
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_muster_the_old_guard
 		icon = GFX_focus_generic_military_mission
 		prerequisite = { 
@@ -15390,8 +15388,8 @@ ai_will_do = {
 			}
 			set_country_flag = SOV_muster_the_old_guard_flag
 		}
-	}
-	focus = {
+#	}
+#	focus = {
 		id = SOV_approach_semyonov
 		icon = GFX_focus_SOV_approach_semyonov
 		prerequisite = { 
@@ -15420,9 +15418,9 @@ ai_will_do = {
 			custom_effect_tooltip = SOV_approach_semyonov_tt
 			add_command_power = 25
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_fascist_youth_union
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { 
@@ -15458,8 +15456,8 @@ ai_will_do = {
 				popularity = 0.05
 			}	
 		}
-	}
-	focus = {
+#	}
+#	focus = {
 		id = SOV_tolkachi 
 		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = { 
@@ -15493,9 +15491,9 @@ ai_will_do = {
 			set_country_flag = SOV_tolkachi_flag
 			custom_effect_tooltip = SOV_tolkachi_tt
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_south_manchuria_railway
 		icon = GFX_focus_SOV_south_manchuria_railway
 		prerequisite = { 
@@ -15526,9 +15524,9 @@ ai_will_do = {
 			 custom_effect_tooltip = SOV_sway_the_railway_workers_tt
 			 set_country_flag = SOV_supply_hub_flag
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_organize_wreckers
 		icon = GFX_focus_SOV_organize_wreckers
 		prerequisite = { 
@@ -15560,9 +15558,9 @@ ai_will_do = {
 			 SOV_paranoia_medium_increase_effect = yes
 			 custom_effect_tooltip = SOV_organize_wreckers_tt
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_the_eyes_fear
 		icon = GFX_goal_generic_secret_weapon
 		prerequisite = { 
@@ -15604,9 +15602,9 @@ ai_will_do = {
 			set_country_flag = Sov_the_eyes_fear_flag
 			custom_effect_tooltip = SOV_the_eyes_fear_tt
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_the_hands_do
 		icon = GFX_goal_generic_major_war
 		prerequisite = { 
@@ -15644,8 +15642,8 @@ ai_will_do = {
 
 			mark_focus_tree_layout_dirty = yes
 		}
-	}
-	focus = {
+#	}
+#	focus = {
 		id = SOV_call_for_aid
 		icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = SOV_the_hands_do }
@@ -15699,9 +15697,9 @@ ai_will_do = {
 				}
 			}
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_request_imperial_protection 
 		icon = GFX_focus_jap_showa_restoration
 		prerequisite = { focus = SOV_call_for_aid }
@@ -15751,9 +15749,9 @@ ai_will_do = {
 			}
 			custom_effect_tooltip = SOV_request_imperial_protection_tt
 		}
-	} 
-
-	focus = {
+#	} 
+#
+#	focus = {
 		id = SOV_sabotage_behind_enemy_lines
 		icon = GFX_focus_prc_infiltration
 		prerequisite = { focus = SOV_the_hands_do }
@@ -15799,9 +15797,9 @@ ai_will_do = {
 			#	}
 			#}
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_aristocratic_investments
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = SOV_the_hands_do }
@@ -15844,9 +15842,9 @@ ai_will_do = {
 			}
 			#TODO jo remove this once the civil war ends
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_consolidate_power
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = SOV_the_hands_do }
@@ -15872,9 +15870,9 @@ ai_will_do = {
 			}
 			custom_effect_tooltip = SOV_consolidate_power_tt
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_rebuild_the_nation
 		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = SOV_consolidate_power }
@@ -15897,9 +15895,9 @@ ai_will_do = {
 				days = 540
 			}
 		}
-	}
-
-	focus = {
+#	}
+#
+#	focus = {
 		id = SOV_bringing_breakaways_back_to_the_fold
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = SOV_consolidate_power }
@@ -15935,68 +15933,68 @@ ai_will_do = {
 			}
 			
 		}
-	}
-	focus = {
-		id = SOV_offer_autonomy_to_former_soviet_republics 
-		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = SOV_consolidate_power }
-		x = -4
-		y = 1
-		relative_position_id = SOV_consolidate_power
-		mutually_exclusive = { focus = SOV_bringing_breakaways_back_to_the_fold }
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			any_country = {
-				has_country_flag = SOV_breakaway_country_flag
-			}
-		}
-
-		available_if_capitulated = no
-		
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-
-		completion_reward = {
-			every_country = {
-				limit = {
-					has_country_flag = SOV_breakaway_country_flag
-					NOT = { is_in_faction_with = ROOT }
-				}
-				country_event = {
-					id = NSB_soviet_nationalist.002
-					days = 3
-					random_days = 3
-				}
-			}
-			
-		}
-	}
-
-	focus = {
-		id = SOV_restore_the_glory_of_the_motherland
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = SOV_rebuild_the_nation }
-		x = 0
-		y = 1
-		relative_position_id = SOV_rebuild_the_nation
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = no
-		
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-
-		completion_reward = {
-			add_ideas = SOV_restore_the_glory_of_the_motherland
-		}
-	}
-
-
-
+#	}
+#	focus = {
+#		id = SOV_offer_autonomy_to_former_soviet_republics 
+#		icon = GFX_goal_generic_forceful_treaty
+#		prerequisite = { focus = SOV_consolidate_power }
+#		x = -4
+#		y = 1
+#		relative_position_id = SOV_consolidate_power
+#		mutually_exclusive = { focus = SOV_bringing_breakaways_back_to_the_fold }
+#		cost = 5
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		available = {
+#			any_country = {
+#				has_country_flag = SOV_breakaway_country_flag
+#			}
+#		}
+#
+#		available_if_capitulated = no
+#		
+#		search_filters = {FOCUS_FILTER_INDUSTRY}
+#
+#		completion_reward = {
+#			every_country = {
+#				limit = {
+#					has_country_flag = SOV_breakaway_country_flag
+#					NOT = { is_in_faction_with = ROOT }
+#				}
+#				country_event = {
+#					id = NSB_soviet_nationalist.002
+#					days = 3
+#					random_days = 3
+#				}
+#			}
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = SOV_restore_the_glory_of_the_motherland
+#		icon = GFX_goal_generic_construction
+#		prerequisite = { focus = SOV_rebuild_the_nation }
+#		x = 0
+#		y = 1
+#		relative_position_id = SOV_rebuild_the_nation
+#		cost = 10
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available_if_capitulated = no
+#		
+#		search_filters = {FOCUS_FILTER_INDUSTRY}
+#
+#		completion_reward = {
+#			add_ideas = SOV_restore_the_glory_of_the_motherland
+#		}
+#	}
+#
+#
+#
 ###  ### #   ###  ##  ###  ##  #  #  ##      ## ### #  # ### ###         
 #  # #   #    #  #     #  #  # #  # #       #    #  #  # #   #   {~._.~} 
 ###  ##  #    #  # ##  #  #  # #  #  #       #   #  #  # ##  ##   ( Y )  
