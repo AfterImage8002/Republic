@@ -1,5 +1,4 @@
 ENG_organize_the_blackshirts = {
-
 	ENG_urge_restraint = {
 
 		icon = eng_propaganda_campaigns
@@ -31,7 +30,6 @@ ENG_organize_the_blackshirts = {
 			factor = 0
 		}
 	}
-
 	ENG_blackshirt_march_in_northern_ireland = {
 
 		icon = eng_blackshirt_march
@@ -42,8 +40,8 @@ ENG_organize_the_blackshirts = {
 		}
 
 		highlight_states = {
- highlight_state_targets = { state = 119 } 
-}
+			highlight_state_targets = { state = 119 } 
+		}
 
 		on_map_mode = map_only
 
@@ -114,8 +112,8 @@ ENG_organize_the_blackshirts = {
 		}
 
 		highlight_states = {
- highlight_state_targets = { state = 120 } 
-}
+			highlight_state_targets = { state = 120 } 
+		}
 
 		on_map_mode = map_only
 
@@ -186,8 +184,8 @@ ENG_organize_the_blackshirts = {
 		}
 
 		highlight_states = {
- highlight_state_targets = { state = 136 } 
-}
+ 			highlight_state_targets = { state = 136 } 
+		}
 
 		on_map_mode = map_only
 
@@ -258,8 +256,8 @@ ENG_organize_the_blackshirts = {
 		}
 
 		highlight_states = {
- highlight_state_targets = { state = 133 } 
-}
+			highlight_state_targets = { state = 133 } 
+		}
 
 		on_map_mode = map_only
 
@@ -330,8 +328,8 @@ ENG_organize_the_blackshirts = {
 		}
 
 		highlight_states = {
- highlight_state_targets = { state = 121 } 
-}
+			highlight_state_targets = { state = 121 } 
+		}
 
 		on_map_mode = map_only
 
@@ -8044,7 +8042,6 @@ ENG_move_to_secure_the_dominions = {
 			factor = 0
 		}
 	}
-
 }
 
 ENG_imperial_conference_decision = {
@@ -8286,6 +8283,47 @@ ENG_imperial_conference_decision = {
 }
 
 political_actions = {
+
+	ENG_vertragsbruch_durand_linie = {
+		icon = generic
+
+		allowed = {
+			original_tag = ENG
+		}
+		available = {
+			RAJ = {
+				is_puppet_of = ROOT
+			}
+			AFG = {
+				AND = {
+					NOT = {
+						has_government = conservatism
+					}
+					NOT = {
+						has_government = progressive
+					}
+				}
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			always = yes
+		}
+		complete_effect = {
+			RAJ = {
+				add_state_claim = 963
+			}
+			create_wargoal = {
+				target = AFG
+				type = take_state_focus
+				generator = { 963 }
+			}
+		}
+	}
 
 	#ENG_host_CZE_exile_government = {
 	#

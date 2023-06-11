@@ -70,6 +70,10 @@
  STATE_960:0 "보르즈나"
  STATE_961:0 "브로바리"
  STATE_962:0 "스타로빌스크"
+ STATE_963:0 "바다흐샨"
+ STATE_964:0 "자볼"
+ STATE_965:0 "칸다하르"
+ STATE_966:0 "다이쿤디"
  #도시
  VICTORY_POINTS_3529:0 "차리친"
  VICTORY_POINTS_11523:0 "포크롭스크"
