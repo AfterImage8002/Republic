@@ -1,6 +1,6 @@
 autonomy_state = {
 	id = autonomy_supervised_state
-	use_overlord_color = no
+	use_overlord_color = yes
 	min_freedom_level = 0.75
 
 	peace_conference_initial_freedom = 0.001
@@ -20,7 +20,9 @@ autonomy_state = {
 		autonomy_manpower_share = 0.0
 		extra_trade_to_overlord_factor = 0.25
 		overlord_trade_cost_factor = -0.25
+		# autonomy_gain = 2
 		master_ideology_drift = 0.3
+		peace_score_ratio_transferred_to_overlord = 0.15
 	}
 	
 	ai_subject_wants_higher = {
@@ -36,7 +38,11 @@ autonomy_state = {
 	}
 
 	allowed = {
-		
+		has_dlc = "Man the Guns"
+		OR = {
+			is_subject = no
+			has_autonomy_state = autonomy_supervised_state
+		}
 	}
 
 	allowed_levels_filter = {
@@ -49,8 +55,13 @@ autonomy_state = {
 		modifier = {
 			add = 5
 			has_dlc = "Man the Guns"
-			FROM = {
-				has_government = democratic 
+			AND = {
+				FROM = {
+					has_government = conservatism 
+				}
+				FROM = {
+					has_government = progressive 
+				}
 			}
 		}
 	}
