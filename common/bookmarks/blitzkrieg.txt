@@ -5,7 +5,7 @@ bookmarks = {
 		date = 1936.1.1.12
 		picture = "GFX_select_date_storm"
 		default_country = "SOV"
-		default = no
+		default = yes
 		
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
