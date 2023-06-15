@@ -11,7 +11,6 @@ state={
 			infrastructure = 1
 			1177 = {
 				naval_base = 3
-
 			}
 		}
 		victory_points = {
@@ -20,6 +19,6 @@ state={
 		add_core_of = CHO
 	}
 	manpower=78000
-	state_category=rural
+	state_category=wasteland
 	buildings_max_level_factor=1.000
 }
