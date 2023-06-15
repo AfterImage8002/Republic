@@ -12,6 +12,12 @@
 
 ###Todo remove commented advisor experience gains
 leader_traits = {
+	satan = {
+		random = no
+		sprite = 13
+		political_power_gain = 0.3
+		stability_factor = -0.1
+	}
 	puppet = {
 		random = no
 	}

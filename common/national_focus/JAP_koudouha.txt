@@ -56,6 +56,26 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = JAP_k_mobil
+		cost = 3
+		x = 5
+		y = 3
+		prerequisite = {
+			focus = JAP_k_worker_connection
+			focus = JAP_k_jaibatsu_exploitation
+		}
+		completion_reward = { 
+			add_ideas = {
+				war_economy
+			}
+			hidden_effect = {
+				load_oob = JAP_k_support
+				load_oob = JAP_k_support
+				load_oob = JAP_k_support
+			}
+		}
+	}
+	focus = {
 		id = JAP_k_accept_socialism
 		cost = 4
 		x = 7
@@ -67,6 +87,7 @@ focus_tree = {
 			add_stability = 0.2
 			add_ideas = {
 				JAP_socialism_acception
+				JAP_kita
 			}
 			add_popularity = {
 				ideology = communism
@@ -110,6 +131,9 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = JAP_k_accept_socialism
+		}
+		prerequisite = {
+			focus = JAP_k_mobil
 		}
 		completion_reward = {
 			add_equipment_to_stockpile = {
