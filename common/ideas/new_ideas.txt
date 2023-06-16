@@ -436,6 +436,7 @@ ideas = {
 			modifier = {
 				conscription = -0.8
 				surrender_limit = 1
+				political_advisor_cost_factor = 9.99
 			}
 		}
 		JAP_k_last_defence = {

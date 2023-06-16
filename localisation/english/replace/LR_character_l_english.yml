@@ -49,6 +49,7 @@
  KUB_Zinoviev:0 "그리고리 지노비에프"
  BYA_Tsydenova:0 "군신 치데노바"
  WSY_Yagoda:0 "겐리흐 야고다"
+ JAP_kita:0 "기타 잇키"
 
 
  #☆☆☆☆☆개쩌는 극동의 지도자들~☆☆☆☆☆☆☆☆#
@@ -60,7 +61,7 @@
  
  #인물특성
 
-
+ satan:0 "마왕"
  dictator_of_all_the_russian:0 "전러시아의 최고지도자"
  loser_of_far_east:0 "극동의 패배자"
  loser_of_russia:0 "추방자"

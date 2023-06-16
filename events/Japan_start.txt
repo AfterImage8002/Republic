@@ -354,6 +354,9 @@ country_event = {
 				add_ideas = {
 					to_surrender
 				}
+				remove_ideas = {
+					JAP_kudeta_army
+				}
 			}
 			JAP = {
 				country_event = {

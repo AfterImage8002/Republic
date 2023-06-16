@@ -1,4 +1,22 @@
 characters = {
+	JAP_kita = {
+		name = JAP_kita
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/JAP_kita.dds"
+			}
+		}
+		advisor = {
+			cost = 150
+			
+			slot = political_advisor
+			idea_token = JAP_kita
+			traits = { satan }
+			allowed = {
+				original_tag = JAP
+			}
+		}
+	}
 
 	JAP_kudeta = {
 		name = JAP_kudeta
