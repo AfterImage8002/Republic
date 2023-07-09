@@ -407,7 +407,7 @@
  FRA_event.7.t:0 "군대 점검"
  FRA_event.7.d:0 ""
  FRA_event.7.a:0 "흠.."
- 
+
  FRA_event.8.t:0 "북아프리카에서의 대규모 소요사태"
  FRA_event.8.d:0 "ㅈㄱㄴ"
  FRA_event.8.a:0 "좆같은 흑인새끼들!"
@@ -533,6 +533,20 @@
  FRA_pokdong_uhwa_desc:0 "유화책"
  FRA_france_anjunghwa:0 "프랑스 안정화"
  FRA_france_anjunghwa_desc:0 "프랑스 안정화"
+ #긴급대책위원회
+ FRA_we_should_hurry:0 "쿠데타에 맞서다"
+ FRA_we_should_hurry_desc:0 "쿠데타에 맞서다"
+ FRA_need_more_war_support:0 "반쿠데타 선전"
+ FRA_need_more_war_support_desc:0 "반쿠데타 선전"
+ FRA_need_more_weapons:0 "군수창고 개방"
+ FRA_need_more_weapons_desc:0 "군수창고 개방"
+ FRA_need_more_mans:0 "전국적인 징집"
+ FRA_need_more_mans_desc:0 "전국적인 징집"
+ FRA_check_the_republican_armys:0 "군대 확인"
+ FRA_check_the_republican_armys_desc:0 "군대 확인"
+ FRA_paris_commune_with_yosaehwa:0 "전선 요새화"
+ FRA_paris_commune_with_yosaehwa_desc:0 "전선 요새화"
+
 
  FRA_CT_1:0 "§R이는 우리 공화국의 운명을 가를 중요한 결정일 것입니다.§!"
  pokdong_at_paris:0 "§Y전국적인 폭동이 발생함.§!"
