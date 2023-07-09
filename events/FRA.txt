@@ -360,7 +360,7 @@ country_event = { #혁명위원회로 건너가기
         }
     }
     option = {
-        name = FRA_event.15.a
+        name = FRA_event.15.b
         hidden_effect = {
             country_event = {
                 id = FRA_Event.20

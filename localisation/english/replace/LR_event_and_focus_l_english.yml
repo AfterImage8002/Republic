@@ -412,6 +412,7 @@
  FRA_event.9.t:0 "서아프리카에서의 대규모 소요사태"
  FRA_event.9.d:0 "ㅈㄱㄴ"
  FRA_event.9.a:0 "당장 병력을 투입해!"
+ FRA_event.15.b:0 "제기랄.."
  
  
  #중국
@@ -756,7 +757,7 @@
  FRA_event.14.a:0 "ㅈㄱㄴ"
  FRA_event.15.t:0 "파리, 다시 한번 자유를 향하여."
  FRA_event.15.d:0 "ㅈㄱㄴ"
- FRA_event.15.a:0 "VIVA LA COMMUNE! (코뮌 만세!)"
+ FRA_event.15.a:0 "VIVE LA COMMUNE! (코뮌 만세!)"
 
 
  #프로이센사회주의제국연방자치제휴위임통치자치령
