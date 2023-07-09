@@ -119,6 +119,12 @@ spriteTypes = {
 		name = "GFX_event_hungary_slo_event_3"
 		textureFile = "gfx/event_picture/hungary_slo_event_3.png"
 	}
-
-	
+	spriteType = {
+		name = "GFX_event_redemption"
+		textureFile = "gfx/event_picture/redemption.png"
+	}
+	spriteType = {
+		name = "GFX_event_dead_man"
+		textureFile = "gfx/event_picture/RIP.png"
+	}
 }

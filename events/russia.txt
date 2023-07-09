@@ -6,7 +6,7 @@ country_event = {
 	id = msy_evnet.1
 	title = msy_evnet.1.t
 	desc = msy_evnet.1.d
-	picture = GFX_none
+	picture = GFX_event_redemption
 	
 	is_triggered_only = yes
 	
@@ -20,7 +20,7 @@ country_event = {
 	id = msy_evnet.2
 	title = msy_evnet.2.t
 	desc = msy_evnet.2.d
-	picture = GFX_none
+	picture = GFX_event_dead_man
 	
 	is_triggered_only = yes
 	
