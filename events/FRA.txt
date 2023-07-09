@@ -1,73 +1,72 @@
 add_namespace = FRA_event
 
 country_event = {
-    id = FRA_event.1
+    id = FRA_event.1 # 정부
     title = FRA_event.1.t 
     desc = FRA_event.1.d 
-
-    fire_only_once = yes
+	
     is_triggered_only = yes
 
     option = {
-        name = FRA_event.1.a
+        name = FRA_event.1.a # 국민전선 # 보통 내전
+		complete_national_focus = FRA_government_at_national_front
+		set_country_flag = government_at_national_front
+    }
+	option = {
+        name = FRA_event.1.b # 코뮌없는 내전
+		complete_national_focus = FRA_government_at_peoples_front
+		set_country_flag = government_at_peoples_front
     }
 }
 
 country_event = {
-    id = FRA_event.2
+    id = FRA_event.2 # 서아프리카에서의 대규모 시위
     title = FRA_event.2.t 
     desc = FRA_event.2.d
-
-    fire_only_once = yes
+	
     is_triggered_only = yes
 
     option = {
-        name = FRA_event.2.a 
+        name = FRA_event.2.a # 씨발
     }
 }
 
 country_event = {
-    id = FRA_event.3
+    id = FRA_event.3 # 노동자들의 전언
     title = FRA_event.3.t
     desc = FRA_event.3.d
 
-    fire_only_once = yes
     is_triggered_only = yes
     
     option = {
-        name = FRA_event.3.a
+        name = FRA_event.3.a # ㅇㅋ 감안함
     }
 }
 
 country_event = {
-    id = FRA_event.4
+    id = FRA_event.4 # 우리좆됐어
     title = FRA_event.4.t
     desc = FRA_event.4.d
 
-    fire_only_once = yes
     is_triggered_only = yes
 
     option = {
-        name = FRA_event.4.a
-        set_variable = {
-            B = 1
-        }
+        name = FRA_event.4.a # 꺄악 폭동 멈춰!!
+		set_country_flag = pokdong_at_paris
+		complete_national_focus = FRA_wait_this_is_not_good
     }
 }
 
 country_event = {
-    id = FRA_event.5
+    id = FRA_event.5 # 군부 쿠데타
     title = FRA_event.5.t
     desc = FRA_event.5.d
-
-    fire_only_once = yes
+	
     is_triggered_only = yes
 
     option = {
-        name = FRA_event.5.a
-        set_variable = {
-            A = 1
-        }
+        name = FRA_event.5.a # 씨발!!!
+        load_focus_tree = FRA_holy_shit_we_all_fucked
     }
 }
 
