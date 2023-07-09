@@ -534,7 +534,12 @@
  FRA_france_anjunghwa:0 "프랑스 안정화"
  FRA_france_anjunghwa_desc:0 "프랑스 안정화"
 
- FRA_CT_1:0 "§R이는 우리 공화국의 운명을 가를 중요한 결정일것입니다§!"
+ FRA_CT_1:0 "§R이는 우리 공화국의 운명을 가를 중요한 결정일 것입니다.§!"
+ pokdong_at_paris:0 "§Y전국적인 폭동이 발생함.§!"
+ government_at_national_front:0 "§C국민전선§!을 선출함."
+ government_at_peoples_front:0 "§R인민전선§!을 선출함."
+ FRA_holy_shit_we_all_fucked:0 "§Y프랑스 긴급대책위원회 중점§!"
+ FRA_norrrmal_focus_tree:0 "§Y프랑스 기본 중점§!" #낚시
  
  #중점
  JAP_focus_1:0 "위기 수습"
