@@ -462,6 +462,8 @@ set_popularities = {
 add_ideas = {
 	FRA_inefficient_economy_2
 	economic_depression
+	FRA_workers_paup
+	FRA_fascists_gaejiral
 	threat_from_west
 }
 
