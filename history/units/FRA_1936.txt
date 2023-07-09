@@ -2,7 +2,7 @@
 division_template = {
 	name = "Division d'Infanterie"		
 	division_names_group = FRA_INF_01
-        is_locked = yes
+    is_locked = yes
 	# Represents: Division d'Infanterie (Series A and B), Div. d'Inf. de Forteresse
 	# Difference is their equipment
 	regiments = {
@@ -24,7 +24,7 @@ division_template = {
 division_template = {
 	name = "Division Coloniale"		
 	division_names_group = FRA_COL_01
-        is_locked = yes
+    is_locked = yes
 	# Represents: Div. d'Inf. Coloniale, Div. d'Inf. Nord-Africaine
 	# Difference from DI is their equipment
 	regiments = {
@@ -41,7 +41,7 @@ division_template = {
 }
 division_template = {
 	name = "Division d'Infanterie Motorisée"	# Division d'Infanterie Motorisée
-        is_locked = yes
+    is_locked = yes
 	division_names_group = FRA_MOT_01
 
 	regiments = {
@@ -63,7 +63,7 @@ division_template = {
 }
 division_template = {
 	name = "Division d'Infanterie Alpine"	# Division d'Infanterie Alpine
-        is_locked = yes
+    is_locked = yes
 	division_names_group = FRA_MNT_01
 	# Note: trimmed to 3x Rgts w/ arty bn added, 1939
 
@@ -84,17 +84,17 @@ division_template = {
 }
 division_template = {
 	name = "Division de Cavalerie" 	# Division de Cavalerie
-        is_locked = yes
+    is_locked = yes
 	division_names_group = FRA_CAV_01
 	# Note: Transformed to DLC, DLM divisions, 1936-39 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-                cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 2 }
 		cavalry = { x = 0 y = 3 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
-                cavalry = { x = 1 y = 2 }
+        cavalry = { x = 1 y = 2 }
 		cavalry = { x = 1 y = 3 }
 	}
 	support = {
@@ -103,7 +103,7 @@ division_template = {
 }
 division_template = {
 	name = "Division Légère Mécanique" 		# Division Légère Mécanique
-        is_locked = yes
+    is_locked = yes
 	division_names_group = FRA_MEC_01
 
 	regiments = {
@@ -111,13 +111,13 @@ division_template = {
 		motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
 		motorized = { x = 1 y = 0 }
-                motorized = { x = 1 y = 1 }
-                motorized = { x = 1 y = 2 }
-                light_armor = { x = 2 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+        light_armor = { x = 2 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
 		light_armor = { x = 2 y = 1 }		# Bn. of Hotchkiss tanks
-                light_armor = { x = 2 y = 2 }
-                light_armor = { x = 2 y = 3 }
-                light_armor = { x = 2 y = 4 }
+        light_armor = { x = 2 y = 2 }
+        light_armor = { x = 2 y = 3 }
+        light_armor = { x = 2 y = 4 }
 	}
 	support = {
 		mot_recon = { x = 0 y = 0 }      # Recon Group consisted of 42 ACs + motorcycles
@@ -126,10 +126,10 @@ division_template = {
 }
 division_template = {
 	name = "Brigade de Chars de Combat" 	# Brigade de Chars de Combat, independent armor brigades of 2x Rgts., 2 Bns. each
-        is_locked = yes
+    is_locked = yes
 	division_names_group = FRA_ARM_01
 	regiments = {
-                motorized = { x = 0 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
+        motorized = { x = 0 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
 		motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
 		light_armor = { x = 1 y = 0 }
@@ -139,7 +139,7 @@ division_template = {
 }
 division_template = {
 	name = "Brigade Coloniale"			# Represents: 2xRgt colonial forces and , usually with old equipment
-        is_locked = yes
+    is_locked = yes
 	division_names_group = FRA_COL_01
 
 	regiments = {
