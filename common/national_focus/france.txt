@@ -62,7 +62,7 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 		add_ideas = FRA_need_more_moneys
-		country_event = { id = france.2 hours = 3 }
+		country_event = { id = FRA_event.2 hours = 3 }
 		custom_effect_tooltip = FRA_colonies_not_like_this
 		}
 	}
@@ -78,7 +78,7 @@ focus_tree = {
 		add_stability = -0.1
         remove_ideas = FRA_workers_paup
 		  hidden_effect = {
-		  country_event = { id = france.4 days = 1 }
+		  country_event = { id = FRA_event.4 days = 1 }
 		  }
 		}
 	}
@@ -109,7 +109,7 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 		add_stability = 0.05
-		country_event = { id = france.3 hours = 3 }
+		country_event = { id = FRA_event.3 hours = 3 }
 		add_ideas = FRA_look_at_this_please
 		}
 	}
@@ -141,7 +141,7 @@ focus_tree = {
 		add_stability = 0.05
 		add_ideas = FRA_look_at_this_please
 		  hidden_effect = {
-		  country_event = { id = france.4 days = 1 }
+		  country_event = { id = FRA_event.4 days = 1 }
 		  }
 		}
 	}
@@ -177,7 +177,7 @@ focus_tree = {
 		remove_ideas = FRA_all_pokdong
 		custom_effect_tooltip = communists_gets_stronger
 		    hidden_effect = {
-		    country_event = { id = france.5 days = 3 }
+		    country_event = { id = FRA_event.5 days = 3 }
 	    	}
 		}
 	}
@@ -194,7 +194,7 @@ focus_tree = {
 		add_stability = 0.05
 		custom_effect_tooltip = fascists_gets_stronger
 		    hidden_effect = {
-		    	country_event = { id = france.5 days = 3 }
+		    	country_event = { id = FRA_event.5 days = 3 }
 	    	}
 		}
 	}
