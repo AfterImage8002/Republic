@@ -550,6 +550,8 @@
 
  FRA_CT_1:0 "§R이는 우리 공화국의 운명을 가를 중요한 결정일 것입니다.§!"
  pokdong_at_paris:0 "§Y전국적인 폭동이 발생함.§!"
+ FRA_yosaehwa_with_commune:0 "전선이 §Y2단계 요새§!들로 요새화됩니다."
+
  government_at_national_front:0 "§C국민전선§!을 선출함."
  government_at_peoples_front:0 "§R인민전선§!을 선출함."
  FRA_holy_shit_we_all_fucked:0 "§Y프랑스 긴급대책위원회 중점§!"
