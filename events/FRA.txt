@@ -75,18 +75,9 @@ country_event = {
     title = FRA_event.6.t
     desc = FRA_event.6.d
 
-    trigger = {
-        check_variable = {
-            B =  1
-        }
-    }
-
-    fire_only_once = yes
-
     option = {
         name = FRA_event.6.a
-        clear_variable = B
-        add_ideas = FRA_Inflation
+        add_war_support = 0.05
     }
 }
 
@@ -95,17 +86,8 @@ country_event = {
     title = FRA_event.7.t
     desc = FRA_event.7.d
 
-    trigger = {
-        check_variable = {
-            A = 1
-        }
-    }
-
-    fire_only_once = yes
-
     option = {
         name = FRA_event.7.a
-        country_event = FRA_event.8 
     }
 }
 
