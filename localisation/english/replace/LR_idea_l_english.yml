@@ -143,3 +143,9 @@
  RUS_russia_manpower_idea:0 "징집령"
  RUS_ural_tractor_plants:0 "우랄 트랙터 공장"
  RUS_ships:0 "대함대"
+
+ #프랑스
+ FRA_revolutions_of_the_Frank:0 "프랑화 개혁"
+ FRA_need_more_moneys:0 "식민지 할당량 증대"
+ FRA_workers_paup:0 "노동자 파업"
+ FRA_fascists_gaejiral:0 "파시스트 영향력"
