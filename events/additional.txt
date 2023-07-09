@@ -1,4 +1,4 @@
-add_namespace = additional_politic
+add_namespace = additional_politic # test bcdcd
 country_event = {
 	id = additional_politic.1
 	title = additional_politic.1.t
