@@ -462,6 +462,179 @@ country_event = { #내전 ㄱㄱ
             every_country = {
                 news_event = super_news_event.1
             }
+            FRA = {
+            delete_unit_template_and_units = { division_template = "Division d'Infanterie" }
+            delete_unit_template_and_units = { division_template = "Division Coloniale" }
+            delete_unit_template_and_units = { division_template = "Division d'Infanterie Motorisée" }
+            delete_unit_template_and_units = { division_template = "Division d'Infanterie Alpine" }
+            delete_unit_template_and_units = { division_template = "Division de Cavalerie" }
+            delete_unit_template_and_units = { division_template = "Division Légère Mécanique" }
+            delete_unit_template_and_units = { division_template = "Brigade de Chars de Combat" }
+            delete_unit_template_and_units = { division_template = "Brigade Coloniale" }
+            division_template = {
+				 name = "Milice de la garde française"
+				 priority = 1
+				 division_names_group = FRA_INF_01
+				 is_locked = yes
+				 regiments = {
+					militia = { x = 0 y = 0 }
+				    militia = { x = 0 y = 1 }
+					militia = { x = 0 y = 2 }
+	      		 	militia = { x = 1 y = 0 }
+					militia = { x = 1 y = 1 }
+					militia = { x = 1 y = 2 }
+				 }
+			 }
+			
+			 random_owned_controlled_state = {
+				 limit = { ROOT = { has_full_control_of_state = PREV } }
+				 prioritize = { 25 }
+				    create_unit = {
+					 division = "name = \"1ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"2ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"3ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"4ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"5ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"6ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"7ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"8ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"9ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"10ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"11ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"12ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"13ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"14ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"15ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"16ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"17ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"18ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"19ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"20ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"21ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"22ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"23ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"24ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"25ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"26ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"27ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"28ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"29ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"30ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"31ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"32ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"33ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"34ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"35ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+                    create_unit = {
+					 division = "name = \"36ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
+					 owner = FRA
+				    }
+			    }
+            }
         }
     }
 }
