@@ -307,7 +307,6 @@ ideologies = {
 		faction_modifiers = {
 
 		}
-
 	}
 	communism = {
 
@@ -387,6 +386,5 @@ ideologies = {
 		faction_modifiers = {
 
 		}
-
 	}
 }
