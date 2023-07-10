@@ -137,6 +137,61 @@ on_actions = {
 			}
 		}
 	}
-	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {    
+					AND = {
+						ROOT = {
+							original_tag = RFR
+						}
+						FROM = {
+							original_tag = FRA
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						has_war_with = RFR
+					}
+					white_peace = RFR
+				}
+				FRA = {
+					annex_country = {
+						target = RFR
+					}
+					country_event = {
+						id = fra_event.24
+					}
+				}
+			}
+			if = {
+				limit = {    
+					AND = {
+						ROOT = {
+							original_tag = FRL
+						}
+						FROM = {
+							original_tag = FRA
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						has_war_with = FRL
+					}
+					white_peace = FRL
+				}
+				FRA = {
+					annex_country = {
+						target = FRL
+					}
+					country_event = {
+						id = fra_event.25
+					}
+				}
+			}
+		}
+	}
 }
 

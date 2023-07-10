@@ -850,3 +850,11 @@
  AUS_demand_the_vojvodina_desc:0 "유혈사태 없이 우리의 영토를 다시 획득한다면 더 좋을 것입니다. 우리는 유고슬라비아에게 지난날 우리 영토였던 영토를 다시 반환할 것을 최후통첩할 것입니다."
  AUS_claim_overlordship_over_slovakia:0 "슬로바키아 지배권 주장"
  AUS_claim_overlordship_over_slovakia_desc:0 "슬로바키아의 나머지 또한 헝가리에게 무력이나 외교적으로 재통합되어야 합니다. 우리는 또다른 최후통첩을 보낼 것입니다."
+ 
+ FRA_event.24.t:0 "[RFR.getName] 토벌 성공"
+ FRA_event.24.d:0 "다음은 [FRL.getName]이다 딱대"
+ FRA_event.24.a:0 "국가를 좀먹는 세력은 공화국의 적이다."
+
+ FRA_event.25.t:0 "[FRL.getName] 토벌 성공"
+ FRA_event.25.d:0 "혼돈을 틈타 벨기에를 가져가다니\n다음은 [RDA.getName]이다 딱대."
+ FRA_event.25.a:0 "국가에 불충한 군대는 공화국의 적이다."

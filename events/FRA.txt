@@ -710,3 +710,33 @@ country_event = { #식민지의 괴뢰국 단계 없애기
         }
     }
 }
+country_event = { #국민자유전선뚝빼기 폭파
+    id = FRA_event.24
+    title = FRA_event.24.t
+    desc = FRA_event.24.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.24.a
+        declare_war_on = {
+            target = FRL
+            type = annex_everything
+        }
+    }
+}
+country_event = { #레나방위군 폭파
+    id = FRA_event.25
+    title = FRA_event.25.t
+    desc = FRA_event.25.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+    option = {
+        name = FRA_event.25.a
+        declare_war_on = {
+            target = RDA
+            type = annex_everything
+        }
+    }
+}
