@@ -11,11 +11,13 @@ country_event = {
         name = FRA_event.1.a # 국민전선 # 보통 내전
 		complete_national_focus = FRA_government_at_national_front
 		set_country_flag = government_at_national_front
+        set_stability = 0.47
     }
 	option = {
         name = FRA_event.1.b # 코뮌없는 내전
 		complete_national_focus = FRA_government_at_peoples_front
 		set_country_flag = government_at_peoples_front
+        set_stability = 0.47
     }
 }
 
@@ -831,9 +833,11 @@ country_event = {
 
     option = {
         name = FRA_event.29.a #음
+        add_stability = -0.1
     }
     option = {
         name = FRA_event.29.b #음
+        add_stability = -0.1
     }
 }
 country_event = {
@@ -846,6 +850,7 @@ country_event = {
 
     option = {
         name = FRA_event.30.a #안정도 깍는거
+        add_stability = -0.2
     }
 }
 country_event = {
@@ -858,6 +863,7 @@ country_event = {
 
     option = {
         name = FRA_event.31.a
+        add_stability = -0.3
     }
 }
 country_event = {
@@ -869,6 +875,6 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = FRA_event.32.a # 안정도 까버리기
+        name = FRA_event.32.a
     }
 }

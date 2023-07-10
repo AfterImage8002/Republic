@@ -186,16 +186,27 @@ ideas = {
         }
         FRA_upa_hate_i = {
             picture = FRA_jwa_1
+            allowed = {
+                always = no
+            }
         }
         FRA_upa_hate_ii = {
             picture = FRA_jwa_2
+            allowed = {
+                always = no
+            }
         }
         FRA_jwapa_hate_i = {
             picture = FRA_jwa_1
+            allowed = {
+                always = no
+            }
         }
         FRA_jwapa_hate_ii = {
             picture = FRA_jwa_2
-
+            allowed = {
+                always = no
+            }
         }
     }
 }
