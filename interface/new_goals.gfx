@@ -33,7 +33,7 @@ spriteTypes = {
     }
     spriteType = {
         name = GFX_france_dawn
-        textureFile = "gfx/interface/goals/닭은_새벽속에서_울고.png"
+        textureFile = "gfx/interface/goals/새해.png"
     }
     spriteType = {
         name = GFX_FRA_solve_problem
