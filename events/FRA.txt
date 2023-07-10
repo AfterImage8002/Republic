@@ -74,7 +74,7 @@ country_event = {
     id = FRA_event.6
     title = FRA_event.6.t
     desc = FRA_event.6.d
-
+    is_triggered_only = yes
     option = {
         name = FRA_event.6.a
         add_war_support = 0.05
@@ -85,7 +85,7 @@ country_event = {
     id = FRA_event.7
     title = FRA_event.7.t
     desc = FRA_event.7.d
-
+    is_triggered_only = yes
     option = {
         name = FRA_event.7.a
     }
