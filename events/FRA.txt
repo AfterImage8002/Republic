@@ -740,3 +740,28 @@ country_event = { #레나방위군 폭파
         }
     }
 }
+country_event = { #새해 
+    id = FRA_event.26
+    title = FRA_event.26.t
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.26.a
+    }
+}
+country_event = { #파업 
+    id = FRA_event.26
+    title = FRA_event.26.t
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.26.a
+    }
+    option = {
+        name = FRA_event.26.b
+    }
+}

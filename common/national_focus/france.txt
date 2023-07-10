@@ -15,6 +15,11 @@ focus_tree = {
 		x = 12
 		y = 1
 		cost = 17.2
+		select_effect = {
+			country_event = {
+				id = FRA_event.26
+			}
+		}
 		completion_reward = {
 			add_political_power = 50
 			country_event = FRA_event.1 
