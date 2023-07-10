@@ -1,6 +1,5 @@
 ideas = {
     country = {
-        
         FRA_Inflation = {
             allowed  = {
                 always = no
@@ -25,7 +24,6 @@ ideas = {
                 war_support_factor = -0.6
             }
         }
-        
         FRA_colony_disturbance = {
             allowed = {
                 always = no
@@ -46,7 +44,6 @@ ideas = {
                 required_garrison_factor = 0.05
             }
         }
-
         FRA_colony_disturbance_west_africa = {
             allowed = {
                 always = no
@@ -117,7 +114,6 @@ ideas = {
                 stability_factor = -0.
             }
         }
-
         FRA_revolutions_of_the_Frank = {
 		    picture = ITA_devaluated_lira
             allowed = {
@@ -137,7 +133,6 @@ ideas = {
 			stability_factor = -0.05
             }
         }
-		
 		FRA_need_more_moneys = {
 		    picture = SPR_seize_the_gold_reserves
             allowed = {
@@ -154,7 +149,6 @@ ideas = {
             consumer_goods_factor = -0.05
             }
         }
-		
 		FRA_workers_paup = {
 		    picture = FRA_factory_strikes
             allowed = {
@@ -174,7 +168,6 @@ ideas = {
 			industrial_capacity_dockyard = -0.05
             }
         }
-
         FRA_fascists_gaejiral = {
 		    picture = generic_fascist_workers
             allowed = {
@@ -190,6 +183,19 @@ ideas = {
             modifier = {
             fascism_drift = 0.05
             }
+        }
+        FRA_upa_hate_i = {
+            picture = FRA_jwa_1
+        }
+        FRA_upa_hate_ii = {
+            picture = FRA_jwa_2
+        }
+        FRA_jwapa_hate_i = {
+            picture = FRA_jwa_1
+        }
+        FRA_jwapa_hate_ii = {
+            picture = FRA_jwa_2
+
         }
     }
 }

@@ -480,3 +480,34 @@
  FRA_event.25.t:0 "[FRL.getName] 토벌 성공"
  FRA_event.25.d:0 "혼돈을 틈타 벨기에를 가져가다니\n다음은 [RDA.getName]이다 딱대."
  FRA_event.25.a:0 "국가에 불충한 군대는 공화국의 적이다."
+
+ FRA_event.26.t:0 "새해"
+ FRA_event.26.d:0 ""
+ FRA_event.26.a:0 "Bonne année!"
+
+ FRA_event.27.t:0 "전국 파업"
+ FRA_event.27.d:0 "진압각이다!!"
+ FRA_event.27.a:0 "파업은 노동자의 권리이다."
+ FRA_event.27.b:0 "빨갱이놈들을 진압하라!"
+
+ FRA_event.28.t:0 "남부에서의 파시스트 행진"
+ FRA_event.28.d:0 "진압각이다!!"
+ FRA_event.28.a:0 "시위는 국민의 권리이다."
+ FRA_event.28.b:0 "극단주의자가 공화국을 망치는군"
+
+ FRA_event.29.t:0 "불충스러운 군대"
+ FRA_event.29.d:0 "맛이갔노 ㅉㅉ"
+ FRA_event.29.a:0 "아마 착오가 있었나보군"
+ FRA_event.29.b:0 "음?"
+
+ FRA_event.30.t:0 "폭파된 개선문"
+ FRA_event.30.d:0 "시위대가 아니라 폭도 아님?"
+ FRA_event.30.a:0 "씨빨?"
+
+ FRA_event.31.t:0 "유명 금융 그룹의 부도 위기"
+ FRA_event.31.d:0 "이게 다 [FRA.getLeader] 때문이다!!!!"
+ FRA_event.31.a:0 "굥훠궈가 무너진다."
+
+ FRA_event.32.t:0 "선거가 다가오다."
+ FRA_event.32.d:0 "이게 다 [FRA.getLeader] 때문이다!!!!"
+ FRA_event.32.a:0 "굥훠궈가 무너진다."
