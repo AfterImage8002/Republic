@@ -149,7 +149,7 @@ ideas = {
             consumer_goods_factor = -0.05
             }
         }
-		FRA_workers_paup = {
+		FRA_workers_paup = { #파업
 		    picture = FRA_factory_strikes
             allowed = {
                 always = no
@@ -166,7 +166,9 @@ ideas = {
 		    consumer_goods_factor = 0.1
 			industrial_capacity_factory = -0.05
 			industrial_capacity_dockyard = -0.05
-            }
+                socialism_drift = 0.01
+                communism_drift = 0.01
+        }
         }
         FRA_fascists_gaejiral = {
 		    picture = generic_fascist_workers
@@ -181,7 +183,7 @@ ideas = {
             removal_cost = -1
 
             modifier = {
-            fascism_drift = 0.05
+            fascism_drift = 0.03
             }
         }
         FRA_upa_hate_i = {

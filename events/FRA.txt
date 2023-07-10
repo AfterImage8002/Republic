@@ -17,6 +17,9 @@ country_event = {
         name = FRA_event.1.b # 코뮌없는 내전
 		complete_national_focus = FRA_government_at_peoples_front
 		set_country_flag = government_at_peoples_front
+        set_politics = {
+            ruling_party = socialism
+        }
         set_stability = 0.47
     }
 }

@@ -1112,6 +1112,12 @@ characters={
 				large="GFX_portrait_fra_leon_blum"
 			}
 		}
+		country_leader={
+			ideology = social_democracy
+			traits = {} 
+            expire = "1999.1.1"
+            id = -1
+		}
 		advisor={
 			slot = political_advisor
 			idea_token = leon_blum
