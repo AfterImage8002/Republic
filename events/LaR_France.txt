@@ -323,37 +323,37 @@ country_event = {
 }
 
 # political violence returns at low stability
-country_event = {
-	id = lar_france_political_violence.4
-	title = lar_france_political_violence.4.t
-	desc = lar_france_political_violence.4.desc
-	picture = GFX_report_event_generic_rally2
-	mean_time_to_happen = { days = 50 }
+#country_event = {
+#	id = lar_france_political_violence.4
+#	title = lar_france_political_violence.4.t
+#	desc = lar_france_political_violence.4.desc
+#	picture = GFX_report_event_generic_rally2
+#	mean_time_to_happen = { days = 50 }
 
-	trigger = {
-		original_tag = FRA
-		NOT = {
-			has_completed_focus = FRA_ban_communism
-			has_completed_focus = FRA_ban_the_leagues
-		}
-		not = { has_idea = FRA_political_violence }
-		has_stability < 0.5
-		has_capitulated = no
-	}
+#	trigger = {
+#		original_tag = FRA
+#		NOT = {
+#			has_completed_focus = FRA_ban_communism
+#			has_completed_focus = FRA_ban_the_leagues
+#		}
+#		not = { has_idea = FRA_political_violence }
+#		has_stability < 0.5
+#		has_capitulated = no
+#	}
 
-	immediate = {
-		hidden_effect = {
-			add_ideas = FRA_political_violence
-		}
-	}
+#	immediate = {
+#		hidden_effect = {
+#			add_ideas = FRA_political_violence
+#		}
+#	}
 
-	option = {
-		name = lar_france_political_violence.4.a #ignore
-		effect_tooltip = {
-			add_ideas = FRA_political_violence
-		}
-	}
-}
+#	option = {
+#		name = lar_france_political_violence.4.a #ignore
+#		effect_tooltip = {
+#			add_ideas = FRA_political_violence
+#		}
+#	}
+#}
 
 ### ###  ### #  #  ##  #  #     #  # #  # ###  ##  #  # 
 #   #  # #   ## # #  # #  #     #  # ## #  #  #  # ## # 
@@ -3186,7 +3186,6 @@ country_event = {
 			ideology = communism
 			size = 0.5
 		}
-		news_event = { id = super_news_event.1 days = 2}
 	}
 }
 
@@ -3209,7 +3208,6 @@ country_event = {
 			ideology = fascism
 			size = 0.5
 		}
-		news_event = { id = super_news_event.1 days = 2}
 	}
 }
 
