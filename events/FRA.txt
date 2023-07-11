@@ -101,6 +101,10 @@ country_event = {
         load_focus_tree = FRA_holy_shit_we_all_fucked
         activate_mission = FRA_civil_war_is_coming
         set_country_flag = FRA_civil_wars_ready
+        19 = { set_demilitarized_zone = yes } # 이 위치는 임시임
+        806 = { set_demilitarized_zone = yes }
+        31 = { set_demilitarized_zone = yes }
+        22 = { set_demilitarized_zone = yes }
     }
 }
 
@@ -250,7 +254,7 @@ country_event = { #파시스트들이 시위함
     }
 }
 
-country_event = {
+country_event = { # 프헝셰 내전 발발, 내일완성함
     id = FRA_event.15
     title = FRA_event.15.t
     desc = FRA_event.15.d
@@ -259,39 +263,22 @@ country_event = {
     is_triggered_only = yes
     option = {
         name = FRA_event.15.a
+		declare_war_on = {
+				target = 
+				type = take_state_focus
+				generator = { 19 }
+			}
+        19 = { set_demilitarized_zone = no }
+        806 = { set_demilitarized_zone = no }
+        31 = { set_demilitarized_zone = no }
+        22 = { set_demilitarized_zone = no }
         hidden_effect = {
-            RFR = {
-                transfer_state = 16
-            }
-            hidden_effect = {
-                every_state = {
-                    limit = {
-                        is_owned_by = FRA
-                    }
-                    
-                    set_demilitarized_zone = yes
-                }
-                every_state = {
-                    limit = {
-                        is_core_of = FRA
-                    }
-                    add_core_of = RFR
-                    add_core_of = FRL
-                }
-                16 = {
-                    set_demilitarized_zone = no
-                }
-                25 = {
-                    set_demilitarized_zone = no
-                }
-                31 = {
-                    set_demilitarized_zone = no
-                }
-                country_event = {
-                    id = FRA_Event.16
-                    days = 4
-                }
-            }
+           = { # 군부세력에게 넘기기
+          transfer_state = 19
+          transfer_state = 806
+          transfer_state = 31
+          transfer_state = 22
+          }
         }
     }
 }
