@@ -1,4 +1,20 @@
 characters={
+	#공화국 모드
+	FRA_sarraut = { #알베르 사로
+		name = FRA_sarraut
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/FRA_sarraut.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservatism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
 	FRA_pierre_laval={ #Democratic Leader
 		name=FRA_pierre_laval
 		portraits={

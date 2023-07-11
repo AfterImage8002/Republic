@@ -12,6 +12,21 @@ country_event = {
 		complete_national_focus = FRA_government_at_national_front
 		set_country_flag = government_at_national_front
         set_stability = 0.47
+        hidden_effect = {
+            retire_ideology_leader = conservatism
+        }
+        add_popularity = {
+            ideology = conservatism
+            popularity = 0.05
+        }
+        add_popularity = {
+            ideology = neutrality
+            popularity = 0.05
+        }
+        add_popularity = {
+            ideology = fascism
+            popularity = 0.05
+        }
     }
 	option = {
         name = FRA_event.1.b # 코뮌없는 내전
@@ -21,6 +36,18 @@ country_event = {
             ruling_party = socialism
         }
         set_stability = 0.47
+        add_popularity = {
+            ideology = progressive
+            popularity = 0.05
+        }
+        add_popularity = {
+            ideology = socialism
+            popularity = 0.05
+        }
+        add_popularity = {
+            ideology = communism
+            popularity = 0.05
+        }
     }
 }
 
