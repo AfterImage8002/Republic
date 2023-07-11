@@ -100,6 +100,7 @@ country_event = {
         name = FRA_event.5.a # 씨발!!!
         load_focus_tree = FRA_holy_shit_we_all_fucked
         activate_mission = FRA_civil_war_is_coming
+        set_country_flag = FRA_civil_wars_ready
     }
 }
 
