@@ -2,6 +2,21 @@
 ##### FRA ######
 ################
 
+FRA_civil_war_is_coming = { # 프랑스 내전이 다가온다!
+	
+	icon = GFX_decision_category_spr_the_seeds_of_revolution
+
+	allowed = {
+		original_tag = FRA
+	}
+	
+	priority = 5000 # 임시
+
+	visible = {
+	    has_country_flag = FRA_civil_wars_ready
+		}
+}
+
 FRA_civil_unrest_category = {
 	icon = power_struggle
 	allowed = {
