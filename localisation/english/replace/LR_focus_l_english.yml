@@ -49,6 +49,10 @@
 
  government_at_national_front:0 "§C국민전선§!을 선출함."
  government_at_peoples_front:0 "§R인민전선§!을 선출함."
+ FRA_colonies_not_like_this:0 "§R식민지들은 이를 반기지 않을 것입니다!§!"
+ FRA_fascists_angry:0 "§R파시스트들은 이에 대해 분노할 것입니다.§!"
+ communists_gets_stronger:0 "§R공산주의자§!들이 힘을 얻습니다."
+ fascists_gets_stronger:0 "§C파시스트§!들이 힘을 얻습니다."
  FRA_holy_shit_we_all_fucked:0 "§Y프랑스 긴급대책위원회 중점§!"
  FRA_norrrmal_focus_tree:0 "§Y프랑스 기본 중점§!" #낚시
 
