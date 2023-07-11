@@ -206,6 +206,7 @@ focus_tree = {
 		add_stability = -0.1
 		remove_ideas = FRA_all_pokdong
 		custom_effect_tooltip = communists_gets_stronger
+		set_country_flag = FRA_communists_strong # 내전에 영향을 끼침
 		    hidden_effect = {
 		    country_event = { id = FRA_event.5 days = 3 }
 	    	}
@@ -223,6 +224,7 @@ focus_tree = {
 		completion_reward = {
 		add_stability = 0.05
 		custom_effect_tooltip = fascists_gets_stronger
+		set_country_flag = FRA_fascists_gets_stronger # 내전에 영향을 끼침
 		    hidden_effect = {
 		    	country_event = { id = FRA_event.5 days = 3 }
 	    	}
