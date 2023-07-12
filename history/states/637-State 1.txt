@@ -1,15 +1,17 @@
 
-state = {
-	id = 637
-	name = "STATE_637" #Kamchatka
+state={
+	id=637
+	name="STATE_637"
 
-	history = {
+	history={
 		owner = RAW
 		buildings = {
 			infrastructure = 1
 			12207 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = RAW
 		add_core_of = FER
@@ -44,14 +46,14 @@ state = {
 		add_claim_by = UKS
 		add_claim_by = SOV
 		add_claim_by = KUB
+
 	}
 
-	provinces = {
-		1839 1863 4728 7878 12207 12522 13283 13284 13285 13286 13287 13288 13289
+	provinces={
+		1839 1863 4728 7878 12207 12522 13283 13284 13285 13286 13287 13288 13289 13291 13292 13293 13294 13295 13296 13297 13299 13326 
 	}
-	manpower = 48831
-	buildings_max_level_factor = 1
-	state_category = "town"
-
-	local_supplies = 4.000 
+	manpower=48831
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=4.000
 }
