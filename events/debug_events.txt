@@ -62,3 +62,28 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = generic_debug.45
+	title = generic_debug.45.t
+	desc = TORPS
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = TORPS
+		JAP = {
+			set_autonomy = {
+				target = MRC
+				autonomous_state = autonomy_integrated_puppet
+			}
+		}
+	}
+}
+

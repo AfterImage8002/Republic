@@ -289,6 +289,20 @@ ENG_imperial_federation_india_unified = {
 	color_ui = rgb { 255 0 0 }
 }
 
+ENG_pink = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+
+JAP_gakuhu = {
+	color = rgb { 108 157 139 }
+	color_ui = hsv { 45 91 79 }
+}
+JAP_yusin = {
+	color = rgb { 217 123 129 }
+	color_ui = hsv { 45 91 79 }
+}
+
 CAN_north_america_dominion = {
 	color = rgb { 160 0 0 }
 	color_ui = rgb { 235 0 0 }

@@ -38,10 +38,6 @@ diplomatic_relation = {
 	country = MRC
 	relation = non_aggression_pact
 }
-give_guarantee = MRC
-MRC = {
-	give_military_access = JAP
-}
 give_guarantee = RAW
 RAW = {
 	give_military_access = JAP
@@ -49,6 +45,10 @@ RAW = {
 set_autonomy = {
 	target = CHO
 	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = mrc
+	autonomous_state = autonomy_bun
 }
 "CHO" = {
 	set_politics = {
