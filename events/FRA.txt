@@ -278,6 +278,13 @@ country_event = { # 프헝셰 내전 발발
           transfer_state = 806
           transfer_state = 31
           transfer_state = 22
+            every_state = {
+            limit = {
+            add_core_of = FRA
+            }
+            add_core_of = MFR
+            }
+           }
           }
         }
     }
