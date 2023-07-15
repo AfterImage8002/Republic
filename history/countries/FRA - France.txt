@@ -33,54 +33,44 @@ if = {
 set_autonomy = {
 	target = RHI
 	autonomous_state = autonomy_supervised_state
-	freedom_level = 0.4
 }
 
 set_autonomy = {
 	target = COG
 	autonomous_state = autonomy_supervised_state
-	freedom_level = 0.1
 }
 
 set_autonomy = {
 	target = KUR
 	autonomous_state = autonomy_colony
-	freedom_level = 0.6
 }
 set_autonomy = {
 	target = MLI
 	autonomous_state = autonomy_colony
-	freedom_level = 0.6
 }
 set_autonomy = {
 	target = MAD
 	autonomous_state = autonomy_colony
-	freedom_level = 0.6
 }
 set_autonomy = {
 	target = CHA
 	autonomous_state = autonomy_colony
-	freedom_level = 0.6
 }
 set_autonomy = {
 	target = MOR
 	autonomous_state = autonomy_colony
-	freedom_level = 0.6
 }
 set_autonomy = {
 	target = TUN
 	autonomous_state = autonomy_colony
-	freedom_level = 0.6
 }
 set_autonomy = {
 	target = VIN
 	autonomous_state = autonomy_colony
-	freedom_level = 0.6
 }
 set_autonomy = {
 	target = SYR
 	autonomous_state = autonomy_colony
-	freedom_level = 0.6
 }
 "TUN" = {
 	set_politics = {
@@ -452,11 +442,12 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 16
-	progressive = 44
+	conservatism = 18
+	progressive = 38
 	communism = 7
 	socialism = 28
 	fascism = 5
+	neutrality = 4
 }
 
 add_ideas = {
