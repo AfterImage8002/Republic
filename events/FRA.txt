@@ -168,8 +168,7 @@ country_event = {
     desc = FRA_event.7.d
     is_triggered_only = yes
     option = {
-        name = FRA_event.7
-        load_oob = MFR_units
+        name = FRA_event.7.a
     }
 }
 
