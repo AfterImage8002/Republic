@@ -113,6 +113,7 @@
  STATE_999:0 "시가"
  STATE_1000:0 "카가와"
  STATE_1001:0 "규슈 남부"
+ STATE_1002:0 "쾨니히스베르크"
  #도시
  VICTORY_POINTS_3529:0 "차리친"
  VICTORY_POINTS_11523:0 "포크롭스크"

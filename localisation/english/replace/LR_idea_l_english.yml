@@ -1,4 +1,8 @@
 ﻿l_english:
+
+ #프랑스 
+
+
  #국민정신
  sphere_idea_kek:0 "공영권 구성국"
  sphere_idea_kek_leader:0 "공영권 지도국"
@@ -153,3 +157,4 @@
  FRA_jwapa_hate_ii:0 "좌파의 불만 II"
  FRA_upa_hate_i:0 "우파의 불만 I"
  FRA_upa_hate_ii:0 "우파의 불만 II"
+ FRA_mil_aff:0 "군부의 영향력"

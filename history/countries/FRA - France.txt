@@ -465,6 +465,7 @@ add_ideas = {
 	FRA_workers_paup
 	FRA_fascists_gaejiral
 	threat_from_west
+	FRA_mil_aff
 }
 
 

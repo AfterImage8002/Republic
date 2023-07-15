@@ -21,6 +21,8 @@ new_CKK_neutrality_party:0 "백군 사령부"
  FRA_progressive_party:0 "급진당"
  FRA_socialism_party:0 "노동자 인터내셔널"
  FRA_communism_party:0 "프랑스 공산당"
+ FRA_neutrality_party:0 "군부"
+ FRA_fascism_party:0 "악시옹 프랑세즈"
 
  HOL_conservatism_party:0 "반혁명당"
  HOL_progressive_party:0 "로마 가톨릭 국가당"
