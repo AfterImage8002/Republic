@@ -118,34 +118,6 @@ country_event = {
              }
             }
         hidden_effect = {
-        delete_unit_template_and_units = { division_template = "Division d'Infanterie" }
-        delete_unit_template_and_units = { division_template = "Division Coloniale" }
-        delete_unit_template_and_units = { division_template = "Division d'Infanterie Motorisée" }
-        delete_unit_template_and_units = { division_template = "Division d'Infanterie Alpine" }
-        delete_unit_template_and_units = { division_template = "Division de Cavalerie" }
-        delete_unit_template_and_units = { division_template = "Division Légère Mécanique" }
-        delete_unit_template_and_units = { division_template = "Brigade de Chars de Combat" }
-        delete_unit_template_and_units = { division_template = "Brigade Coloniale" }
-        destroy_ships = {
-                type = ship_hull_light
-                count = all
-            }
-        destroy_ships = {
-                type = ship_hull_cruiser
-                count = all
-            }
-        destroy_ships = {
-                type = ship_hull_heavy
-                count = all
-            }
-        destroy_ships = {
-                type = ship_hull_carrier 
-                count = all
-            }
-        destroy_ships = {
-                type = ship_hull_submarine
-                count = all
-            }
         country_event = { id = FRA_event.8 hours = 6 }
         }
     }
