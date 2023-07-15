@@ -916,3 +916,50 @@ country_event = {
         }
     }
 }
+country_event = {
+    id = FRA_event.34
+    title = FRA_event.34.t
+    desc = FRA_event.34.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.34.a
+        LAO = {
+            transfer_state = 670
+            declare_war_on = {
+                target = FRA
+                type = independence_wargoal 
+            }
+        }
+        CAM = {
+            transfer_state = 741
+            declare_war_on = {
+                target = FRA
+                type = independence_wargoal 
+            }
+        }
+        VIN = {
+            set_cosmetic_tag = VIN_ind
+            set_politics = {
+                ruling_party = socialism
+                elections_allowed = yes
+                last_election = "1935.12.17"
+                election_frequency = 60
+            }
+            transfer_state = 671
+            transfer_state = 286
+            FRA = {
+                set_autonomy = {
+                    target = VIN
+                    autonomy_state = autonomy_free
+                }
+            }
+            declare_war_on = {
+                target = FRA
+                type = annex_everything
+            }
+        }
+    }
+}
