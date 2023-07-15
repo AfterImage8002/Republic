@@ -176,7 +176,6 @@ add_ideas = {
 set_convoys = 800
 
 # DIPLOMACY
-if = {
 	set_autonomy = {
 		target = EGY
 		autonomous_state = autonomy_puppet
@@ -209,7 +208,6 @@ if = {
 		target = NZL
 		autonomous_state = autonomy_dominion
 	}
-}
 
 
 if = {

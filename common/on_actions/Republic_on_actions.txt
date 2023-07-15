@@ -15,7 +15,14 @@ on_actions = {
 			YHC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
 			GSC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
 			UKR = {add_opinion_modifier = { target = SOV modifier = ukraine_anti_russian }}
-		if = {
+			RHI = {
+				country_event = {
+					id = rhi_event.1
+				 	days = 1
+				}
+			}
+			if = {
+		
 			every_state = {
 					limit = {
 						or = {

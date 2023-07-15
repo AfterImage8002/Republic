@@ -1,0 +1,191 @@
+add_namespace = rhi_event
+
+news_event = { #프랑화 위기의 심화
+	id = rhi_event.1
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.1.t
+	desc = rhi_event.1.d
+	major = no
+	option = {
+		name = rhi_event.1.a
+		51 = {
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+	}
+}
+country_event = { #프랑스에게 경제적 지원 요청
+	id = rhi_event.2
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.2.t
+	desc = rhi_event.2.d
+	option = {
+		name = rhi_event.2.a
+		FRA = {
+			country_event = {
+				id = rhi_event.3
+				days = 1
+			}
+		}
+	}
+}
+country_event = { #프랑스의 선택
+	id = rhi_event.3
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.3.t
+	desc = rhi_event.3.d
+	option = {
+		name = rhi_event.3.a
+		hidden_effect = {
+			RHI = {
+				country_event = {
+					id = rhi_event.5
+					days = 5
+				}
+			}
+		}
+	}
+	option = {
+		name = rhi_event.3.b
+		add_political_power = -100
+		hidden_effect = {
+			RHI = {
+				country_event = {
+					id = rhi_event.4
+					days = 5
+				}
+			}
+		}
+	}
+}
+country_event = { #프랑스의 수락
+	id = rhi_event.4
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.4.t
+	desc = rhi_event.4.d
+	option = {
+		name = rhi_event.4.a
+		swap_ideas = {
+			remove_idea = french_interference
+			add_idea = french_interference_1
+		}
+		add_stability = 0.05
+	}
+}
+country_event = { #프랑스의 거절
+	id = rhi_event.5
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.5.t
+	desc = rhi_event.5.d
+	option = {
+		name = rhi_event.5.a
+		add_war_support = 0.05
+		swap_ideas = {
+			remove_idea = french_interference
+			add_idea = french_interference_2
+		}
+	}
+}
+country_event = { #독일 회담
+	id = rhi_event.6
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.6.t
+	desc = rhi_event.6.d
+	option = {
+		name = rhi_event.6.a
+		add_war_support = 0.02
+		GER = {
+			country_event = {
+				id = rhi_event.7
+				days = 1
+			}
+		}
+	}
+}
+country_event = { #독일의 반응
+	id = rhi_event.7
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.7.t
+	desc = rhi_event.7.d
+	option = { #수락
+		name = rhi_event.7.a
+		swap_ideas = {
+			remove_idea = GER_german_economy_unity
+			add_idea = GER_german_economy_unity_1
+		}
+		add_political_power = 10
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.03
+		}
+		hidden_effect = {
+			RHI = {
+				country_event = {
+					id = rhi_event.8
+					days = 5
+				}
+			}
+		}
+	}
+	option = { #거절
+		name = rhi_event.7.a
+		add_political_power = -10
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		hidden_effect = {
+			RHI = {
+				country_event = {
+					id = rhi_event.9
+					days = 5
+				}
+			}
+		}
+	}
+}
+country_event = { #독일의 수락
+	id = rhi_event.8
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.8.t
+	desc = rhi_event.8.d
+	option = {
+		name = rhi_event.8.a
+		swap_ideas = {
+			remove_idea = RHI_german_economy_unity
+			add_idea = RHI_german_economy_unity_1
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
+	}
+}
+country_event = { #독일의 거절
+	id = rhi_event.9
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.9.t
+	desc = rhi_event.9.d
+	option = {
+		name = rhi_event.9.a
+		add_popularity = {
+			ideology = socialism
+			popularity = -0.03
+		}
+	}
+}

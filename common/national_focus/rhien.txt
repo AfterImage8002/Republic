@@ -1,0 +1,44 @@
+focus_tree = {
+	id = romanian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 100
+			tag = RHI
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+	focus = { #프랑스와의 회담
+		id = RHI_focus_1
+		cost = 4.3
+		x = 5
+		y = 0
+		completion_reward = {
+			add_political_power = 10
+			add_war_support = -0.05
+			country_event = {
+				id = rhi_event.2
+				days = 3
+			}
+		}
+	}
+	focus = { #독일과의 접선
+		id = RHI_focus_2
+		cost = 4.3
+		x = 9
+		y = 0
+		completion_reward = {
+			add_political_power = -10
+			add_war_support = 0.05
+			country_event = {
+				id = rhi_event.6
+				days = 3
+			}
+		}
+	}
+}	
