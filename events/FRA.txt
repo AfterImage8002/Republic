@@ -254,7 +254,7 @@ country_event = { #파시스트들이 시위함
     }
 }
 
-country_event = { # 프헝셰 내전 발발, 내일완성함
+country_event = { # 프헝셰 내전 발발
     id = FRA_event.15
     title = FRA_event.15.t
     desc = FRA_event.15.d
@@ -264,7 +264,7 @@ country_event = { # 프헝셰 내전 발발, 내일완성함
     option = {
         name = FRA_event.15.a
 		declare_war_on = {
-				target = 
+				target = MFR
 				type = take_state_focus
 				generator = { 19 }
 			}
@@ -273,7 +273,7 @@ country_event = { # 프헝셰 내전 발발, 내일완성함
         31 = { set_demilitarized_zone = no }
         22 = { set_demilitarized_zone = no }
         hidden_effect = {
-           = { # 군부세력에게 넘기기
+          MFR = { # 군부세력에게 넘기기
           transfer_state = 19
           transfer_state = 806
           transfer_state = 31
