@@ -189,3 +189,325 @@ country_event = { #독일의 거절
 		}
 	}
 }
+country_event = { #선거
+	id = rhi_event.10
+	trigger = {
+		focus_progress = {
+			focus = RHI_focus_3
+			progress = 0.03
+		}
+	}
+	fire_only_once = yes
+	title = rhi_event.10.t
+	desc = rhi_event.10.d
+	option = {
+		name = rhi_event.10.a
+		add_stability = 0.1
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.11
+				days = 4
+			}
+		}
+	}
+}
+country_event = { #선거 - 경제대책 질타
+	id = rhi_event.11
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.11.t
+	desc = rhi_event.11.d
+	option = {
+		name = rhi_event.11.a
+		add_popularity = {
+			ideology = conservatism
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = progressive
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.12
+				days = 4
+			}
+		}
+	}
+	option = {
+		name = rhi_event.11.b
+		add_popularity = {
+			ideology = conservatism
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = progressive
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.12
+				days = 4
+			}
+		}
+	}
+}
+country_event = { #선거 - 프랑스 문제
+	id = rhi_event.12
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.12.t
+	desc = rhi_event.12.d
+	option = {
+		trigger = {
+			has_idea = french_interference_1
+		}
+		name = rhi_event.12.a
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.03
+		}
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.13
+				days = 4
+			}
+		}
+	}
+	option = {
+		name = rhi_event.12.b
+		add_popularity = {
+			ideology = conservatism
+			popularity = -0.06
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = progressive
+			popularity = 0.03
+		}
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.13
+				days = 4
+			}
+		}
+	}
+}
+country_event = { #선거 - 서민구제
+	id = rhi_event.13
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.13.t
+	desc = rhi_event.13.d
+	option = {
+		name = rhi_event.13.a
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.03
+		}
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.14
+				days = 4
+			}
+		}
+	}
+	option = {
+		name = rhi_event.13.b
+		add_popularity = {
+			ideology = progressive
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.04
+		}
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.14
+				days = 4
+			}
+		}
+	}
+	option = {
+		name = rhi_event.13.c
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.03
+		}
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.14
+				days = 4
+			}
+		}
+	}
+}
+country_event = { #선거 - 국방의제
+	id = rhi_event.14
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.14.t
+	desc = rhi_event.14.d
+	option = {
+		name = rhi_event.14.a
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.02
+		}
+		add_war_support = -0.1
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.15
+				days = 4
+			}
+		}
+	}
+	option = {
+		name = rhi_event.14.b
+		add_popularity = {
+			ideology = communism
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = progressive
+			popularity = 0.03
+		}
+		army_experience = 20
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.15
+				days = 4
+			}
+		}
+	}
+	option = {
+		name = rhi_event.14.c
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		give_military_access = GER
+		hidden_effect = {
+			country_event = {
+				id = rhi_event.15
+				days = 4
+			}
+		}
+	}
+}
+country_event = { #선거 - 안티파시즘 행동
+	id = rhi_event.15
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.15.t
+	desc = rhi_event.15.d
+	option = {
+		name = rhi_event.15.a
+		add_popularity = {
+			ideology = communism
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.03
+		}
+		add_stability = -0.1
+	}
+}
+country_event = { #선거 종료
+	id = rhi_event.16
+	is_triggered_only = yes
+	fire_only_once = yes
+	title = rhi_event.16.t
+	desc = rhi_event.16.d
+	option = {
+		name = rhi_event.16.a
+		trigger = {
+			neutrality > 0.2
+		}
+		set_politics = {
+			ruling_party = neutrality
+		}
+		add_stability = 0.3
+	}
+	option = {
+		name = rhi_event.16.a
+		trigger = {
+			conservatism > 0.2
+		}
+		set_politics = {
+			ruling_party = conservatism
+		}
+		add_stability = 0.3
+	}
+	option = {
+		name = rhi_event.16.a
+		trigger = {
+			progressive > 0.2
+		}
+		set_politics = {
+			ruling_party = progressive
+		}
+		add_stability = 0.3
+	}
+	option = {
+		name = rhi_event.16.a
+		trigger = {
+			fascism > 0.2
+		}
+		set_politics = {
+			ruling_party = fascism
+		}
+		add_stability = 0.3
+	}
+	option = {
+		name = rhi_event.16.a
+		trigger = {
+			socialism > 0.2
+		}
+		set_politics = {
+			ruling_party = socialism
+		}
+		add_stability = 0.3
+	}
+}
