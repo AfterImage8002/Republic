@@ -41,7 +41,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_idea_german_economy_unity"
-		textureFile = "gfx/interface/ideas/german_economy_unity.dds"
+		textureFile = "gfx/interface/ideas/독일경제협력.png"
 	}
 	
 	SpriteType = {
