@@ -15,6 +15,9 @@ news_event = { #프랑화 위기의 심화
 				level = 1
 			}
 		}
+		hidden_effect = {
+			complete_national_focus = RHI_focus_0
+		}
 	}
 }
 country_event = { #프랑스에게 경제적 지원 요청

@@ -1,5 +1,5 @@
 focus_tree = {
-	id = romanian_focus
+	id = rhi_focus_tree
 	
 	country = {
 		factor = 0
@@ -13,11 +13,84 @@ focus_tree = {
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1100 }
+	focus = { #경제위기
+		id = RHI_focus_0
+		cost = 100
+		available = {
+			always = no
+		}
+		x = 7
+		y = 0
+		completion_reward = { }
+	}
+	focus = { #자력으로
+		id = RHI_focus_4
+		cost = 1.5
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = RHI_focus_0
+		}
+		completion_reward = { }
+	}
+	focus = { #무장포기
+		id = RHI_focus_5
+		cost = 1.5
+		x = 1
+		y = 2
+		prerequisite = {
+			focus = RHI_focus_4
+		}
+		mutually_exclusive = {
+			focus = RHI_focus_6
+		}
+		completion_reward = { }
+	}
+	focus = { #군대동원
+		id = RHI_focus_6
+		cost = 1.5
+		x = 5
+		y = 2
+		prerequisite = {
+			focus = RHI_focus_4
+		}
+		mutually_exclusive = {
+			focus = RHI_focus_5
+		}
+		completion_reward = { }
+	}
+	focus = { #에센 문제
+		id = RHI_focus_7
+		cost = 1.5
+		x = 3
+		y = 3
+		prerequisite = {
+			focus = RHI_focus_5
+		}
+		prerequisite = {
+			focus = RHI_focus_6
+		}
+		completion_reward = { }
+	}
+	focus = { #도움을 요청하다
+		id = RHI_focus_8
+		cost = 1.5
+		x = 7
+		y = 2
+		prerequisite = {
+			focus = RHI_focus_0
+		}
+		
+		completion_reward = { }
+	}
 	focus = { #프랑스와의 회담
 		id = RHI_focus_1
 		cost = 4.3
-		x = 5
-		y = 0
+		x = 6
+		y = 3
+		prerequisite = {
+			focus = RHI_focus_8
+		}
 		completion_reward = {
 			add_political_power = 10
 			add_war_support = -0.05
@@ -30,8 +103,11 @@ focus_tree = {
 	focus = { #독일과의 접선
 		id = RHI_focus_2
 		cost = 4.3
-		x = 9
-		y = 0
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = RHI_focus_8
+		}
 		completion_reward = {
 			add_political_power = -10
 			add_war_support = 0.05
@@ -43,9 +119,9 @@ focus_tree = {
 	}
 	focus = { #선거!
 		id = RHI_focus_3
-		cost = 4.5
+		cost = 5.8
 		x = 7
-		y = 1
+		y = 4
 		cancelable = no
 		
 		prerequisite = {

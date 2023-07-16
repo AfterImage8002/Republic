@@ -337,9 +337,15 @@
  MSY_focus_fake_0:0 "우린 모두 좆됐어!"
 
  #라인연방
+ RHI_focus_0:0 "경제 위기"
  RHI_focus_1:0 "프랑스와 접촉"
  RHI_focus_2:0 "독일과 접선"
  RHI_focus_3:0 "선거!"
+ RHI_focus_4:0 "자력으로"
+ RHI_focus_5:0 "무장 포기"
+ RHI_focus_6:0 "군인 동원"
+ RHI_focus_7:0 "에센 문제"
+ RHI_focus_8:0 "도움 요청"
 
  #분류애매
  rus_tt_1:0 "§G타이가의 삼림에서 불곰이 표효합니다.§!"
