@@ -1,5 +1,14 @@
 ideas = {
 	country = {
+		RHI_end_sup = { #명목상의 피감독국
+			targeted_modifier = {
+				tag = FRA
+				army_intel_factor = 3
+				navy_intel_factor = 3
+				airforce_intel_factor = 3
+				civilian_intel_factor = 3
+			}
+		}
 		RHI_german_economy_unity = { #독일 경제 동맹
 			picture = german_economy_unity
 			modifier = {

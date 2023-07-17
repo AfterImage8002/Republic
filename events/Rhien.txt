@@ -44,12 +44,22 @@ country_event = { #프랑스의 선택
 	desc = rhi_event.3.d
 	option = {
 		name = rhi_event.3.a
+		
+		FRA = {
+			end_puppet = RHI
+		}
+		RHI = {
+			add_ideas = RHI_end_sup
+		}
 		hidden_effect = {
+			
 			RHI = {
 				country_event = {
 					id = rhi_event.5
 					days = 5
 				}
+				
+				
 			}
 		}
 	}

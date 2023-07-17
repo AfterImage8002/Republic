@@ -66,9 +66,10 @@ focus_tree = {
 		y = 3
 		prerequisite = {
 			focus = RHI_focus_5
-		}
-		prerequisite = {
 			focus = RHI_focus_6
+		}
+		available = {
+			industrial_complex > 9
 		}
 		completion_reward = { }
 	}
