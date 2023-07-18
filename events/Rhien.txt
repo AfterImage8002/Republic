@@ -465,6 +465,9 @@ country_event = { #선거 - 안티파시즘 행동
 			popularity = 0.03
 		}
 		add_stability = -0.1
+		51 = {
+			demillitarized_zone = yes
+		}
 	}
 }
 country_event = { #선거 종료
@@ -481,7 +484,10 @@ country_event = { #선거 종료
 		set_politics = {
 			ruling_party = neutrality
 		}
-		add_stability = 0.3
+		add_stability = 0.1
+		hidden_effect = {
+			complete_national_focus = RHI_focus_n_1
+		}
 	}
 	option = {
 		name = rhi_event.16.a
@@ -491,7 +497,10 @@ country_event = { #선거 종료
 		set_politics = {
 			ruling_party = conservatism
 		}
-		add_stability = 0.3
+		add_stability = 0.1
+		hidden_effect = {
+			complete_national_focus = RHI_focus_c_1
+		}
 	}
 	option = {
 		name = rhi_event.16.a
@@ -501,7 +510,10 @@ country_event = { #선거 종료
 		set_politics = {
 			ruling_party = progressive
 		}
-		add_stability = 0.3
+		hidden_effect = {
+			complete_national_focus = RHI_focus_p_1
+		}
+		add_stability = 0.1
 	}
 	option = {
 		name = rhi_event.16.a
@@ -511,7 +523,7 @@ country_event = { #선거 종료
 		set_politics = {
 			ruling_party = fascism
 		}
-		add_stability = 0.3
+		add_stability = 0.1
 	}
 	option = {
 		name = rhi_event.16.a
@@ -521,6 +533,9 @@ country_event = { #선거 종료
 		set_politics = {
 			ruling_party = socialism
 		}
-		add_stability = 0.3
+		hidden_effect = {
+			complete_national_focus = RHI_focus_s_1
+		}
+		add_stability = 0.1
 	}
 }

@@ -346,6 +346,10 @@
  RHI_focus_6:0 "군인 동원"
  RHI_focus_7:0 "에센 문제"
  RHI_focus_8:0 "도움 요청"
+ RHI_focus_c_1:0 "중앙당 정권 지속"
+ RHI_focus_p_1:0 "인민당의 집권"
+ RHI_focus_s_1:0 "사민당!"
+ RHI_focus_n_1:0 "국가인민당의 집권"
 
  #분류애매
  rus_tt_1:0 "§G타이가의 삼림에서 불곰이 표효합니다.§!"

@@ -21,7 +21,9 @@ focus_tree = {
 		}
 		x = 7
 		y = 0
-		completion_reward = { }
+		completion_reward = {
+			add_stability = -0.5
+		}
 	}
 	focus = { #자력으로
 		id = RHI_focus_4
@@ -44,7 +46,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = RHI_focus_6
 		}
-		completion_reward = { }
+		completion_reward = { 
+			add_ideas = {
+				disarmed_nation
+			}
+			add_stability = 0.2
+			add_war_support = -0.1
+		}
 	}
 	focus = { #군대동원
 		id = RHI_focus_6
@@ -135,6 +143,66 @@ focus_tree = {
 			country_event = {
 				id = rhi_event.16
 				days = 3
+			}
+		}
+	}
+	focus = { #중앙당의 집권
+		id = RHI_focus_c_1
+		cost = 5.8
+		x = 13
+		y = 1
+		available = {
+			always= no
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.03
+			}
+		}
+	}
+	focus = { #인민당의 집권
+		id = RHI_focus_p_1
+		cost = 5.8
+		x = 20
+		y = 1
+		available = {
+			always= no
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = progressive
+				popularity = 0.03
+			}
+		}
+	}
+	focus = { #사민당의 집권
+		id = RHI_focus_s_1
+		cost = 5.8
+		x = 13
+		y = 10
+		available = {
+			always= no
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.03
+			}
+		}
+	}
+	focus = { #국가인민당
+		id = RHI_focus_n_1
+		cost = 5.8
+		x = 20
+		y = 10
+		available = {
+			always= no
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.03
 			}
 		}
 	}
