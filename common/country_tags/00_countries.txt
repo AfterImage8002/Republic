@@ -1,3 +1,4 @@
+EZO = "countries/ezo.txt"
 UKS = "countries/Ukraine Soviet Republic.txt"
 RAW = "countries/White Army.txt"
 PRM = "countries/Perm.txt"

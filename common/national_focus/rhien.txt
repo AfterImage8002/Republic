@@ -33,7 +33,9 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_focus_0
 		}
-		completion_reward = { }
+		completion_reward = {
+			add_war_support = 0.01
+		}
 	}
 	focus = { #무장포기
 		id = RHI_focus_5
@@ -65,7 +67,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = RHI_focus_5
 		}
-		completion_reward = { }
+		completion_reward = {
+			add_ideas = RHI_mobil_arm
+		}
 	}
 	focus = { #에센 문제
 		id = RHI_focus_7

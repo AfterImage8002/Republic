@@ -1,5 +1,11 @@
 ideas = {
 	country = {
+		RHI_mobil_arm = { #군대 동원
+			modifier ={
+				army_org_factor = -0.2
+				consumer_goods_factor = -0.05
+			}
+		}
 		RHI_end_sup = { #명목상의 피감독국
 			targeted_modifier = {
 				tag = FRA

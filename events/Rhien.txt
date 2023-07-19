@@ -466,7 +466,7 @@ country_event = { #선거 - 안티파시즘 행동
 		}
 		add_stability = -0.1
 		51 = {
-			demillitarized_zone = yes
+			set_demilitarized_zone = yes
 		}
 	}
 }
@@ -490,7 +490,7 @@ country_event = { #선거 종료
 		}
 	}
 	option = {
-		name = rhi_event.16.a
+		name = rhi_event.16.b
 		trigger = {
 			conservatism > 0.2
 		}
@@ -503,7 +503,7 @@ country_event = { #선거 종료
 		}
 	}
 	option = {
-		name = rhi_event.16.a
+		name = rhi_event.16.c
 		trigger = {
 			progressive > 0.2
 		}
@@ -516,7 +516,7 @@ country_event = { #선거 종료
 		add_stability = 0.1
 	}
 	option = {
-		name = rhi_event.16.a
+		name = rhi_event.16.e
 		trigger = {
 			fascism > 0.2
 		}
@@ -526,7 +526,7 @@ country_event = { #선거 종료
 		add_stability = 0.1
 	}
 	option = {
-		name = rhi_event.16.a
+		name = rhi_event.16.f
 		trigger = {
 			socialism > 0.2
 		}

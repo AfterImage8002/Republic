@@ -348,7 +348,33 @@ country_event = {
 	}
 	option = {
 		name=jap.11.a
-		
+		if = {
+			limit = {
+				536 = {
+					NOT = {is_controlled_by = ROOT}
+				}
+			}
+			EZO = {
+				transfer_state = 536
+				
+				
+			}
+			536 = {
+				add_core_of = EZO
+			}
+			hidden_effect = {
+				RAW = {
+					transfer_state = 537
+					transfer_state = 555
+				}
+				555 = {
+					add_core_of = RAW
+				}
+				537 = {
+					add_core_of = RAW
+				}
+			}
+		}
 		hidden_effect = {
 			random_other_country = {
 				limit = {
@@ -591,7 +617,6 @@ country_event = {
 				set_province_controller = 993
 				set_province_controller = 4100
 				set_province_controller = 1097
-				
 			}
 			random_other_country = {
 				limit = {
