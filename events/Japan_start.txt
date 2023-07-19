@@ -155,6 +155,9 @@ country_event = { #황도파 on
 		
 		name = jap.7.a
 		hidden_effect = {
+			JAP = {
+				set_cosmetic_tag = JAP_yusin
+			}
 			end_puppet = CHO
 			MRC = {
 				country_event = {
