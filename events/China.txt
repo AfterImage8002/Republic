@@ -1514,7 +1514,7 @@ country_event = { #쑨원은 주것습니다!
 		add_political_power = -100
 		country_event = {
 			id = china.1002
-			days = 2
+			days = 7
 		}
 	}
 }
@@ -1535,7 +1535,7 @@ country_event = { #장례식 해주자
 		hidden_effect = {
 			country_event = {
 				id = china.1003
-				days = 1
+				days = 3
 			}
 		}
 	}
@@ -1576,7 +1576,7 @@ country_event = { #왕징웨이와 장제스의 죽은사람 팔이
 		hidden_effect = {
 			country_event = {
 				id = china.1005
-				days = 2
+				days = 5
 			}
 		}
 		set_variable = {
@@ -1598,7 +1598,7 @@ country_event = { #왕징웨이와 장제스의 죽은사람 팔이
 		hidden_effect = {
 			country_event = {
 				id = china.1005
-				days = 2
+				days = 5
 			}
 		}
 		set_variable = {
@@ -1645,7 +1645,7 @@ country_event = { #쉬충즈와 장쉐량의 장제스 지지
 		hidden_effect = {
 			country_event = {
 				id = china.1006
-				days = 1
+				days = 10
 			}
 		}
 	}
@@ -1666,7 +1666,7 @@ country_event = { #왕징웨이 = 일본과 결탁 음모론 on
 		hidden_effect = {
 			country_event = {
 				id = china.1007
-				days = 2
+				days = 30
 			}
 		}
 	}
@@ -1682,7 +1682,7 @@ country_event = { #국민대회는 왕징웨이를 총통으로 선출합니다
 		hidden_effect = {
 			country_event = {
 				id = china.1008
-				days = 1
+				days = 5
 			}
 		retire_country_leader = yes
 		set_politics = {
@@ -1719,7 +1719,7 @@ country_event = { #국민대회 심판론의 대두
 		hidden_effect = {
 			country_event = {
 				id = china.1009
-				days = 5
+				days = 20
 			}
 		}
 	}
@@ -1767,8 +1767,15 @@ country_event = { #좌파 : 난 여기서 빠져나가야겠어!
 			transfer_state = 620
 			transfer_state = 750
 			transfer_state = 920
+			transfer_state = 931
+			transfer_state = 930
+			transfer_state = 933
+			transfer_state = 932
+			transfer_state = 934
+			transfer_state = 935
 			recruit_character = CHI_wang_jingwei
 			retire_country_leader = yes
+			load_oob = LCH
 		}
 		hidden_effect = {
 			country_event = {

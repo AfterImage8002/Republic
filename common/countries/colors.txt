@@ -1,6 +1,6 @@
 #reload countrycolors
 EZO = {
-	color = rgb { 107 109 175}
+	color = rgb { 107 109 105}
 	color_ui = rgb { 47 48 78}
 }
 UKS = {
