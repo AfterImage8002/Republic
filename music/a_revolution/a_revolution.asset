@@ -143,3 +143,8 @@ music = {
 	file = "Marse.ogg"
 	volume = 1.00
 }
+music = {
+	name = "ITA_ein"
+	file = "einheitsfront_ita.mp3"
+	volume = 1.00
+}

@@ -276,17 +276,7 @@ music = {
 	}
 }
 music = {
-	song = "Shune_light_into_darkness"
-	chance = {
-		modifier = {
-			factor = 1
-			always = yes
-		}
-		
-	}
-}
-music = {
-	song = "Cruel_cruel_world"
+	song = "ITA_ein"
 	chance = {
 		modifier = {
 			factor = 1

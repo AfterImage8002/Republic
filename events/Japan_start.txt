@@ -356,22 +356,21 @@ country_event = {
 			}
 			EZO = {
 				transfer_state = 536
-				
-				
+				transfer_state = 555
 			}
 			536 = {
 				add_core_of = EZO
 			}
+			
+			555 = {
+				add_core_of = EZO
+			}
 			hidden_effect = {
-				RAW = {
-					transfer_state = 537
-					transfer_state = 555
-				}
-				555 = {
-					add_core_of = RAW
-				}
 				537 = {
 					add_core_of = RAW
+				}
+				RAW = {
+					transfer_state = 537
 				}
 			}
 		}
@@ -904,5 +903,100 @@ country_event = {
 	option = {
 		name = jap.19.a
 		add_stability = 0.1
+	}
+}
+country_event = { #경제위기
+	id = jap.20
+	title = jap.20.t
+	desc = jap.20.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = jap.20.a
+		add_stability = -0.1
+		swap_ideas = {
+			remove_idea = great_depression
+			add_idea = economic_depression
+		}
+		hidden_effect = {
+			news_event = {
+				id = jap.21
+				days = 1
+			}
+		}
+	}
+}
+news_event = { #경제위기 - 뉴스
+	id = jap.21
+	title = jap.21.t
+	desc = jap.21.d
+	major = no
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = jap.21.a
+		hidden_effect = {
+			activate_mission = JAP_falling
+		}
+	}
+}
+country_event = { #좌익 세력의 부상
+	id = jap.22
+	title = jap.22.t
+	desc = jap.22.d
+	fire_only_once = yes
+	trigger = {
+		tag = JAP
+		date = 1936.1.5
+	}
+	option = {
+		name = jap.22.a
+		add_stability = -0.03
+		add_popularity = {
+			ideology = communism
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.03
+		}
+	}
+}
+country_event = { #백색테러의 위협
+	id = jap.23
+	title = jap.23.t
+	desc = jap.23.d
+	fire_only_once = yes
+	trigger = {
+		tag = JAP
+		date = 1936.2.1
+	}
+	option = {
+		name = jap.23.a
+		add_stability = -0.03
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.01
+		}
+	}
+}
+news_event = { #실각
+	id = jap.24
+	title = jap.24.t
+	desc = jap.24.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = jap.24.a
+		add_stability = -0.05
+		add_popularity = {
+			ideology = progressive
+			popularity = -0.1
+		}
+		retire_country_leader = yes
 	}
 }

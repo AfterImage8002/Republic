@@ -8,123 +8,62 @@ focus_tree = {
 		}
 	}
 	default = no
-	focus = {
+	focus = { #황혼
 		id = JAP_focus_1
 		text = JAP_focus_1
-		icon = GFX_Jap_focus_1
-		cost = 1.00
+		cost = 0.8
 		x = 7
 		y = 1
 		completion_reward = {
-			add_stability = 0.3
-			hidden_effect = {
-				JAP = {
-					country_event = {
-						id = jap.1
-						days = 3
-					}
-				}
-				
-			}
-		}
-
-	}
-	
-	
-	
-	focus = {
-		id = JAP_focus_5
-		text = JAP_focus_5
-		icon = GFX_Jap_focus_4
-		cost = 2.00
-		x = 9
-		y = 2
-		
-		completion_reward = {
-			add_popularity = {
-				ideology = conservatism
-				popularity = -0.2
-			}
-			hidden_effect = {
-				JAP = {
-					country_event = {
-						id = jap.5
-						days = 3
-					}
-				}
-				
-			}
-		}
-		prerequisite = {
-			focus = JAP_focus_1
+			add_political_power = 10
 		}
 	}
-	focus = {
+	
+	focus = { #동원
 		id = JAP_focus_2
 		text = JAP_focus_2
-		icon = GFX_Jap_focus_2
-		cost = 2.00
+		cost = 1.5
 		completion_reward = {
-			add_political_power = 100
-			hidden_effect = {
-				JAP = {
-					country_event = {
-						id = jap.2
-						days = 3
-					}
-				}
-			}
-		}
-		prerequisite = {
-			focus = JAP_focus_1
-		}
-		x = 7
-		y = 2
-
-	}
-	focus = {
-		id = JAP_focus_3
-		text = JAP_focus_3
-		icon = GFX_Jap_focus_3
-		cost = 2.00
-		completion_reward = {
-			CHO = {country_event = {id = jap.9}}
+			add_ideas = low_economic_mobilisation
 		}
 		prerequisite = {
 			focus = JAP_focus_1
 		}
 		x = 5
 		y = 2
+		mutually_exclusive = {
+			focus = JAP_focus_3
+		}
 
 	}
-	focus = {
-		id = JAP_focus_7
-		text = JAP_focus_7
-		icon = GFX_Jap_focus_5
-		cancelable = no
-		cost = 1.00
-		
-		prerequisite = {
+	
+	focus = { #긴축
+		id = JAP_focus_3
+		text = JAP_focus_3
+		cost = 1.5
+		x = 9
+		y = 2
+		completion_reward = {
+			add_political_power = 10
+		}
+		mutually_exclusive = {
 			focus = JAP_focus_2
 		}
 		prerequisite = {
-			focus = JAP_focus_3
+			focus = JAP_focus_1
 		}
-		prerequisite = {
-			focus = JAP_focus_5
+	}
+	
+	focus = { #실각
+		id = JAP_focus_fall_1
+		cost = 1.5
+		x = 15
+		y = 0
+		completion_reward = {
+			add_political_power = -10
 		}
 		
-		completion_reward = {
-			country_event = jap.8
-			hidden_effect = {
-				country_event = {
-					id = jap.7
-					days = 1
-				}
-			}	
-		}
-		x = 7
-		y = 3
-
 	}
+
+	
 }

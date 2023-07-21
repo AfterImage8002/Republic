@@ -1,4 +1,40 @@
 #Category allowed for JAP
+JAP_economic_crisis = {
+	JAP_economic_problem = { #막아라..!
+		icon = GFX_decision_generic_fundraising
+		fire_only_once = yes
+		days_mission_timeout = 30
+		is_good = yes
+		available = {
+			has_stability > 0.5
+			industrial_complex > 39
+		}
+		timeout_effect = {
+			country_event = {
+				id = jap.20
+			}
+		}
+		
+	}
+	JAP_falling = { #실각위기
+		icon = GFX_decision_generic_fundraising
+		fire_only_once = yes
+		days_mission_timeout = 10
+		is_good = yes
+		allowed = {
+			always = no
+		}
+		available = {
+			progressive > 0.5
+		}
+		timeout_effect = {
+			news_event = jap.24
+		}
+		
+	}
+	
+	
+}
 JAP_intervene_in_china = {
 
 	JAP_china_step_up_war_effort = {

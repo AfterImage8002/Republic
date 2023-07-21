@@ -1,4 +1,12 @@
+#공화국
+JAP_economic_crisis = { #경제적 위기
+	allowed = {
+		original_tag = JAP
+	}
+	icon = GFX_decision_category_generic_economy
+}
 
+#바닐라
 JAP_intervene_in_china = {
 	allowed = {
 		original_tag = JAP
