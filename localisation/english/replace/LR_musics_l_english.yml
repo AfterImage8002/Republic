@@ -1,4 +1,13 @@
 ﻿l_english:
+
+ #채널
+ a_rev_station:0 "혁명을 향하여"
+ a_rev_station_TITLE:0 "혁명을 향하여"
+ arrange:0 "그 시절의 시민들"
+ arrange_TITLE:0 "그 시절의 시민들"
+ red_dead:0 "조국과 가족"
+ red_dead_TITLE:0 "조국과 가족"
+
  #혁명을 향하여
  bandiera:0 "[이탈리아] 적기"
  redsun:0 "[중국] 하늘의 태양은 붉다"
@@ -45,6 +54,12 @@
  tachan:0 "[어레인지] 타찬카"
  warsza:0 "[어레인지] 바르샤바 시민"
 
+ #조국과 가족
+ RUS_siberia:0 "[러시아] 시베리아 소총수 행진곡"
+ RUS_when_we:0 "[러시아] 우리가 전쟁터에 있었을 적"
+ JAP_aikoku:0 "[일본] 애국행진곡"
+ JAP_ship:0 "[일본] 군함행진곡"
+ RUS_slav:0 "[러시아] 슬라브 여인의 작별"
  #메인테마
  maintheme:0 "[독일] 10월의 노래"
 
@@ -52,20 +67,5 @@
  yangyang:0 "[한국] 양양가"
  young_japs:0 "[일본] 청년일본의 노래"
  senter_siberia_end:0 "[러시아] 어두컴컴한 밤"
- france_civil_war:0 "[오스트리아] Dies irae(진노의 날)"
+ france_civil_war:0 "[오스트리아] 진노의 날"
  china_civil_war:0 "[중국] 나는 총 한 자루를 가지고 있다"
-
-
- #채널
- a_rev_station:0 "혁명을 향하여"
- a_rev_station_TITLE:0 "혁명을 향하여"
- arrange:0 "그 시절의 시민들"
- arrange_TITLE:0 "그 시절의 시민들"
- red_dead:0 "조국과 가족"
- red_dead_TITLE:0 "조국과 가족"
-
- #이야기에 끝이 있듯이, 피로 물든 무법자들의 이야기도 끝이 있습니다. 이야기를 진행하여 피로 물든 무법자들의 종말을 확인하시오.
- RUS_siberia:0 "[러시아] 시베리아 소총수 행진곡"
- RUS_when_we:0 "[러시아] 우리가 전쟁터에 있었을 적"
- JAP_aikoku:0 "[일본] 애국행진곡"
- JAP_ship:0 "[일본] 군함행진곡"

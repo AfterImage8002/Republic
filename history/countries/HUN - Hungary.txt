@@ -59,6 +59,7 @@ if = {
 	}
 	add_ideas = {
 		economic_depression
+		extensive_conscription
 	}
 }
 if = {

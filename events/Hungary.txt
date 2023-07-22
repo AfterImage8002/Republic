@@ -73,6 +73,105 @@ news_event = {
 	}
 }
 
+country_event = { #슬라바키아에게 전송된 협상
+	id = hungary_slo_event.4
+	title = hungary_slo_event.4.t
+	desc = hungary_slo_event.4.d
+	picture = GFX_report_event_finnish_letter
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #수락
+		name = hungary_slo_event.4.a
+		add_political_power = -100
+		add_war_support = -0.2
+		transfer_state = 70
+		transfer_state = 71
+		white_peace = HUN
+		ai_chance = {
+			base = 10
+		}
+		hidden_effect = {
+			HUN = {
+				country_event = hungary_slo_event.5
+			}
+		}
+	}
+	option = { #거절
+		name = hungary_slo_event.4.b
+		add_war_support = 0.2
+		hidden_effect = {
+			HUN = {
+				country_event = hungary_slo_event.6
+			}
+		}
+	}
+}
+
+country_event = { #수락
+	id = hungary_slo_event.5
+	title = hungary_slo_event.5.t
+	desc = hungary_slo_event.5.d
+	picture = GFX_report_event_finnish_letter
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = hungary_slo_event.5.a
+		add_war_support = -0.2
+	}
+}
+country_event = { #거절
+	id = hungary_slo_event.6
+	title = hungary_slo_event.6.t
+	desc = hungary_slo_event.6.d
+	picture = GFX_report_event_finnish_letter
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = hungary_slo_event.6.a
+	}
+}
+country_event = { #인접국들의 참전
+	id = hungary_slo_event.7
+	title = hungary_slo_event.7.t
+	desc = hungary_slo_event.7.d
+	picture = GFX_report_event_finnish_letter
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hungary_slo_event.7.a
+		declare_war_on = {
+			target = HUN
+			type = puppet_wargoal_focus
+		}
+		ai_chance = {
+			base = 100
+		}
+		SLO = {
+			give_military_access = ROOT
+		}
+		hidden_effect = {
+			news_event = hungary_slo_event.8
+		}
+	}
+	option = {
+		name = hungary_slo_event.7.b
+	}
+}
+news_event = { #발칸전쟁
+	id = hungary_slo_event.8
+	title = hungary_slo_event.8.t
+	desc = hungary_slo_event.8.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = hungary_slo_event.8.a
+	}
+}
 # Second Vienna Award - No Territory
 country_event = {
 	id = hungary.1

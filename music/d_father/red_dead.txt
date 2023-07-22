@@ -40,3 +40,13 @@ music = {
 		
 	}
 }
+music = {
+	song = "RUS_slav"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}

@@ -1,7 +1,7 @@
 music = {
 	name = "RUS_when_we"
 	file = "When we.ogg"
-	volume = 1.00
+	volume = 1.50
 }
 music = {
 	name = "RUS_siberia"
@@ -16,5 +16,10 @@ music = {
 music = {
 	name = "JAP_ship"
 	file = "군함행진곡.ogg"
+	volume = 1.00
+}
+music = {
+	name = "RUS_slav"
+	file = "슬라브 여인.ogg"
 	volume = 1.00
 }
