@@ -992,11 +992,10 @@ news_event = { #실각
 	is_triggered_only = yes
 	option = {
 		name = jap.24.a
-		add_stability = -0.05
-		add_popularity = {
-			ideology = progressive
-			popularity = -0.1
-		}
+		
 		retire_country_leader = yes
+		hidden_effect = {
+			complete_focus = JAP_focus_fall_1
+		}
 	}
 }

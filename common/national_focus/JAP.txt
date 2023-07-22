@@ -53,14 +53,37 @@ focus_tree = {
 			focus = JAP_focus_1
 		}
 	}
-	
+	focus = { #군축
+		id = JAP_focus_4
+		text = JAP_focus_4
+		cost = 1.5
+		x = 7
+		y = 3
+		completion_reward = {
+			add_ideas = JAP_disarmament
+		}
+		prerequisite = {
+			focus = JAP_focus_2
+			focus = JAP_focus_3
+		}
+		
+	}
+
 	focus = { #실각
 		id = JAP_focus_fall_1
 		cost = 1.5
+		available = {
+			always = no
+		}
 		x = 15
 		y = 0
 		completion_reward = {
 			add_political_power = -10
+			add_stability = -0.05
+			add_popularity = {
+			ideology = progressive
+			popularity = -0.1
+			}
 		}
 		
 	}

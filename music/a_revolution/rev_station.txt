@@ -285,3 +285,13 @@ music = {
 		
 	}
 }
+music = {
+	song = "JAP_warsaw"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}

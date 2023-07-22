@@ -1,0 +1,20 @@
+music = {
+	name = "RUS_when_we"
+	file = "When we.ogg"
+	volume = 1.00
+}
+music = {
+	name = "RUS_siberia"
+	file = "시베리아 소총수.ogg"
+	volume = 1.00
+}
+music = {
+	name = "JAP_aikoku"
+	file = "애국행진곡.ogg"
+	volume = 1.00
+}
+music = {
+	name = "JAP_ship"
+	file = "군함행진곡.ogg"
+	volume = 1.00
+}

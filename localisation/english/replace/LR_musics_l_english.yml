@@ -1,7 +1,7 @@
 ﻿l_english:
- #음악
+ #혁명을 향하여
  bandiera:0 "[이탈리아] 적기"
- redsun:0 "[중국] 하늘의 붉은 태양"
+ redsun:0 "[중국] 하늘의 태양은 붉다"
  warsaw:0 "[폴란드] 바르샤바 시민"
  red_flag:0 "[영국] 붉은 깃발"
  solidarity:0 "[미국] 연대여 영원하라"
@@ -29,7 +29,10 @@
  spain_anarch:0 "[스페인] 인민의 아들들이여"
  listen_workers:0 "[일본] 들어라, 만국의 노동자"
  La_marse:0 "[프랑스] 마르세유의 노래"
- einheitsfront_ita:0 "[이탈리아] 통일전선가"
+ ITA_ein:0 "[이탈리아] 통일전선가"
+ JAP_warsaw:0 "[일본] 바르샤바 노동가"
+
+ #그 시절의 시민들
  inter_arr:0 "[어레인지] 인터내셔널가"
  katyu:0 "[어레인지] 카츄샤"
  listen:0 "[어레인지] 들어라, 만국의 노동자"
@@ -41,6 +44,8 @@
  sov_arr:0 "[어레인지] 연방찬가"
  tachan:0 "[어레인지] 타찬카"
  warsza:0 "[어레인지] 바르샤바 시민"
+
+ #메인테마
  maintheme:0 "[독일] 10월의 노래"
 
  #슈퍼이벤트 음악
@@ -56,12 +61,11 @@
  a_rev_station_TITLE:0 "혁명을 향하여"
  arrange:0 "그 시절의 시민들"
  arrange_TITLE:0 "그 시절의 시민들"
- red_dead:0 "피로 물든 무법자들"
- red_dead_TITLE:0 "피로 물든 무법자들"
+ red_dead:0 "조국과 가족"
+ red_dead_TITLE:0 "조국과 가족"
 
  #이야기에 끝이 있듯이, 피로 물든 무법자들의 이야기도 끝이 있습니다. 이야기를 진행하여 피로 물든 무법자들의 종말을 확인하시오.
- Shune_light_into_darkness:0 "[미국] 어둠을 향해 불을 밝히게"
- Cruel_cruel_world:0 "[미국] 잔인, 잔인한 세상"
- May_i:0 "[미국] 만약 내가"
- your_my_brother:0 "[미국] 형제"
- american_venom:0 "[미국] 미국의 독"
+ RUS_siberia:0 "[러시아] 시베리아 소총수 행진곡"
+ RUS_when_we:0 "[러시아] 우리가 전쟁터에 있었을 적"
+ JAP_aikoku:0 "[일본] 애국행진곡"
+ JAP_ship:0 "[일본] 군함행진곡"

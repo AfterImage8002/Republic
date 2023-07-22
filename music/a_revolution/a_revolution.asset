@@ -145,6 +145,11 @@ music = {
 }
 music = {
 	name = "ITA_ein"
-	file = "einheitsfront_ita.mp3"
+	file = "einheitsfront_ita.ogg"
+	volume = 1.00
+}
+music = {
+	name = "JAP_warsaw"
+	file = "바르샤바 노동가.ogg"
 	volume = 1.00
 }
