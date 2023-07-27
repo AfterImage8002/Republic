@@ -91,7 +91,7 @@ set_politics = {
 }
 
 set_popularities = {
-	conservatism = 30
+	democratic = 30
 	progressive = 10
 	neutrality = 60
 }

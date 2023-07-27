@@ -242,7 +242,7 @@ country_event = {
 						desc = "POLITICS_MANUEL_AZANA_DESC"
 						picture = GFX_portrait_Manuel_Azana
 						expire = "1965.1.1"
-						ideology = conservatism
+						ideology = democratic
 						traits = {
 							figurehead_president
 						}
@@ -2513,7 +2513,7 @@ country_event = {
 						desc = "POLITICS_MANUEL_AZANA_DESC"
 						picture = GFX_portrait_Manuel_Azana
 						expire = "1965.1.1"
-						ideology = conservatism
+						ideology = democratic
 						traits = {
 							figurehead_president
 						}
@@ -8179,7 +8179,7 @@ country_event = {
 					desc = "POLITICS_MANUEL_AZANA_DESC"
 					picture = GFX_portrait_Manuel_Azana
 					expire = "1965.1.1"
-					ideology = conservatism
+					ideology = democratic
 					traits = {
 						figurehead_president
 					}
@@ -11671,7 +11671,7 @@ country_event = {
 				desc = "POLITICS_MANUEL_AZANA_DESC"
 				picture = GFX_portrait_Manuel_Azana
 				expire = "1965.1.1"
-				ideology = conservatism
+				ideology = democratic
 				traits = {
 					figurehead_president
 				}
@@ -11684,7 +11684,7 @@ country_event = {
 				desc = "POLITICS_MANUEL_AZANA_DESC"
 				picture = GFX_portrait_Manuel_Azana
 				expire = "1965.1.1"
-				ideology = conservatism
+				ideology = democratic
 				traits = {
 		
 				}

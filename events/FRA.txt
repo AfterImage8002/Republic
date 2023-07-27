@@ -13,10 +13,10 @@ country_event = {
 		set_country_flag = government_at_national_front
         set_stability = 0.47
         hidden_effect = {
-            retire_ideology_leader = conservatism
+            retire_ideology_leader = democratic
         }
         add_popularity = {
-            ideology = conservatism
+            ideology = democratic
             popularity = 0.05
         }
         add_popularity = {

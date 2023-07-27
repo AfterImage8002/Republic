@@ -739,7 +739,7 @@ set_politics = {
 }
 set_popularities = {
 	progressive = 10
-	conservatism = 10
+	democratic = 10
 	fascism = 63
 	communism = 2
 	socialism = 10

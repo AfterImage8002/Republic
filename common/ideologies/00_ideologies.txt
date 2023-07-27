@@ -134,16 +134,22 @@ ideologies = {
 		ai_neutral = yes #
 		ai_ideology_wanted_units_factor = 1.15
 	}
-	conservatism = {
+	democratic = {
 
 		types = {
 			liberal_democracy = {
 
 			}
-			social_conservatism = {
+			conservatism = {
 
 			}
-			national_conservatism = {
+			liberalism = {
+
+			}
+			social_democratic = {
+
+			}
+			national_democratic = {
 				
 			}
 		}
@@ -251,6 +257,9 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			market_socialism = {
+
+			}
+			socialism = {
 
 			}
 			social_democracy = {

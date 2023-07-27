@@ -97,14 +97,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	conservatism = 40
+	democratic = 40
 	communism = 25
 	neutrality = 35
 }
@@ -137,7 +137,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Norodom_Sihanouk
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = democratic
 	traits = {
 		
 	}

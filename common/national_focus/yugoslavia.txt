@@ -2418,7 +2418,7 @@ focus_tree = {
 			retire_country_leader = yes
 			YUG_peter_ii = {
 				promote_character = {ideology = despotism }
-				promote_character = {ideology = conservatism }
+				promote_character = {ideology = democratic }
 			}
 			if = {
 				limit = {

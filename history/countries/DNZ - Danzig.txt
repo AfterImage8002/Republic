@@ -94,7 +94,7 @@ set_politics = {
 }
 
 set_popularities = { #popularities based on 1933 election statistics.
-	conservatism = 12
+	democratic = 12
 	progressive = 10
 	fascism = 62
 	communism = 6

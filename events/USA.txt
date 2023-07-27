@@ -299,7 +299,7 @@ country_event = {
 			desc = "POLITICS_ALF_LANDON_DESC"
 			picture = GFX_portrait_Alf_Landon
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = democratic
 			traits = {
 				staunch_constitutionalist
 			}
@@ -552,7 +552,7 @@ country_event = {
 			desc = "POLITICS_THOMAS_DEWEY_DESC"
 			picture = GFX_portrait_Thomas_E_Dewey
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = democratic
 			traits = {
 				
 			}
@@ -719,7 +719,7 @@ country_event = {
 			desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
 			picture = GFX_portrait_Douglas_MacArthur
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = democratic
 			traits = {
 				
 			}
@@ -1954,7 +1954,7 @@ country_event = {
 	option = {
 		name = usa.177.a
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = -0.2
 		}
 		add_popularity = {

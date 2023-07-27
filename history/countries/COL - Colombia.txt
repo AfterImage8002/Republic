@@ -144,13 +144,13 @@ set_convoys = 10
 
 set_convoys = 5
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 99
+	democratic = 99
 	communism = 1
 }
 

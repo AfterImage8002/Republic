@@ -11,7 +11,7 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -20,7 +20,7 @@ add_ideas = {
 	sphere_idea_kek
 }
 set_popularities = {
-	conservatism = 50
+	democratic = 50
 	fascism = 18
 	communism = 30
 	neutrality = 2

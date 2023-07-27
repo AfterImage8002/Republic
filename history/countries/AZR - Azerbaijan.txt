@@ -84,10 +84,10 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 }
 set_popularities = {
-	conservatism = 50
+	democratic = 50
 	communism = 20
 	neutrality = 30
 }
@@ -108,7 +108,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Mammad_Amin_Rasulzade
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = democratic
 	traits = {
 		
 	}

@@ -78,7 +78,7 @@ set_autonomy = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		conservatism = 20
+		democratic = 20
 		progressive = 20
 		socialism = 20
 		neutrality = 40
@@ -90,7 +90,7 @@ set_autonomy = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		conservatism = 20
+		democratic = 20
 		progressive = 20
 		socialism = 20
 		neutrality = 40
@@ -102,7 +102,7 @@ set_autonomy = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		conservatism = 20
+		democratic = 20
 		progressive = 20
 		socialism = 20
 		neutrality = 40
@@ -114,7 +114,7 @@ set_autonomy = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		conservatism = 20
+		democratic = 20
 		progressive = 20
 		socialism = 20
 		neutrality = 40
@@ -126,7 +126,7 @@ set_autonomy = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		conservatism = 20
+		democratic = 20
 		progressive = 20
 		socialism = 20
 		neutrality = 40
@@ -138,7 +138,7 @@ set_autonomy = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		conservatism = 20
+		democratic = 20
 		progressive = 20
 		socialism = 20
 		neutrality = 40
@@ -146,14 +146,14 @@ set_autonomy = {
 }
 "RHI" = {
 	set_politics = {
-		ruling_party = conservatism
+		ruling_party = democratic
 		last_election = "1933.3.5"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
 		socialism = 12
-		conservatism = 27
+		democratic = 27
 		progressive = 46
 		communism = 5
 		fascism = 5
@@ -436,13 +436,13 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 18
+	democratic = 18
 	progressive = 38
 	communism = 7
 	socialism = 28

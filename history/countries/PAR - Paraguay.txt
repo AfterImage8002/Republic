@@ -108,7 +108,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 25
+	democratic = 25
 	communism = 75
 }
 

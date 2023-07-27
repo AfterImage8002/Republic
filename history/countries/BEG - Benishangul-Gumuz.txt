@@ -60,7 +60,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	conservatism = 12
+	democratic = 12
 	progressive = 13
 	fascism = 20
 	communism = 5

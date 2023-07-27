@@ -141,7 +141,7 @@ country_event = { #독일의 반응
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = 0.03
 		}
 		hidden_effect = {
@@ -233,7 +233,7 @@ country_event = { #선거 - 경제대책 질타
 	option = {
 		name = rhi_event.11.a
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = -0.03
 		}
 		add_popularity = {
@@ -262,7 +262,7 @@ country_event = { #선거 - 경제대책 질타
 	option = {
 		name = rhi_event.11.b
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = -0.05
 		}
 		add_popularity = {
@@ -297,7 +297,7 @@ country_event = { #선거 - 프랑스 문제
 		}
 		name = rhi_event.12.a
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = 0.03
 		}
 		hidden_effect = {
@@ -310,7 +310,7 @@ country_event = { #선거 - 프랑스 문제
 	option = {
 		name = rhi_event.12.b
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = -0.06
 		}
 		add_popularity = {
@@ -342,7 +342,7 @@ country_event = { #선거 - 서민구제
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = 0.03
 		}
 		hidden_effect = {
@@ -400,7 +400,7 @@ country_event = { #선거 - 국방의제
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = 0.02
 		}
 		add_war_support = -0.1
@@ -492,10 +492,10 @@ country_event = { #선거 종료
 	option = {
 		name = rhi_event.16.b
 		trigger = {
-			conservatism > 0.2
+			democratic > 0.2
 		}
 		set_politics = {
-			ruling_party = conservatism
+			ruling_party = democratic
 		}
 		add_stability = 0.1
 		hidden_effect = {

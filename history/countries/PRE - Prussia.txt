@@ -147,7 +147,7 @@ set_politics = {
 
 }
 set_popularities = {
-	conservatism = 20
+	democratic = 20
 	fascism = 65
 	communism = 5
 	neutrality = 10
@@ -163,7 +163,7 @@ add_ideas = {
 #	desc = ""
 #	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 #	expire = "1965.1.1"
-#	ideology = conservatism
+#	ideology = democratic
 #	traits = {
 #	}
 #}

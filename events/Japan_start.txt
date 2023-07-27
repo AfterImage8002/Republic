@@ -44,7 +44,7 @@ country_event = {
 		JAP = {
 			add_political_power = -30
 			add_popularity = {
-				ideology = conservatism
+				ideology = democratic
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -75,7 +75,7 @@ country_event = { #안씀
 		name = jap.4.a
 		JAP = {
 			add_popularity = {
-				ideology = conservatism
+				ideology = democratic
 				popularity = 0.10
 			}
 			add_popularity = {
@@ -208,7 +208,7 @@ country_event = { #황도파 on
 					popularity = 0.7
 				}
 				add_popularity = {
-					ideology = conservatism
+					ideology = democratic
 					popularity = 0.3
 				}
 				add_popularity = {
@@ -587,7 +587,7 @@ country_event = {
 					popularity = 0.7
 				}
 				add_popularity = {
-					ideology = conservatism
+					ideology = democratic
 					popularity = 0.3
 				}
 				add_popularity = {
@@ -646,7 +646,7 @@ country_event = {
 					popularity = 0.05
 				}
 				add_popularity = {
-					ideology = conservatism
+					ideology = democratic
 					popularity = 0.1
 				}
 				add_ideas = {
@@ -722,7 +722,7 @@ country_event = {
 					popularity = 0.7
 				}
 				add_popularity = {
-					ideology = conservatism
+					ideology = democratic
 					popularity = 0.3
 				}
 				add_popularity = {
@@ -782,7 +782,7 @@ country_event = {
 					popularity = 0.05
 				}
 				add_popularity = {
-					ideology = conservatism
+					ideology = democratic
 					popularity = 0.1
 				}
 				
@@ -975,7 +975,7 @@ country_event = { #백색테러의 위협
 		name = jap.23.a
 		add_stability = -0.03
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = 0.01
 		}
 		add_popularity = {

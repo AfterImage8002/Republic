@@ -41,7 +41,7 @@ country_event = {
             popularity = 0.1
         }
         add_popularity = {
-            ideology = conservatism
+            ideology = democratic
             popularity = 0.1
         }
         add_popularity = {
@@ -55,9 +55,9 @@ country_event = {
             name = new_SGE_neutrality_party
         }
         set_party_name = { 
-            ideology = conservatism
-            long_name = new_SGE_conservatism_party
-            name = new_SGE_conservatism_party
+            ideology = democratic
+            long_name = new_SGE_democratic_party
+            name = new_SGE_democratic_party
         }
         set_party_name = { 
             ideology = progressive
@@ -234,7 +234,7 @@ country_event = { #공산당 우파 집회
                 socialism = 21
                 fascism = 30
                 neutrality = 3
-                conservatism = 3
+                democratic = 3
                 progressive = 3
             }
         }
@@ -264,7 +264,7 @@ country_event = { #공산당 우파 집회
                 socialism = 21
                 fascism = 30
                 neutrality = 3
-                conservatism = 3
+                democratic = 3
                 progressive = 3
             }
         }
@@ -294,7 +294,7 @@ country_event = { #공산당 우파 집회
                 socialism = 21
                 fascism = 30
                 neutrality = 3
-                conservatism = 3
+                democratic = 3
                 progressive = 3
             }
         }
@@ -335,7 +335,7 @@ country_event = { #공산당 좌파 집회
                 socialism = 21
                 fascism = 30
                 neutrality = 3
-                conservatism = 3
+                democratic = 3
                 progressive = 3
             }
         }
@@ -369,7 +369,7 @@ country_event = { #공산당 좌파 집회
                 socialism = 21
                 fascism = 30
                 neutrality = 3
-                conservatism = 3
+                democratic = 3
                 progressive = 3
             }
         }
@@ -403,7 +403,7 @@ country_event = { #공산당 좌파 집회
                 socialism = 21
                 fascism = 30
                 neutrality = 3
-                conservatism = 3
+                democratic = 3
                 progressive = 3
             }
         }
@@ -444,7 +444,7 @@ country_event = { #노동자당 좌파 집회
                 socialism = 21
                 communism = 30
                 neutrality = 3
-                conservatism = 3
+                democratic = 3
                 progressive = 3
             }
         }
@@ -479,7 +479,7 @@ country_event = { #노동자당 좌파 집회
                 socialism = 21
                 communism = 30
                 neutrality = 3
-                conservatism = 3
+                democratic = 3
                 progressive = 3
             }
         }

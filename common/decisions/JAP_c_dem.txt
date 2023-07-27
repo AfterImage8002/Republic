@@ -20,7 +20,7 @@ JAP_c_dem = {
 				popularity = 0.05
 			}	
 			add_popularity = {
-				ideology = conservatism
+				ideology = democratic
 				popularity = 0.05
 			}
 		}

@@ -92,7 +92,7 @@ country_event = {
 				}
 				remove_trait = {
 					character = YUG_peter_ii
-					ideology = conservatism
+					ideology = democratic
 					trait = underage_monarch
 				}				
 				set_country_flag = peter_is_of_age
@@ -207,7 +207,7 @@ country_event = {
 			set_capital = { state = 107 }
 			YUG_peter_ii = {
 				promote_character = { ideology = despotism }
-				promote_character = { ideology = conservatism }
+				promote_character = { ideology = democratic }
 			}
 			if = {
 				limit = {

@@ -1712,7 +1712,7 @@ country_event = { #국민대회 심판론의 대두
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = 0.02
 		}
 		add_stability = -0.05

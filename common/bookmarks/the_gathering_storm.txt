@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"SPR"={
 			history = "SPR_DEMOCRACY_DESC"
-			ideology = conservatism
+			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
 			ideas = {
 				FRA_victors_of_wwi
@@ -33,7 +33,7 @@ bookmarks = {
 		}
 		"ENG"={
 			history = "ENG_DEMOCRACY_DESC"
-			ideology = conservatism
+			ideology = democratic
 			available = { has_dlc = "Man the Guns" }
 			ideas = {
 				stiff_upper_lip

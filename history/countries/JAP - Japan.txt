@@ -52,13 +52,13 @@ set_autonomy = {
 }
 "CHO" = {
 	set_politics = {
-		ruling_party = conservatism
+		ruling_party = democratic
 		last_election = "1933.3.5"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		conservatism = 100
+		democratic = 100
 	}
 }
 set_autonomy = {
@@ -297,7 +297,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 24
+	democratic = 24
 	fascism = 9
 	progressive = 33
 	socialism = 17

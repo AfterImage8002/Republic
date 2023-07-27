@@ -61,7 +61,7 @@ ideas = {
 		JAP_for_tou = {
 			modifier = {
 				progressive_drift = 0.01
-				conservatism_drift = 0.01
+				democratic_drift = 0.01
 				socialism_drift = 0.01
 			}
 		}

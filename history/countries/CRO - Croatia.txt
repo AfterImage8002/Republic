@@ -90,7 +90,7 @@ set_politics = {
 	elections_allowed = no # none after offset 1
 }
 set_popularities = {
-	conservatism = 15
+	democratic = 15
 	fascism = 75
 	communism = 10
 }

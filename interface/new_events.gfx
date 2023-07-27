@@ -8,8 +8,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_neutrality_rallying.dds"
 	}
 	SpriteType = {
-		name = "GFX_event_conservatism_rallying"
-		texturefile = "gfx/event_pictures/event_conservatism_rallying.dds"
+		name = "GFX_event_democratic_rallying"
+		texturefile = "gfx/event_pictures/event_democratic_rallying.dds"
 	}
 	SpriteType = {
 		name = "GFX_event_progressive_rallying"
