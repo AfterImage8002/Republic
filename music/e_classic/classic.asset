@@ -1,0 +1,25 @@
+music = {
+	name = "RUS_when_we"
+	file = "When we.ogg"
+	volume = 1.50
+}
+music = {
+	name = "classic_val"
+	file = "val.ogg"
+	volume = 1.50
+}
+music = {
+	name = "classic_1812"
+	file = "1812.ogg"
+	volume = 1.50
+}
+music = {
+	name = "classic_mol"
+	file = "mol.ogg"
+	volume = 1.50
+}
+music = {
+	name = "classic_hun"
+	file = "hun.ogg"
+	volume = 1.50
+}

@@ -2084,7 +2084,6 @@ country_event = { #전쟁 ㄱㄱ
 				}
 			}
 		}
-		country_event = super.6
 		hidden_effect = {
 			country_event = china.1013
 			MRC = {

@@ -1,0 +1,42 @@
+music_station = "classic_channel"
+
+music = {
+	song = "classic_val"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "classic_1812"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "classic_mol"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "classic_hun"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}

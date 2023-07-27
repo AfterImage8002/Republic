@@ -295,3 +295,13 @@ music = {
 		
 	}
 }
+music = {
+	song = "CHI_volun"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}

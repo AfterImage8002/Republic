@@ -7,6 +7,8 @@
  arrange_TITLE:0 "그 시절의 시민들"
  red_dead:0 "조국과 가족"
  red_dead_TITLE:0 "조국과 가족"
+ classic_channel:0 "고전, 낭만, 국민"
+ classic_channel_TITLE:0 "고전, 낭만, 국민"
 
  #혁명을 향하여
  bandiera:0 "[이탈리아] 적기"
@@ -40,6 +42,7 @@
  La_marse:0 "[프랑스] 마르세유의 노래"
  ITA_ein:0 "[이탈리아] 통일전선가"
  JAP_warsaw:0 "[일본] 바르샤바 노동가"
+ CHI_volun:0 "[중국] 의용군 행진곡"
 
  #그 시절의 시민들
  inter_arr:0 "[어레인지] 인터내셔널가"
@@ -64,6 +67,13 @@
  CHI_brave_man:0 "[중국] 용감한 전사"
  ROM_drum:0 "[루마니아] 작별"
  RUS_man:0 "[러시아] 만주의 언덕에서"
+ 
+ #고전, 낭만, 국민
+ classic_val:0 "[바그너] 발퀴레의 기행"
+ classic_1812:0 "[차이코프스키] 1812년 서곡"
+ classic_mol:0 "[스메타나] '나의 조국' 2악장 '몰다우'"
+ classic_hun:0 "[리스트] 헝가리 광시곡 No.2"
+
  #메인테마
  maintheme:0 "[독일] 10월의 노래"
 
