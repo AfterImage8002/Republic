@@ -14,7 +14,24 @@ give_guarantee = STR
 	set_resistance = 25
 	set_garrison_strength = 1.0
 }
-
+920 = {
+	start_resistance = yes
+	set_compliance = 10
+	set_resistance = 25
+	set_garrison_strength = 1.0
+}
+6 = {
+	start_resistance = yes
+	set_compliance = 30
+	set_resistance = 10
+	set_garrison_strength = 1.0
+}
+8 = {
+	start_resistance = yes
+	set_compliance = 50
+	set_resistance = 5
+	set_garrison_strength = 1.0
+}
 if = {
 	limit = {
 		NOT = {
