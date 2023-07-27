@@ -1,5 +1,14 @@
 music_station = "classic_channel"
-
+music = {
+	song = "classic_syo"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
 music = {
 	song = "classic_val"
 	chance = {

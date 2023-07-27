@@ -23,3 +23,8 @@ music = {
 	file = "hun.ogg"
 	volume = 1.50
 }
+music = {
+	name = "classic_syo"
+	file = "syo.ogg"
+	volume = 1.50
+}
