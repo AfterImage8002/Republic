@@ -12,7 +12,7 @@
  bandiera:0 "[이탈리아] 적기"
  redsun:0 "[중국] 하늘의 태양은 붉다"
  warsaw:0 "[폴란드] 바르샤바 시민"
- red_flag:0 "[영국] 붉은 깃발"
+ red_flag:0 "[영국] 적기가"
  solidarity:0 "[미국] 연대여 영원하라"
  einheitsfront:0 "[독일] 통일전선의 노래"
  comrad:0 "[한국] 동지가"
@@ -60,6 +60,10 @@
  JAP_aikoku:0 "[일본] 애국행진곡"
  JAP_ship:0 "[일본] 군함행진곡"
  RUS_slav:0 "[러시아] 슬라브 여인의 작별"
+ JAP_prince:0 "[일본] 왕자님 왕자님"
+ CHI_brave_man:0 "[중국] 용감한 전사"
+ ROM_drum:0 "[루마니아] 작별"
+ RUS_man:0 "[러시아] 만주의 언덕에서"
  #메인테마
  maintheme:0 "[독일] 10월의 노래"
 

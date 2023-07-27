@@ -3,6 +3,25 @@ ideas = {
 	country = {
 	
 		#공화국
+		JAP_bond = { #채권발행
+			allowed = {
+				original_tag = JAP
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+				political_power_cost = 0.5
+			}
+		}
+		JAP_restructing = { #구조조정
+			allowed = {
+				original_tag = JAP
+			}
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_factor = -0.2
+				war_support_factor = -0.2
+			}
+		}
 		JAP_disarmament = {#군축
 			allowed = {
 				original_tag = JAP

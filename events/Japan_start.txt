@@ -935,9 +935,13 @@ news_event = { #경제위기 - 뉴스
 	is_triggered_only = yes
 	option = {
 		name = jap.21.a
-		hidden_effect = {
+		if = {
+			limit = {
+				tag=JAP
+			}
 			activate_mission = JAP_falling
 		}
+		
 	}
 }
 country_event = { #좌익 세력의 부상
@@ -990,12 +994,13 @@ news_event = { #실각
 	desc = jap.24.d
 	fire_only_once = yes
 	is_triggered_only = yes
+	major = no
 	option = {
 		name = jap.24.a
 		
 		retire_country_leader = yes
 		hidden_effect = {
-			complete_focus = JAP_focus_fall_1
+			complete_national_focus = JAP_focus_fall_1
 		}
 	}
 }

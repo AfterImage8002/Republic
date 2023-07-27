@@ -154,7 +154,7 @@ country_event = { #인접국들의 참전
 			give_military_access = ROOT
 		}
 		hidden_effect = {
-			news_event = hungary_slo_event.8
+			news_event = {id = hungary_slo_event.8 days = 1}
 		}
 	}
 	option = {

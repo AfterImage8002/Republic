@@ -21,6 +21,26 @@ music = {
 	}
 }
 music = {
+	song = "RUS_slav"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "RUS_man"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
 	song = "JAP_aikoku"
 	chance = {
 		modifier = {
@@ -41,7 +61,27 @@ music = {
 	}
 }
 music = {
-	song = "RUS_slav"
+	song = "JAP_prince"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "CHI_brave_man"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "ROM_drum"
 	chance = {
 		modifier = {
 			factor = 1
