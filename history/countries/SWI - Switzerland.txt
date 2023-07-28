@@ -357,13 +357,13 @@ if = { #########   By Blood Alone Stuff
 }
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 56
+	democratic = 56
 	progressive = 40
 	fascism = 2
 	communism = 2

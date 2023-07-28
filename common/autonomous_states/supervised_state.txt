@@ -57,7 +57,7 @@ autonomy_state = {
 			has_dlc = "Man the Guns"
 			AND = {
 				FROM = {
-					has_government = conservatism 
+					has_government = democratic 
 				}
 				FROM = {
 					has_government = progressive 

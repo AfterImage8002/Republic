@@ -1848,19 +1848,19 @@ political_actions = {
 		}
     }
 
-    conservatism_propagation = {
+    democratic_propagation = {
 
     	icon = generic_civil_support
 
     	visible = {
 			AND = {
-				conservatism < 0.6
-				has_government = conservatism
+				democratic < 0.6
+				has_government = democratic
 			}
 		}
 
 		available = {
-            conservatism < 0.6
+            democratic < 0.6
             if = {
 				limit = {
 					tag = SPR
@@ -1872,7 +1872,7 @@ political_actions = {
         }
 	
 		modifier = {
-			conservatism_drift = 0.04
+			democratic_drift = 0.04
 			stability_weekly = 0.007
 		}
 	

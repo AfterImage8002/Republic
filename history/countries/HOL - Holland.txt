@@ -265,7 +265,7 @@ recruit_character = HOL_wilhelmina
 		}
 	}
 	HOL_dirk_jan_de_geer = {
-		promote_character = { ideology = conservatism }
+		promote_character = { ideology = democratic }
 	}
 }
 
@@ -278,7 +278,7 @@ set_politics = {
 set_popularities = {
 	progressive = 38
 	socialism = 31
-	conservatism = 24
+	democratic = 24
 	fascism = 4
 	communism = 3
 }

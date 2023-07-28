@@ -225,13 +225,13 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 50
+	democratic = 50
 	fascism = 5
 	communism = 35
 	neutrality = 10
@@ -242,7 +242,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_KSH_Aleksander_Majkowski"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = democratic
 	traits = {
 		
 	}

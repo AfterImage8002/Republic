@@ -265,7 +265,7 @@ IF = {
 	set_popularities = {
 		neutrality = 70
 		fascism = 20 
-		conservatism = 5
+		democratic = 5
 		communism = 5
 	}
 }

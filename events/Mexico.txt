@@ -1617,7 +1617,7 @@ country_event = {
 			character = MEX_manuel_avila_camacho
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = conservatism
+				ideology = democratic
 				traits = {
 					the_gentleman_president
 				}
@@ -1668,7 +1668,7 @@ country_event = {
 	#		character = MEX_juan_andreu
 	#		country_leader = {
 	#			expire = "1965.1.1"
-	#			ideology = conservatism
+	#			ideology = democratic
 	#			traits = {
 	#				the_silver_president
 	#			}
@@ -2789,7 +2789,7 @@ country_event = {
 					character = MEX_adolfo_de_la_huerta
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = conservatism
+						ideology = democratic
 						traits = {
 							#
 						}

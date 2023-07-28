@@ -917,12 +917,8 @@ focus_tree = {
 		available = {
 			has_completed_focus = russia_first_focus
 		}
-		prerequisite = {
-			focus = RUS_Continue_The_Militarisation
-		}
 		x = 4
 		y = 1
-		relative_position_id = RUS_Continue_The_Militarisation
 		cost = 8
 		ai_will_do = {
 			factor = 1

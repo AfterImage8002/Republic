@@ -95,7 +95,7 @@ set_politics = {
 
 set_popularities = {
 	progressive = 55
-	conservatism = 40
+	democratic = 40
 	socialism = 5
 }
 

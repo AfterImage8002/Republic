@@ -29,7 +29,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_conservatism
+			ideology=social_democratic
 			traits={  }
 			expire="1999.1.1.1"
 			id=-1

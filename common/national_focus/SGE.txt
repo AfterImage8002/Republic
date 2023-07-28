@@ -7,7 +7,7 @@ focus_tree = {
 			add = 20
 		}
 	}
-	default = yes
+	default = no
 	focus = {
 		id = SGE_focus_1
 		icon = GFX_goal_unknown

@@ -62,7 +62,7 @@ country_event = {
 			hidden_effect = {
 				YUG_peter_ii = {
 					promote_character = { ideology = despotism }
-					promote_character = { ideology = conservatism }
+					promote_character = { ideology = democratic }
 				}
 				retire_character = YUG_prince_paul
 				retire_character = YUG_milan_grol
@@ -75,7 +75,7 @@ country_event = {
 			hidden_effect = {
 				YUG_peter_ii = {
 					promote_character = { ideology = despotism }
-					promote_character = { ideology = conservatism }
+					promote_character = { ideology = democratic }
 				}
 				retire_character = YUG_prince_paul
 				retire_character = YUG_milan_grol
@@ -99,12 +99,12 @@ country_event = {
 					}
 					remove_trait = {
 						character = YUG_peter_ii
-						ideology = conservatism
+						ideology = democratic
 						trait = underage_monarch
 					}
 					add_trait = {
 						character = YUG_peter_ii
-						ideology = conservatism
+						ideology = democratic
 						trait = legitimate_heir
 					}
 				}
@@ -4886,12 +4886,12 @@ country_event = {
 				}
 				remove_trait = {
 					character = YUG_peter_ii
-					ideology = conservatism
+					ideology = democratic
 					trait = underage_monarch
 				}
 				add_trait = {
 					character = YUG_peter_ii
-					ideology = conservatism
+					ideology = democratic
 					trait = legitimate_heir
 				}
 			}

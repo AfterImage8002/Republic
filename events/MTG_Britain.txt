@@ -243,7 +243,7 @@ country_event = {
 			desc = "POLITICS_FALLEN_GOVERNMENT_DESC"
 			picture = GFX_portrait_Fallen_Government
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = democratic
 			traits = {
 				cabinet_crisis
 			}
@@ -1404,7 +1404,7 @@ country_event = {
 			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
 			picture = GFX_portrait_Winston_Churchill
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = democratic
 			traits = {
 				british_bulldog
 			}

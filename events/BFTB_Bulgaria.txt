@@ -2535,7 +2535,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = conservatism
+						ideology = democratic
 						traits = {
 							elected_regency_council_pro_allies appeaser_regency_council
 						}
@@ -2548,7 +2548,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = conservatism
+						ideology = democratic
 						traits = {
 							elected_regency_council_pro_allies
 						}
@@ -2569,7 +2569,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = conservatism
+						ideology = democratic
 						traits = {
 							elected_regency_council_pro_allies political_manipulator_regency_council
 						}
@@ -2592,7 +2592,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = conservatism
+						ideology = democratic
 						traits = {
 							elected_regency_council_pro_allies
 						}
@@ -2609,7 +2609,7 @@ country_event = {
 					character = BUL_regency_council
 					country_leader = {
 						expire = "1965.1.1"
-						ideology = conservatism
+						ideology = democratic
 						traits = {
 							elected_regency_council_pro_allies
 						}

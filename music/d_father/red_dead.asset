@@ -9,6 +9,16 @@ music = {
 	volume = 1.00
 }
 music = {
+	name = "RUS_slav"
+	file = "슬라브 여인.ogg"
+	volume = 1.00
+}
+music = {
+	name = "RUS_man"
+	file = "만주의 언덕에서.ogg"
+	volume = 1.00
+}
+music = {
 	name = "JAP_aikoku"
 	file = "애국행진곡.ogg"
 	volume = 1.00
@@ -19,7 +29,17 @@ music = {
 	volume = 1.00
 }
 music = {
-	name = "RUS_slav"
-	file = "슬라브 여인.ogg"
+	name = "JAP_prince"
+	file = "왕자님.ogg"
+	volume = 1.00
+}
+music = {
+	name = "CHI_brave_man"
+	file = "용감한 전사.ogg"
+	volume = 1.00
+}
+music = {
+	name = "ROM_drum"
+	file = "작별.ogg"
 	volume = 1.00
 }

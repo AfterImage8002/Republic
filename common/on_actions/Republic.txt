@@ -15,6 +15,12 @@ on_actions = {
 			YHC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
 			GSC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
 			UKR = {add_opinion_modifier = { target = SOV modifier = ukraine_anti_russian }}
+			JAP = {
+				country_event = {
+					id = jap.7
+					days = 55
+				}
+			}
 		}
 		SOV = {
 			every_state = {
@@ -32,5 +38,6 @@ on_actions = {
 				add_core_of = SOV
 			}
 		}
+		
 	}
 }

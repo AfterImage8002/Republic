@@ -817,7 +817,7 @@ add_ideas = {
 	fascism_forbiden
 	neutrality_forbiden
 	progressive_forbiden
-	conservatism_forbiden
+	democratic_forbiden
 }
 
 1939.1.1 = {

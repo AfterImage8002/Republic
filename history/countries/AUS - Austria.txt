@@ -50,7 +50,7 @@ set_politics = {
 
 set_popularities = {
 	fascism = 42
-	conservatism = 10
+	democratic = 10
 	socialism = 33
 	progressive = 3
 	communism = 12

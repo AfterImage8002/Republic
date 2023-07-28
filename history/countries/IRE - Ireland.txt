@@ -84,13 +84,13 @@ recruit_character = IRE_sean_ceallaigh
 }
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 78
+	democratic = 78
 	progressive = 20
 	fascism = 1
 	communism = 1

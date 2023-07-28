@@ -97,7 +97,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	conservatism = 0
+	democratic = 0
 	fascism = 15
 	communism = 15
 	neutrality = 70
@@ -132,7 +132,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Ngo_Đinh_Diem
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = democratic
 	traits = {
 		
 	}

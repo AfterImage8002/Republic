@@ -1712,7 +1712,7 @@ country_event = { #국민대회 심판론의 대두
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = conservatism
+			ideology = democratic
 			popularity = 0.02
 		}
 		add_stability = -0.05
@@ -2084,7 +2084,6 @@ country_event = { #전쟁 ㄱㄱ
 				}
 			}
 		}
-		country_event = super.6
 		hidden_effect = {
 			country_event = china.1013
 			MRC = {
@@ -2172,16 +2171,16 @@ country_event = { #귀주성 독립 맛이나 보십쇼
 	fire_only_once = yes
 	option = {
 		name = china.1017.a
-		YUN = {
-			declare_war_on = {
-				target = GJC
-				type = annex_everything
-			}
-		}
 		hidden_effect = {
 			GJC = {
 				transfer_state = 748
 				transfer_state = 603
+			}
+		}
+		YUN = {
+			declare_war_on = {
+				target = GJC
+				type = annex_everything
 			}
 		}
 	}

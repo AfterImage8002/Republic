@@ -15054,7 +15054,7 @@ ai_will_do = {
 ##   # #  # #  # #  # #  # #  # #  #  #    #  #      #  # #  # #  # #  # #  # #  # 
 ##   #  ##  #  # #  # #  #  ##  #  # ### ##   #      ###  #  # #  # #  #  ##  #  # 
 #
-# 	focus = {
+ 	focus = {
 		id = SOV_beaten_but_not_defeated
 		icon = GFX_goal_generic_war_with_comintern
 		x = 61

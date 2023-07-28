@@ -3314,7 +3314,7 @@ unit_leader_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = conservatism
+					ideology = democratic
 					expire = "1965.1.1.1"
 					traits = { king_of_ethiopia }
 				}

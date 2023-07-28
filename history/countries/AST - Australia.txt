@@ -280,7 +280,7 @@ set_politics = {
 }
 
 set_popularities = {
-	conservatism = 59
+	democratic = 59
 	progressive = 33
 	socialism = 8
 	communism = 0

@@ -123,14 +123,14 @@ if = {
 
 # There were many Kurdish uprisings in Iraq, Iran, and Turkey in the 20th century, it's difficult to define a "ruling party". Democratic has been chosen since the Dersim Rebellion is the closest uprising to HoI's start date.
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	conservatism = 40
+	democratic = 40
 	communism = 25
 	fascism = 30
 	neutrality = 5
@@ -178,7 +178,7 @@ create_country_leader = {
 	desc = "POLITICS_SEYID_RIZA_DESC"
 	picture = "GFX_portrait_kur_seyid_riza"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = democratic
 	traits = {
 		freedom_fighter
 	}

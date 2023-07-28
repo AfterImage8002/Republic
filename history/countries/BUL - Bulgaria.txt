@@ -179,7 +179,7 @@ if = { #DLC
 
 	#DLC POLIICS
 	set_popularities = { #DLC
-		conservatism = 10
+		democratic = 10
 		fascism = 30
 		neutrality = 55
 		communism = 5
@@ -277,7 +277,7 @@ if = { #DLC
 
 		#POLITICS
 		set_popularities = { #VANILLA
-			conservatism = 5
+			democratic = 5
 			fascism = 35
 			neutrality = 60
 		}

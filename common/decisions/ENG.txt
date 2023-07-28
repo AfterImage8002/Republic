@@ -8297,7 +8297,7 @@ political_actions = {
 			AFG = {
 				AND = {
 					NOT = {
-						has_government = conservatism
+						has_government = democratic
 					}
 					NOT = {
 						has_government = progressive

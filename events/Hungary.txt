@@ -154,7 +154,9 @@ country_event = { #인접국들의 참전
 			give_military_access = ROOT
 		}
 		hidden_effect = {
-			news_event = hungary_slo_event.8
+			every_country = {
+				news_event = {id = hungary_slo_event.8 days = 1}
+			}
 		}
 	}
 	option = {
@@ -166,8 +168,8 @@ news_event = { #발칸전쟁
 	title = hungary_slo_event.8.t
 	desc = hungary_slo_event.8.d
 	is_triggered_only = yes
-	fire_only_once = yes
-	major = yes
+	fire_only_once = no
+	major = no
 	option = {
 		name = hungary_slo_event.8.a
 	}

@@ -423,7 +423,7 @@ country_event = {
 			character = TUR_adnan_menderes
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = conservatism
+				ideology = democratic
 				traits = {
 					man_of_the_nation
 				}
@@ -739,7 +739,7 @@ country_event = {
 		}
 		TUR_celal_bayar = {
 			remove_country_leader_role = {
-				ideology = conservatism
+				ideology = democratic
 			}
 			add_country_leader_role = {
 				character = TUR_celal_bayar

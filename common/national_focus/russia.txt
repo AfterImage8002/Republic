@@ -33,7 +33,6 @@ focus_tree = {
 		icon = GFX_goal_generic_war_with_comintern
 		x = 1
 		y = 0
-		relative_position_id = SOV_the_path_of_marxism_leninism
 		offset = {
 			x = -44
 			y = 0
@@ -45,7 +44,6 @@ focus_tree = {
 				has_completed_focus = SOV_beaten_but_not_defeated
 			}
 		}
-		mutually_exclusive = { focus = SOV_the_path_of_marxism_leninism }
 
 		cost = 5
 		ai_will_do = {

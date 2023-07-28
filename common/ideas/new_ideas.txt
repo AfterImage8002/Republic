@@ -531,13 +531,13 @@ ideas = {
 				neutrality_drift = 0.01
 			}
 		}
-		conservatism_rallying = {
+		democratic_rallying = {
 			picture = fascist_rallying
 			allowed = {always = yes}
 			available = {always = yes}
 			allowed_civil_war = {always = no}
 			modifier = { 
-				conservatism_drift = 0.01
+				democratic_drift = 0.01
 			}
 		}
 		progressive_rallying = {
@@ -594,10 +594,10 @@ ideas = {
 				
 			}
 		}
-		conservatism_forbiden = {
+		democratic_forbiden = {
 			picture = fascist_rallying
 			allowed = {always = yes}
-			cancel = {has_government = conservatism}
+			cancel = {has_government = democratic}
 			allowed_civil_war = {always = no}
 			modifier = { 
 				

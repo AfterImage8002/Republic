@@ -187,7 +187,7 @@ set_convoys = 10
 			fascism = 17
 			communism = 16
 			socialism = 15
-			conservatism = 42
+			democratic = 42
 		}
 		
 		create_country_leader = {
@@ -314,7 +314,7 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1
@@ -324,7 +324,7 @@ set_popularities = {
 	fascism = 17
 	communism = 16
 	socialism = 15
-	conservatism = 42
+	democratic = 42
 }
 
 set_stability = 0.72
