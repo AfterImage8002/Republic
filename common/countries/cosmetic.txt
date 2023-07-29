@@ -3,6 +3,11 @@ MAN_lose = {
 	color_ui = rgb { 150 50 0 }
 }
 
+UKS_peaceful_unified = {
+	color = rgb { 96 174 181 }
+	color_ui = rgb { 96 174 181 }
+}
+
 KSOV = {
 	color = rgb { 143 10 10 }
 	color_ui = rgb { 143 10 10 }

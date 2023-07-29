@@ -1,0 +1,34 @@
+################
+##### UKS ######
+################
+
+UKS_road_to_reunified = {
+    allowed = {
+        original_tag = UKS
+    }
+    visible = {
+        NOT = {
+            has_global_flag = UKS_REUNIFIED
+        }
+    }
+}
+UKS_propaganda_for_our_territory = {
+    allowed = {
+        original_tag = UKS
+    }
+    visible = {
+        NOT = {
+            has_global_flag = UKS_REUNIFIED
+        }
+    }
+}
+UKS_propaganda_for_another_ukraine = {
+    allowed = {
+        original_tag = UKS
+    }
+    visible = {
+        NOT = {
+            has_global_flag = UKS_REUNIFIED
+        }
+    }
+}

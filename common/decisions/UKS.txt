@@ -1,0 +1,60 @@
+UKS_propaganda_for_our_territory = {
+	UKS_soviet_wheat_heil = {
+		cost = 25
+	}
+	UKS_dangyeol = {
+		cost = 25
+	}
+	UKS_glory_to_thee_com_ukraine = {
+		cost = 25
+	}
+}
+UKS_propaganda_for_another_ukraine = {
+	UKS_true_freedom = {
+		cost = 25
+	}
+	UKS_i_hate_capitalist = {
+		cost = 25
+	}
+	UKS_redredred = {
+		cost = 25
+	}
+	UKS_i_hate_capitalist = {
+		cost = 25
+	}
+}
+UKS_road_to_reunified = {
+	UKS_claim_that_ukraine_finally_became_one_country = {
+		cost = 5
+		available = {
+			AND = {
+				NOT = {
+					UKR = {
+						exists = yes
+					}
+				}
+				202 = {
+					is_owned_and_controlled_by = UKS
+				}
+				199 = {
+					is_owned_and_controlled_by = UKS
+				}
+				834 = {
+					is_owned_and_controlled_by = UKS
+				}
+			}
+		}
+		complete_effect = {
+			set_cosmetic_tag = UKS_peaceful_unified
+			set_global_flag = UKS_REUNIFIED
+		}
+	}
+}
+political_actions = {
+	UKS_give_me_that_fucking_damn_creamy = {
+		cost = 250
+		complete_effect = {
+			transfer_state = 137
+		}
+	}
+}
