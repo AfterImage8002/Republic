@@ -306,11 +306,8 @@ units = {
 		start_experience_factor = 0.2
 
 	}
-	division= {	# "11ème Division d'Infanterie"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 11
-		}
+	division= {	# "2e Division d'Infanterie"
+		division_name = "2e Brigade du Rhin 'la-bas'"
 		location = 549
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
@@ -411,11 +408,8 @@ units = {
 	}
 
 	# IVe Corps d'Armée (Région Militaire in 1936) -- Le Mans
-	division= {	# "19ème Division d'Infanterie"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 19
-		}
+	division= {	# "1ère Brigade du Rhin 'Guerre'"
+		division_name = "1ère Brigade du Rhin 'Guerre'"
 		location = 3509
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
@@ -560,10 +554,7 @@ units = {
 
 	}
 	division= {	# "13ème Division d'Infanterie"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 13
-		}
+		division_name = "3ème Brigade du Rhin 'syndicat'"
 		location = 678
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
