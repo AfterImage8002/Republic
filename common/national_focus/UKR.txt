@@ -1,0 +1,68 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = UKS_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UKS
+		}
+	}
+	default = no
+
+	focus = {
+		id = UKS_suck_my_soviet
+		icon = GFX_focus_SOV_stalins_cult_of_personality
+		x = 5 
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			country_event = {
+				id = ukraine_soviet.1
+				days = 4
+			}
+		}
+	}
+	focus = {
+		id = UKS_one_ukraine_policy
+		icon = GFX_focus_SOV_socialism_in_one_country
+		x = 0 
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = { focus = UKS_suck_my_soviet }
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			country_event = {
+				id = ukraine_soviet.2
+				days = 4
+			}
+			hidden_effect = {
+				news_event = {
+					id = ukraine_soviet.1000
+					days = 1
+				}
+			}
+		}
+	}
+}

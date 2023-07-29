@@ -1,0 +1,66 @@
+﻿
+add_namespace = ukraine_soviet
+add_namespace = free_ukraine
+
+# debug event used for creating agency & cryptology
+country_event = {
+	id = ukraine_soviet.1
+	title = ukraine_soviet.1.t
+	desc = ukraine_soviet.1.d
+	
+	picture = GFX_report_event_stalin_meeting
+
+	is_triggered_only = yes
+
+	option = {
+		name = excellent
+	}
+}
+country_event = {
+	id = ukraine_soviet.2
+	title = ukraine_soviet.2.t
+	desc = ukraine_soviet.2.d
+	
+	picture = GFX_report_event_stalin_meeting
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine_soviet.2.a
+	}
+}
+news_event = {
+	id = ukraine_soviet.1000
+	title = ukraine_soviet.1000.t
+	desc = ukraine_soviet.1000.d
+
+	major = yes
+	
+	picture = GFX_news_event_dutch_soldiers_indonesia
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine_soviet.1000.a
+		trigger = {
+			tag = UKS
+		}
+	}
+	option = {
+		name = ukraine_soviet.1000.b
+		trigger = {
+			tag = UKR
+		}
+	}
+	option = {
+		name = ukraine_soviet.1000.c
+		trigger = {
+			NOT = {
+				OR = {
+					tag = UKS
+					tag = UKR
+				}
+			}
+		}
+	}
+}
