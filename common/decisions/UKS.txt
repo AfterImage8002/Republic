@@ -52,6 +52,9 @@ UKS_road_to_reunified = {
 }
 political_actions = {
 	UKS_give_me_that_fucking_damn_creamy = {
+		allowed = {
+			original_tag = UKS
+     	}
 		cost = 250
 		complete_effect = {
 			transfer_state = 137
