@@ -28,3 +28,8 @@ music = {
 	file = "syo.ogg"
 	volume = 1.50
 }
+music = {
+	name = "classic_sib"
+	file = "sibelius.ogg"
+	volume = 1.50
+}
