@@ -1,0 +1,28 @@
+###########################
+# Country Goal
+###########################
+
+
+# ATTENTION! : ATTENTION! : The current goal event may be subject to change with the TNO GUI at any time.
+
+add_namespace = country_goal
+
+
+country_event = {
+    id = country_goal.1 #UKS
+    title = country_goal.1.t
+    desc = country_goal.1.d
+    is_triggered_only = yes
+    option = {
+        name = slava_ukrani
+    }
+}
+country_event = {
+    id = country_goal.2 #UKR
+    title = country_goal.2.t
+    desc = country_goal.2.d
+    is_triggered_only = yes
+    option = {
+        name = slava_ukrani
+    }
+}

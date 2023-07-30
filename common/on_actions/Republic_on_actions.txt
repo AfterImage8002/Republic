@@ -21,6 +21,18 @@ on_actions = {
 				 	days = 1
 				}
 			}
+			UKS = {
+				country_event = {
+					id = country_goal.1
+					days = 0
+				}
+			}
+			UKR = {
+				country_event = {
+					id = country_goal.2
+					days = 0
+				}
+			}
 			if = {
 		
 			every_state = {

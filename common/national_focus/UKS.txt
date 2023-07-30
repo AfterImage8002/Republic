@@ -53,6 +53,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = UKR
+				}
+				add_core_of = UKS
+			}
 			country_event = {
 				id = ukraine_soviet.2
 				days = 4
