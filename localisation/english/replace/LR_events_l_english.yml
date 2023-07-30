@@ -421,6 +421,54 @@
  FRA_event.9.d:0 "ㅈㄱㄴ"
  FRA_event.9.a:0 "당장 병력을 투입해!"
  FRA_event.15.b:0 "제기랄.."
+ FRA_event.24.t:0 "[RFR.getName] 토벌 성공"
+ FRA_event.24.d:0 "다음은 [FRL.getName]이다 딱대"
+ FRA_event.24.a:0 "국가를 좀먹는 세력은 공화국의 적이다."
+
+ FRA_event.25.t:0 "[FRL.getName] 토벌 성공"
+ FRA_event.25.d:0 "혼돈을 틈타 벨기에를 가져가다니\n다음은 [RDA.getName]이다 딱대."
+ FRA_event.25.a:0 "국가에 불충한 군대는 공화국의 적이다."
+
+ FRA_event.26.t:0 "새해"
+ FRA_event.26.d:0 ""
+ FRA_event.26.a:0 "Bonne année!"
+
+ FRA_event.27.t:0 "전국 파업"
+ FRA_event.27.d:0 "진압각이다!!"
+ FRA_event.27.a:0 "파업은 노동자의 권리이다."
+ FRA_event.27.b:0 "빨갱이놈들을 진압하라!"
+
+ FRA_event.28.t:0 "남부에서의 파시스트 행진"
+ FRA_event.28.d:0 "진압각이다!!"
+ FRA_event.28.a:0 "시위는 국민의 권리이다."
+ FRA_event.28.b:0 "극단주의자가 공화국을 망치는군"
+
+ FRA_event.29.t:0 "불충스러운 군대"
+ FRA_event.29.d:0 "맛이갔노 ㅉㅉ"
+ FRA_event.29.a:0 "아마 착오가 있었나보군"
+ FRA_event.29.b:0 "음?"
+
+ FRA_event.30.t:0 "폭파된 개선문"
+ FRA_event.30.d:0 "시위대가 아니라 폭도 아님?"
+ FRA_event.30.a:0 "씨빨?"
+
+ FRA_event.31.t:0 "유명 금융 그룹의 부도 위기"
+ FRA_event.31.d:0 "이게 다 [FRA.getLeader] 때문이다!!!!"
+ FRA_event.31.a:0 "굥훠궈가 무너진다."
+
+ FRA_event.32.t:0 "선거가 다가오다."
+ FRA_event.32.d:0 "이게 다 [FRA.getLeader] 때문이다!!!!"
+ FRA_event.32.a:0 "굥훠궈가 무너진다."
+ 
+ FRA_event.33.t:0 "브르타뉴 독립"
+ FRA_event.33.d:0 "뭔;; 이건 너무 억지 아니냐?"
+ FRA_event.33.a:0 "프랑크의 정당한 강역인데;;;;"
+ FRA_event.34.t:0 "인도차이나 식민지 봉기!"
+ FRA_event.34.d:0 "혼란스럽고 군대도 뒤지고 오우야"
+ FRA_event.34.a:0 "유대인의 음모다!!"
+ FRA_event.35.t:0 "통신이 끊긴 일부 사단"
+ FRA_event.35.d:0 "유대인의 음모다!!"
+ FRA_event.35.a:0 "일개 병사들은 뭔죄냐"
  FRA_event.36.t:0 "해외와 통신 두절"
  FRA_event.36.d:0 "혼란스럽고 군대도 뒤지고 오우야"
  FRA_event.36.a:0 "1500년부터 이어져온 식민제국이 무너진다"
@@ -511,45 +559,6 @@
  KSOV.2.t:0 "조선의 혁명을 완수하리라."
  KSOV.2.d:0 "트로츠키가 조선에 공산주의와 과학의 원칙을 도입한 후, 조선은 짧은 시간 동안 큰 변화를 겪었습니다. 그러나 2달 후, 조선은 내전 상태에 접어들게 되었습니다. 다양한 사건과 요인들이 내전의 발발을 촉발시켰습니다.\n\n트로츠키의 도입한 공산주의 이념은 조선 사회 내부에서 큰 갈등을 일으켰습니다. 기존의 사회질서와 가치관을 공산주의에 반대하는 세력들이 형성되었고, 이들은 점차 강화되는 반대 운동을 조직하였습니다. 이로 인해 사회 분열과 갈등이 심화되었습니다."
  KSOV.2.a:0 "에휴 씨발"
-
- FRA_event.24.t:0 "[RFR.getName] 토벌 성공"
- FRA_event.24.d:0 "다음은 [FRL.getName]이다 딱대"
- FRA_event.24.a:0 "국가를 좀먹는 세력은 공화국의 적이다."
-
- FRA_event.25.t:0 "[FRL.getName] 토벌 성공"
- FRA_event.25.d:0 "혼돈을 틈타 벨기에를 가져가다니\n다음은 [RDA.getName]이다 딱대."
- FRA_event.25.a:0 "국가에 불충한 군대는 공화국의 적이다."
-
- FRA_event.26.t:0 "새해"
- FRA_event.26.d:0 ""
- FRA_event.26.a:0 "Bonne année!"
-
- FRA_event.27.t:0 "전국 파업"
- FRA_event.27.d:0 "진압각이다!!"
- FRA_event.27.a:0 "파업은 노동자의 권리이다."
- FRA_event.27.b:0 "빨갱이놈들을 진압하라!"
-
- FRA_event.28.t:0 "남부에서의 파시스트 행진"
- FRA_event.28.d:0 "진압각이다!!"
- FRA_event.28.a:0 "시위는 국민의 권리이다."
- FRA_event.28.b:0 "극단주의자가 공화국을 망치는군"
-
- FRA_event.29.t:0 "불충스러운 군대"
- FRA_event.29.d:0 "맛이갔노 ㅉㅉ"
- FRA_event.29.a:0 "아마 착오가 있었나보군"
- FRA_event.29.b:0 "음?"
-
- FRA_event.30.t:0 "폭파된 개선문"
- FRA_event.30.d:0 "시위대가 아니라 폭도 아님?"
- FRA_event.30.a:0 "씨빨?"
-
- FRA_event.31.t:0 "유명 금융 그룹의 부도 위기"
- FRA_event.31.d:0 "이게 다 [FRA.getLeader] 때문이다!!!!"
- FRA_event.31.a:0 "굥훠궈가 무너진다."
-
- FRA_event.32.t:0 "선거가 다가오다."
- FRA_event.32.d:0 "이게 다 [FRA.getLeader] 때문이다!!!!"
- FRA_event.32.a:0 "굥훠궈가 무너진다."
 
  #라인 이벤트
  rhi_event.1.t:0 "침체된 에센"
