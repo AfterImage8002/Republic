@@ -1220,8 +1220,13 @@ country_event = { #북독일이 생각하는 라인과 레나
     option = {
         if = {
             limit = {
-                RHI = {
-                    has_government = socialism
+                OR = {
+                    RHI = {
+                        has_government = socialism
+                    }
+                    GER = {
+                        has_government = socialism
+                    }
                 }
             }
             GER = {
