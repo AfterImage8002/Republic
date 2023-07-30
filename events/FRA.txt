@@ -119,6 +119,10 @@ country_event = { #프랑스군
             }
         hidden_effect = {
         country_event = { id = FRA_event.8 hours = 6 }
+        country_event = {
+            id = FRA_event.35
+            days = 1
+        }
         }
     }
 }
@@ -170,10 +174,7 @@ country_event = {
 		load_oob = "FRA_Civil_War_Ships"
         }
         hidden_effect = {
-            country_event = {
-                id = FRA_event.35
-                days = 27
-            }
+            
         }
     }
 
@@ -1055,7 +1056,7 @@ country_event = {
             }
             country_event = {
                 id = FRA_event.36
-                days = 21
+                days = 5
             }
         }
     }
@@ -1071,12 +1072,14 @@ country_event = { #해외 일부와 연락 안된다
     option = {
         name = FRA_event.36.a
         hidden_effect = {
-            id = FRA_event.34
-            days = 70
-        }
-        hidden_effect = {
-            id = FRA_event.37
-            days = 35
+            country_event = {
+                id = FRA_event.34
+                days = 20
+            }
+            country_event = {
+                id = FRA_event.37
+                days = 35
+            }
         }
         42 = {
             set_demilitarized_zone = yes
@@ -1129,7 +1132,7 @@ country_event = { #라인 일대 방위군
     is_triggered_only = yes
 
     option = {
-        hidden_effect = {
+        country_event = {
             id = FRA_event.38
             days = 11
         }
@@ -1157,7 +1160,7 @@ country_event = { #라인 일대 방위군
     is_triggered_only = yes
 
     option = {
-        hidden_effect = {
+        country_event = {
             id = FRA_event.39
             days = 21
         }
@@ -1194,6 +1197,9 @@ country_event = { #레나 분열
             transfer_state = 969
         }
         hidden_effect = {
+            BEL = {
+                set_cosmetic_tag = RDA
+            }
             GER = {
                 country_event = {
                     id = FRA_event.40
@@ -1222,6 +1228,16 @@ country_event = { #북독일이 생각하는 라인과 레나
                 annex_country = {
                     target = RHI
                     transfer_troops = yes
+                }
+                declare_war_on = {
+                    target = RDA
+                    type = annex_everything
+                }
+            }
+            SGE = {
+                declare_war_on = {
+                    target = RDA
+                    type = annex_everything
                 }
             }
         }
