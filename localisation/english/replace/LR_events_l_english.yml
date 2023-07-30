@@ -421,6 +421,18 @@
  FRA_event.9.d:0 "ㅈㄱㄴ"
  FRA_event.9.a:0 "당장 병력을 투입해!"
  FRA_event.15.b:0 "제기랄.."
+ FRA_event.36.t:0 "해외와 통신 두절"
+ FRA_event.36.d:0 "혼란스럽고 군대도 뒤지고 오우야"
+ FRA_event.36.a:0 "1500년부터 이어져온 식민제국이 무너진다"
+ FRA_event.37.t:0 "레나 방위군"
+ FRA_event.37.d:0 "..?"
+ FRA_event.37.a:0 "이래서 독일인을 믿는게 아닌데"
+ FRA_event.38.t:0 "레나방위군 확대"
+ FRA_event.38.d:0 "땅을 얼마나 가져간겨;;"
+ FRA_event.38.a:0 "이젠 벨기에와 프랑스 시민마저!"
+ FRA_event.39.t:0 "레나방위군 분열"
+ FRA_event.39.d:0 "꼴좋다 ㅋㅋ"
+ FRA_event.39.a:0 "반국가세력 답다"
  
  
  #중국
