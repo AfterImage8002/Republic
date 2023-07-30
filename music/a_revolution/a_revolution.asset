@@ -158,3 +158,8 @@ music = {
 	file = "의용군.ogg"
 	volume = 1.00
 }
+music = {
+	name = "YUD_street"
+	file = "every_street.ogg"
+	volume = 1.00
+}

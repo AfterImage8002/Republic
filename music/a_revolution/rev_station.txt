@@ -305,3 +305,13 @@ music = {
 		
 	}
 }
+music = {
+	song = "YUD_street"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
