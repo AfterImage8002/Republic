@@ -64,7 +64,7 @@ country_event = {
 				 size = 0.4
 				 navy_ratio = 0.05
 				 capital = 41
-				 states = { 961 259 }
+				 states = { 225 259 221 962 227 228 218 200 196 137 }
 				 add_ideas = UKS_fight_for_ukraine
 			 }
         create_country_leader = {
@@ -79,7 +79,7 @@ country_event = {
 					}
 		 create_corps_commander = {
 					name = "Symon Petliura"
-					gfx = "GFX_portrait_SOV_generic_marine_infantry"
+					gfx = "GFX_Portrait_Soviet_Generic_land_4"
 					traits = {  }
 					skill = 1
 				    attack_skill = 3
@@ -96,16 +96,6 @@ country_event = {
 				    defense_skill = 2
 				    planning_skill = 3
 				    logistics_skill = 1
-				}
-		  create_corps_commander = {
-					name = "Symon Petliura"
-					gfx = "GFX_Portrait_Soviet_Generic_land_4"
-					traits = {  }
-					skill = 1
-				    attack_skill = 4
-				    defense_skill = 1
-				    planning_skill = 1
-				    logistics_skill = 2
 				}
 			set_cosmetic_tag = UKS_free_revolution_army
 			set_stability = 0.7
@@ -124,6 +114,22 @@ country_event = {
 	      		 	militia = { x = 1 y = 0 }
 					militia = { x = 1 y = 1 }
 					militia = { x = 1 y = 2 }
+				 }
+			 }
+
+			 division_template = {
+				 name = "우크라이나 기계화군"
+				 priority = 1
+				 division_names_group = LAI_INF_01
+				 is_locked = yes
+				 regiments = {
+					motorized = { x = 0 y = 0 }
+				    motorized = { x = 0 y = 1 }
+					motorized = { x = 0 y = 2 }
+			
+	      		 	motorized = { x = 1 y = 0 }
+					motorized = { x = 1 y = 1 }
+					motorized = { x = 1 y = 2 }
 				 }
 			 }
 			
@@ -152,6 +158,18 @@ country_event = {
 				    }
 				create_unit = {
 					 division = "name = \"VI. Ukraine Free Army\" division_template = \"우크라이나 해방군\" #  start_experience_factor = 0.3" 
+					 owner = UKS
+				    }
+				create_unit = {
+					 division = "name = \"I. Ukraine Free Motorised Army\" division_template = \"우크라이나 기계화군\" #  start_experience_factor = 0.3" 
+					 owner = UKS
+				    }
+				create_unit = {
+					 division = "name = \"V. Ukraine Free Motorised Army\" division_template = \"우크라이나 기계화군\" #  start_experience_factor = 0.3" 
+					 owner = UKS
+				    }
+				create_unit = {
+					 division = "name = \"VI. Ukraine Free Motorised Army\" division_template = \"우크라이나 기계화군\" #  start_experience_factor = 0.3" 
 					 owner = UKS
 				    }
 			             }
