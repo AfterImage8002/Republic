@@ -2,6 +2,18 @@
 #### GERMANY ####
 #################
 
+
+GER_form_reich = {
+
+	icon = generic_formable_nations
+
+	picture = "사진 버그 해결하십쇼"
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+}
+
 GER_mefo_bills_category = {
 	icon = ger_mefo_bills
 
