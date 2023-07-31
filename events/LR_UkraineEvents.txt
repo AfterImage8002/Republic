@@ -66,6 +66,16 @@ country_event = {
 				 capital = 41
 				 states = { 225 259 221 962 227 228 218 200 196 137 }
 				 add_ideas = UKS_fight_for_ukraine
+				 transfer_state = 225
+				 transfer_state = 259
+				 transfer_state = 221
+				 transfer_state = 962
+				 transfer_state = 227
+				 transfer_state = 228
+				 transfer_state = 218
+				 transfer_state = 200
+				 transfer_state = 196
+				 transfer_state = 137
 			 }
         create_country_leader = {
 						name = "혁명 임시위원회"
@@ -104,7 +114,7 @@ country_event = {
 			division_template = {
 				 name = "우크라이나 해방군"
 				 priority = 1
-				 division_names_group = LAI_INF_01
+				 division_names_group = UKR_INF_01
 				 is_locked = yes
 				 regiments = {
 					militia = { x = 0 y = 0 }
@@ -119,8 +129,8 @@ country_event = {
 
 			 division_template = {
 				 name = "우크라이나 기계화군"
-				 priority = 1
-				 division_names_group = LAI_INF_01
+				 priority = 2
+				 division_names_group = UKR_MOT_01
 				 is_locked = yes
 				 regiments = {
 					motorized = { x = 0 y = 0 }
@@ -165,11 +175,11 @@ country_event = {
 					 owner = UKS
 				    }
 				create_unit = {
-					 division = "name = \"V. Ukraine Free Motorised Army\" division_template = \"우크라이나 기계화군\" #  start_experience_factor = 0.3" 
+					 division = "name = \"II. Ukraine Free Motorised Army\" division_template = \"우크라이나 기계화군\" #  start_experience_factor = 0.3" 
 					 owner = UKS
 				    }
 				create_unit = {
-					 division = "name = \"VI. Ukraine Free Motorised Army\" division_template = \"우크라이나 기계화군\" #  start_experience_factor = 0.3" 
+					 division = "name = \"III. Ukraine Free Motorised Army\" division_template = \"우크라이나 기계화군\" #  start_experience_factor = 0.3" 
 					 owner = UKS
 				    }
 			             }
