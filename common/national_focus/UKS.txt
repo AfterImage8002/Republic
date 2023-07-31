@@ -170,7 +170,7 @@ focus_tree = {
 
 		available_if_capitulated = yes
 		
-		prerequisite = { focus = UKS_jiji_of_free_ukraine }
+		prerequisite = { focus = UKS_free_ukraine_government_hwaeu }
 		prerequisite = { focus = UKS_factory_for_revolution }
 		prerequisite = { focus = UKS_prepare_for_peoples }
 		completion_reward = {
@@ -187,7 +187,7 @@ focus_tree = {
 
 		available_if_capitulated = yes
 		
-		prerequisite = { focus = UKS_jiji_of_free_ukraine }
+		prerequisite = { focus = UKS_free_ukraine_government_hwaeu }
 		prerequisite = { focus = UKS_factory_for_revolution }
 		prerequisite = { focus = UKS_prepare_for_peoples }
 		completion_reward = {
