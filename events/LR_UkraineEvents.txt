@@ -75,7 +75,6 @@ country_event = {
 				 transfer_state = 218
 				 transfer_state = 200
 				 transfer_state = 196
-				 transfer_state = 137
 			 }
         create_country_leader = {
 						name = "혁명 임시위원회"
