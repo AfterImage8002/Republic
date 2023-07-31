@@ -140,17 +140,11 @@ ideologies = {
 			liberal_democracy = {
 
 			}
-			conservatism = {
+			social_conservatism = {
 
 			}
-			liberalism = {
+			national_conservatism = {
 
-			}
-			social_democratic = {
-
-			}
-			national_democratic = {
-				
 			}
 		}
 

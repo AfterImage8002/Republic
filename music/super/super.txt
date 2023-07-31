@@ -17,3 +17,6 @@ music = {
 music = {
 	song = "china_civil_war"
 }
+music = {
+	song = "balkan"
+}

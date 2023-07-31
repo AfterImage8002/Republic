@@ -18,7 +18,11 @@ guiTypes = {
             spriteType = "GFX_sp_event_asd"
             position = {x = 11 y = 72}
         }
-		
+		iconType = {
+            name = "Super_Event_Image_balkan_war"
+            spriteType = "GFX_sp_event_balkan_war"
+            position = {x = 11 y = 72}
+        }
 		iconType = {
             name = "Super_Event_Image_koudouha"
             spriteType = "GFX_sp_event_koudouha"
@@ -46,28 +50,8 @@ guiTypes = {
             spriteType = "GFX_sp_event_sup_china_civil_war"
             position = {x = 11 y = 72}
         }
+		
 		#-------여기까지 이미지
-
-		iconType = { #분쟁구역 이미지
-            name = "Super_Event_Image_asd_little"
-            spriteType = "GFX_sp_event_asd_little"
-            position = {x = 597 y = 288}
-        }
-		iconType = { #분쟁구역 이미지
-            name = "Super_Event_Image_china_civil_war_little"
-            spriteType = "GFX_sp_event_china_civil_war_little"
-            position = {x = 597 y = 288}
-        }
-		iconType = { #분쟁구역 이미지
-            name = "Super_Event_Image_sup_civilwar_fance_little"
-            spriteType = "GFX_sp_event_sup_civilwar_fance_little"
-            position = {x = 597 y = 288}
-        }
-		iconType = { #분쟁구역 이미지
-            name = "Super_Event_Image_sup_fall_of_center_siberia_little"
-            spriteType = "GFX_sp_event_sup_fall_of_center_siberia_little"
-            position = {x = 597 y = 288}
-        }
 
 		
 		background = { #바탕
@@ -81,7 +65,7 @@ guiTypes = {
         
 		instantTextboxType = { #제목
 			name = "super_title"
-			position = { x = 82 y = 40 }
+			position = { x = -60 y = 44 }
 			font = "hoi_24header"
 			format = center
 			borderSize = {x = 0 y = 0}
@@ -102,7 +86,7 @@ guiTypes = {
 		buttonType = { #닫기 버튼
 			name = "sp_event_close_button"
 			spriteType = "GFX_sp_event_close_button"
-			position = { x = 337 y = 475 }
+			position = { x = 180 y = 475 }
 			clicksound = click_close
 			buttonText = "[get_super_event_remark]"
 			buttonFont = "hoi_20b"
@@ -117,17 +101,6 @@ guiTypes = {
 			maxHeight = 110
 			fixedsize = yes	
 			format = right
-		}
-		instantTextBoxType = { #이벤트 설명
-			name = "super_explain"
-			position = { x = 600 y = 77 }
-			font = "hoi_24header"
-			borderSize = {x = 0 y = 0}
-			text = "[get_super_event_explain]"
-			maxWidth = 260
-			maxHeight = 208
-			fixedsize = yes	
-			format = center
 		}
 
 		

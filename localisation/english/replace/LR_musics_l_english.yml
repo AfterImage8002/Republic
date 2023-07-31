@@ -68,6 +68,8 @@
  CHI_brave_man:0 "[중국] 용감한 전사"
  ROM_drum:0 "[루마니아] 작별"
  RUS_man:0 "[러시아] 만주의 언덕에서"
+ father_night:0 "[러시아] 어두컴컴한 밤"
+ father_friend:0 "[일본] 동기의 벚꽃"
  
  #고전, 낭만, 국민
  classic_val:0 "[바그너] 발퀴레의 기행"
@@ -86,3 +88,4 @@
  senter_siberia_end:0 "[러시아] 어두컴컴한 밤"
  france_civil_war:0 "[오스트리아] 진노의 날"
  china_civil_war:0 "[중국] 나는 총 한 자루를 가지고 있다"
+ balkan:0 "[루마니아] 작별"

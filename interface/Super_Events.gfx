@@ -6,6 +6,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_sp_event_balkan_war"
+		texturefile = "gfx/super_events/balkan_war.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_sp_event_koudouha"
 		texturefile = "gfx/super_events/koudouha.dds"
 		legacy_lazy_load = no

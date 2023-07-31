@@ -43,3 +43,13 @@ music = {
 	file = "작별.ogg"
 	volume = 1.00
 }
+music = {
+	name = "father_night"
+	file = "밤.ogg"
+	volume = 1.00
+}
+music = {
+	name = "father_friend"
+	file = "동기.ogg"
+	volume = 1.00
+}

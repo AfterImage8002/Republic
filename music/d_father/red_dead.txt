@@ -21,6 +21,16 @@ music = {
 	}
 }
 music = {
+	song = "father_night"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
 	song = "RUS_slav"
 	chance = {
 		modifier = {
@@ -42,6 +52,16 @@ music = {
 }
 music = {
 	song = "JAP_aikoku"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		
+	}
+}
+music = {
+	song = "father_friend"
 	chance = {
 		modifier = {
 			factor = 1

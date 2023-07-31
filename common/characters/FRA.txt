@@ -8,7 +8,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = social_democratic
+			ideology = social_conservatism
 			traits={ }
 			expire="1965.1.1.1"
 			id=-1
@@ -23,7 +23,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_democratic
+			ideology=national_conservatism
 			traits={ stout_defender }
 			expire="1965.1.1.1"
 			id=-1
