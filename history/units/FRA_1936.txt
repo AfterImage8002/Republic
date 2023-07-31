@@ -90,11 +90,11 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-        cavalry = { x = 0 y = 2 }
+                cavalry = { x = 0 y = 2 }
 		cavalry = { x = 0 y = 3 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
-        cavalry = { x = 1 y = 2 }
+                cavalry = { x = 1 y = 2 }
 		cavalry = { x = 1 y = 3 }
 	}
 	support = {
@@ -111,13 +111,13 @@ division_template = {
 		motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
 		motorized = { x = 1 y = 0 }
-        motorized = { x = 1 y = 1 }
-        motorized = { x = 1 y = 2 }
-        light_armor = { x = 2 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+                motorized = { x = 1 y = 1 }
+                motorized = { x = 1 y = 2 }
+                light_armor = { x = 2 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
 		light_armor = { x = 2 y = 1 }		# Bn. of Hotchkiss tanks
-        light_armor = { x = 2 y = 2 }
-        light_armor = { x = 2 y = 3 }
-        light_armor = { x = 2 y = 4 }
+                light_armor = { x = 2 y = 2 }
+                light_armor = { x = 2 y = 3 }
+                light_armor = { x = 2 y = 4 }
 	}
 	support = {
 		mot_recon = { x = 0 y = 0 }      # Recon Group consisted of 42 ACs + motorcycles
@@ -129,7 +129,7 @@ division_template = {
     is_locked = yes
 	division_names_group = FRA_ARM_01
 	regiments = {
-        motorized = { x = 0 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
+                motorized = { x = 0 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
 		motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
 		light_armor = { x = 1 y = 0 }

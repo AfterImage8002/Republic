@@ -3,6 +3,9 @@
 GER_form_reich = {
 	GER_form_german_reich = {
 		icon = generic_form_nation
+		allowed = {
+			tag = GER
+		}
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {

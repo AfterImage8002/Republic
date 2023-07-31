@@ -5,6 +5,10 @@
  UKS_ADJ:0 "우크라이나 소비에트"
  UKS_peaceful_unified:0 "우크라이나 민주 공화국"
 
+ UKS_free_revolution_army:0 "자유 우크라이나"
+ UKS_free_revolution_army_DEF:0 "자유 우크라이나"
+ UKS_free_revolution_army_ADJ:0 "자유 우크라이나"
+
 
  VIN_ind:0 "베트남 공화국"
  VIN_ind_socialism:0 "베트남인민공화국"

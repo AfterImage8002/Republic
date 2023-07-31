@@ -2,6 +2,27 @@
  #동우크라이나 중점
  UKS_suck_my_soviet:0 "빨간맛"
  UKS_one_ukraine_policy:0 "하나의 우크라이나 정책"
+
+ UKS_we_must_kick_soviets:0 "빨간맛 반대파"
+ UKS_we_must_kick_soviets_desc:0 "소비에트에게 시달리는 것도 이제 지쳤습니다. 대충 어쩌구"
+ UKS_free_ukraine_government_hwaeu:0 "자유 우크라이나 지지 확보"
+ UKS_free_ukraine_government_hwaeu_desc:0 ""
+ UKS_factory_for_revolution:0 "혁명을 위한 공장"
+ UKS_factory_for_revolution_desc:0 ""
+ UKS_prepare_for_peoples:0 "지지 확보"
+ UKS_prepare_for_peoples_desc:0 ""
+ UKS_jupchock_with_bakgun:0 "자유 우크라이나 장군 지지 확보"
+ UKS_jupchock_with_bakgun_desc:0 ""
+ UKS_jupchock_with_mechanised_divisions:0 "트럭 확보"
+ UKS_jupchock_with_mechanised_divisions_desc:0 ""
+ UKS_revolution_of_revolution:0 "혁명에 맞선 혁명"
+ UKS_revolution_of_revolution_desc:0 ""
+
+ UKS_tooltip_civilwar_making_units:0 "내전이 발발하면 동 키예프에 6민병대로 구성된 민병대 6개가 배치됩니다."
+ UKS_tooltip_create_generals:0 "내전이 발발하면 장군 Symon Petliura, Mykola Mikhnovsky와 Yukhym Medvedev가 복무를 시작합니다.
+ UKS_tooltip_create_motorised_units:0 "내전이 발발하면 동 키예프에 6차량화보병으로 구성된 차량화보병 3개가 배치됩니다."
+ UKS_tooltip_civilwar_starts:0 "내전이 시작될 것입니다!"
+
  #프랑스 중점
  FRA_new_years_government:0 "새해"
  FRA_new_years_government_desc:0 "새해"

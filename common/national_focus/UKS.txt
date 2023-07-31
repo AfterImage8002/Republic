@@ -19,6 +19,8 @@ focus_tree = {
 	}
 	default = no
 
+	## 소비에트
+
 	focus = {
 		id = UKS_suck_my_soviet
 		icon = GFX_focus_SOV_stalins_cult_of_personality
@@ -31,6 +33,7 @@ focus_tree = {
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
+		mutually_exclusive = { focus = UKS_we_must_kick_soviets }
 		completion_reward = {
 			country_event = {
 				id = ukraine_soviet.1
@@ -71,4 +74,141 @@ focus_tree = {
 			}
 		}
 	}
+
+
+	## 반동분자
+
+	focus = {
+		id = UKS_we_must_kick_soviets
+		icon = GFX_focus_SOV_military_purge
+		x = 20 
+		y = 0
+		cost = 1.5
+		ai_will_do = {
+			factor = 0
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		mutually_exclusive = { focus = UKS_suck_my_soviet }
+		completion_reward = {
+			country_event = {
+				id = ukraine_soviet.100
+				days = 4
+			}
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = UKS_free_ukraine_government_hwaeu
+		icon = GFX_focus_SOV_free_Rutenia
+		x = 18 
+		y = 1
+		cost = 3.5
+
+		available_if_capitulated = yes
+		
+		prerequisite = { focus = UKS_we_must_kick_soviets }
+		completion_reward = {
+			add_ideas = UKS_jiji_of_free_ukraine
+		}
+	}
+
+	focus = {
+		id = UKS_factory_for_revolution
+		icon = GFX_focus_SOV_merge_plants
+		x = 20 
+		y = 1
+		cost = 5
+
+		available_if_capitulated = yes
+		
+		prerequisite = { focus = UKS_we_must_kick_soviets }
+		completion_reward = {
+			limit = {
+					has_full_control_of_state = 961
+				}
+				961 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+		}
+	}
+
+	focus = {
+		id = UKS_prepare_for_peoples
+		icon = GFX_focus_SOV_mobilization_plan
+		x = 22 
+		y = 1
+		cost = 3.5
+
+		available_if_capitulated = yes
+		
+		prerequisite = { focus = UKS_we_must_kick_soviets }
+		completion_reward = {
+			custom_effect_tooltip = UKS_tooltip_civilwar_making_units
+			set_country_flag = unit_making
+		}
+	}
+
+	focus = {
+		id = UKS_jupchock_with_bakgun
+		icon = GFX_focus_generic_national_security
+		x = 19 
+		y = 2
+		cost = 3.5
+
+		available_if_capitulated = yes
+		
+		prerequisite = { focus = UKS_jiji_of_free_ukraine }
+		prerequisite = { focus = UKS_factory_for_revolution }
+		prerequisite = { focus = UKS_prepare_for_peoples }
+		completion_reward = {
+		custom_effect_tooltip = UKS_tooltip_create_generals
+		}
+	}
+
+	focus = {
+		id = UKS_jupchock_with_mechanised_divisions
+		icon = GFX_focus_generic_truck
+		x = 21 
+		y = 2
+		cost = 3.5
+
+		available_if_capitulated = yes
+		
+		prerequisite = { focus = UKS_jiji_of_free_ukraine }
+		prerequisite = { focus = UKS_factory_for_revolution }
+		prerequisite = { focus = UKS_prepare_for_peoples }
+		completion_reward = {
+		custom_effect_tooltip = UKS_tooltip_create_motorised_units
+		}
+	}
+
+	focus = {
+		id = UKS_revolution_of_revolution
+		icon = GFX_focus_generic_annex_country_2
+		x = 21 
+		y = 2
+		cost = 5
+
+		available_if_capitulated = yes
+		
+		prerequisite = { focus = UKS_jupchock_with_bakgun }
+		prerequisite = { focus = UKS_jupchock_with_mechanised_divisions }
+		completion_reward = {
+		country_event = { id = ukraine_soviet.101 hours = 3 }
+		}
+	}
+
 }

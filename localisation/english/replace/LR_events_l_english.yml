@@ -11,6 +11,14 @@
  ukraine_soviet.2.d:0 "서우크라이나 괴뢰도당과 인테르마티움 폭정 꺼져\n근데 우크라이나 국민은 소련이랑 폴란드 둘다 싫어함"
  ukraine_soviet.2.a:0 "알빠노"
 
+ ukraine_soviet.100.t:0 "반 소비에트 활동 준비"
+ ukraine_soviet.100.d:0 "대충 소비에트 좆같아하는 반동분자들이 노답 인민공화국 말고 여기서 혁명에 맞선 혁명을 준비한다는 내용"
+ ukraine_soviet.100.a:0 "자유 우크라이나를 위하여!"
+ UKS_tooltip_were_gonna_revolution:0 "§R대충 혁명을 준비한다는 툴팁§!"
+ ukraine_soviet.101.t:0 "우크라이나 내전!"
+ ukraine_soviet.101.d:0 "대충 내전시작 설명"
+ ukraine_soviet.101.a:0 "우크라이나인들이여, 자유를 위하여 일어나라!"
+
  ukraine_soviet.1000.t:0 "하나의 우크라이나 정책을 선언한 [UKS.GetName]"
  ukraine_soviet.1000.d:0 "\n오늘 [UKS.capital.GetName]에서 하나의 우크라이나 정책을 선언하였습니다." #ChatGPT 써서라도 내용좀 아무나 늘리셈
  ukraine_soviet.1000.a:0 "[UKS.getLeader] 동지의 령도하에 우리 [UKS.getName]은(는) 영원할 것이다!"

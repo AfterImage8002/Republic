@@ -29,6 +29,142 @@ country_event = {
 		name = ukraine_soviet.2.a
 	}
 }
+## 반동
+country_event = {
+	id = ukraine_soviet.100
+	title = ukraine_soviet.100.t
+	desc = ukraine_soviet.100.d
+	
+	picture = GFX_report_event_SOV_purge_young_officers
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine_soviet.100.a
+		custom_effect_tooltip = UKS_tooltip_were_gonna_revolution
+	}
+}
+
+country_event = {
+	id = ukraine_soviet.101
+	title = ukraine_soviet.101.t
+	desc = ukraine_soviet.101.d
+	
+	picture = GFX_report_event_SOV_purge_young_officers
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukraine_soviet.101.a
+		custom_effect_tooltip = UKS_tooltip_civilwar_starts
+		hidden_effect = {
+        start_civil_war = {
+				 ruling_party = neutrality
+				 ideology = ROOT
+				 size = 0.4
+				 navy_ratio = 0.05
+				 capital = 41
+				 states = { 961 259 }
+				 add_ideas = UKS_fight_for_ukraine
+			 }
+        create_country_leader = {
+						name = "혁명 임시위원회"
+						desc = ""
+						picture = GFX_portrait_SOV_white_transitionary_council
+						expire = "1965.1.1"
+						ideology = centrism
+						traits = {
+						emigre_connections desperate_gambit dysfunctional_assembly
+						}
+					}
+		 create_corps_commander = {
+					name = "Symon Petliura"
+					gfx = "GFX_portrait_SOV_generic_marine_infantry"
+					traits = {  }
+					skill = 1
+				    attack_skill = 3
+				    defense_skill = 1
+				    planning_skill = 2
+				    logistics_skill = 2
+				}
+		  create_corps_commander = {
+					name = "Mykola Mikhnovsky"
+					gfx = "GFX_Portrait_Soviet_Generic_land_5"
+					traits = {  }
+					skill = 1
+				    attack_skill = 1
+				    defense_skill = 2
+				    planning_skill = 3
+				    logistics_skill = 1
+				}
+		  create_corps_commander = {
+					name = "Symon Petliura"
+					gfx = "GFX_Portrait_Soviet_Generic_land_4"
+					traits = {  }
+					skill = 1
+				    attack_skill = 4
+				    defense_skill = 1
+				    planning_skill = 1
+				    logistics_skill = 2
+				}
+			set_cosmetic_tag = UKS_free_revolution_army
+			set_stability = 0.7
+			set_war_support = 0.7
+			add_ideas = UKS_fight_for_ukraine
+			division_template = {
+				 name = "우크라이나 해방군"
+				 priority = 1
+				 division_names_group = LAI_INF_01
+				 is_locked = yes
+				 regiments = {
+					militia = { x = 0 y = 0 }
+				    militia = { x = 0 y = 1 }
+					militia = { x = 0 y = 2 }
+			
+	      		 	militia = { x = 1 y = 0 }
+					militia = { x = 1 y = 1 }
+					militia = { x = 1 y = 2 }
+				 }
+			 }
+			
+			 random_owned_controlled_state = {
+				 limit = { ROOT = { has_full_control_of_state = PREV } }
+				 prioritize = { 961 }
+				create_unit = {
+					 division = "name = \"I. Ukraine Free Army\" division_template = \"우크라이나 해방군\" #  start_experience_factor = 0.3" 
+					 owner = UKS
+				    }
+				create_unit = {
+					 division = "name = \"II. Ukraine Free Army\" division_template = \"우크라이나 해방군\" #  start_experience_factor = 0.3" 
+					 owner = UKS
+				    }
+				create_unit = {
+					 division = "name = \"III. Ukraine Free Army\" division_template = \"우크라이나 해방군\" #  start_experience_factor = 0.3" 
+					 owner = UKS
+				    }
+				create_unit = {
+					 division = "name = \"IV. Ukraine Free Army\" division_template = \"우크라이나 해방군\" #  start_experience_factor = 0.3" 
+					 owner = UKS
+				    }
+				create_unit = {
+					 division = "name = \"V. Ukraine Free Army\" division_template = \"우크라이나 해방군\" #  start_experience_factor = 0.3" 
+					 owner = UKS
+				    }
+				create_unit = {
+					 division = "name = \"VI. Ukraine Free Army\" division_template = \"우크라이나 해방군\" #  start_experience_factor = 0.3" 
+					 owner = UKS
+				    }
+			             }
+
+		}
+
+	}
+}
+
+
+
+## 뉴스
+
 news_event = {
 	id = ukraine_soviet.1000
 	title = ukraine_soviet.1000.t

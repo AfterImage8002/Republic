@@ -1,0 +1,53 @@
+ideas = {
+
+country = {
+
+	UKS_jiji_of_free_ukraine = {
+
+		allowed = {
+			original_tag = UKS
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_army_war_college
+
+		modifier = {
+			political_power_gain = 0.05
+            neutrality_drift = 0.05
+		}
+	}
+
+    UKS_fight_for_ukraine = {
+
+		allowed = {
+			original_tag = UKS
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_army_war_college
+
+		modifier = {
+			army_core_attack_factor = 0.2
+            army_core_defence_factor = 0.2
+            army_org_factor = 0.1
+            conscription_factor = 0.05
+            max_surrender_limit_offset = 1
+		}
+	}
+
+
+}
+
+}
