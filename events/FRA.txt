@@ -157,25 +157,6 @@ country_event = {
 
     option = {
         name = FRA_event.8.a
-        trigger = { tag = FRA }
-        load_oob = "FRA_Civil_War_Militas"
-		if = { 
-          limit = {
-            NOT = {
-            has_dlc= "Man the Guns"
-            }
-          }
-		load_oob = FRA_Civil_War_Ships_legacy"
-        }
-        if = { 
-          limit = {
-            has_dlc= "Man the Guns"
-          }
-		load_oob = "FRA_Civil_War_Ships"
-        }
-        hidden_effect = {
-            
-        }
     }
 
     option = {
@@ -213,13 +194,6 @@ country_event = {
     fire_only_once = yes
 
     option = {
-        name = FRA_event.9.a
-        add_stability = -0.05
-        add_ideas = FRA_colony_disturbance_west_africa
-        set_variable = {
-            FRA_colony_2 = 1
-        }
-        clear_variable = FRA_colony
     }
 }
 
@@ -479,7 +453,8 @@ country_event = { #자유국민전선
         }
     }
 }
-country_event = { #내전 ㄱㄱ
+
+country_event = { #방위군
     id = FRA_event.21
     title = FRA_event.15.t
     desc = FRA_event.15.d
@@ -488,214 +463,31 @@ country_event = { #내전 ㄱㄱ
     is_triggered_only = yes
     option = {
         name = FRA_event.15.a
+        end_puppet = RHI
+        RHI = {
+            leave_faction = yes
+        }
+        RDA = {
+            transfer_state = 34
+            transfer_state = 8
+            transfer_state = 921
+            transfer_state = 910
+            transfer_state = 42
+            transfer_state = 28
+            transfer_state = 17
+            transfer_state = 6
+        }
         every_state = {
             limit = {
-                OR = {
-                    is_owned_by = FRA
-                    is_owned_by = RFR
-                    is_owned_by = FRL
-                }
-                
+                is_owned_by = RDA
+                is_core_of = FRA
             }
-            set_demilitarized_zone = no
-        }
-        RFR = {
-            declare_war_on = {
-                target = FRA
-                type = annex_everything
-            }
-        }
-        FRL = {
-            declare_war_on = {
-                target = RFR
-                type = annex_everything
-            }
-        }
-        FRA = {
-            set_capital = {
-                state = 19
-            }
+            add_core_of = RDA
         }
         hidden_effect = {
             country_event = {
-                id = FRA_event.22
-                days = 10
-            }
-            every_country = {
-                news_event = super_news_event.1
-            }
-            FRA = {
-            delete_unit_template_and_units = { division_template = "Division d'Infanterie" }
-            delete_unit_template_and_units = { division_template = "Division Coloniale" }
-            delete_unit_template_and_units = { division_template = "Division d'Infanterie Motorisée" }
-            delete_unit_template_and_units = { division_template = "Division d'Infanterie Alpine" }
-            delete_unit_template_and_units = { division_template = "Division de Cavalerie" }
-            delete_unit_template_and_units = { division_template = "Division Légère Mécanique" }
-            delete_unit_template_and_units = { division_template = "Brigade de Chars de Combat" }
-            delete_unit_template_and_units = { division_template = "Brigade Coloniale" }
-            division_template = {
-				 name = "Milice de la garde française"
-				 priority = 1
-				 division_names_group = FRA_INF_01
-				 is_locked = yes
-				 regiments = {
-					militia = { x = 0 y = 0 }
-				    militia = { x = 0 y = 1 }
-					militia = { x = 0 y = 2 }
-	      		 	militia = { x = 1 y = 0 }
-					militia = { x = 1 y = 1 }
-					militia = { x = 1 y = 2 }
-				 }
-			 }
-			
-			 random_owned_controlled_state = {
-				 limit = { ROOT = { has_full_control_of_state = PREV } }
-				 prioritize = { 25 }
-				    create_unit = {
-					 division = "name = \"1ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"2ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"3ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"4ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"5ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"6ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"7ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"8ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"9ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"10ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"11ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"12ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"13ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"14ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"15ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"16ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"17ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"18ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"19ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"20ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"21ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"22ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"23ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"24ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"25ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"26ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"27ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"28ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"29ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"30ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"31ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"32ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"33ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"34ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"35ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-                    create_unit = {
-					 division = "name = \"36ème Milice de la garde française\" division_template = \"Milice de la garde française\" #  start_experience_factor = 0.2" 
-					 owner = FRA
-				    }
-			    }
+                id = FRA_event.23
+                days = 5
             }
         }
     }
@@ -957,7 +749,7 @@ country_event = {
         name = FRA_event.32.a
     }
 }
-country_event = {
+country_event = { #브르타뉴 독립
     id = FRA_event.33
     title = FRA_event.33.t
     desc = FRA_event.33.d
@@ -969,6 +761,14 @@ country_event = {
         name = FRA_event.33.a
         BRI = {
             transfer_state = 14
+            declare_war_on = {
+                target = FRL
+                type = independence_wargoal 
+            }
+            declare_war_on = {
+                target = RFR
+                type = independence_wargoal 
+            }
             declare_war_on = {
                 target = FRA
                 type = independence_wargoal 
@@ -1041,6 +841,18 @@ country_event = {
             army_ratio = 0.7
             navy_ratio = 0
             air_ratio = 0.5
+        }
+        19 = {
+            set_demilitarized_zone = no
+        }
+        22 = {
+            set_demilitarized_zone = no
+        }
+        31 = {
+            set_demilitarized_zone = no
+        }
+        806 = {
+            set_demilitarized_zone = no
         }
         hidden_effect = {
             MFR = {
@@ -1256,6 +1068,393 @@ country_event = { #북독일이 생각하는 라인과 레나
                     target = RDA
                     type = annex_everything
                 }
+            }
+        }
+        hidden_effect = {
+            country_event = {
+                id = FRA_event.41 #터키 침공
+                days = 2
+            }
+            FRA = {
+                country_event = {
+                    id = FRA_event.42 # FRL 깜짝 등장
+                    days = 7
+                }
+            }
+        }
+    }
+}
+country_event = { #터키
+    id = FRA_event.41
+    title = FRA_event.41.t
+    desc = FRA_event.41.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.41.a
+        TUR = {
+            declare_war_on = {
+                target = KUR
+                type = annex_everything
+            }
+        }
+    }
+}
+country_event = { #FRL 깜짝 등장 - 준비과정
+    id = FRA_event.42
+    title = FRA_event.42.t
+    desc = FRA_event.42.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.42.a
+        20 = {
+            set_demilitarized_zone = yes
+        }
+        32 = {
+            set_demilitarized_zone = yes
+        }
+        21 = {
+            set_demilitarized_zone = yes
+        }
+        735 = {
+            set_demilitarized_zone = yes
+        }
+        851 = {
+            set_demilitarized_zone = yes
+        }
+        hidden_effect = {
+            country_event = {
+                id = FRA_event.43
+                days = 20
+            }
+            FRA = {
+                transfer_state = 969
+                transfer_state = 28
+                969 = {
+                    set_demilitarized_zone = yes
+                }
+                28 = {
+                    set_demilitarized_zone = yes
+                }
+            }
+        }
+    }
+}
+country_event = { #FRL 깜짝 등장
+    id = FRA_event.43
+    title = FRA_event.43.t
+    desc = FRA_event.43.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.43.a
+        FRL = {
+            transfer_state = 20
+            transfer_state = 32
+            transfer_state = 21
+            transfer_state = 735
+            transfer_state = 851
+        }
+        20 = {
+            set_demilitarized_zone = no
+        }
+        32 = {
+            set_demilitarized_zone = no
+        }
+        21 = {
+            set_demilitarized_zone = no
+        }
+        735 = {
+            set_demilitarized_zone = no
+        }
+        851 = {
+            set_demilitarized_zone = no
+        }
+        hidden_effect = {
+            FRA = {
+                country_event = {
+                    id = FRA_event.44
+                    days = 10
+                }
+            }
+        }
+    }
+}
+country_event = { #파리코뮌도 어서오고
+    id = FRA_event.44
+    title = FRA_event.44.t
+    desc = FRA_event.44.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.44.a
+        RFR = {
+            transfer_state = 16
+        }
+        15 = {
+            set_demilitarized_zone = yes
+        }
+        hidden_effect = {
+            FRA = {
+                country_event = {
+                    id = FRA_event.45
+                    days = 10
+                }
+            }
+        }
+    }
+}
+country_event = { #파리코뮌도 어서오고
+    id = FRA_event.45
+    title = FRA_event.45.t
+    desc = FRA_event.45.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.45.a
+        RFR = {
+            transfer_state = 15
+        }
+        15 = {
+            set_demilitarized_zone = no
+        }
+        hidden_effect = {
+            FRA = {
+                country_event = {
+                    id = FRA_event.46
+                    days = 10
+                }
+            }
+        }
+    }
+}
+country_event = { #파리코뮌도 어서오고
+    id = FRA_event.46
+    title = FRA_event.46.t
+    desc = FRA_event.46.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.46.a
+        RFR = {
+            transfer_state = 30
+        }
+        hidden_effect = {
+            FRA = {
+                country_event = {
+                    id = FRA_event.47
+                    days = 10
+                }
+            }
+        }
+    }
+}
+country_event = { #FRL 확장
+    id = FRA_event.47
+    title = FRA_event.47.t
+    desc = FRA_event.47.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.47.a
+        FRL = {
+            transfer_state = 15
+            transfer_state = 17
+            transfer_state = 27
+            transfer_state = 970
+            transfer_state = 18
+            transfer_state = 28
+            transfer_state = 969
+            transfer_state = 969
+            transfer_state = 28
+        }
+        hidden_effect = {
+            FRA = {
+                country_event = {
+                    id = FRA_event.48
+                    days = 5
+                }
+            }
+        }
+    }
+}
+country_event = { #내전 수읽기
+    id = FRA_event.48
+    title = FRA_event.48.t
+    desc = FRA_event.48.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.48.a
+        hidden_effect = {
+            FRA = {
+                country_event = {
+                    id = FRA_event.49
+                    days = 5
+                }
+            }
+        }
+    }
+}
+country_event = { #내전 준비
+    id = FRA_event.49
+    title = FRA_event.49.t
+    desc = FRA_event.49.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.49.a
+        hidden_effect = {
+            FRA = {
+                country_event = {
+                    id = FRA_event.50
+                    days = 10
+                }
+                country_event = {
+                    id = FRA_event.33
+                    days = 30
+                }
+            }
+        }
+    }
+}
+country_event = { #민병대 결집
+    id = FRA_event.50
+    title = FRA_event.50.t
+    desc = FRA_event.50.d
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = FRA_event.50.a
+        MFR = {
+            declare_war_on = {
+                target = FRL
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = MFR
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = FRA
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = RFR
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BEL
+                type = annex_everything
+            }
+        }
+        FRL = {
+            declare_war_on = {
+                target = FRL
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = MFR
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = FRA
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = RFR
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BEL
+                type = annex_everything
+            }
+        }
+        FRA = {
+            declare_war_on = {
+                target = FRL
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = MFR
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = FRA
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = RFR
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BEL
+                type = annex_everything
+            }
+        }
+        RFR = {
+            declare_war_on = {
+                target = FRL
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = MFR
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = FRA
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = RFR
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BEL
+                type = annex_everything
+            }
+        }
+        BEL = {
+            declare_war_on = {
+                target = FRL
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = MFR
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = FRA
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = RFR
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BEL
+                type = annex_everything
             }
         }
     }
