@@ -1,6 +1,22 @@
 ideas = {
 
 	country = {
+		usa_american_dream = {
+			picture = generic_build_infrastructure
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = 5
+				consumer_goods_factor = -0.05
+			}
+		}
 		USA_Megacorps = {
 			picture = usa_great_depression_3
 			allowed = {

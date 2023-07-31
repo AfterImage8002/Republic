@@ -107,9 +107,9 @@ YHC = {
 	color = rgb { 188 163 154 }
 	color_ui = rgb { 188 163 154 }
 }
-GSC = {
-	color = rgb { 6 100 88 }
-	color_ui = rgb { 6 150 78 }
+GSC = { #감숙
+	color = rgb { 82  2  15 }
+	color_ui = rgb { 101  30  41 }
 }
 GDC = {
 	color = rgb {49 107 188 }
@@ -119,9 +119,9 @@ GJC = {
 	color = rgb { 114 40 119 }
 	color_ui = rgb { 114 40 119 }
 }
-HNC = {
-	color = rgb { 183 166 123}
-	color_ui = rgb { 183 166 123 }
+HNC = { #호남
+	color = rgb { 161 103 33 }
+	color_ui = rgb { 161 103 33 }
 }
 STR = {
 	color = rgb { 12 65 140 }
@@ -147,9 +147,9 @@ QUE = {
 	color = rgb { 75 122 216 }
 	color_ui = rgb { 75 122 216 }
 }
-SIC = {
-	color = rgb { 167 226 182 }
-	color_ui = rgb { 167 226 182 }
+SIC = { #사천 군벌
+	color = rgb { 154 115 56 }
+	color_ui = rgb { 149 123 56 }
 }
 CAS = {
 	color = rgb { 200 30 30 }
@@ -405,8 +405,8 @@ SIK = {
 	color_ui = rgb { 180 195 205 }
 }
 TIB = {
-	color = rgb { 30 85 45}
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 168 166 167 }
+	color_ui = rgb { 177 207 205 }
 }
 URG = {
 	color = rgb { 171 190 152 }
@@ -417,8 +417,8 @@ VEN = {
 	color_ui = rgb { 222 247 198 }
 }
 YUN = {
-	color = rgb { 114 148 80 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 143 20 20 }
+	color_ui = rgb { 143 40 40 }
 }
 USA = {
 	color = rgb { 20 133 237 }
@@ -486,8 +486,8 @@ GXC = {
 }
 
 SHX = {
-	color = rgb { 82  2  15 }
-	color_ui = rgb { 101  30  41 }
+	color = rgb { 6 100 88 }
+	color_ui = rgb { 6 150 78 }
 }
 
 XSM = {
