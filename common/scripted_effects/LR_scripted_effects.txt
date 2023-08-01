@@ -557,5 +557,552 @@ JAPAN_IS_EUROPA = {
 	PHI = {
 		set_cosmetic_tag = PHO_TNO_GINBBAI
 	}
-
+}
+LR_origin = {
+	BEL = {
+		transfer_state = 6
+		transfer_state = 34
+		transfer_state = 921
+		set_autonomy = {
+			target = COG
+			autonomous_state = autonomy_integrated_puppet
+		}
+	}
+	LUX = {
+		transfer_state = 8
+	}
+	GER = {
+		transfer_state = 42
+		transfer_state = 910
+		transfer_state = 51
+		transfer_state = 55
+		transfer_state = 57
+		transfer_state = 56
+		transfer_state = 50
+		transfer_state = 52
+		transfer_state = 53
+		transfer_state = 54
+		transfer_state = 5
+		transfer_state = 763
+		set_cosmetic_tag = GER_hoi4_vanila
+		every_owned_state = { add_core_of = GER }
+	}
+	ENG = {
+		set_cosmetic_tag = ENG_pink
+	}
+	CZE = {
+		transfer_state = 70
+		transfer_state = 664
+		transfer_state = 71
+		transfer_state = 71
+		transfer_state = 73
+	}
+	LIT = {
+		transfer_state = 188
+		transfer_state = 189
+		transfer_state = 11
+		transfer_state = 814
+		transfer_state = 815
+	}
+	YUG = {
+		transfer_state = 45
+		transfer_state = 764
+	}
+	ROM = {
+		transfer_state = 82
+		transfer_state = 83
+		transfer_state = 83
+		transfer_state = 911
+	}
+	TUR = {
+		transfer_state = 914
+		transfer_state = 797
+		transfer_state = 341
+		transfer_state = 347
+		transfer_state = 340
+		transfer_state = 339
+		transfer_state = 187
+		transfer_state = 342
+		transfer_state = 350
+		transfer_state = 352
+		transfer_state = 353
+		transfer_state = 800
+		transfer_state = 354
+		transfer_state = 919
+		transfer_state = 799
+	}
+	TAN = {
+		transfer_state = 329
+	}
+	MON = {
+		set_politics = {
+			ruling_party = communism
+		}
+	}
+	POL = {
+		transfer_state = 96
+	}
+	ENG = {
+		end_puppet = IRE
+	}
+	UKS = {
+		annex_country = {
+			target = UKR
+			transfer_troops = yes
+		}
+		every_state = {
+			limit = {
+				is_core_of = UKR
+			}
+			add_core_of = UKS
+			remove_core_of = UKR
+		}
+	}
+	SOV = {
+		annex_country = {
+			target = BLR
+			transfer_troops = YES
+		}
+	}
+	KAZ = {
+		annex_country = {
+			target = KHI
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = BUK
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = TUK
+			transfer_troops = yes
+		}
+	}
+	KUB = {
+		annex_country = {
+			target = DAG
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = GEO
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = AZR
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = ARM
+			transfer_troops = yes
+		}
+	}
+	FER = {
+		annex_country = {
+			target = RAW
+			transfer_troops = yes
+		}
+	}
+	MAN = {
+		annex_country = {
+			target = MRC
+			transfer_troops = yes
+		}
+	}
+	JAP = {
+		set_politics = {
+			ruling_party = fascism
+		}
+		transfer_state = 745
+		set_autonomy = {
+			target = MAN
+			autonomous_state = autonomy_wtt_imperial_protectorate
+		}
+		set_autonomy = {
+			target = MEN
+			autonomous_state = autonomy_wtt_imperial_protectorate
+		}
+		annex_country = {
+			target = CHO
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = TAI
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = KRF
+			transfer_troops = yes
+		}
+	}
+	MEN = {
+		transfer_state = 612
+		transfer_state = 611
+	}
+	CHI = {
+		end_puppet = SIK
+		end_puppet = TIB
+		end_puppet = YUN
+		end_puppet = GXC
+		end_puppet = XSM
+		end_puppet = SHX
+		end_puppet = MON
+		annex_country = {
+			target = SIC
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = HNC
+			transfer_troops = yes
+		}
+		transfer_state = 601
+		transfer_state = 603
+		transfer_state = 748
+		transfer_state = 743
+	}
+	PRC = {
+		transfer_state = 622
+	}
+	SHX = {
+		transfer_state = 746
+		transfer_state = 621
+	}
+	XSM = {
+		annex_country = {
+			target = GSC
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = YHC
+			transfer_troops = yes
+		}
+	}
+	GXC = {
+		transfer_state = 591
+		transfer_state = 592
+		transfer_state = 593
+	}
+}
+LR_WW2_END = {
+	LR_origin = yes
+	SOV = {
+		annex_country = {
+			target = UKS
+		}
+		annex_country = {
+			target = KUB
+		}
+		annex_country = {
+			target = KAZ
+		}
+		annex_country = {
+			target = PRM
+		}
+		annex_country = {
+			target = WSY
+		}
+		annex_country = {
+			target = MSY
+		}
+		annex_country = {
+			target = TAN
+		}
+		annex_country = {
+			target = BYA
+		}
+		annex_country = {
+			target = FER
+		}
+		annex_country = {
+			target = RUS
+		}
+		annex_country = {
+			target = VLA
+		}
+		annex_country = {
+			target = LIT
+		}
+		annex_country = {
+			target = LAT
+		}
+		annex_country = {
+			target = EST
+		}
+		transfer_state = 93
+		transfer_state = 91
+		transfer_state = 89
+		transfer_state = 80
+		transfer_state = 78
+		transfer_state = 766
+		transfer_state = 94
+		transfer_state = 95
+		transfer_state = 784
+		transfer_state = 96
+		transfer_state = 763
+		transfer_state = 73
+		set_autonomy = {
+			target = ROM
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = YUG
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = BUL
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = ROM
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = ALB
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = CZE
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = HUN
+			autonomous_state = autonomy_colony
+		}
+	}
+	POL = {
+		transfer_state = 5
+		transfer_state = 68
+		transfer_state = 63
+		transfer_state = 66
+		transfer_state = 67
+		transfer_state = 85
+		transfer_state = 1002
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 50
+		transfer_state = 42
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		FRA = {			
+            transfer_state = 735
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 50
+		transfer_state = 42
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		FRA = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_supervised_state
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #American occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 55
+		transfer_state = 54
+		transfer_state = 53
+		transfer_state = 52
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		USA = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_supervised_state
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	ENG = {
+		set_autonomy = {
+			target = GER
+			autonomy_state = autonomy_supervised_state
+			end_wars = yes
+			end_civil_wars = yes
+		}
+		set_autonomy = {
+			target = LBA
+			autonomy_state = autonomy_supervised_state
+			end_wars = yes
+			end_civil_wars = yes
+		}
+	}
+	create_dynamic_country = { #Fuckin' Red occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 60
+		transfer_state = 65 
+		transfer_state = 64
+		transfer_state = 62
+		transfer_state = 61
+		transfer_state = 981
+        set_capital = {
+            state = 981
+            remember_old_state = no
+        }
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		SOV = {	
+            transfer_state = 763		
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	set_global_flag = yalta_agreed_flag
+    SOV = {
+		transfer_state = 555
+		transfer_state = 537
+        transfer_state = 73
+        transfer_state = 188
+         set_autonomy = {
+			target = HUN
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+		set_autonomy = {
+			target = ROM
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+		set_autonomy = {
+			target = CZE
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+		set_autonomy = {
+			target = POL
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+    }
+	PRC = {
+		annex_country = {
+			target = SHX
+		}
+		annex_country = {
+			target = MEN
+		}
+		annex_country = {
+			target = MAN
+		}
+		transfer_state = 931
+		transfer_state = 930
+		transfer_state = 614
+		transfer_state = 608
+		transfer_state = 920
+		transfer_state = 935
+		transfer_state = 597
+		transfer_state = 743
+		transfer_state = 925
+	}
+	CHI = {
+		annex_country = {
+			target = YUN
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = GXC
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = XSM
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = SIK
+			transfer_troops = yes
+		}
+		transfer_state = 524
+	}
+	USA = {
+		set_autonomy = {
+			target = JAP
+			autonomous_state = autonomy_supervised_state	
+		}
+		set_autonomy = {
+			target = KOR
+			autonomous_state = autonomy_supervised_state	
+		}
+		transfer_state = 526
+	}
+	KOR = {
+		every_state = {
+			limit = {
+				is_core_of = CHO
+			}
+			transfer_state_to = KOR
+		}
+		add_core_of = KOR
+	}
+	FRA = {
+		annex_country = {
+			target = VIN
+		}
+		annex_country = {
+			target = MOR
+		}
+		annex_country = {
+			target = TUN
+		}
+		annex_country = {
+			target = MLI
+		}
+		annex_country = {
+			target = CHA
+		}
+		annex_country = {
+			target = MAD
+		}
+	}
+	ENG = {
+		annex_country = EGY
+	}
+	BEL = {
+		annex_country = [ 
+			target = COG
+		]
+	}
 }
