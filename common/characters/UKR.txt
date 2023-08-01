@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_liberal_democracy
+			ideology=social_liberalism
 			traits={jurist anti_russianist ukraine_independence_fighter}
 			expire="1999.1.1.1"
 			id=-1
