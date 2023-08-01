@@ -9,20 +9,6 @@ characters = {
 	####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
   
   
-	ITA_Luigi_Einaudi = {
-		name = ITA_Luigi_Einaudi
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/ITA/luigi.dds"
-			}
-		}
-		country_leader = {
-			ideology = conservative_liberalism
-			traits = { economist }
-			expire = "1965.1.1.1"
-			id = -1
-		}
-	}
 	  ITA_benito_mussolini = {
 		  name = ITA_benito_mussolini
 		  portraits = {
@@ -2754,7 +2740,7 @@ characters = {
 		  }
   
 		  country_leader = {
-			  ideology = liberalism
+			  ideology = liberal_democracy
 			  traits = { moderate_reformist }
 			  expire = "1965.1.1.1"
 			  id = -1
@@ -2771,7 +2757,7 @@ characters = {
 		  }
   
 		  country_leader = {
-			  ideology = democratic
+			  ideology = social_conservatism
 			  traits = { master_of_politics }
 			  expire = "1965.1.1.1"
 			  id = -1

@@ -283,6 +283,7 @@ SPM = "countries/Sardinia Piedmont.txt"
 TTS = "countries/The Two Sicilies.txt"
 FRL = "countries/Nation army.txt"
 RDA = "countries/Rhine defend army.txt"
+KYR = "countries/kyrgyzstan.txt"
 
 #### KSOV ####
 

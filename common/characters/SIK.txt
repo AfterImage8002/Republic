@@ -45,7 +45,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=democratic
+			ideology=national_conservatism
 			traits={ captain_of_industry compassionate_gentleman }
 			expire="1952.1.1.12"
 			id=-1

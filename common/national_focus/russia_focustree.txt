@@ -698,8 +698,8 @@ focus_tree = {
 						is_core_of = ARM
 						}
 						not = {
-							states = 354
-							states = 800
+							state = 354
+							state = 800
 						}
 					}
 					add_core_of = rus
@@ -1079,8 +1079,7 @@ focus_tree = {
 				}
 			}
 			random_owned_controlled_state = {
-				prioritize = { 4725 }
-				limit = { valid_state_for_spawning_friendly_unit = yes }
+				
 				custom_effect_tooltip = RUS_paratrooper_tooltip
 				hidden_effect = {
 					create_unit = {

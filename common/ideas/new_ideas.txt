@@ -113,7 +113,6 @@ ideas = {
 			picture = economic_depression
 			allowed = {}
 			available = {}
-			cancle = {}
 			allowed_civil_war = {always = yes}
 			removal_cost = -1
 			modifier = {
@@ -133,7 +132,7 @@ ideas = {
 			picture = threat_from_west
 			allowed = {}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {}
 			removal_cost = -1
 			modifier = {
@@ -146,7 +145,7 @@ ideas = {
 			picture = threat_from_west
 			allowed = {}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {}
 			removal_cost = -1
 			modifier = {
@@ -158,7 +157,7 @@ ideas = {
 			piture = political_polarization
 			allowed = {tag = GER}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {}
 			removal_cost = -1
 			modifier = {
@@ -172,7 +171,7 @@ ideas = {
 			picture = suppression_for_kpd
 			allowed = {tag = GER}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {}
 			removal_cost = -1
 			modifier = {
@@ -185,7 +184,7 @@ ideas = {
 			picture = leipzig_constitution
 			allowed = {tag = GER}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {}
 			removal_cost = -1
 			modifier = {
@@ -198,7 +197,7 @@ ideas = {
 			picture = revlution_propagation
 			allowed = {tag = SGE}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {always = no}
 			removal_cost = -1
 			modifier = {
@@ -221,7 +220,7 @@ ideas = {
 			picture = sporadic_capitalist_resistance
 			allowed = {tag = SGE}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {always = no}
 			removal_cost = -1
 			modifier = {
@@ -233,7 +232,7 @@ ideas = {
 			picture = Spartakusbund
 			allowed = {tag = SGE}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {always = no}
 			removal_cost = -1
 			modifier = {
@@ -248,7 +247,7 @@ ideas = {
 			picture = large_scale_exile
 			allowed = {tag = SGE}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {always = no}
 			removal_cost = -1
 			modifier = {
@@ -261,7 +260,7 @@ ideas = {
 			picture = small_scale_exile
 			allowed = {tag = SGE}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {always = no}
 			removal_cost = -1
 			modifier = {
@@ -370,7 +369,7 @@ ideas = {
 		supports = {
 			allowed = {}
 			available = {}
-			cancle = {}
+			
 			allowed_civil_war = {always = no}
 			removal_cost = -1
 			modifier = {

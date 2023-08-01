@@ -40,7 +40,7 @@ HUN_threat_valkanwar={
 				country_event = hungary_slo_event.4
 			}
 		}
-		ai_chance = {
+		ai_will_do = {
 			base = 0
 		}
 	}

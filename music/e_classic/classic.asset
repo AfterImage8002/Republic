@@ -1,8 +1,4 @@
-music = {
-	name = "RUS_when_we"
-	file = "When we.ogg"
-	volume = 1.50
-}
+
 music = {
 	name = "classic_val"
 	file = "val.ogg"

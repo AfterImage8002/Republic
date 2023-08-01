@@ -70,9 +70,6 @@ focus_tree = {
 				ideology = communism
 				popularity = 0.05
 			}
-			kor = {
-				set_state_controller = 918
-			}
 			hidden_effect = {
 				load_oob = KOR_yug
 			}

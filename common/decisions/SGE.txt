@@ -159,9 +159,6 @@ SGE_ele = {
 	}
 	sge_ele_mission = {
 		allowed = {
-			check_variable = {
-				sge_ele = 1
-			}
 		}
 		available = {
 			always = no

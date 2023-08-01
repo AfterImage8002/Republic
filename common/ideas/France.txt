@@ -32,7 +32,7 @@ ideas = {
                 line_change_production_efficiency_factor = -0.35
                 production_speed_buildings_factor = -0.35
                 production_speed_industrial_complex_factor = -0.2
-                production_speed_arms_factory_complex_factor = -0.2
+                production_speed_arms_factory_factor = -0.2
                 stability_factor = -0.3
                 war_support_factor = -0.6
             }
@@ -53,7 +53,7 @@ ideas = {
                 compliance_growth = -0.1
 				resistance_growth = 0.1
                 stability_factor = -0.05
-                add_war_support = -0.05
+                war_support_factor = -0.05
                 required_garrison_factor = 0.05
             }
         }
@@ -73,7 +73,7 @@ ideas = {
                 compliance_growth = -0.1
 			    resistance_growth = 0.1
                 stability_factor = -0.05
-                add_war_support = -0.05
+                war_support_factor = -0.05
                 required_garrison_factor = 0.05
             }
         }
@@ -93,7 +93,7 @@ ideas = {
                 compliance_growth = -0.1
 				resistance_growth = 0.1
                 stability_factor = -0.05
-                add_war_support = -0.05
+                war_support_factor = -0.05
                 required_garrison_factor = 0.05
             }
         }

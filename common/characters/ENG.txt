@@ -54,7 +54,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_democratic
+			ideology=social_conservatism
 			traits={ conservative_grandee }
 			expire="1938.1.1.1"
 			id=-1
@@ -159,7 +159,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=liberal_democracy
 			traits = { chamberlain_appeaser rearmer }
 			expire="1965.1.1.1"
 			id=-1

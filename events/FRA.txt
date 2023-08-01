@@ -657,15 +657,13 @@ country_event = {
     option = {
         name = FRA_event.28.a #아따 권리라니까??
         if = {
-            FRA = {
-                limit = {
-                    has_ideas = FRA_jwapa_hate_i
-                }
-                swap_ideas = {
-                    remove_idea = FRA_jwapa_hate_i
-                    add_idea = FRA_jwapa_hate_ii
-                }
+            limit = {
+                has_ideas = FRA_jwapa_hate_i
             }
+            swap_ideas = {
+                remove_idea = FRA_jwapa_hate_i
+                add_idea = FRA_jwapa_hate_ii
+            }  
         }
         else = {
             add_ideas = {
@@ -676,14 +674,12 @@ country_event = {
     option = {
         name = FRA_event.28.b #폭동을 진압하라
         if = {
-            FRA = {
-                limit = {
-                    has_ideas = FRA_upa_hate_i
-                }
-                swap_ideas = {
-                    remove_idea = FRA_upa_hate_i
-                    add_idea = FRA_upa_hate_ii
-                }
+            limit = {
+                has_ideas = FRA_upa_hate_i
+            }
+            swap_ideas = {
+               remove_idea = FRA_upa_hate_i
+                add_idea = FRA_upa_hate_ii
             }
         }
         else = {

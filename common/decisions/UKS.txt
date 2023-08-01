@@ -19,9 +19,6 @@ UKS_propaganda_for_another_ukraine = {
 	UKS_redredred = {
 		cost = 25
 	}
-	UKS_i_hate_capitalist = {
-		cost = 25
-	}
 }
 UKS_road_to_reunified = {
 	UKS_claim_that_ukraine_finally_became_one_country = {
