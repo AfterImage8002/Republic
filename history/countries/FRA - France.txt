@@ -83,7 +83,7 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = VIN
-	autonomous_state = autonomy_colony
+	autonomous_state = autonomy_dominion
 }
 set_autonomy = {
 	target = SYR

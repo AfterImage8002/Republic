@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_liberal_democracy
+			ideology=social_liberalism
 			traits={ dislikes_germany }
 			expire="1947.1.1.1"
 			id=-1

@@ -144,7 +144,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				kor = {
+				KOR = {
 					is_ai = no
 				}
 			}
