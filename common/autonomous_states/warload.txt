@@ -1,10 +1,12 @@
 autonomy_state = {
 	id = autonomy_warlord
-	use_overlord_color = yes
-	min_freedom_level = 0.9
+	use_overlord_color = no
+	min_freedom_level = 0.0
+	manpower_influence = 0.2
 	
-	manpower_influence = 0.05
+	is_puppet = yes
 	
+	#Entirely diplomatically dependent on their overlord, but fairly autonomous in industry
 	rule = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
 	
@@ -30,20 +32,20 @@ autonomy_state = {
 	ai_overlord_wants_garrison = {
 		always = yes
 	}
-	
+	allowed_levels_filter = {
+		autonomy_warlord
+	}
+
 	allowed = {
 		OR = {
+			is_subject = no
 			OVERLORD = { original_tag = CHI }
 			OVERLORD = { original_tag = SOV }
 			OVERLORD = { original_tag = RUS }
 		}
 	}
-
+	
 	can_lose_level = {
-		if = {
-			limit = {
-
-			}
-		}
+		always = no
 	}
 }
