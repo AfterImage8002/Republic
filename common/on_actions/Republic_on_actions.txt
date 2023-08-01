@@ -15,6 +15,75 @@ on_actions = {
 			YHC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
 			GSC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
 			UKR = {add_opinion_modifier = { target = SOV modifier = ukraine_anti_russian }}
+			FRA = {	
+				set_autonomy = {
+					target = KUR
+					autonomous_state = autonomy_colony
+				}
+				set_autonomy = {
+					target = MLI
+					autonomous_state = autonomy_colony
+				}
+				set_autonomy = {
+					target = MAD
+					autonomous_state = autonomy_colony
+				}
+				set_autonomy = {
+					target = CHA
+					autonomous_state = autonomy_colony
+				}
+				set_autonomy = {
+					target = MOR
+					autonomous_state = autonomy_colony
+				}
+				set_autonomy = {
+					target = TUN
+					autonomous_state = autonomy_colony
+				}
+				set_autonomy = {
+					target = VIN
+					autonomous_state = autonomy_colony
+				}
+				set_autonomy = {
+					target = SYR
+					autonomous_state = autonomy_colony
+				}
+				
+			}
+			ENG = {
+				set_autonomy = {
+					target = EGY
+					autonomous_state = autonomy_puppet
+				}
+				set_autonomy = {
+					target = IRE
+					autonomous_state = autonomy_free_state
+				}
+				set_autonomy = {
+					target = MAL
+					autonomous_state = autonomy_integrated_puppet
+				}
+				set_autonomy = {
+					target = RAJ
+					autonomous_state = autonomy_colony
+				}
+				set_autonomy = {
+					target = CAN
+					autonomous_state = autonomy_dominion
+				}
+				set_autonomy = {
+					target = SAF
+					autonomous_state = autonomy_dominion
+				}
+				set_autonomy = {
+					target = AST
+					autonomous_state = autonomy_dominion
+				}
+				set_autonomy = {
+					target = NZL
+					autonomous_state = autonomy_dominion
+				}
+			}
 			RHI = {
 				country_event = {
 					id = rhi_event.1

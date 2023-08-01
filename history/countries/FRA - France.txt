@@ -57,38 +57,6 @@ set_autonomy = {
 	autonomous_state = autonomy_supervised_state
 }
 
-set_autonomy = {
-	target = KUR
-	autonomous_state = autonomy_colony
-}
-set_autonomy = {
-	target = MLI
-	autonomous_state = autonomy_colony
-}
-set_autonomy = {
-	target = MAD
-	autonomous_state = autonomy_colony
-}
-set_autonomy = {
-	target = CHA
-	autonomous_state = autonomy_colony
-}
-set_autonomy = {
-	target = MOR
-	autonomous_state = autonomy_colony
-}
-set_autonomy = {
-	target = TUN
-	autonomous_state = autonomy_colony
-}
-set_autonomy = {
-	target = VIN
-	autonomous_state = autonomy_dominion
-}
-set_autonomy = {
-	target = SYR
-	autonomous_state = autonomy_colony
-}
 "TUN" = {
 	set_politics = {
 		ruling_party = neutrality

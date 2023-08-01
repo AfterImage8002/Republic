@@ -1,12 +1,12 @@
 music = {
     name = "yangyang"
     file = "yangyang.ogg"
-    volume = 0.90
+    volume = 2.00
 }
 music = {
     name = "young_japs"
     file = "young_japs.ogg"
-    volume = 0.90
+    volume = 2.00
 }
 music = {
     name = "sup_inter"
@@ -19,6 +19,7 @@ music = {
 music = {
     name = "france_civil_war"
     file = "france_civil_war.ogg"
+    volume = 2.00
 }
 music = {
     name = "china_civil_war"
@@ -27,4 +28,5 @@ music = {
 music = {
     name = "balkan"
     file = "balkan.ogg"
+    volume = 2.00
 }
