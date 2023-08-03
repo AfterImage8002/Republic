@@ -72,7 +72,11 @@ recruit_character = MLI_aco2
 		dispersed_industry2 = 1
 	}
 }
-
+create_country_leader = {
+	name = FRA_colony
+	ideology = oligarchism
+	picture = "gfx/leaders/FRA/자치구.png"
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

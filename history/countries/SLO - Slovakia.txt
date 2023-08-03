@@ -11,7 +11,7 @@
 	}
 	
 }
-
+recruit_character = SLO_milan
 set_technology = {
 	gw_artillery = 1
 	interwar_artillery = 1
@@ -144,14 +144,14 @@ recruit_character = SLO_anton_pulanick
 }
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 15
-	socialism = 40
+	democratic = 40
+	socialism = 15
 	communism = 25
 	progressive = 20
 }

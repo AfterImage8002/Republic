@@ -66,3 +66,8 @@ set_popularities = {
 #		#
 #	}
 #}
+create_country_leader = {
+	name = FRA_colony
+	ideology = oligarchism
+	picture = "gfx/leaders/FRA/자치구.png"
+}

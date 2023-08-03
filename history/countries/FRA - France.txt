@@ -7,7 +7,18 @@ give_guarantee = STR
 	set_resistance = 25
 	set_garrison_strength = 1.0
 }
-
+1003 = {
+	start_resistance = yes
+	set_compliance = 10
+	set_resistance = 25
+	set_garrison_strength = 1.0
+}
+921 = {
+	start_resistance = yes
+	set_compliance = 15
+	set_resistance = 10
+	set_garrison_strength = 1.0
+}
 910 = {
 	start_resistance = yes
 	set_compliance = 10
@@ -53,10 +64,37 @@ set_autonomy = {
 }
 
 set_autonomy = {
-	target = COG
-	autonomous_state = autonomy_supervised_state
+	target = KUR
+	autonomous_state = autonomy_colony
 }
-
+set_autonomy = {
+	target = MLI
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = MAD
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = CHA
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = MOR
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = TUN
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = VIN
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = SYR
+	autonomous_state = autonomy_colony
+}
 "TUN" = {
 	set_politics = {
 		ruling_party = neutrality
@@ -118,6 +156,18 @@ set_autonomy = {
 	}
 }
 "VIN" = {
+	set_politics = {
+		ruling_party = neutrality
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 20
+		progressive = 20
+		socialism = 20
+		neutrality = 40
+	}
+}
+"SYR" = {
 	set_politics = {
 		ruling_party = neutrality
 		elections_allowed = no

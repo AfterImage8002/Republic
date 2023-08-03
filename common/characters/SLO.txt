@@ -1,4 +1,17 @@
 characters={
+	SLO_milan = {
+		name = SLO_milan
+		portraits={
+			civilian={
+				large="gfx/leaders/SLO/밀란.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism
+			expire="1965.1.1"
+			id=-1
+		}
+	}
 	SLO_jozef_tiso={
 		name="Jozef Tiso"
 		portraits={

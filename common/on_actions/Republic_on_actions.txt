@@ -48,7 +48,118 @@ on_actions = {
 					target = SYR
 					autonomous_state = autonomy_colony
 				}
-				
+				"TUN" = {
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 20
+						progressive = 20
+						socialism = 20
+						neutrality = 40
+					}
+				}
+				"MOR" = {
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 20
+						progressive = 20
+						socialism = 20
+						neutrality = 40
+					}
+				}
+				"MLI" = {
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 20
+						progressive = 20
+						socialism = 20
+						neutrality = 40
+					}
+				}
+				"CHA" = {
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 20
+						progressive = 20
+						socialism = 20
+						neutrality = 40
+					}
+				}
+				"MAD" = {
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 20
+						progressive = 20
+						socialism = 20
+						neutrality = 40
+					}
+				}
+				"VIN" = {
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 20
+						progressive = 20
+						socialism = 20
+						neutrality = 40
+					}
+				}
+				"SYR" = {
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 20
+						progressive = 20
+						socialism = 20
+						neutrality = 40
+					}
+				}
+				"KUR" = {
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+					set_popularities = {
+						democratic = 20
+						progressive = 20
+						socialism = 20
+						neutrality = 40
+					}
+				}
+				"RHI" = {
+					set_politics = {
+						ruling_party = democratic
+						last_election = "1933.3.5"
+						election_frequency = 48
+						elections_allowed = yes
+					}
+					set_popularities = {
+						socialism = 12
+						democratic = 27
+						progressive = 46
+						communism = 5
+						fascism = 5
+						neutrality = 5
+					}
+				}
 			}
 			ENG = {
 				set_autonomy = {
