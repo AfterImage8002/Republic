@@ -476,6 +476,8 @@ country_event = { #방위군
             transfer_state = 28
             transfer_state = 17
             transfer_state = 6
+            transfer_state = 1003
+            transfer_state = 1004
         }
         every_state = {
             limit = {
@@ -658,12 +660,12 @@ country_event = {
         name = FRA_event.28.a #아따 권리라니까??
         if = {
             limit = {
-                has_ideas = FRA_jwapa_hate_i
+                has_idea = FRA_jwapa_hate_i
             }
             swap_ideas = {
                 remove_idea = FRA_jwapa_hate_i
                 add_idea = FRA_jwapa_hate_ii
-            }  
+            }
         }
         else = {
             add_ideas = {
@@ -675,10 +677,10 @@ country_event = {
         name = FRA_event.28.b #폭동을 진압하라
         if = {
             limit = {
-                has_ideas = FRA_upa_hate_i
+                has_idea = FRA_upa_hate_i
             }
             swap_ideas = {
-               remove_idea = FRA_upa_hate_i
+                remove_idea = FRA_upa_hate_i
                 add_idea = FRA_upa_hate_ii
             }
         }
@@ -889,6 +891,15 @@ country_event = { #해외 일부와 연락 안된다
                 days = 35
             }
         }
+        1003 = {
+            set_demilitarized_zone = yes
+        }
+        969 = {
+            set_demilitarized_zone = yes
+        }
+        1004 = {
+            set_demilitarized_zone = yes
+        }
         42 = {
             set_demilitarized_zone = yes
         }
@@ -947,6 +958,7 @@ country_event = { #라인 일대 방위군
         RDA = {
             transfer_state = 910
             transfer_state = 42
+            transfer_state = 1003
             910 = {
                 set_demilitarized_zone = no
             }
@@ -978,6 +990,7 @@ country_event = { #라인 일대 방위군
             transfer_state = 34
             transfer_state = 921
             transfer_state = 969
+            transfer_state = 1004
         }
         28 = {
             set_demilitarized_zone = no
@@ -1200,12 +1213,6 @@ country_event = { #파리코뮌도 어서오고
             set_demilitarized_zone = yes
         }
         hidden_effect = {
-            FRA = {
-                country_event = {
-                    id = FRA_event.45
-                    days = 10
-                }
-            }
         }
     }
 }

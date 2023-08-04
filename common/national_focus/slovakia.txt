@@ -1,0 +1,60 @@
+focus_tree = {
+	id = slo_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 100
+			tag = SLO
+		}
+	}
+	
+	default = no
+	focus = {
+		id = SLO_focus_0
+		x = 10
+		y = 0
+		completion_reward = {
+			add_timed_idea = {
+				idea = SLO_overpower_idea
+				days = 120
+			}
+		}
+	}
+	focus = {
+		id = SLO_focus_1
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = SLO_focus_0
+		}
+		cost = 2.9
+		relative_position_id = SLO_focus_0
+		available = {
+			has_war = no
+		}
+		completion_reward = {
+			add_stability = 0.2
+		}
+	}
+	focus = {
+		id = SLO_focus_2
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = SLO_focus_1
+		}
+		cost = 2.9
+		relative_position_id = SLO_focus_1
+		completion_reward = {
+			CZE = {
+				annex_country = {
+					target = SLO
+					transfer_troops = yes
+				}
+				set_cosmetic_tag = CZE_union
+			}
+		}
+	}
+}

@@ -1795,6 +1795,7 @@ country_event = { #좌파 : 난 여기서 빠져나가야겠어!
 			end_puppet = XSM
 			end_puppet = SIK
 			end_puppet = MAN
+			end_puppet = GXC
 		}
 	}
 	option = {
@@ -1841,6 +1842,7 @@ country_event = { #좌파 : 난 여기서 빠져나가야겠어!
 			end_puppet = XSM
 			end_puppet = SIK
 			end_puppet = MAN
+			end_puppet = GXC
 		}
 		LCH = {
 			change_tag_from = CHI
@@ -1861,7 +1863,7 @@ country_event = { #공산당 : 개에바다
 			add_core_of = PRC
 		}
 		CHI = {
-			dismantle_faction = fac_china
+			dismantle_faction = yes
 		}
 		hidden_effect = {
 			country_event = {
@@ -1888,7 +1890,7 @@ country_event = { #공산당 : 개에바다
 			change_tag_from = CHI
 		}
 		CHI = {
-			dismantle_faction = fac_china
+			dismantle_faction = yes
 		}
 		hidden_effect = {
 			country_event = {
