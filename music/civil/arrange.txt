@@ -1,6 +1,15 @@
 music_station = "arrange"
 
 music = {
+	song = "jazz_mood"
+	chance = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+}
+music = {
 	song = "inter_arr"
 	chance = {
 		modifier = {

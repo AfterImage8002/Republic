@@ -1,4 +1,9 @@
 music = {
+	name = "jazz_mood"
+	file = "mood.ogg"
+	volume = 1.00
+}
+music = {
 	name = "inter_arr"
 	file = "international.ogg"
 	volume = 1.00
