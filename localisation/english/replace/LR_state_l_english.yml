@@ -118,6 +118,7 @@
  STATE_1002:0 "쾨니히스베르크"
  STATE_1003:0 "라인란트 남부"
  STATE_1004:0 "왈롱 동부"
+ STATE_1005:0 "아르차흐"
  #도시
  VICTORY_POINTS_3529:0 "차리친"
  VICTORY_POINTS_11523:0 "포크롭스크"
