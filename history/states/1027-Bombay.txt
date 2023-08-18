@@ -4,7 +4,15 @@ state={
 	provinces={
 		9975 
 	}
-	manpower=0
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	state_category=rural
+	manpower=1178600
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
