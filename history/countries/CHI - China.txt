@@ -20,11 +20,6 @@ set_autonomy = {
 	freedom_level = 0.95
 }
 set_autonomy = {
-	target = HNC
-	autonomous_state = autonomy_warlord
-	freedom_level = 0.95
-}
-set_autonomy = {
 	target = GDC
 	autonomous_state = autonomy_warlord
 	freedom_level = 0.95

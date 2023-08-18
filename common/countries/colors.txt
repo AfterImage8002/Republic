@@ -124,7 +124,7 @@ GJC = {
 	color_ui = rgb { 114 40 119 }
 }
 HNC = { #호남
-	color = rgb { 161 103 33 }
+	color = rgb {  0 84 156 }
 	color_ui = rgb { 161 103 33 }
 }
 STR = {

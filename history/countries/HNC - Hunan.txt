@@ -16,6 +16,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+set_autonomy = {
+	target = YUN
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
 set_popularities = {
 	neutrality = 100
 
