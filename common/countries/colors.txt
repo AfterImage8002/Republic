@@ -1,4 +1,8 @@
 #reload countrycolors
+ETU = {
+	color = rgb { 57 127 212}
+	color_ui = rgb { 47 48 78}
+}
 EZO = {
 	color = rgb { 107 109 105}
 	color_ui = rgb { 47 48 78}
@@ -16,8 +20,8 @@ PRM = {
 	color_ui = rgb {255 168 168}
 }
 LCH = {
-	color = rgb {255 88 88}
-	color_ui = rgb {255 168 168}
+	color = rgb {145 102 30}
+	color_ui = rgb {145 102 30}
 }
 RHI = {
 	color = rgb {60 65 190}
@@ -148,8 +152,8 @@ QUE = {
 	color_ui = rgb { 75 122 216 }
 }
 SIC = { #사천 군벌
-	color = rgb { 154 115 56 }
-	color_ui = rgb { 149 123 56 }
+	color = rgb { 93 113 93 }
+	color_ui = rgb { 63 63 63  }
 }
 CAS = {
 	color = rgb { 200 30 30 }
@@ -426,7 +430,7 @@ USA = {
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
-	color = rgb { 118 80 22 }
+	color = rgb { 143 10 10 }
 	color_ui = rgb { 209 247 133 }
 }
 MEN = {

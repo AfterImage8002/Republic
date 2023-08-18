@@ -1,3 +1,4 @@
+ETU = "countries/East turk.txt"
 EZO = "countries/ezo.txt"
 UKS = "countries/Ukraine Soviet Republic.txt"
 RAW = "countries/White Army.txt"

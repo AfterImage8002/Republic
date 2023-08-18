@@ -15,6 +15,37 @@ set_technology = {
 	fleet_in_being = 1
 	basic_train = 1
 }
+
+set_autonomy = {
+	target = SHX
+	autonomous_state =autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = MEN
+	autonomous_state =autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = XSM
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = MAN
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = GSC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
+set_autonomy = {
+	target = YHC
+	autonomous_state = autonomy_warlord
+	freedom_level = 0.95
+}
 if = {
 	limit = {
 		has_dlc = "No Step Back"
