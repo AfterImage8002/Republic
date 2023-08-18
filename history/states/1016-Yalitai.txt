@@ -1,29 +1,24 @@
-
 state={
-	id=618
-	name="STATE_618"
-
+	id=1016
+	name="STATE_1016"
 	history={
 		owner = SIK
 		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 1
 
 		}
 		victory_points = {
-			4823 2 
+			4973 1
 		}
-
 	}
-
 	provinces={
-		1708 1783 1844 4714 4788 4849 7737 7866 10674 10691 12590 12737 
+		1766 2015 4828 5087 7949 12119 
 	}
-	manpower=670800
+	manpower=408000
+	state_category=large_town
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

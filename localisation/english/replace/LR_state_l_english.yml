@@ -129,6 +129,8 @@
  STATE_1012:0 "다칭"
  STATE_1013:0 "포산"
  STATE_1014:0 "위린"
+ STATE_1015:0 "얄타이"
+ STATE_1015:0 "북부 중가리아"
  #도시
  VICTORY_POINTS_3529:0 "차리친"
  VICTORY_POINTS_11523:0 "포크롭스크"
