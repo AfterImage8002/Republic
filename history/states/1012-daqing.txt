@@ -15,6 +15,7 @@ state={
 		946 7523 7591 7652 9782 9913 9928 10433 11864 12412 
 	}
 	manpower=432510
+	state_category=large_town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
