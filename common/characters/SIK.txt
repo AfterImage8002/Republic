@@ -1,4 +1,18 @@
 characters={
+	SIK_feng = {
+		name=SIK_feng
+		portraits={
+			civilian={
+				large="gfx/leaders/SIK/SIK_feng.png"
+			}
+		}
+		country_leader={
+			ideology=war_communism
+			traits = {}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	SIK_sheng_shicai={
 		name=SIK_sheng_shicai
 		portraits={
