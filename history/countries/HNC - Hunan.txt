@@ -1,5 +1,5 @@
 capital = 932
-
+recruit_character = CHI_wang_jingwei
 if = {
 	limit = {
 		has_dlc = "Waking the Tiger"
@@ -11,18 +11,14 @@ if = {
 
 recruit_character = HNC_Tanyenkai
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_autonomy = {
-	target = YUN
-	autonomous_state = autonomy_warlord
-	freedom_level = 0.95
-}
 set_popularities = {
-	neutrality = 100
-
+	socialism = 60
+	progressive = 10
+	communism = 30
 }
