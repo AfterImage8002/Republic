@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		HNC_bad_with_nanjing = {
+			modifier = {
+				political_advisor_cost_factor = 0.5
+			}
+		}
+		HNC_depend_SOV = {
+			targeted_modifier = {
+				tag = SOV
+				trade_cost_for_target_factor = -0.2
+			}
+			modifier = {
+				communism_acceptance = 30
+			}
+		}
+	}
+}

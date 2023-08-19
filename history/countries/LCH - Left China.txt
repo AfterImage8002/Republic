@@ -1,7 +1,7 @@
 capital = 608 # Nanjing
 
 
-
+recruit_character = LCH_wu
 set_stability = 0.5
 set_war_support = 0.5
 # Starting tech
@@ -242,17 +242,17 @@ set_convoys = 40
 }
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = neutrality
 	last_election = "1935.12.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
+	fascism = 31
 	democratic = 15
-	progressive = 31
-	socialism = 48
-	communism = 6
+	neutrality = 48
+	progressive = 6
 }
 
 ### VARIANTS ###
