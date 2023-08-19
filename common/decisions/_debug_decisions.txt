@@ -1,5 +1,39 @@
 debug_decisions = {
 
+	real_china = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			every_state = {
+				limit = {
+					is_core_of = CHI
+				}
+				add_core_of = PRC
+				set_state_category = megalopolis
+			}
+			622 = {
+				set_state_category = megalopolis
+			}
+			PRC = {
+				every_owned_state = {
+					set_state_category = megalopolis
+				}
+			}
+		}
+	}
+
 	in_the_name_of_juche = {
 		icon = generic_research
 

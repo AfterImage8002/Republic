@@ -129,8 +129,8 @@
  STATE_1012:0 "다칭"
  STATE_1013:0 "포산"
  STATE_1014:0 "위린"
- STATE_1015:0 "카슈가르"
- STATE_1016:0 "북부 중가리아"
+ STATE_1015:0 "북부 중가리아"
+ STATE_1016:0 "카슈가르"
  STATE_1017:0 "Madras"
  STATE_1018:0 "Kolhapur"
  STATE_1019:0 "Karenni"
@@ -142,6 +142,7 @@
  STATE_1025:0 "Central India - Chota Nagpur"
  STATE_1026:0 "Central India"
  STATE_1027:0 "Bombay"
+ STATE_1029:0 "후난 서부"
  #도시
  VICTORY_POINTS_3529:0 "차리친"
  VICTORY_POINTS_11523:0 "포크롭스크"
