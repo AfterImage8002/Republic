@@ -12,10 +12,11 @@
 				tag = GXC
 				tag = SHX
 				tag = XSM
-				tag = YHC
-				tag = GSC
-				tag = GDC
-				tag = MAN
+				tag = SND
+				tag = SZC
+				TAG = MAN
+				TAG = HNC
+				TAG = GDC
 			}
 			has_dlc = "Waking the Tiger"
 		}
@@ -92,6 +93,214 @@
 		}
 	}
 
+	########################
+	#### BEIYANG GOVERN ####
+	########################
+
+	focus = {
+		id = CHI_cooperation_with_the_beiyang
+		icon = GFX_focus_북양정부화해
+		prerequisite = { focus = CHI_secure_internal_politics }
+		mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition focus = CHI_cooperation_with_the_nationalists }
+		x = -10
+		y = 1
+		relative_position_id = CHI_secure_internal_politics
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				OR = {
+					original_tag = SND
+					original_tag = HNC
+				}
+			}
+		}
+		
+		available = {
+			OR = {
+				is_subject = no
+				is_subject_of = event_target:WTT_current_beiyang_leader
+			}
+			NOT = { has_war_with = event_target:WTT_current_beiyang_leader }
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = CHI_cooperation_with_the_nationalists_effect_tooltip
+			ZLC = { add_opinion_modifier = { modifier = CHI_cooperation_with_the_beiyang_positive } }
+			CHI = { add_opinion_modifier = { modifier = CHI_cooperation_with_the_beiyang_negative target = ROOT } }
+			PRC = { add_opinion_modifier = { modifier = CHI_cooperation_with_the_beiyang_negative target = ROOT } }
+		}
+	}
+	focus = {
+		id = CHI_anti_japanese
+		icon = GFX_focus_AST_war_japan
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = { focus = CHI_cooperation_with_the_beiyang }
+		relative_position_id = CHI_cooperation_with_the_beiyang
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = CHI_base_development
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = { focus = CHI_cooperation_with_the_beiyang }
+		relative_position_id = CHI_cooperation_with_the_beiyang
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+                    type = infrastructure 
+                    level = 1
+                    instant_build = yes
+                }
+			}
+		}
+	}
+	focus = {
+		id = CHI_corruption_cleaning
+		icon = GFX_focus_generic_treaty
+		x = 0
+		y = 2
+		cost = 10
+		prerequisite = { focus = CHI_anti_japanese focus = CHI_base_development }
+		relative_position_id = CHI_cooperation_with_the_beiyang
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = PRC_government_corruption
+		}
+	}
+	focus = {
+		id = CHI_eradication_of_the_evil_in_the_adminstration
+		icon = GFX_focus_generic_support_the_left_right
+		x = 0
+		y = 3
+		cost = 10
+		prerequisite = { focus = CHI_corruption_cleaning }
+		relative_position_id = CHI_cooperation_with_the_beiyang
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+                    type = infrastructure 
+                    level = 1
+                    instant_build = yes
+                }
+			}
+		}
+	}
+	focus = {
+		id = CHI_land_distribution_promise
+		icon = GFX_goal_china_deal
+		x = 2
+		y = 3
+		cost = 10
+		prerequisite = { focus = CHI_corruption_cleaning }
+		relative_position_id = CHI_cooperation_with_the_beiyang
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+                    type = infrastructure 
+                    level = 1
+                    instant_build = yes
+                }
+			}
+		}
+	}
+	focus = {
+		id = CHI_form_bei_army
+		icon = GFX_goal_CHI_tigress_battalions
+		x = 1
+		y = 4
+		cost = 10
+		prerequisite = { focus = CHI_eradication_of_the_evil_in_the_adminstration }
+		prerequisite = { focus = CHI_land_distribution_promise }
+		relative_position_id = CHI_cooperation_with_the_beiyang
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+                    type = infrastructure 
+                    level = 1
+                    instant_build = yes
+                }
+			}
+		}
+	}
+	focus = {
+		id = CHI_become_bei_china
+		icon = GFX_goal_chinese_instructors
+		x = 1
+		y = 5
+		cost = 10
+		prerequisite = { focus = CHI_form_bei_army }
+		relative_position_id = CHI_cooperation_with_the_beiyang
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		available = {
+			strength_ratio = {
+				tag = ZLC
+				ratio > 1.25
+			}
+			num_of_factories > 49
+		}
+
+		completion_reward = {
+			set_cosmetic_tag = CMC_JIG
+			ROOT = {
+				annex_country = {
+					target = event_target:WTT_current_beiyang_leader
+					transfer_troops = yes
+				}
+			}
+			save_global_event_target_as = WTT_current_beiyang_leader
+			event_target:WTT_current_beiyang_leader = {
+				clear_global_event_target = WTT_current_beiyang_leader
+			}
+		}
+	}
+
 	#########################
 	##### Nationalists ######
 	#########################
@@ -100,7 +309,7 @@
 		id = CHI_cooperation_with_the_nationalists
 		icon = GFX_focus_chi_cooperation_with_the_nationalists
 		prerequisite = { focus = CHI_secure_internal_politics }
-		mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition }
+		mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_opposition focus = CHI_cooperation_with_the_beiyang }
 		x = -5
 		y = 1
 		relative_position_id = CHI_secure_internal_politics
@@ -115,6 +324,8 @@
 					original_tag = GXC
 					original_tag = YUN
 					original_tag = XSM
+					original_tag = SZC
+					original_tag = FNG
 				}
 			}
 		}
@@ -137,6 +348,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = CHI_cooperation_with_the_nationalists_effect_tooltip
+			ZLC = { add_opinion_modifier = { modifier = CHI_cooperation_with_the_nationalists_negative target = ROOT } }
 			CHI = { add_opinion_modifier = { modifier = CHI_cooperation_with_the_nationalists_positive target = ROOT } }
 			PRC = { add_opinion_modifier = { modifier = CHI_cooperation_with_the_nationalists_negative target = ROOT } }
 		}
@@ -145,7 +357,7 @@
 	focus = {
 		id = CHI_anti_opposition_campaigns
 		icon = GFX_focus_generic_provoke_border_clashes
-		prerequisite = { focus = CHI_cooperation_with_the_nationalists focus = CHI_cooperation_with_the_communists }
+		prerequisite = { focus = CHI_cooperation_with_the_nationalists focus = CHI_cooperation_with_the_communists focus = CHI_cooperation_with_the_beiyang }
 		x = 3
 		y = 1
 		relative_position_id = CHI_cooperation_with_the_nationalists
@@ -216,7 +428,7 @@
 	focus = {
 		id = CHI_technological_cooperation
 		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = CHI_cooperation_with_the_nationalists }		
+		prerequisite = { focus = CHI_cooperation_with_the_nationalists focus = CHI_cooperation_with_the_beiyang }		
 		x = -1
 		y = 1
 		relative_position_id = CHI_cooperation_with_the_nationalists
@@ -243,12 +455,28 @@
 		completion_reward = {
 			if = {
 				limit = {
-					NOT = {
-						CHI = { is_in_tech_sharing_group = CHI_technological_cooperation_tech_group } }
+					AND = {
+						has_completed_focus = CHI_cooperation_with_the_nationalists
+						NOT = {
+							CHI = { is_in_tech_sharing_group = CHI_technological_cooperation_tech_group }
+						}
+					}
 				}
 				CHI = { add_to_tech_sharing_group = CHI_technological_cooperation_tech_group }
+				add_to_tech_sharing_group = CHI_technological_cooperation_tech_group
 			}
-			add_to_tech_sharing_group = CHI_technological_cooperation_tech_group
+			if = {
+				limit = {
+					AND = {
+						has_completed_focus = CHI_cooperation_with_the_beiyang
+						NOT = {
+							ZLC = { is_in_tech_sharing_group = CHI_zlc_technological_cooperation_tech_group }
+						}
+					}
+				}
+				ZLC = { add_to_tech_sharing_group = CHI_zlc_technological_cooperation_tech_group }
+				add_to_tech_sharing_group = CHI_zlc_technological_cooperation_tech_group
+			}
 		}
 	}
 
@@ -521,19 +749,18 @@
 		id = CHI_cooperation_with_the_communists
 		icon = GFX_focus_chi_cooperation_with_the_communists
 		prerequisite = { focus = CHI_secure_internal_politics }
-		mutually_exclusive = { focus = CHI_cooperation_with_the_nationalists focus = CHI_opposition }
+		mutually_exclusive = { focus = CHI_cooperation_with_the_nationalists focus = CHI_opposition focus = CHI_cooperation_with_the_beiyang }
 		x = 0
 		y = 1
 		relative_position_id = CHI_secure_internal_politics
 
 		cost = 10
-
+		
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 10
 				OR = {
-					original_tag = SHX
 					original_tag = SIK
 				}
 			}
@@ -576,6 +803,12 @@
 				}
 			}
 			CHI = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = CHI_cooperation_with_the_communists_negative
+				}
+			}
+			ZLC = {
 				add_opinion_modifier = {
 					target = ROOT
 					modifier = CHI_cooperation_with_the_communists_negative
@@ -873,7 +1106,7 @@
 		id = CHI_opposition
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = CHI_secure_internal_politics }
-		mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_cooperation_with_the_nationalists }
+		mutually_exclusive = { focus = CHI_cooperation_with_the_communists focus = CHI_cooperation_with_the_nationalists focus = CHI_cooperation_with_the_beiyang }
 		x = 5
 		y = 1
 		relative_position_id = CHI_secure_internal_politics
