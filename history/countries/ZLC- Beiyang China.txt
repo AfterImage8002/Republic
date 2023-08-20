@@ -85,6 +85,8 @@ add_ideas = {
 	CHI_give_money_to_mrc
 }
 
+oob = ZLC
+
 if = {
 	limit = {
 		NOT = {
