@@ -7,8 +7,9 @@ state = {
     state_category = city
 
     history = {
-		owner = LCH
-		add_core_of = LCH
+		owner = ZLC
+		add_core_of = ZLC
+		add_core_of = CHI
 		set_demilitarized_zone = yes
 		victory_points = {
 			10068 5

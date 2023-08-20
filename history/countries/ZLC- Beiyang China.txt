@@ -1,4 +1,4 @@
-capital = 608 # Nanjing
+capital = 608 #Beijing
 
 
 recruit_character = LCH_wu
