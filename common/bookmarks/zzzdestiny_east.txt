@@ -49,7 +49,7 @@ bookmarks = {
 				CHI_invite_the_flying_tigers
 			}
 		}
-		"LCH"={
+		"ZLC"={
 			history = "LCH_EAST_DESC"
 			ideology = neutrality
 			ideas = {

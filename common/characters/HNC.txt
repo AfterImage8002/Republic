@@ -13,4 +13,31 @@ characters={
 			id=-1
 		}
 	}
+	HNC_mao = {
+		name = HNC_mao
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/마오.png"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			slot = army_chief
+			idea_token = HNC_mao
+			traits = {HNC_gerilla}
+		}
+	}
+	HNC_sov_advisor = { #소련 고문단
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/소련.png"
+			}
+		}
+		advisor = {
+			can_be_fired = no
+			slot = theorist
+			idea_token = HNC_sov_advisor
+			traits = {HNC_sov_adv_trait}
+		}
+	}
 }

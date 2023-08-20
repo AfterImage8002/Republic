@@ -12,6 +12,21 @@
 
 ###Todo remove commented advisor experience gains
 leader_traits = {
+	HNC_sov_adv_trait = {
+		random = no
+		production_speed_buildings_factor = 0.05
+		consumer_goods_factor = -0.05
+		experience_gain_factor = 0.1
+		max_command_power_mult = 0.5
+	}
+	HNC_gerilla = {
+		random = no
+		sprite = 12
+		army_core_attack_factor = 0.05
+		army_core_defence_factor = 0.05
+		equipment_capture_factor = 0.2
+		supply_consumption_factor = -0.2
+	}
 	satan = {
 		random = no
 		sprite = 13

@@ -1,0 +1,70 @@
+add_namespace = HNC
+
+country_event = {
+	id = HNC.1
+	title = HNC.1.t
+	desc = HNC.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+	option = {
+		name = HNC.1.a
+		add_political_power = 0
+	}
+}
+country_event = {
+	id = HNC.2
+	title = HNC.2.t
+	desc = HNC.2.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+	option = {
+		name = HNC.2.a
+		add_ideas = HNC_mao
+		add_popularity = {
+			ideology = communism
+			popularity = 0.03
+		}
+	}
+}
+country_event = { #개조파의 상황
+	id = HNC.3
+	title = HNC.3.t
+	desc = HNC.3.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+	option = {
+		name = HNC.3.a
+		add_political_power = -30
+		add_popularity = {
+			ideology = socialism
+			popularity = -0.03
+		}
+	}
+}
+country_event = { #소련 고문단
+	id = HNC.4
+	title = HNC.4.t
+	desc = HNC.4.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+	option = {
+		name = HNC.4.a
+		add_ideas = HNC_sov_advisor	
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_0
+			amount = 3000
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 400
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 500
+		}
+	}
+}

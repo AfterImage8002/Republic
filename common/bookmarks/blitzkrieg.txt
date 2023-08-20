@@ -12,47 +12,51 @@ bookmarks = {
 			ideology = communism
 		}
 		"SGE"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "SGE_GATHERING_STORM_DESC"
 			ideology = communism
 		}
 		"KUB" = {
 			minor = yes
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "KUB_GATHERING_STORM_DESC"
 			ideology = communism
 		}
 		"KAZ" = {
 			minor = yes
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "KAZ_GATHERING_STORM_DESC"
 			ideology = communism
 		}
 		"WSY" = {
 			minor = yes
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "WSY_GATHERING_STORM_DESC"
 			ideology = communism
 		}
 		"MSY" = {
 			minor = yes
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "MSY_GATHERING_STORM_DESC"
 			ideology = communism
 		}
 		"RUS" = {
 			minor = yes
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "RUS_GATHERING_STORM_DESC"
 			ideology = communism
 		}
 		"FER" = {
 			minor = yes
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "FER_GATHERING_STORM_DESC"
 			ideology = communism
 		}
 		"VLA" = {
-			minor = yes
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "VLA_GATHERING_STORM_DESC"
 			ideology = communism
 		}
 		"BYA" = {
 			minor = yes
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "BYA_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"MON" = {
+			minor = yes
+			history = "BYA_GATHERING_STORM_DESC"
 			ideology = communism
 		}
 		
