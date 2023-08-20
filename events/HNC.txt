@@ -22,10 +22,6 @@ country_event = {
 	option = {
 		name = HNC.2.a
 		add_ideas = HNC_mao
-		add_popularity = {
-			ideology = communism
-			popularity = 0.03
-		}
 	}
 }
 country_event = { #개조파의 상황
@@ -38,10 +34,7 @@ country_event = { #개조파의 상황
 	option = {
 		name = HNC.3.a
 		add_political_power = -30
-		add_popularity = {
-			ideology = socialism
-			popularity = -0.03
-		}
+		
 	}
 }
 country_event = { #소련 고문단
@@ -66,5 +59,65 @@ country_event = { #소련 고문단
 			type = support_equipment
 			amount = 500
 		}
+	}
+}
+country_event = { #공산당 출신 당원 유입
+	id = HNC.5
+	title = HNC.5.t
+	desc = HNC.5.d
+	trigger = {
+		focus_progress = {
+			focus = HNC_focus_4
+			progress > 0.01
+		}
+	}
+	fire_only_once = yes
+	hidden = no
+	option = {
+		name = HNC.5.a
+		add_political_power = 20
+		add_stability = -0.02
+	}
+}
+country_event = { #정부위원 선거
+	id = HNC.6
+	title = HNC.6.t
+	desc = HNC.6.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+	option = {
+		name = HNC.6.a
+		add_stability = 0.05
+		add_political_power = 100
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.04
+		}
+	}
+	option = {
+		name = HNC.6.b
+		add_stability = -0.1
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.06
+		}
+		add_country_leader_trait = puppet
 	}
 }

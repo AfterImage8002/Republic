@@ -2,7 +2,8 @@
 
  #정당명
  HNC_socialism_party:0 "국민당 (개조파)"
- HNC_communism_party:0 "공산당"
+ HNC_communism_party:0 "국민당 (공산당)"
+ HNC_neutrality_party:0 "국민당 (광서파)"
  HNC_democratic_party:0 "국민당 (서산파)"
 
  CKK_democratic_party:0 "보수주의"

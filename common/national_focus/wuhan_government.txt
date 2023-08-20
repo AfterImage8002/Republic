@@ -84,6 +84,11 @@ focus_tree = {
 			focus = HNC_focus_3
 		}
 		relative_position_id = HNC_focus_0
-		completion_reward = { }
+		completion_reward = {
+			country_event = {
+				id = HNC.6
+				days = 3
+			}
+		}
 	}
 }
