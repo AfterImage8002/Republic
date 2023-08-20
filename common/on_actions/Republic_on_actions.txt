@@ -342,6 +342,31 @@ on_actions = {
 				limit = {    
 					AND = {
 						ROOT = {
+							original_tag = ZLC
+						}
+						FROM = {
+							original_tag = JAP
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						has_war_with = ZLC
+					}
+					white_peace = ZLC
+				}
+				JAP = {
+					set_autonomy = {
+						target = ZLC
+						autonomous_state = autonomy_wtt_imperial_protectorate
+					}
+				}
+			}
+			#### IN THE NAME OF JUCHE CODE ####
+			if = {
+				limit = {    
+					AND = {
+						ROOT = {
 							original_tag = RFR
 						}
 						FROM = {

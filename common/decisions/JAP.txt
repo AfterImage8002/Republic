@@ -37,6 +37,42 @@ JAP_economic_crisis = {
 }
 JAP_intervene_in_china = {
 
+	JAP_reunify_china = {
+
+		icon = jap_conquer_china
+
+		allowed = {
+			original_tag = JAP
+		}
+
+		visible = {
+			CHI = {
+				is_puppet_of = JAP
+			}
+			ZLC = {
+				is_puppet_of = JAP
+			}
+		}
+
+		available = {
+			CHI = {
+				is_puppet_of = JAP
+			}
+			ZLC = {
+				is_puppet_of = JAP
+			}
+		}
+		complete_effect = {
+			CHI = {
+				annex_country = {
+					target = ZLC
+					transfer_troops = yes
+				}
+				set_cosmetic_tag = CHI_gov
+			}
+		}
+	}
+
 	JAP_china_step_up_war_effort = {
 
 		icon = jap_conquer_china
@@ -181,9 +217,7 @@ JAP_intervene_in_china = {
 			add_stability = 0.03
 			add_war_support = 0.07
 		}
-	}
-
-	
+	}	
 }
 
 JAP_interservice_rivalry = {

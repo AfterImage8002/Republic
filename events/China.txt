@@ -2128,7 +2128,7 @@ country_event = { #관동주의 만주국 침략전쟁 - the end
 	option = {
 		name = china.1015.a
 		MRC = {
-			set_cosmetic_tag = MAN_CHIN_IL_PHA
+			set_cosmetic_tag = MRC_manchuria
 			annex_country = { target = MAN transfer_troops = yes }
 			load_focus_tree = MRC_focus 
 		}
