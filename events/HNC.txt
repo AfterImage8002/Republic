@@ -22,6 +22,31 @@ country_event = {
 	option = {
 		name = HNC.2.a
 		add_ideas = HNC_mao
+		random_state = {
+			limit = {
+				is_owned_by = HNC
+			}
+			create_unit = {
+				division = "name = \"1 Juntuán\" division_template = \"Juntuán\" start_experience_factor = 1"
+				owner = HNC
+			}
+			create_unit = {
+				division = "name = \"2 Juntuán\" division_template = \"Juntuán\" start_experience_factor = 1"
+				owner = HNC
+			}
+			create_unit = {
+				division = "name = \"3 Juntuán\" division_template = \"Juntuán\" start_experience_factor = 1"
+				owner = HNC
+			}
+			create_unit = {
+				division = "name = \"4 Juntuán\" division_template = \"Juntuán\" start_experience_factor = 1"
+				owner = HNC
+			}
+			create_unit = {
+				division = "name = \"5 Juntuán\" division_template = \"Juntuán\" start_experience_factor = 1"
+				owner = HNC
+			}
+		}
 	}
 }
 country_event = { #개조파의 상황
@@ -108,16 +133,62 @@ country_event = { #정부위원 선거
 		add_stability = -0.1
 		add_popularity = {
 			ideology = neutrality
-			popularity = 0.03
+			popularity = 0.09
 		}
 		add_popularity = {
 			ideology = democratic
-			popularity = 0.04
+			popularity = 0.11
 		}
 		add_popularity = {
 			ideology = communism
-			popularity = 0.06
+			popularity = 0.11
 		}
 		add_country_leader_trait = puppet
+		country_event = {
+			id = HNC.7
+			days = 5
+		}
+	}
+}
+
+country_event = { #왕징웨이의 실각?
+	id = HNC.7
+	title = HNC.7.t
+	desc = HNC.7.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+	option = {
+		name = HNC.7.a
+		activate_mission = HNC_ss_action
+		add_stability = 0.01
+	}
+	option = {
+		name = HNC.7.b
+		add_stability = -0.01
+		activate_mission = HNC_gxc_action
+		retire_country_leader = yes
+	}
+}
+
+country_event = { #광한분쟁
+	id = HNC.8
+	title = HNC.8.t
+	desc = HNC.8.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+	option = {
+		hidden_effect = {
+			GXC = {
+				declare_war_on = {
+					target = HNC
+					type = annex_everything
+				}
+			}
+		}
+		name = HNC.8.a
+		activate_mission = HNC_gxc_action_defend
+		add_war_support = 0.1
 	}
 }

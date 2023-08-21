@@ -28,3 +28,4 @@ add_ideas = {
 	HNC_bad_with_nanjing
 	HNC_depend_SOV
 }
+set_oob = HNC

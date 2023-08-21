@@ -46,10 +46,6 @@ set_autonomy = {
 	target = CHO
 	autonomous_state = autonomy_colony
 }
-set_autonomy = {
-	target = mrc
-	autonomous_state = autonomy_bun
-}
 "CHO" = {
 	set_politics = {
 		ruling_party = democratic

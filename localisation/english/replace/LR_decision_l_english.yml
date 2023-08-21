@@ -1,5 +1,11 @@
 ﻿l_english:
  #결정
+ #우한정부
+ HNC_political_wigi:0 "위기"
+ HNC_gxc_action:0 "행동하는 광서파"
+ HNC_gxc_action_defend:0 "광서파 제지"
+ HNC_ss_action:0 "서산파의 음모"
+
 
  # 독일국 선포
  GER_form_reich:0 "쌍두독수리의 기상"

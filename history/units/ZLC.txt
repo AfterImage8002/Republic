@@ -38,6 +38,28 @@ division_template = {
 
 ### OOB ###
 units = {
+	division = { # "12 Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 4205
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division = { # "40 Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 4205
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
 	division = {
 		division_name = {
 			is_name_ordered = yes

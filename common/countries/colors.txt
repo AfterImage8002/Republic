@@ -434,7 +434,7 @@ MON = {
 	color_ui = rgb { 209 247 133 }
 }
 MEN = {
-	color = rgb { 185  255  152 }
+	color = rgb { 145 102 30 }
 	color_ui = rgb { 165  230  132 }
 }
 TAN = {
@@ -585,7 +585,7 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 180 90 0 }
+	color = rgb { 145 102 30 }
 	color_ui = rgb { 180 90 0 }
 }
 ANG = {

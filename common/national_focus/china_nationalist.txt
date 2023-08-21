@@ -12,16 +12,4 @@
 
 
 	continuous_focus_position = { x = 20 y = 1000 }
-
-	focus = {
-		id = china_focus.1
-		icon = GFX_china_focus_first
-		cost = 9.5
-		x = 12
-		y = 3
-		cancelable = yes
-		completion_reward = {
-			custom_effect_tooltip = Jansang_China_tt
-		}
-	}
 }
