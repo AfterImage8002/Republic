@@ -1,5 +1,34 @@
 debug_decisions = {
 
+	imhogukgun = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			every_state = {
+				limit = {
+					is_core_of = CHI
+				}
+				add_core_of = YUN
+			}
+			JAP = {
+				end_puppet = YUN
+				remove_from_faction = YUN
+			}
+		}
+	}
+
 	real_china = {
 		icon = generic_research
 

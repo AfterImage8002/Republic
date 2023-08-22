@@ -2,7 +2,18 @@ MAN_lose = {
 	color = rgb { 150 50 0 }
 	color_ui = rgb { 150 50 0 }
 }
-
+MEN_JAP = {
+	color = rgb { 185  255  152 }
+	color_ui = rgb { 150 50 0 }
+}
+SOV_japan_win_TNO = {
+	color = rgb { 156 11 11 }
+	color_ui = rgb { 156 11 11 }
+}
+JAP_dai_nippon = {
+	color = rgb { 130 19 46 }
+	color_ui = rgb { 130 19 46 }
+}
 CHI_gov = {
 	color = rgb { 198 198 198 }
 	color_ui = rgb { 198 198 198 }
