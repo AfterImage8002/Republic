@@ -1,8 +1,12 @@
 ﻿l_english:
  #사람이름 인명 캐릭터
  #우한정부
+ HNC_exe:0 "중앙집행위원회"
+ HNC_em:0 "비상대권"
  HNC_sov_advisor:0 "소련 고문단"
  HNC_mao:0 "마오쩌둥"
+
+
  LCH_wu:0 "우페이푸"
  SIK_feng:0 "펑위샹"
  MRC_Minami_jiro:0 "미나미 지로"

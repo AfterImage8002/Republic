@@ -2108,13 +2108,30 @@ country_event = { #관동주의 만주국 침략전쟁
 
 	option = {
 		name = china.1014.a
+		RAW = {
+			declare_war_on = {
+				target = VLA
+				type = annex_everything
+			}
+		}
 		MRC = {
 			declare_war_on = {
 				target = MAN
 				type = annex_everything
 			}
-			load_oob = MAN_1936
+			MAN = {
+				create_faction = LR_MAN_fac
+				add_to_faction = VLA
+				add_to_faction = RUS
+			}
 			load_oob = MRC_1936
+			load_oob = MRC_1936
+			load_oob = MRC_1936
+			load_oob = MRC_1936
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+			}
 		}
 	}
 
@@ -2132,21 +2149,21 @@ country_event = { #관동주의 만주국 침략전쟁 - the end
 			annex_country = { target = MAN transfer_troops = yes }
 			load_focus_tree = MRC_focus 
 		}
-		MAN = {
-			transfer_state = 610
-			transfer_state = 609
-			set_cosmetic_tag = MAN_lose
-			
-		}
-		CHI = {
-			release_autonomy = {
-				target = MAN
-				autonomy_state = autonomy_warlord
+		every_country = {
+			limit = {
+				is_ally_with = ZLC
+				NOT = {
+					has_government = communism
+				}
 			}
+			leave_faction = yes
 		}
 		every_country = {
 			limit = {
 				has_war_with = MRC
+				NOT = {
+					has_government = communism
+				}
 			}
 			white_peace = MRC
 		}

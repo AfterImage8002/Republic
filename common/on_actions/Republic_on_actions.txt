@@ -1,19 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			CHI = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			MAN = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			HNC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			GDC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			GXC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			SIC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			PRC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			GJC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			YUN = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			SHX = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			XSM = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			YHC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
-			GSC = {add_opinion_modifier = { target = JAP modifier = manchurian_incident }}
 			UKR = {add_opinion_modifier = { target = SOV modifier = ukraine_anti_russian }}
 			FRA = {	
 				set_autonomy = {
@@ -239,6 +226,27 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
+					original_tag = MON
+					has_war_with = MEN
+				}
+				MEN = {
+					country_event = MEN.1
+				}
+			}
+			if = {
+				limit = {
+					original_tag = MAN
+					has_war_with = MRC
+				}
+				MRC = {
+					country_event = {
+						id = china.1015
+						days = 3
+					}
+				}
+			}
+			if = {
+				limit = {
 				original_tag = SLO
 				has_war_with = HUN
 				}
@@ -272,15 +280,7 @@ on_actions = {
 					country_event = { id = hungary_slo_event.2 }
 				}
 			}
-			if = {
-				limit = {
-					328 = { is_controlled_by = MRC }
-				}
-				
-				MRC = {
-					country_event = { id = china.1015 }
-				}
-			}
+			
 #			if = {
 #				limit = {
 #					944 = { is_controlled_by = KOR }
@@ -419,3 +419,4 @@ on_actions = {
 	}
 }
 
+}

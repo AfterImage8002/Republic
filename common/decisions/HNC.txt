@@ -45,6 +45,9 @@ HNC_political_wigi = {
 			GXC = {
 				white_peace = HNC
 			}
+			hidden_effect = {
+				complete_national_focus = HNC_focus_com_0
+			}
 		}
 		fire_only_once = yes
 	}

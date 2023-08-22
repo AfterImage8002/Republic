@@ -801,16 +801,8 @@ country_event = {
 			neutrality = 100
 		}
 		country_event = {
-			id = russia.3
-			days = 10
-		}
-		country_event = {
 			id = russia.2
 			days = 3
-		}
-		annex_country = {
-			target = RUS
-			transfer_troops = yes
 		}
 		}
 		
@@ -830,32 +822,36 @@ country_event = {
 	option = {
 		name = russia.2.a
 		BYA = {
-				leave_faction = yes
-			}
-			FER = {
-				leave_faction = yes
-			}
-			VLA = {
-				leave_faction = yes
-			}
-			RUS = {
-				every_state = {
-					limit = {
-						or = {
-							is_core_of = SOV
-							is_core_of = KUB
-							is_core_of = WSY
-							is_core_of = KAZ
-							is_core_of = MSY
-							is_core_of = BYA
-							is_core_of = FER
-							is_core_of = VLA
-						}
-					}
-					add_claim_by = RUS
+			leave_faction = yes
+		}
+		FER = {
+			leave_faction = yes
+		}
+		VLA = {
+			leave_faction = yes
+		}
+		RUS = {
+			leave_faction = yes
+		}
+		MON = {
+			leave_faction = yes
+		}
+		every_state = {
+			limit = {
+				OR = {
+					is_core_of = SOV
+					is_core_of = KUB
+					is_core_of = WSY
+					is_core_of = KAZ
+					is_core_of = MSY
+					is_core_of = BYA
+					is_core_of = FER
+					is_core_of = VLA
+					is_core_of = RUS
 				}
 			}
-		
+			add_claim_by = RAW
+		}
 	}
 }
 

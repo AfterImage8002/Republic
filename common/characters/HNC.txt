@@ -13,6 +13,34 @@ characters={
 			id=-1
 		}
 	}
+	HNC_exe={ #중앙집행위원회
+		name=HNC_exe
+		portraits={
+			civilian={
+				large="gfx/leaders/HNC/집행위.png"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={  }
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+	HNC_em={ #비상대권
+		name=HNC_em
+		portraits={
+			civilian={
+				large="gfx/leaders/HNC/행정원.png"
+			}
+		}
+		country_leader={
+			ideology=tppism_left
+			traits={ provisional_government}
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
 	HNC_mao = {
 		name = HNC_mao
 		portraits = {

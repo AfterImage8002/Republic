@@ -5,6 +5,8 @@
  HNC_communism_party:0 "국민당 (공산당)"
  HNC_neutrality_party:0 "국민당 (광서파)"
  HNC_democratic_party:0 "국민당 (서산파)"
+ HNC_progressive_party:0 "국민당 (광동파)"
+ HNC_communism_party_soviet:0 "중국 공산당"
 
  CKK_democratic_party:0 "보수주의"
  CKK_socialism_party:0 "사회주의"

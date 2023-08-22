@@ -34,12 +34,12 @@ recruit_character = JAP_kita
 	}
 }
 
-diplomatic_relation = {
-	country = MRC
-	relation = non_aggression_pact
-}
+give_guarantee = MRC
 give_guarantee = RAW
 RAW = {
+	give_military_access = JAP
+}
+MRC = {
 	give_military_access = JAP
 }
 set_autonomy = {

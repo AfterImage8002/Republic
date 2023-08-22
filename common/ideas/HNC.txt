@@ -1,5 +1,11 @@
 ideas = {
 	country = {
+		HNC_GXC_act = { #광한분쟁
+			targeted_modifier = {
+				tag = HNC
+				army_attack_factor = 0.25
+			}
+		}
 		HNC_bad_with_nanjing = {
 			modifier = {
 				political_advisor_cost_factor = 0.5

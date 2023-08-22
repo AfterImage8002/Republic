@@ -185,10 +185,18 @@ country_event = { #광한분쟁
 					target = HNC
 					type = annex_everything
 				}
+				add_timed_idea = {
+					idea = HNC_GXC_act
+					days = 100
+				}
 			}
 		}
 		name = HNC.8.a
+		add_popularity = {
+			ideology = neutrality
+			popularity = -1
+		}
+		
 		activate_mission = HNC_gxc_action_defend
-		add_war_support = 0.1
 	}
 }

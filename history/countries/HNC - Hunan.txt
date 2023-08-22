@@ -1,5 +1,7 @@
 capital = 932
 recruit_character = CHI_wang_jingwei
+recruit_character = HNC_exe
+recruit_character = HNC_em
 recruit_character = HNC_mao
 recruit_character = HNC_sov_advisor
 if = {

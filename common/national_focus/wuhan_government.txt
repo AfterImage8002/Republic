@@ -91,4 +91,80 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = HNC_focus_com_0
+		cost = 4
+		x = 9
+		y = 3
+		prerequisite = {
+			focus = HNC_focus_4
+		}
+		available = {
+			always = no
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = HNC_focus_com_1
+		cost = 4
+		x = 7
+		y = 4
+		prerequisite = {
+			focus = HNC_focus_com_0
+		}
+		mutually_exclusive = {
+			focus = HNC_focus_com_2
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			add_popularity = {
+				ideology = socialism
+				popularity = -0.12
+			}
+		}
+	}
+	focus = {
+		id = HNC_focus_com_2
+		cost = 4
+		x = 11
+		y = 4
+		prerequisite = {
+			focus = HNC_focus_com_0
+		}
+		mutually_exclusive = {
+			focus = HNC_focus_com_1
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = -1
+			}
+		}
+	}
+	focus = {
+		id = HNC_focus_com_3
+		cost = 4
+		x = 9
+		y = 5
+		prerequisite = {
+			focus = HNC_focus_com_1
+			focus = HNC_focus_com_2
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			set_cosmetic_tag = HNC_soviet
+			set_politics = {
+				ruling_party = communism
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = HNC_communism_party_soviet
+				name = HNC_communism_party_soviet
+			}
+		}
+	}
 }

@@ -1,11 +1,18 @@
 ﻿l_english:
+ #안휘군벌 중점
+ MEN_mon_0:0 "제2차 외몽골 출병"
+
  #우한정부 중점
  HNC_focus_0:0 "1936년 상하이 회의"
  HNC_focus_1:0 "홍군과의 협력 재확인"
  HNC_focus_2:0 "소련 고문단"
  HNC_focus_3:0 "개조파의 상황" 
  HNC_focus_4:0 "정부 위원 선거"
- 
+ HNC_focus_com_0:0 "광서군 격퇴"
+ HNC_focus_com_1:0 "개조파 흡수"
+ HNC_focus_com_2:0 "서산파 축출" 
+ HNC_focus_com_3:0 "소비에트 설립" 
+
  #동우크라이나 중점
  UKS_suck_my_soviet:0 "빨간맛"
  UKS_one_ukraine_policy:0 "하나의 우크라이나 정책"
