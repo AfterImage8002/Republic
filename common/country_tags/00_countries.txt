@@ -6,6 +6,7 @@ GJC = "countries/China.txt"
 HNC = "countries/China.txt"
 TAI = "countries/China.txt"
 SIC = "countries/China.txt"
+FNG = "countries/China.txt"
 
 ETU = "countries/East turk.txt"
 EZO = "countries/ezo.txt"
