@@ -116,7 +116,7 @@ GSC = { #감숙
 	color_ui = rgb { 101  30  41 }
 }
 GDC = {
-	color = rgb {49 107 188 }
+	color = rgb {0 84 156 }
 	color_ui = rgb {49 107 188 }
 }
 GJC = {
@@ -421,7 +421,7 @@ VEN = {
 	color_ui = rgb { 222 247 198 }
 }
 YUN = {
-	color = rgb { 143 20 20 }
+	color = rgb { 0 84 156 }
 	color_ui = rgb { 143 40 40 }
 }
 USA = {
@@ -485,12 +485,12 @@ PRC = {
 }
 
 GXC = {
-	color = rgb { 71 113 97 }
+	color = rgb { 0 84 156 }
 	color_ui = rgb { 71 113 97 }
 }
 
 SHX = {
-	color = rgb { 6 100 88 }
+	color = rgb { 145 102 30 }
 	color_ui = rgb { 6 150 78 }
 }
 
