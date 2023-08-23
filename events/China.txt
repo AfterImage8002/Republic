@@ -2144,9 +2144,6 @@ country_event = { #관동주의 만주국 침략전쟁 - the end
 	fire_only_once = yes
 	option = {
 		name = china.1015.a
-		MRC = {
-			annex_country = { target = FNG transfer_troops = yes }
-		}
 		every_country = {
 			limit = {
 				is_ally_with = ZLC

@@ -1,3 +1,7 @@
+JAP_red_red = {
+	color = rgb { 212 10 14 }
+	color_ui = rgb { 212 10 14 }
+}
 HNC_soviet = {
 	color = rgb { 212 0 14 }
 	color_ui = rgb { 212 0 14 }

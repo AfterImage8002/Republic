@@ -236,9 +236,25 @@ on_actions = {
 			if = {
 				limit = {
 					original_tag = FNG
-					has_war_with = MRC
+					FNG = {
+						OR = {
+							has_war_with = MRC
+							has_war_with = JAP
+						}
+					}
+				}
+				FNG = {
+					every_country = {
+						limit = {
+							has_war_with = FNG
+						}
+						white_peace = FNG
+					}
 				}
 				MRC = {
+					MRC = {
+						annex_country = { target = FNG transfer_troops = yes }
+					}
 					country_event = {
 						id = china.1015
 						days = 3
