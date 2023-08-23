@@ -151,9 +151,9 @@ QUE = {
 	color = rgb { 75 122 216 }
 	color_ui = rgb { 75 122 216 }
 }
-SIC = { #사천 군벌
-	color = rgb { 93 113 93 }
-	color_ui = rgb { 63 63 63  }
+SIC = {
+	color = rgb { 115 78 24 }
+	color_ui = rgb { 115 78 24 }
 }
 CAS = {
 	color = rgb { 200 30 30 }
