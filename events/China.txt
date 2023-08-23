@@ -2116,10 +2116,10 @@ country_event = { #관동주의 만주국 침략전쟁
 		}
 		MRC = {
 			declare_war_on = {
-				target = MAN
+				target = FNG
 				type = annex_everything
 			}
-			MAN = {
+			FNG = {
 				create_faction = LR_MAN_fac
 				add_to_faction = VLA
 				add_to_faction = RUS
