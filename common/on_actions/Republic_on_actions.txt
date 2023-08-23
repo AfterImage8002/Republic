@@ -235,12 +235,18 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					original_tag = MAN
+					original_tag = FNG
 					has_war_with = MRC
 				}
 				MRC = {
 					country_event = {
 						id = china.1015
+						days = 3
+					}
+				}
+				JAP = {
+					country_event = {
+						id = china.1018
 						days = 3
 					}
 				}

@@ -2145,9 +2145,7 @@ country_event = { #관동주의 만주국 침략전쟁 - the end
 	option = {
 		name = china.1015.a
 		MRC = {
-			set_cosmetic_tag = MRC_manchuria
-			annex_country = { target = MAN transfer_troops = yes }
-			load_focus_tree = MRC_focus 
+			annex_country = { target = FNG transfer_troops = yes }
 		}
 		every_country = {
 			limit = {
@@ -2200,6 +2198,50 @@ country_event = { #귀주성 독립 맛이나 보십쇼
 			declare_war_on = {
 				target = GJC
 				type = annex_everything
+			}
+		}
+	}
+}
+country_event = { #만주국 건국에 관하여
+	id = china.1018
+	title = china.1018.t
+	desc = china.1018.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = china.1018.a
+		MAN = {
+			load_focus_tree = MRC_focus
+			add_state_core = 716
+			add_state_core = 926
+			add_state_core = 918
+			add_state_core = 717
+			add_state_core = 1012
+			add_state_core = 328
+			add_state_core = 715
+			add_state_core = 610
+			add_state_core = 1009
+			add_state_core = 714
+			add_state_core = 927
+			add_state_core = 761
+			transfer_state = 716
+			transfer_state = 926
+			transfer_state = 918
+			transfer_state = 717
+			transfer_state = 1012
+			transfer_state = 328
+			transfer_state = 715
+			transfer_state = 610
+			transfer_state = 1009
+			transfer_state = 714
+			transfer_state = 927
+			transfer_state = 761
+		}
+		JAP = {
+			transfer_state = 1008
+			set_autonomy = {
+				target = MAN
+				autonomous_state = autonomy_puppet
 			}
 		}
 	}

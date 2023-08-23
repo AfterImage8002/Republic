@@ -585,8 +585,8 @@ BLR = {
 	color_ui = rgb { 180 220 190 }
 }
 MAN = {
-	color = rgb { 145 102 30 }
-	color_ui = rgb { 180 90 0 }
+	color = rgb { 255 120 71 }
+	color_ui = rgb { 255 120 71 }
 }
 FNG = {
 	color = rgb { 209 177 83 }
