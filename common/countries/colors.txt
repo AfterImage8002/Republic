@@ -588,6 +588,10 @@ MAN = {
 	color = rgb { 145 102 30 }
 	color_ui = rgb { 180 90 0 }
 }
+FNG = {
+	color = rgb { 209 177 83 }
+	color_ui = rgb { 209 177 83 }
+}
 ANG = {
 	color = rgb { 37 140 61 }
 	color_ui = rgb { 37 140 61 }
