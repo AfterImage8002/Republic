@@ -122,8 +122,9 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = {
 				ideology = socialism
-				popularity = -0.12
+				popularity = -0.05
 			}
+			add_political_power = 30
 		}
 	}
 	focus = {
@@ -141,8 +142,9 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = {
 				ideology = democratic
-				popularity = -1
+				popularity = -0.12
 			}
+			add_stability = 0.03
 		}
 	}
 	focus = {
@@ -165,6 +167,166 @@ focus_tree = {
 				long_name = HNC_communism_party_soviet
 				name = HNC_communism_party_soviet
 			}
+		}
+	}
+	focus = {
+		id = HNC_focus_com_3.5
+		cost = 4
+		x = 9
+		y = 6
+		prerequisite = {
+			focus = HNC_focus_com_3
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			hidden_effect = {
+				country_event = {
+					id = HNC.9
+					days = 3
+				}
+			}
+		}
+	}
+	focus = {
+		id = HNC_focus_com_4
+		cost = 4
+		x = 5
+		y = 7
+		prerequisite = {
+			focus = HNC_focus_com_3.5
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+	focus = {
+		id = HNC_focus_com_5
+		cost = 4
+		x = 8
+		y = 7
+		prerequisite = {
+			focus = HNC_focus_com_3.5
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.06
+			}
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = HNC_focus_com_6
+		cost = 4
+		x = 7
+		y = 8
+		prerequisite = {
+			focus = HNC_focus_com_5
+		}
+		mutually_exclusive = {
+			focus = HNC_focus_com_7
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			add_ideas = HNC_collective_agri
+		}
+	}
+	focus = {
+		id = HNC_focus_com_7
+		cost = 4
+		x = 9
+		y = 8
+		prerequisite = {
+			focus = HNC_focus_com_5
+		}
+		mutually_exclusive = {
+			focus = HNC_focus_com_6
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			add_ideas = HNC_regive_land
+		}
+	}
+	focus = {
+		id = HNC_focus_com_9
+		cost = 4
+		x = 11
+		y = 7
+		prerequisite = {
+			focus = HNC_focus_com_3.5
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			add_political_power = 30
+			add_stability = 0.15
+		}
+	}
+	focus = {
+		id = HNC_focus_com_8
+		cost = 4
+		x = 11
+		y = 8
+		prerequisite = {
+			focus = HNC_focus_com_9
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			add_timed_idea = {
+				idea = HNC_change_money
+				days = 600
+			}
+		}
+	}
+	focus = {
+		id = HNC_focus_com_10
+		cost = 4
+		x = 16
+		y = 7
+		prerequisite = {
+			focus = HNC_focus_com_3.5
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			create_intelligence_agency ={
+				name = HNC_com_intelly
+				icon = GFX_intelligence_agency_logo_sov
+			}
+			
+		}
+	}
+	focus = {
+		id = HNC_focus_com_11
+		cost = 4
+		x = 11
+		y = 9
+		prerequisite = {
+			focus = HNC_focus_com_8
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			country_event = {
+				id = HNC.10
+				days = 3
+			}
+		}
+	}
+	focus = {
+		id = HNC_focus_com_12
+		cost = 4
+		x = 13
+		y = 7
+		prerequisite = {
+			focus = HNC_focus_com_3.5
+		}
+		relative_position_id = HNC_focus_0
+		completion_reward = {
+			remove_ideas = PRC_government_corruption
 		}
 	}
 }

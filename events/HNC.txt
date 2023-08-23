@@ -200,3 +200,33 @@ country_event = { #광한분쟁
 		activate_mission = HNC_gxc_action_defend
 	}
 }
+country_event = { #헌법 제정
+	id = HNC.9
+	title = HNC.9.t
+	desc = HNC.9.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+	option = {
+		add_stability = 0.03	
+	}
+}
+country_event = { #노동법 제정
+	id = HNC.10
+	title = HNC.10.t
+	desc = HNC.10.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+	option = { #엄격한 노동법
+		add_political_power = 20
+		name = HNC.10.a
+		add_ideas = HNC_strict_labour
+	}
+	option = { #유연한 노동법
+		add_stability = -0.05
+		add_war_support = -0.05
+		name = HNC.10.b
+		add_ideas = HNC_flex_labour
+	}
+}

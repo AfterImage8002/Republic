@@ -12,6 +12,19 @@
  HNC_focus_com_1:0 "개조파 흡수"
  HNC_focus_com_2:0 "서산파 축출" 
  HNC_focus_com_3:0 "소비에트 설립" 
+ HNC_focus_com_3.5:0 "헌법 제정"  
+ HNC_focus_com_4:0 "혁명군사위원회"
+ HNC_focus_com_5:0 "소작 금지"
+ HNC_focus_com_6:0 "농업 집단화"
+ HNC_focus_com_7:0 "토지 재분배"
+ HNC_focus_com_8:0 "화폐 개혁"
+ HNC_focus_com_9:0 "기득권 타도"
+ HNC_focus_com_10:0 "국가정치보위국"
+ HNC_focus_com_11:0 "노동법 제정"
+ HNC_focus_com_12:0 "중앙감사위원회"
+ HNC_com_intelly:0 "국가정치보위국"
+
+
 
  #동우크라이나 중점
  UKS_suck_my_soviet:0 "빨간맛"
