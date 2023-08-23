@@ -22,6 +22,50 @@ CHI_gov = {
 	color = rgb { 198 198 198 }
 	color_ui = rgb { 198 198 198 }
 }
+MAL_SHO_JAP_TNO = {
+	color = rgb { 184 99 120 }
+	color_ui = rgb { 184 99 120 }
+}
+MAN_TNO = {
+	color = rgb { 179 66 96 }
+	color_ui = rgb { 179 66 96 }
+}
+MEN_TNO = {
+	color = rgb { 165 71 94 }
+	color_ui = rgb { 165 71 94 }
+}
+CHI_TNO = {
+	color = rgb { 168 45 75 }
+	color_ui = rgb { 168 45 75 }
+}
+XSM_TNO = {
+	color = rgb { 86 91 125 }
+	color_ui = rgb { 86 91 125 }
+}
+GDC_TNO = {
+	color = rgb { 122 46 65 }
+	color_ui = rgb { 122 46 65 }
+}
+ZLC_TNO = {
+	color = rgb { 140 72 89 }
+	color_ui = rgb { 140 72 89 }
+}
+GXC_TNO = {
+	color = rgb { 137 74 82 }
+	color_ui = rgb { 137 74 82 }
+}
+YUN_TNO = {
+	color = rgb { 135 81 103 }
+	color_ui = rgb { 135 81 103 }
+}
+USA_TNO = {
+	color = rgb { 100 138 190 }
+	color_ui = rgb { 100 138 190 }
+}
+GUZ_TNO = {
+	color = rgb { 165 81 87 }
+	color_ui = rgb { 165 81 87 }
+}
 
 UKS_peaceful_unified = {
 	color = rgb { 96 174 181 }
