@@ -9,22 +9,6 @@ if = {
 	}
 }
 
-set_autonomy = {
-	target = GXC
-	autonomous_state = autonomy_warlord
-	freedom_level = 0.95
-}
-set_autonomy = {
-	target = YUN
-	autonomous_state = autonomy_warlord
-	freedom_level = 0.95
-}
-set_autonomy = {
-	target = GDC
-	autonomous_state = autonomy_warlord
-	freedom_level = 0.95
-}
-
 SIC = {
 	set_politics = {
 		ruling_party = neutrality

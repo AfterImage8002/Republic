@@ -294,7 +294,7 @@ focus_tree = {
 		relative_position_id = HNC_focus_0
 		completion_reward = {
 			create_intelligence_agency ={
-				name = HNC_com_intelly
+				name = "NPSA"
 				icon = GFX_intelligence_agency_logo_sov
 			}
 			
