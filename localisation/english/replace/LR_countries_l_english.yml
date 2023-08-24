@@ -413,8 +413,8 @@
  FNG_lose_ADJ:0 "동북군 잔당"
  FNG_lose_DEF:0 "동북군 잔당"
  
- MAN_fascism:0 "중화 제국"
- MAN_fascism_DEF:0 "중화 제국"
+ MAN_fascism:0 "만주국"
+ MAN_fascism_DEF:0 "만주국"
  MAN_democratic:0 "만주국"
  MAN_progressive:0 "만주국"
  MAN_democratic_DEF:0 "만주국"

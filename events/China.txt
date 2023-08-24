@@ -2234,12 +2234,28 @@ country_event = { #만주국 건국에 관하여
 			transfer_state = 927
 			transfer_state = 761
 		}
+		MRC = {
+			MRC_Minami_jiro = {
+				set_nationality = MAN
+				promote_leader = yes
+			}
+		}
 		JAP = {
 			transfer_state = 1008
 			set_autonomy = {
 				target = MAN
 				autonomous_state = autonomy_puppet
 			}
+			annex_country = {
+				target = MRC
+				transfer_troops = yes
+			}
+		}
+		MAN = {
+			set_politics = {
+				ruling_party = fascism
+			}
+			promote_character = MRC_Minami_jiro
 		}
 	}
 }
