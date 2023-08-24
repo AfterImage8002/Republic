@@ -1,5 +1,7 @@
 ﻿l_english:
  #결정
+ JAP_attack_mon:0 "@MON 몽골 출병"
+
  #우한정부
  HNC_political_wigi:0 "위기"
  HNC_gxc_action:0 "행동하는 광서파"

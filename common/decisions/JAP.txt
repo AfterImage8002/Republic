@@ -37,6 +37,61 @@ JAP_economic_crisis = {
 }
 JAP_intervene_in_china = {
 
+	JAP_attack_mon = {
+		icon = jap_conquer_china
+
+		allowed = {
+			original_tag = JAP
+		}
+
+		visible = {
+			always = yes
+		}
+		available = {
+			AND = {
+				MAN = {
+					is_puppet_of = JAP
+				}
+				MEN = {
+					has_war_with = MON
+				}
+			}
+		}
+		days = 15
+
+		cost = 30
+		complete_effect = {
+			every_state = {
+				remove_core_of = MRC
+			}
+			JAP = {
+				set_autonomy = {
+					target = MRC
+					autonomous_state = autonomy_puppet
+				}
+			}
+			MRC = {
+				transfer_state = 1010
+				transfer_state = 1011
+				declare_war_on = {
+					target = MEN
+					type = annex_everything
+				}
+				add_state_core = 1010
+				add_state_core = 1011
+				add_state_core = 611
+				add_state_core = 612
+				JAP = {
+					add_to_war = {
+						targeted_alliance = MRC
+						enemy = MEN
+						hostility_reason = asked_to_join
+					}
+				}
+			}
+		}
+	}
+
 	JAP_reunify_china = {
 
 		icon = jap_conquer_china
