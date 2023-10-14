@@ -6,14 +6,14 @@ state={
 		add_core_of = ENG
 		buildings = {
 			infrastructure = 2
-			13306 = {
+			13290 = {
 				naval_base = 10
 				coastal_bunker = 5
 			}
 		}
 	}
 	provinces={
-		13306 
+		13290 
 	}
 	manpower=163857
 	state_category = town

@@ -2,7 +2,7 @@ state={
 	id=998
 	name="STATE_998"
 	provinces={
-		1136 13330 
+		1136 13314 
 	}
 	history={
 		owner = JAP
@@ -14,7 +14,7 @@ state={
 			dockyard = 2
 		}
 		victory_points = {
-			13330 50
+			13314 50
 		}
 		1939.1.1 = {
 			buildings = {

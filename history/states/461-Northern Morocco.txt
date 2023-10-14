@@ -6,7 +6,7 @@ state={
 		chromium=12.000 #added due to portugal setup
 	}
 
-	manpower = 3197735
+	manpower = 3197719
 	
 	state_category = rural
 	

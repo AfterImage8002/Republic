@@ -1,7 +1,7 @@
 state={
 	id=894
 	name="STATE_894"
-	manpower = 69316
+	manpower = 69300
 	state_category = wasteland
 
 	history={
