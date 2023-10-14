@@ -2,7 +2,7 @@
 state={
 	id=779
 	name="STATE_779" # Ivory Coast
-	manpower = 3850734
+	manpower = 3850750
 	
 	state_category = pastoral
 	history={
