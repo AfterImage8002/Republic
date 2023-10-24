@@ -1,19 +1,45 @@
+state = {
+	id = 926
+	name = "STATE_926" #TURKU AND PORI
 
-state={
-	id=926
-	name="STATE_926"
+	manpower = 529300
+	
 	state_category = town
-	provinces={
-		800 861 887 927 945 3888 3947 3949 6868 6905 9759 9803 9841 9848 9866 9883 11781 11823 11850 11862 
-	}
+	
 	history = {
-		owner = FNG
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+		owner = FIN
+		add_core_of = FIN
+		
+		victory_points = { #Turku
+			3083 3
 		}
+
+		victory_points = { #Pori
+			3117 2 
+		}
+
+		victory_points = { #Rauma
+			169 1 
+		}
+		
+		buildings = {
+			infrastructure = 2 #TODO_Manu: Was 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+			
+			3083 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		
 	}
-	manpower=3242213
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	provinces = {
+		32 169 3009 3083 3117 6066 9094 9194 13101 
+	}
+	
+	local_supplies = 0.0
 }

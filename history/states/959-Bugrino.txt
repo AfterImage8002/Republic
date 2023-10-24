@@ -1,23 +1,25 @@
+
 state={
 	id=959
 	name="STATE_959"
-	provinces={
-		12530 
-	}
-		history={
-		owner = SOV
-		victory_points = {
-			957 15 
-		}
+
+	history={
+		owner = ZLC
+		add_core_of = ZLC
+		add_core_of = CHI
 		buildings = {
-			infrastructure = 2
-			dockyard = 1
-			air_base = 5
+			infrastructure = 4
+			industrial_complex = 5
+
 		}
-		add_core_of = AFG
+
 	}
-	manpower=291430000
+
+	provinces={
+		1089 4091 11928 
+	}
+	manpower=4783290
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=city
 	local_supplies=0.000
 }

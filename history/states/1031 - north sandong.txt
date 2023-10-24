@@ -1,25 +1,23 @@
 
 state={
-	id=929
-	name="STATE_929"
+	id=1031
+	name="STATE_1031"
 
 	history={
 		owner = ZLC
 		add_core_of = ZLC
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-
+			infrastructure = 2
 		}
 
 	}
 
 	provinces={
-		1089 4091 11928 
+		12093 1084 7189 11962 7160 9987 11933 7074 4114 7074 1139 4606 4144
 	}
-	manpower=4783290
+	manpower=18434900
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 	local_supplies=0.000
 }
