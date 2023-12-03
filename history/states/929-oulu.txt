@@ -1,4 +1,3 @@
-
 state = {
 	id = 929
 	name = "STATE_929" #OULU

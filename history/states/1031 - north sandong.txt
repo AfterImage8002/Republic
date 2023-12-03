@@ -9,12 +9,13 @@ state={
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 2
+
 		}
 
 	}
 
 	provinces={
-		12093 1084 7189 11962 7160 9987 11933 7074 4114 7074 1139 4606 4144
+		1084 7160 7189 9987 11933 11962 12093 
 	}
 	manpower=18434900
 	buildings_max_level_factor=1.000
