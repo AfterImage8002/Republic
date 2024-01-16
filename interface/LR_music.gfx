@@ -1,0 +1,23 @@
+spriteTypes = {
+	#음악 송출국
+	spriteType = {
+		name = "rev_music"
+		texturefile = "gfx/interface/rev_music_on.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "arr_music"
+		texturefile = "gfx/interface/arr_music_on.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "rd_music"
+		texturefile = "gfx/interface/rd_music_on.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "cl_music"
+		texturefile = "gfx/interface/cl_music_on.dds"
+		noOfFrames = 2
+	}
+}

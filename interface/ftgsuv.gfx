@@ -1,7 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_bookmark_pictures_storm"
-		textureFile = "gfx/interface/bookmark_pictures_storm.dds"
-		legacy_lazy_load = no
-	}
-}

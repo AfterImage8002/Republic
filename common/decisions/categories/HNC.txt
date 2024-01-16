@@ -1,5 +1,0 @@
-HNC_political_wigi = { #정치적 위기
-	allowed = {
-		original_tag = HNC
-	}	
-}

@@ -1,9 +1,0 @@
-
-
-units = {
-	division = { # "19 'Tora' Hohei Shidan"
-		location = 1003
-		division_template = "militia"
-		start_equipment_factor = 0.8
-	}
-}

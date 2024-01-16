@@ -1,6 +1,0 @@
-HUN_threat_valkanwar = {
-	allowed = {
-		original_tag = HUN
-	}
-	icon = GFX_decision_category_border_conflicts
-}
