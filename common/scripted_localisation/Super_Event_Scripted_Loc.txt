@@ -1,0 +1,137 @@
+#Titles
+defined_text = {
+    name = get_super_event_title
+	
+    text = {
+        trigger = {
+            has_global_flag = koudouha
+        }
+        localization_key = "super_event_koudouha"
+    }
+    text = {
+        trigger = {
+            has_global_flag = sup_inter
+        }
+        localization_key = "super_event_sup_inter"
+    }
+    text = {
+        trigger = {
+            has_global_flag = asd
+        }
+        localization_key = "super_event_asd"
+    }
+    text = {
+        trigger = {
+            has_global_flag = fall_of_center_siberia
+        }
+        localization_key = "super_event_fall_of_center_siberia"
+    }
+    text = {
+        trigger = {
+            has_global_flag = france_civil_war
+        }
+        localization_key = "super_event_france_civil_war"
+    }
+    text = {
+        trigger = {
+            has_global_flag = china_civil_war
+        }
+        localization_key = "super_event_china_civil_war"
+    }
+    text = {
+        trigger = {
+            has_global_flag = balkan_war
+        }
+        localization_key = "super_event_balkan_war"
+    }
+}
+defined_text = {
+    name = get_super_event_quote
+    text = {
+        trigger = {
+            has_global_flag = balkan_war
+        }
+        localization_key = "sp_event_balkan_war_QUOTE"
+    }
+    text = {
+        trigger = {
+            has_global_flag = koudouha
+        }
+        localization_key = "sp_event_koudouha_QUOTE"
+    }
+    text = {
+        trigger = {
+            has_global_flag = sup_inter
+        }
+        localization_key = "sp_event_sup_inter_QUOTE"
+    }
+    text = {
+        trigger = {
+            has_global_flag = fall_of_center_siberia
+        }
+        localization_key = "super_event_fall_of_center_siberia_QUOTE"
+    }
+    text = {
+        trigger = {
+            has_global_flag = france_civil_war
+        }
+        localization_key = "super_event_france_civil_war_QUOTE"
+    }
+    text = {
+        trigger = {
+            has_global_flag = asd
+        }
+        localization_key = "sp_event_asd_QUOTE"
+    }
+    text = {
+        trigger = {
+            has_global_flag = china_civil_war
+        }
+        localization_key = "super_event_china_civil_war_QUOTE"
+    }
+}
+defined_text = {
+    name = get_super_event_remark
+    text = { 
+        trigger = {
+            has_global_flag = balkan_war
+        }
+        localization_key = "sp_event_balkan_war_REMARK"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = koudouha
+        }
+        localization_key = "sp_event_koudouha_REMARK"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = sup_inter
+        }
+        localization_key = "sp_event_sup_inter_REMARK"
+    }
+    text = {
+        trigger = {
+            has_global_flag = fall_of_center_siberia
+        }
+        localization_key = "super_event_fall_of_center_siberia_REMARK"
+    }
+    text = {
+        trigger = {
+            has_global_flag = france_civil_war
+        }
+        localization_key = "super_event_france_civil_war_REMARK"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = asd
+        }
+        localization_key = "sp_event_asd_REMARK"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = china_civil_war
+        }
+        localization_key = "super_event_china_civil_war_REMARK"
+    }
+}

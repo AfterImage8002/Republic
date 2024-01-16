@@ -1,0 +1,62 @@
+capital = 932
+recruit_character = CHI_wang_jingwei
+recruit_character = HNC_exe
+recruit_character = HNC_em
+recruit_character = HNC_mao
+recruit_character = HNC_sov_advisor
+recruit_character = PRC_zhu_de
+recruit_character = PRC_chen_yi
+recruit_character = PRC_peng_dehuai
+recruit_character = PRC_lin_biao
+recruit_character = PRC_kwong_hu
+recruit_character = PRC_luo_zhao
+recruit_character = PRC_liang_ma
+recruit_character = PRC_ma_jin
+recruit_character = PRC_ziao_jingguang
+recruit_character = PRC_nie_rongzhen
+recruit_character = PRC_su_yu
+recruit_character = PRC_liu_bocheng
+recruit_character = PRC_chen_geng
+recruit_character = PRC_gao_qiu
+recruit_character = PRC_liang_shen
+recruit_character = PRC_otto_braun
+recruit_character = PRC_gao_gang
+recruit_character = PRC_fang_zeyi
+recruit_character = PRC_xu_xiangqian
+recruit_character = PRC_deng_ye_peng
+recruit_character = PRC_ye_jianying
+recruit_character = PRC_hsia_tian
+recruit_character = PRC_zhang_wei
+recruit_character = PRC_zhou_enlai
+recruit_character = PRC_liu_shaoqi
+recruit_character = PRC_lin_bojiu
+recruit_character = PRC_dong_biwu
+recruit_character = PRC_he_yuandang
+if = {
+	limit = {
+		has_dlc = "Waking the Tiger"
+	}
+	add_ideas = {
+		CHI_ineffective_bureaucracy_warlord
+	}
+}
+
+recruit_character = HNC_Tanyenkai
+set_politics = {
+	ruling_party = socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	socialism = 50
+	democratic = 20
+	communism = 30
+}
+add_ideas = {
+	PRC_government_corruption
+	HNC_bad_with_nanjing
+	HNC_depend_SOV
+}
+set_oob = HNC

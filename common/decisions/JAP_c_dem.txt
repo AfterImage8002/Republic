@@ -1,0 +1,81 @@
+JAP_c_dem = {
+	dem_unity = {
+		visible = {
+			has_idea = JAP_for_dem
+		}
+		allowed = {
+			original_tag = JAP
+		}
+		icon = GFX_decision_hol_exchange_intelligence_data
+		
+		cost = 50
+		
+		complete_effect = {
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.1
+			}	
+			add_popularity = {
+				ideology = progressive
+				popularity = 0.05
+			}	
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+		}
+	}
+	attack_tou = {
+		visible = {
+			has_idea = JAP_for_dem
+		}
+		allowed = {
+			original_tag = JAP
+		}
+		icon = GFX_decision_generic_break_treaty
+		cost = 10
+		complete_effect = {
+			add_war_support = -0.05
+		}
+		days_remove = 20
+		modifier = {
+			fascism_drift = -0.04
+		}
+	}
+	checking_soc = {
+		visible = {
+			has_idea = JAP_for_dem
+		}
+		allowed = {
+			original_tag = JAP
+		}
+		icon = GFX_decision_generic_break_treaty
+		cost = 20
+		complete_effect = {
+			add_stability = -0.05
+		}
+		days_remove = 2
+		modifier = {
+			socialism_drift = -0.04
+		}
+	}
+	draft = {
+		visible = {
+			has_idea = JAP_for_dem
+		}
+		allowed = {
+			original_tag = JAP
+		}
+		icon = GFX_decision_generic_reorganize_irregulars
+		cost = 30
+		complete_effect = {
+			hidden_effect = {
+				load_oob = JAP_c_draft
+			}
+		}
+		days_remove = 5
+		modifier = {
+			fascism_drift = 0.003
+		}
+	}
+}

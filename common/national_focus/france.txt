@@ -1,0 +1,254 @@
+focus_tree = {
+	id = FRA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	
+	focus = {
+		id = FRA_new_years_government
+		icon = GFX_france_dawn
+		x = 12
+		y = 1
+		cost = 17.2
+		select_effect = {
+			country_event = {
+				id = FRA_event.26
+				days = 1
+			}
+			country_event = {
+				id = FRA_event.27
+				days = 20
+			}
+			country_event = {
+				id = FRA_event.28
+				days = 40
+			}
+			country_event = {
+				id = FRA_event.29
+				days = 60
+			}
+			country_event = {
+				id = FRA_event.30
+				days = 80
+			}
+			country_event = {
+				id = FRA_event.31
+				days = 100
+			}
+			country_event = {
+				id = FRA_event.32
+				days = 110
+			}
+		}
+		completion_reward = {
+			add_political_power = 50
+			country_event = FRA_event.1 
+		}
+	}
+	
+	# 국민전선
+	focus = {
+		id = FRA_government_at_national_front
+		icon = GFX_
+		available = {
+		has_country_flag = government_at_national_front
+		}
+		mutually_exclusive = { focus = FRA_government_at_peoples_front }
+		prerequisite = { focus = FRA_new_years_government }
+		x = 10
+		y = 4
+		cost = 0
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_revolution_of_Frank
+		icon = GFX_focus_fra_devalue_the_franc
+		prerequisite = { focus = FRA_government_at_national_front }
+		x = 10
+		y = 5
+		cost = 5
+		completion_reward = {
+		add_stability = 0.05
+		add_ideas = FRA_revolutions_of_the_Frank
+		}
+	}
+	
+	focus = {
+		id = FRA_colonies_more_moneys
+		icon = GFX_FRA_money_by_country
+		available = {
+		has_completed_focus = FRA_workers_paup_jinap 
+		}
+		prerequisite = { focus = FRA_revolution_of_Frank }
+		x = 11
+		y = 6
+		cost = 5
+		completion_reward = {
+		add_ideas = FRA_need_more_moneys
+		country_event = { id = FRA_event.2 hours = 3 }
+		custom_effect_tooltip = FRA_colonies_not_like_this
+		}
+	}
+	
+	focus = {
+		id = FRA_workers_paup_jinap
+		icon = GFX_FRA_NEW_FOCUS_18
+		prerequisite = { focus = FRA_revolution_of_Frank }
+		x = 9
+		y = 6
+		cost = 5
+		completion_reward = {
+		add_stability = -0.1
+        remove_ideas = FRA_workers_paup
+		  hidden_effect = {
+		  country_event = { id = FRA_event.4 days = 1 }
+		  }
+		}
+	}
+	
+	
+	# 인민전선
+	focus = {
+		id = FRA_government_at_peoples_front
+		icon = GFX_
+		available = {
+		has_country_flag = government_at_peoples_front
+		}
+		mutually_exclusive = { focus = FRA_government_at_national_front }
+		prerequisite = { focus = FRA_new_years_government }
+		x = 14
+		y = 4
+		cost = 0
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_go_to_the_factories
+		icon = GFX_FRA_solve_problem
+		prerequisite = { focus = FRA_government_at_peoples_front }
+		x = 14
+		y = 5
+		cost = 5
+		completion_reward = {
+		add_stability = 0.05
+		country_event = { id = FRA_event.3 hours = 3 }
+		add_ideas = FRA_look_at_this_please
+		}
+	}
+	
+	focus = {
+		id = FRA_fascists_go_to_die
+		icon = GFX_
+		prerequisite = { focus = FRA_go_to_the_factories }
+		x = 15
+		y = 6
+		cost = 5
+		completion_reward = {
+		remove_ideas = FRA_fascists_jirals
+		custom_effect_tooltip = FRA_fascists_angry
+		}
+	}
+	
+	focus = {
+		id = FRA_workers_jinjunghaeyo
+		icon = GFX_
+        available = {
+		has_completed_focus = FRA_fascists_go_to_die 
+		}
+		prerequisite = { focus = FRA_go_to_the_factories }
+		x = 13
+		y = 6
+		cost = 5
+		completion_reward = {
+		add_stability = 0.05
+		add_ideas = FRA_look_at_this_please
+		  hidden_effect = {
+		  country_event = { id = FRA_event.4 days = 1 }
+		  }
+		}
+	}
+	
+	# 공통
+	
+	focus = {
+		id = FRA_wait_this_is_not_good
+		icon = GFX_
+		prerequisite = { focus = FRA_colonies_more_moneys focus = FRA_workers_jinjunghaeyo }
+		x = 12
+		y = 7
+		available = {
+		has_country_flag = pokdong_at_paris
+		}
+		cost = 0
+		completion_reward = {
+		add_stability = -0.1
+		add_ideas = FRA_all_pokdong
+		}
+	}
+	
+	focus = {
+		id = FRA_pokdong_gangyung
+		icon = GFX_
+		prerequisite = { focus = FRA_wait_this_is_not_good }
+		x = 11
+		y = 9
+		cost = 2
+		mutually_exclusive = { focus = FRA_pokdong_uhwa }
+		completion_reward = {
+		add_stability = -0.1
+		remove_ideas = FRA_all_pokdong
+		custom_effect_tooltip = communists_gets_stronger
+		set_country_flag = FRA_communists_strong # 내전에 영향을 끼침
+		    hidden_effect = {
+		    country_event = { id = FRA_event.5 days = 3 }
+	    	}
+		}
+	}
+	
+	focus = {
+		id = FRA_pokdong_uhwa
+		icon = GFX_
+		prerequisite = { focus = FRA_wait_this_is_not_good }
+		x = 13
+		y = 9
+		cost = 2
+		mutually_exclusive = { focus = FRA_pokdong_gangyung }
+		completion_reward = {
+		add_stability = 0.05
+		custom_effect_tooltip = fascists_gets_stronger
+		set_country_flag = FRA_fascists_gets_stronger # 내전에 영향을 끼침
+		    hidden_effect = {
+		    	country_event = { id = FRA_event.5 days = 3 }
+	    	}
+		}
+	}
+	
+	focus = {
+		id = FRA_france_anjunghwa
+		icon = GFX_
+		prerequisite = { focus = FRA_pokdong_gangyung focus = FRA_pokdong_uhwa }
+		x = 12
+		y = 10
+		cost = 10
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = fra_you_may_not_tt
+				always = no
+			}
+		}
+
+		completion_reward = {
+			add_stability = 0.5
+			load_focus_tree = FRA_norrrmal_focus_tree # 낚시
+		}
+	}
+}

@@ -1,0 +1,22 @@
+focus_tree = {
+	id = msy_mid_focus_tree_fake_two
+	country = {
+		factor = 0
+		modifier = {
+			add = -30
+			tag = sex
+		}
+	}
+	focus = {
+		id = MSY_focus_fake_0
+		cost = 0.2
+		x = 4
+		y = 4
+		completion_reward = {
+			load_focus_tree = msy_col_focus_tree
+			set_country_flag = MSY_LOSE
+			hidden_effect = {
+			}
+		}
+	}
+}

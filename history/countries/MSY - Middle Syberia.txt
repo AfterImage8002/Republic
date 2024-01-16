@@ -1,0 +1,23 @@
+recruit_character = MSY_Khrushchev
+capital = 570
+set_country_flag = msy_is_goat_maybe
+set_politics = {
+	ruling_party = communism
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}
+add_ideas = {
+	MSY_land_of_the_exiles
+	MSY_Siberia_conflict
+	MSY_conspiracy_theory
+}
+add_ideas = {	
+	fascism_forbiden
+	neutrality_forbiden
+	progressive_forbiden
+	democratic_forbiden
+	socialism_forbiden
+}

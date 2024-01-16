@@ -1,0 +1,188 @@
+﻿l_english:
+
+ #정당명
+ HNC_socialism_party:0 "국민당 (개조파)"
+ HNC_communism_party:0 "국민당 (공산당)"
+ HNC_neutrality_party:0 "국민당 (광서파)"
+ HNC_democratic_party:0 "국민당 (서산파)"
+ HNC_progressive_party:0 "국민당 (광동파)"
+ HNC_communism_party_soviet:0 "중국 공산당"
+
+ CKK_democratic_party:0 "보수주의"
+ CKK_socialism_party:0 "사회주의"
+ CKK_communism_party:0 "볼셰비키 잔당"
+CKK_communism_party_long:0 "아무르 볼셰비키 잔당"
+ CKK_neutrality_party:0 "백군 유격대"
+ CKK_neutrality_party_long:0 "백군 유격대"
+new_CKK_neutrality_party:0 "백군 사령부"
+ CKK_fascism_party:0 "파시즘"
+ CKK_fascism_party_long:0 "파시즘"
+ CKK_progressive_party:0 "진보주의"
+
+ ENG_democratic_party:0 "보수당"
+ ENG_progressive_party:0 "자유당"
+ ENG_socialism_party:0 "노동당"
+ 
+ FRA_democratic_party:0 "공화 연맹"
+ FRA_progressive_party:0 "급진당"
+ FRA_socialism_party:0 "노동자 인터내셔널"
+ FRA_communism_party:0 "프랑스 공산당"
+ FRA_neutrality_party:0 "군부"
+ FRA_fascism_party:0 "악시옹 프랑세즈"
+
+ HOL_democratic_party:0 "반혁명당"
+ HOL_progressive_party:0 "로마 가톨릭 국가당"
+ HOL_socialism_party:0 "사회민주노동자당"
+
+ RHI_democratic_party:0 "중앙당"
+ RHI_progressive_party:0 "독일 인민당"
+ RHI_socialism_party:0 "독일 사회민주당"
+ RHI_communism_party:0 "§R독일 공산당 (금지됨)§!"
+ RHI_fascism_party:0 "독일 노동자당"
+ RHI_neutrality_party:0 "국가인민당"
+
+ GER_democratic_party:0 "중앙당"
+ GER_progressive_party:0 "독일 인민당"
+ GER_socialism_party:0 "사회민주당"
+ GER_communism_party:0 "독일 공산당"
+ GER_neutrality_party:0 "국가인민당"
+ GER_fascism_party:0 "독일노동자당"
+ GER_fascism_party_long:0 "독일노동자당"
+
+ ZAK_neultrality_party:0 "진보당"
+ ZAK_democratic_party:0 "사회민주당"
+ ZAK_communism_party:0 "공산당"
+ ZAK_fascism_party:0 "국가인민당"
+ SIC_neutrality_party:0 "사천군벌"
+
+ SGE_neutrality_party:0 "§R금지됨§!"
+ SGE_socialism_party:0 "§R금지됨§!"
+ SGE_communism_party:0 "혁명위원회"
+ SGE_fascism_party:0 "§R금지됨§!"
+ SGE_progressive_party:0 "§R금지됨§!"
+ SGE_democratic_party:0 "§R금지됨§!"
+
+ new_SGE_neutrality_party:0 "§R군주주의자들 (금지됨)§!"
+ new_SGE_democratic_party:0 "§R부르주아들 (금지됨)§!"
+ new_SGE_progressive_party:0 "§R소부르주아들 (금지됨)§!"
+ new_SGE_communism_party:0 "독일 공산당 (우파)"
+ new_SGE_fascism_party:0 "독일 노동자당 (좌파)"
+ new_SGE_socialism_party:0 "독일 공산당 (좌파)"
+ new_SGE_communism_party_1:0 "독일 공산당"
+ new_SGE_socialism_party_1:0 "생디칼리스트"
+
+ CSA_neutrality_party:0 "남부 민주당"
+ CSA_fascism_party:0 "백색당"
+ CSA_democratic_party:0 "공화당"
+
+ USB_communism_party:0 "미국 공산당"
+ USB_socialism_party:0 "사회당"
+ 
+ SOV_progressive_party:0 "§R금지됨§!"
+ SOV_democratic_party:0 "§R금지됨§!"
+ SOV_neutrality_party:0 "§R금지됨§!"
+ SOV_socialism_party:0 "러시아 공산당"
+ SOV_communism_party:0 "러시아 공산당"
+ SOV_fascism_party:0 "§R금지됨§!"
+
+ QUE_neutrality_party:0 "퀘백 인민당"
+ QUE_democratic_party:0 "퀘백 자유당"
+ QUE_communism_party:0 "퀘백 공산당"
+ QUE_fascism_party:0 "퀘백 제일당"
+ PRE_neutrality_party:0 "프로이센 왕당파"
+ PRE_democratic_party:0 "프로이센 민주당"
+ PRE_communism_party:0 "프로이센 노동당"
+ PRE_fascism_party:0 "프로이센 군부"
+ MAN_neutrality_party:0 "국민당 (우파)"
+ MAN_democratic_party:0 "국민당"
+ MAN_communism_party:0 "국민당 (좌파)"
+ MAN_fascism_party:0 "중화인민연합"
+ KOR_neutrality_party:0 "건국동맹" #여운형
+ KOR_democratic_party:0 "건국동맹" #김구
+ KOR_democratic_party_long:0 "건국동맹"
+ KOR_communism_party:0 "건국동맹" #박헌영
+ KOR_fascism_party:0 "" #ㅁ?ㄹ
+ KOR_socialism_party:0 "건국동맹" #김원봉
+ KOR_progressive_party:0 "민족혁명당" #김규식 (여운형이 후에 합류)
+ DON_neutrality_party:0 "국민회의"
+ DON_democratic_party:0 "자유당"
+ DON_communism_party:0 "인민연합"
+ DON_fascism_party:0 "군부"
+ CAS_neutrality_party:0 "군부"
+ CAS_democratic_party:0 "민주당"
+ CAS_communism_party:0 "중앙아시아 공산당"
+ CAS_fascism_party:0 "중앙아시아 지역 연대"
+
+ AUS_democratic_party:0 "조국전선 (좌파)"
+ AUS_progressive_party:0 "오스트리아 민주연합"
+ AUS_socialism_party:0 "오스트리아 사회민주노동자당"
+ AUS_communism_party:0 "§R오스트리아 공산당 (금지됨)§!"
+ AUS_fascism_party:0 "조국전선"
+ AUS_neutrality_party:0 "권위주의"
+
+ JAP_neutrality_party:0 "군부 (황도파)"
+ JAP_democratic_party:0 "입헌정우회"
+ JAP_progressive_party:0 "입헌민정당"
+ JAP_socialism_party:0 "사회대중당"
+ JAP_communism_party:0 "§R일본공산당 (금지됨)§!"
+ JAP_fascism_party:0 "군부 (통제파)"
+
+ CHO_democratic_party:0 "총독부"
+ TAI_fascism_party:0 "대만총독부"
+
+ CHI_communism_party:0 "공산당"
+ CHI_communism_party_long:0 "중국공산당"
+ CHI_neutrality_party:0 "국민당 (우파)"
+ CHI_neutrality_party:0 "국민당 (우파)"
+ CHI_socialism_party:0 "국민당 (개조파)"
+ CHI_democratic_party:0 "국민당 (서산파)"
+ CHI_democratic_party_long:0 "중국국민당 (서산회의파)"
+ CHI_progressive_party:0 "국민당 (중도파)"
+ CHI_progressive_party_long:0 "중국국민당\n\n\n\n\n\n\n\n £for_text_image_KMT \n\n\n\n\n\n\n\n§g중국국민당은 5.4 운동 이후 쑨원을 중심으로 중화혁명당을 근대형 정당으로 개편한 정당이며, 중국 국민당으로 1919년 10월 10일에 정식으로 설립되었습니다.§!"
+ CHI_neutrality_party_long:0 "중국국민당\n\n\n\n\n\n\n\n £for_text_image_KMT \n\n\n\n\n\n\n\n§g중국국민당은 5.4 운동 이후 쑨원을 중심으로 중화혁명당을 근대형 정당으로 개편한 정당이며, 중국 국민당으로 1919년 10월 10일에 정식으로 설립되었습니다.§!"
+ CHI_socialism_party_long:0 "중국국민당\n\n\n\n\n\n\n\n £for_text_image_KMT \n\n\n\n\n\n\n\n§g중국국민당은 5.4 운동 이후 쑨원을 중심으로 중화혁명당을 근대형 정당으로 개편한 정당이며, 중국 국민당으로 1919년 10월 10일에 정식으로 설립되었습니다.§!"
+ CHI_fascism_party:0 "국민당 "
+
+ BLR_communism_party:0 "벨라루스 사회주의 회의"
+ BLR_socialism_party:0 "벨라루스 사회주의 회의"
+ BLR_democratic_party:0 "§R금지됨§!"
+ BLR_progressive_party:0 "§R금지됨§!"
+
+ UKR_progressive_party:0 "민족민주동맹"
+ UKR_democratic_party:0 "보수당"
+ UKR_communism_party:0 "우크라이나 공산당"
+ UKR_socialism_party:0 "아나키스트 총연맹"
+ UKR_fascism_party:0 "우크라이나 민족주의자단"
+
+ SIK_neutrality_party:0 "국민당 (우파)"
+ SIK_democratic_party:0 "국민당"
+ SIK_communism_party:0 "국민당 (좌파)"
+
+ VLA_neutrality_party:0 "군벌"
+ FER_neutrality_party:0 "군벌"
+ RUS_neutrality_party:0 "최고위원회"
+ VLA_neutrality_party_long:0 "군벌"
+ FER_neutrality_party_long:0 "군벌"
+ RUS_neutrality_party_long:0 "전 러시아 최고 위원회의"
+
+
+ USA_democratic_party:0 "공화당"
+ USA_progressive_party:0 "민주당"
+ USA_fascism_party:0 "백색당"
+ USA_socialism_party:0 "신 진보당"
+ USA_communism_party:0 "미국 공산당"
+
+ KUB_neutrality_party:0 "군벌"
+
+ DAG_progressive_party:0 "북캅카스와 다게스탄 고지 연합(좌파)"
+ DAG_democratic_party:0 "북캅카스와 다게스탄 고지 연합(우파)"
+ DAG_neutrality_party:0 "산악 공화국 구국회의"
+ DAG_socialism_party:0 "북캅카스 사회당"
+ DAG_communism_party:0 "북캅카스 프롤레타리아 회의"
+ DAG_fascism_party:0 "이슬람 군단"
+
+ RFR_communism_party:0 "혁명평의회"
+ RFR_progressive_party:0 "노동자 인터내셔널 프랑스 지부"
+ RFR_socialism_party:0 "노동자 농민 사회당"
+
+ SLO_conservatism_party:0 "슬로바키아 국민당"

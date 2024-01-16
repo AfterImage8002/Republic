@@ -1,0 +1,73 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_storm"
+		default_country = "SOV"
+		default = yes
+		
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"SGE"={
+			history = "SGE_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"KUB" = {
+			minor = yes
+			history = "KUB_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"KAZ" = {
+			minor = yes
+			history = "KAZ_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"WSY" = {
+			minor = yes
+			history = "WSY_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"MSY" = {
+			minor = yes
+			history = "MSY_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"RUS" = {
+			minor = yes
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"FER" = {
+			minor = yes
+			history = "FER_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"VLA" = {
+			history = "VLA_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"BYA" = {
+			minor = yes
+			history = "BYA_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		"MON" = {
+			minor = yes
+			history = "BYA_GATHERING_STORM_DESC"
+			ideology = communism
+		}
+		
+		
+
+
+		# minors from DLC ####
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

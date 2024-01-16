@@ -1,0 +1,96 @@
+focus_tree = {
+	id = msy_col_focus_tree_fake
+	country = {
+		factor = 0
+		modifier = {
+			add = 40
+			tag = MSY
+		}
+	}
+	default = no
+	
+	focus = {
+		id = MSY_focus_fake_1
+		icon = GFX_goal_unknown
+		cost = 1.00
+		x = 9
+		y = 0
+		available = {
+			has_country_flag = msy_is_goat_maybe
+			
+		}
+			completion_reward = {
+				custom_effect_tooltip = MSY_fake_effect
+		}
+	}
+	focus = {
+		id = MSY_focus_fake_2
+		icon = GFX_goal_unknown
+		cost = 3.00
+		x = 7
+		y = 1
+		available = {
+			has_country_flag = msy_is_goat_maybe
+		}
+		prerequisite = {
+			focus = MSY_focus_fake_1
+		}
+			completion_reward = {
+				custom_effect_tooltip = MSY_fake_effect_tt
+		}
+	}
+	focus = {
+		id = MSY_focus_fake_3
+		icon = GFX_goal_unknown
+		cost = 3.00
+		x = 9
+		y = 1
+		available = {
+			has_country_flag = msy_is_goat_maybe
+		}
+		prerequisite = {
+			focus = MSY_focus_fake_1
+		}
+			completion_reward = {
+				custom_effect_tooltip = MSY_fake_effect_tt_tt
+		}
+	}
+	focus = {
+		id = MSY_focus_fake_4
+		icon = GFX_goal_unknown
+		cost = 3.00
+		x = 11
+		y = 1
+		available = {
+			has_country_flag = msy_is_goat_maybe
+		}
+		prerequisite = {
+			focus = MSY_focus_fake_1
+		}
+			completion_reward = {
+				custom_effect_tooltip = MSY_fake_effect_tt_tt_tt
+		}
+	}
+	focus = {
+		id = MSY_focus_fake_5
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 9
+		y = 2
+		available = {
+			has_country_flag = msy_is_goat_maybe
+		}
+		prerequisite = {
+			focus = MSY_focus_fake_4
+		}
+		prerequisite = {
+			focus = MSY_focus_fake_2
+		}
+		prerequisite = {
+			focus = MSY_focus_fake_3
+		}
+			completion_reward = {
+				custom_effect_tooltip = MSY_fake_effect_tt_tt_tt_tt
+		}
+	}
+}

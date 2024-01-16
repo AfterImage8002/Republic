@@ -1,0 +1,16 @@
+characters={
+	GSC_Ma_Hongbin={
+		name=GSC_Ma_Hongbin
+		portraits={
+			civilian={
+				large="gfx/leaders/GSC/Ma_Hongbin.dds"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits={  }
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,411 @@
+add_namespace = cho_col
+country_event = {
+	id = cho_col.1
+	title = cho_col.1.t
+	desc = cho_col.1.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.1.a
+		add_stability = 0.05
+		add_political_power = -100
+	}
+	option = {
+		name = cho_col.1.b
+		add_stability = 0.1
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = cho_col.2
+	title = cho_col.2.t
+	desc = cho_col.2.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.2.a
+		add_command_power = -10
+		CHO = {
+			add_ideas = {
+				CHO_COL_strike_
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cho_col.3
+	title = cho_col.3.t
+	desc = cho_col.3.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.3.a
+		CHO = {
+			add_ideas = {
+				CHO_COL_complaint_
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cho_col.4
+	title = cho_col.4.t
+	desc = cho_col.4.d
+	picture = GFX_0
+	fire_only_once = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		recruit_character = CHO_Gov
+		name = cho_col.4.a
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.8
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = progressive
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		set_politics = {
+			ruling_party = neutrality
+		}
+		retire_country_leader = yes
+		hidden_effect = {
+			news_event = cho_col.6
+			country_event = {
+				id = cho_col.5
+				days = 60
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cho_col.5
+	title = cho_col.5.t
+	desc = cho_col.5.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.5.a
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			every_state = {
+				limit = {
+					is_owned_by = CHO
+				}
+				add_core_of = KOR
+			}
+			KOR = {
+				transfer_state = 951
+				transfer_state = 953
+				load_oob = KOR
+				load_oob = KOR_1936
+			}
+			declare_war_on = {
+				target = KOR
+				type = annex_everything
+			}
+			add_ideas = {
+				KOR_ind_war
+			}
+			KOR = {
+				add_ideas = {
+					KOR_ind_war
+				}
+			}
+			JAP = {
+				set_province_controller = 13266
+			}
+		}
+		KOR = {
+			change_tag_from = CHO
+		}
+		if = {
+			limit = {
+				KOR = {
+					is_ai = no
+				}
+			}
+			play_song = comrad
+		}
+	}
+	option = {
+		name = cho_col.5.b
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			every_state = {
+				limit = {
+					is_owned_by = CHO
+				}
+				add_core_of = KOR
+			}
+			KOR = {
+				transfer_state = 951
+				transfer_state = 953
+				load_oob = KOR
+				load_oob = KOR_1936
+			}
+			declare_war_on = {
+				target = KOR
+				type = annex_everything
+			}
+			add_ideas = {
+				KOR_ind_war
+			}
+			KOR = {
+				add_ideas = {
+					KOR_ind_war
+				}
+			}
+			JAP = {
+				set_province_controller = 13266
+			}
+		}
+	}
+}
+
+news_event = {
+	id = cho_col.6
+	title = cho_col.6.t
+	desc = cho_col.6.d
+	picture = GFX_0
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = cho_col.6.a
+		trigger = {
+			NOT = {
+				tag = JAP
+				tag = TAI
+				tag = KRF
+			}
+		}
+	}
+	option = {
+		name = cho_col.6.b
+		trigger = {
+			OR = {
+				tag = JAP
+				tag = TAI
+				tag = KRF
+			}
+		}
+	}
+}
+
+country_event = {
+	#경상도 해방
+	id = cho_col.7
+	title = cho_col.7.t
+	desc = cho_col.7.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.7.a
+		custom_effect_tooltip = cho_col.7_tt
+		hidden_effect = {
+			load_oob = KOR_GN
+		}
+		943 = {
+			remove_core_of = cho
+		}
+		953 = {
+			remove_core_of = cho
+		}
+	}
+}
+
+country_event = {
+	#전라도 해방
+	id = cho_col.8
+	title = cho_col.8.t
+	desc = cho_col.8.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.7.a
+		custom_effect_tooltip = cho_col.7_tt
+		hidden_effect = {
+			load_oob = KOR_JR
+		}
+		942 = {
+			remove_core_of = cho
+		}
+		950 = {
+			remove_core_of = cho
+		}
+	}
+}
+
+country_event = {
+	#충청도 해방
+	id = cho_col.9
+	title = cho_col.9.t
+	desc = cho_col.9.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.7.a
+		custom_effect_tooltip = cho_col.7_tt
+		hidden_effect = {
+			load_oob = KOR_CC
+		}
+		941 = {
+			remove_core_of = CHO
+		}
+		949 = {
+			remove_core_of = cho
+		}
+	}
+}
+
+country_event = {
+	#함경도 해방
+	id = cho_col.10
+	title = cho_col.10.t
+	desc = cho_col.10.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.7.a
+		custom_effect_tooltip = cho_col.7_tt
+		hidden_effect = {
+			load_oob = KOR_HN
+		}
+		944 = {
+			remove_core_of = cho
+		}
+		951 = {
+			remove_core_of = cho
+		}
+	}
+}
+
+country_event = {
+	#퍙인도 해방
+	id = cho_col.11
+	title = cho_col.11.t
+	desc = cho_col.11.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.7.a
+		custom_effect_tooltip = cho_col.7_tt
+		952 = {
+			remove_core_of = CHO
+		}
+		527 = {
+			remove_core_of = CHO
+		}
+		hidden_effect = {
+			load_oob = KOR_PA
+		}
+	}
+}
+
+country_event = {
+	#황해도 해방
+	id = cho_col.12
+	title = cho_col.12.t
+	desc = cho_col.12.d
+	picture = GFX_0
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = cho_col.7.a
+		custom_effect_tooltip = cho_col.7_tt
+		hidden_effect = {
+			load_oob = KOR_HH
+		}
+		946 = {
+			remove_core_of = CHO
+		}
+	}
+}
+
+country_event = {
+	#만주와 휴전
+	id = cho_col.13
+	title = cho_col.13.t
+	desc = cho_col.13.d
+	picture = GFX_0
+	trigger = {
+		OR = {
+			tag = KOR
+			original_tag = KOR
+		}
+		KOR = {
+			has_war_with = MRC
+		}
+		CHO = {
+			exists = no
+		}
+		AND = {
+			MRC = {
+				surrender_progress > 0.15
+			}
+			KOR = {
+				surrender_progress < 0.05
+			}
+		}
+	}
+	fire_only_once = yes
+	option = {
+		name = cho_col.13.a
+		white_peace = MRC
+		add_war_support = 0.1
+		add_stability = 0.1
+	}
+}
+
+country_event = {
+	#압록강과 두만강까지!
+	id = cho_col.14
+	title = cho_col.14.t
+	desc = cho_col.14.d
+	picture = GFX_0
+	trigger = {
+		tag = KOR
+		has_war_with = MRC
+		CHO = {
+			exists = no
+		}
+	}
+	fire_only_once = yes
+	option = {
+		name = cho_col.14.a
+		swap_ideas = {
+			remove_idea = KOR_ind_war
+			add_idea = KOR_ind_war_1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	YHC_Mahongkui = {
+		name = YHC_Mahongkui
+		portraits={
+			civilian={
+				large="gfx/leaders/YHC/Ma_Hongkui.dds"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			traits={}   
+			expire="1999.1.1.1"
+			id=-1
+		}
+	}
+}

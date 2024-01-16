@@ -1,0 +1,751 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = austorian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AUS
+			#always = no
+			has_dlc = "Death or Dishonor"
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1600 }
+
+#	focus = {
+#		id = AUS_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+	############################
+	##### BALANCED BUDGET ######
+	############################
+
+	focus = {
+		id = AUS_balanced_budget
+		icon = GFX_goal_generic_consumer_goods
+		mutually_exclusive = { focus = AUS_economic_intervention }
+		x = 5
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+	focus = {
+		id = AUS_strengthen_the_monarchists
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = AUS_balanced_budget }
+		x = 0
+		y = 1
+		relative_position_id = AUS_balanced_budget
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_ideas = HUN_hungarian_monarchy
+			set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
+		}
+	}
+
+	focus = {
+		id = AUS_elect_a_king
+		icon = GFX_focus_hun_elect_a_king
+		prerequisite = { focus = AUS_strengthen_the_monarchists }
+		x = 0
+		y = 2
+		relative_position_id = AUS_balanced_budget
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+			neutrality > 0.3
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = HUN_hungarian_monarchy
+				add_idea = HUN_hungarian_monarchy_2
+			}
+		}
+	}
+
+
+	############################
+	##### HABSBURG PRINCE ######
+	############################
+
+	focus = {
+		id = AUS_invite_the_habsburg_prince
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = AUS_elect_a_king }
+		mutually_exclusive = { focus =  AUS_elect_a_democratic_king }
+		mutually_exclusive = { focus =  AUS_elect_a_fascist_king }
+		x = 0
+		y = 1
+		relative_position_id = AUS_elect_a_king
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			has_government = neutrality
+		}
+
+		bypass = {
+			has_global_flag = GER_reformed_austro_hungarian_empire
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_naval_commander_role = {
+				character = HUN_miklos_horthy
+				traits = { gunnery_expert navy_media_personality superior_tactician }
+				skill = 3
+				legacy_id = 556 #Navy Miklos
+				attack_skill = 2
+				defense_skill = 2
+				maneuvering_skill = 2
+				coordination_skill = 4				
+			}
+			promote_character = HUN_otto_von_habsburg
+			swap_ideas = {
+				add_idea = HUN_habsburg_restored
+				remove_idea = HUN_hungarian_monarchy_2
+			}
+			set_rule = { can_create_factions = yes }
+			hidden_effect = {
+				news_event = { id = news.290 }
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_demand_a_referendum
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = AUS_invite_the_habsburg_prince }
+		mutually_exclusive = { focus = AUS_take_hungary_by_force }
+		x = -1
+		y = 1
+		relative_position_id = AUS_invite_the_habsburg_prince
+
+		cost = 10
+
+		cancel_if_invalid = yes
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		available = {
+			NOT = { has_war_with = HUN }
+			is_subject = no
+			HUN = {				
+				exists = yes
+				is_subject = no				
+			}
+		}
+
+		bypass = {
+			OR = {
+				AND = {
+					owns_state = 43
+					owns_state = 155
+					owns_state = 154
+				}
+				has_global_flag = GER_reformed_austro_hungarian_empire
+			}
+		}
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			AUS = {
+				annex_country = {
+					target = HUN
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_take_hungary_by_force
+		icon = GFX_goal_generic_territory_or_war
+		prerequisite = { focus = AUS_invite_the_habsburg_prince }
+		mutually_exclusive = { focus = AUS_demand_a_referendum }
+		x = 1
+		y = 1
+		relative_position_id = AUS_invite_the_habsburg_prince
+		will_lead_to_war_with = AUS
+		will_lead_to_war_with = GER #if after Anschluss
+		cost = 10
+
+		ai_will_do = {
+			factor = 70
+			modifier = {
+				factor = 0.5
+				AUS = { is_in_faction = yes }
+			}
+		}
+
+		available = {
+			4 = {
+				OWNER = {
+					controls_state = PREV
+				}
+			}
+			is_subject = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			random_country = {
+				limit = {
+					owns_state = 4
+				}
+				HUN = {
+					create_wargoal = {
+						type = annex_everything
+						target = PREV
+						expire = 0
+					}
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = HUN
+				}
+				add_claim_by = PREV
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_proclaim_the_restoration_of_austria_hungary
+		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
+		prerequisite = { focus = AUS_demand_a_referendum focus = AUS_take_hungary_by_force }
+		x = 0
+		y = 2
+		relative_position_id = AUS_invite_the_habsburg_prince
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			controls_state = 152
+			controls_state = 153
+			controls_state = 848
+			controls_state = 4
+			is_subject = no
+		}
+
+		bypass = {
+			has_global_flag = GER_reformed_austro_hungarian_empire
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			# set_cosmetic_tag = AUS_EMPIRE
+			152 = { add_core_of = ROOT }
+			153 = { add_core_of = ROOT }
+			848 = { add_core_of = ROOT }
+			4 = { add_core_of = ROOT }
+			69 = { add_core_of = ROOT }
+			9 = { add_core_of = ROOT }
+			75 = { add_core_of = ROOT }
+			74 = { add_core_of = ROOT }
+			72 = { add_core_of = ROOT }
+			70 = { add_core_of = ROOT }
+			664 = { add_core_of = ROOT }
+			71 = { add_core_of = ROOT }
+			73 = { add_core_of = ROOT }
+			hidden_effect = {
+				news_event = { id = news.295 }
+			}
+			set_global_flag = form_austria_hungary_flag
+			set_global_flag = GER_reformed_austro_hungarian_empire
+			
+		}
+	}
+
+	focus = {
+		id = AUS_protect_czechoslovakia
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = AUS_proclaim_the_restoration_of_austria_hungary }
+		x = 0
+		y = 3
+		relative_position_id = AUS_invite_the_habsburg_prince
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			is_subject = no
+			country_exists = CZE
+		}
+
+		bypass = {
+			CZE = {
+				OR = {
+					exists = no
+					is_subject = yes
+				}
+			}
+			has_global_flag = GER_reformed_austro_hungarian_empire
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			CZE = { country_event = { id = DOD_hungary.10 } }
+			custom_effect_tooltip = HUN_protect_czechoslovakia_tt
+		}
+	}
+
+	focus = {
+		id = AUS_claim_transylvania
+		icon = GFX_focus_generic_strike_at_democracy2
+		prerequisite = { focus = AUS_protect_czechoslovakia }
+		x = -1
+		y = 4
+		relative_position_id = AUS_invite_the_habsburg_prince
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			has_army_manpower = { size > 200000 }
+			76 = { OWNER = { NOT = { is_in_faction_with = AUS } } }
+			is_subject = no
+		}
+
+		bypass = {
+			controls_state = 76
+			controls_state = 83
+			controls_state = 84
+			controls_state = 82
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 76
+			add_state_claim = 83
+			add_state_claim = 84
+			add_state_claim = 82
+			if = {
+				limit = {
+					NOT = {
+						has_war_with = ROM
+					}
+					threat < 0.5
+					ROM = {
+						OR = {
+							owns_state = 76
+							owns_state = 83
+							owns_state = 84
+							owns_state = 82
+						}
+					}
+				}
+				ROM = { country_event = DOD_hungary.50 }
+			}
+			else = {
+				add_ai_strategy = {
+					type = conquer
+  					id = ROM
+  					value = 200
+				}
+			}	
+		}
+	}
+
+	focus = {
+		id = AUS_march_to_the_shore
+		icon = GFX_focus_generic_strike_at_democracy3
+		prerequisite = { focus = AUS_claim_transylvania }
+		x = -1
+		y = 5
+		relative_position_id = AUS_invite_the_habsburg_prince
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			has_army_manpower = { size > 250000 }
+			109 = { OWNER = { NOT = { is_in_faction_with = AUS } } }
+			is_subject = no
+		}
+
+		bypass = {
+			controls_state = 102
+			controls_state = 853
+			controls_state = 103
+			controls_state = 109
+			controls_state = 104
+			controls_state = 45
+			controls_state = 163
+			controls_state = 764
+			controls_state = 804
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 102
+			add_state_claim = 853
+			add_state_claim = 103
+			add_state_claim = 109
+			add_state_claim = 104
+			add_state_claim = 163
+			add_state_claim = 804
+			add_state_core = 764
+			add_state_core = 45
+			if = {
+				limit = {
+					OR = {
+						103 = { is_controlled_by = YUG }
+						103 = { controller = { is_subject_of = YUG } }
+						103 = { controller = { is_in_faction_with = YUG } }
+					}
+				}
+				add_ai_strategy = {
+					type = conquer
+  					id = YUG
+  					value = 200
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_reclaim_venetia
+		icon = GFX_goal_generic_occupy_states_coastal
+		prerequisite = { focus = AUS_march_to_the_shore }
+		x = -1
+		y = 6
+		relative_position_id = AUS_invite_the_habsburg_prince
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			has_army_manpower = { size > 300000 }
+			160 = { OWNER = { NOT = { is_in_faction_with = AUS } } }
+		}
+
+		bypass = {
+			is_subject = no
+			controls_state = 736
+			controls_state = 852
+			controls_state = 160
+			controls_state = 39
+			controls_state = 850
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 736
+			add_state_claim = 852
+			add_state_claim = 160
+			add_state_claim = 39
+			add_state_claim = 850
+			if = {
+				limit = {
+					160 = { is_controlled_by = ITA }
+				}
+				add_ai_strategy = {
+					type = conquer
+  					id = ITA
+  					value = 200
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_claim_galicia
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = AUS_protect_czechoslovakia }
+		x = 1
+		y = 5
+		relative_position_id = AUS_invite_the_habsburg_prince
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			has_army_manpower = { size > 200000 }
+			89 = { OWNER = { NOT = { is_in_faction_with = AUS } } }
+			is_subject = no
+		}
+
+		bypass = {
+			controls_state = 88
+			controls_state = 89
+			controls_state = 91
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 88
+			add_state_claim = 89
+			add_state_claim = 91
+			if = {
+				limit = {
+					89 = {
+						OWNER = {
+							not = { is_guaranteed_by = GER }
+						}
+					}
+				}
+				89 = {
+					OWNER = {
+						ROOT = {
+							add_ai_strategy = {
+								type = conquer
+								id = PREV
+								value = 200
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUS_claim_the_bucovina
+		icon = GFX_focus_generic_strike_at_democracy2
+		prerequisite = { focus = AUS_claim_galicia }
+		x = 1
+		y = 6
+		relative_position_id = AUS_invite_the_habsburg_prince
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			is_subject = no
+		}
+
+		bypass = {
+			controls_state = 80
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 80
+		}
+	}
+
+	focus = {
+		id = AUS_reclaim_the_empire
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		prerequisite = { focus = AUS_reclaim_venetia }
+		prerequisite = { focus = AUS_claim_the_bucovina }
+		x = 0
+		y = 7
+		relative_position_id = AUS_invite_the_habsburg_prince
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+			is_subject = no
+			NOT = {
+				controls_state = 455
+				controls_state = 454
+				controls_state = 66 
+				controls_state = 67 
+				controls_state = 162
+				controls_state = 17 
+				controls_state = 159
+				controls_state = 161
+				controls_state = 762
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 455
+			add_state_claim = 454
+			add_state_claim = 66 
+			add_state_claim = 67 
+			add_state_claim = 162
+			add_state_claim = 17 
+			add_state_claim = 159
+			add_state_claim = 161
+			add_state_claim = 762
+		}
+	}
+}

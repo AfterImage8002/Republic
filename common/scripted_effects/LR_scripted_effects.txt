@@ -1,0 +1,1108 @@
+Back_to_the_Future = {
+	custom_effect_tooltip = Back_to_the_Future_tt
+		hidden_effect = {
+			GER = {
+			set_cosmetic_tag = GER_IS_STRONG_LOL
+			annex_country = {
+				target = SGE
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = RHI
+				transfer_troops = yes
+			}
+			create_faction = GER_VANILLA_faction
+			transfer_state = 5
+			transfer_state = 763
+			transfer_state = 67
+			transfer_state = 910
+			transfer_state = 42
+			every_country = {
+				limit = {
+					if = {
+						limit = {
+							is_core_of = sov
+							SOV = {
+								exists = no
+							}
+						}
+					
+					is_controlled_by = GER
+					}
+					
+				}
+				release = SOV
+			}
+		}
+		POL = {
+			leave_faction = yes
+			annex_country = {
+				target = DNZ
+				transfer_troops = yes
+			}
+			set_cosmetic_tag = POL_IS_NO_COUNTRY
+			transfer_state = 915
+			transfer_state = 784
+			transfer_state = 96
+			transfer_state = 807
+			transfer_state = 86
+			transfer_state = 87
+			transfer_state = 98
+			transfer_state = 10
+			transfer_state = 90
+			transfer_state = 88
+			transfer_state = 92
+			transfer_state = 95
+			transfer_state = 97
+			transfer_state = 94
+			transfer_state = 93
+			transfer_state = 91
+			transfer_state = 89
+			transfer_state = 762
+		}
+		LIT = {
+			transfer_state = 814
+			transfer_state = 11
+			transfer_state = 815
+			transfer_state = 189
+			transfer_state = 188
+		}
+		SOV = {
+			leave_faction = yes
+			create_faction = SOV_VANILLA_faction
+			set_cosmetic_tag = SOV_IS_RUSSIA
+			transfer_state = 584
+			transfer_state = 207
+			transfer_state = 206
+			transfer_state = 204
+			transfer_state = 241
+			transfer_state = 194
+			transfer_state = 201
+			transfer_state = 202
+			transfer_state = 193
+			transfer_state = 225
+			transfer_state = 199
+			transfer_state = 198
+			transfer_state = 203
+			transfer_state = 259
+			transfer_state = 221
+			transfer_state = 228
+			transfer_state = 834
+			transfer_state = 192
+			transfer_state = 197
+			transfer_state = 226
+			transfer_state = 227
+			transfer_state = 200
+			transfer_state = 196
+			transfer_state = 137
+			transfer_state = 821
+			transfer_state = 232
+			transfer_state = 826
+			transfer_state = 231
+			transfer_state = 229
+			transfer_state = 230
+			transfer_state = 823
+			transfer_state = 831
+			transfer_state = 832
+			transfer_state = 585
+			transfer_state = 830
+			transfer_state = 405
+			transfer_state = 742
+			transfer_state = 732
+			annex_country = {
+					target = UKR
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = BLR
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = KUB
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = GEO
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = DAG
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ARM
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = AZR
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = KAZ
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = KHI
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = BUK
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = TUK
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = WSY
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = MSY
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = FER
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = BYA
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = RUS
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = VLA
+					transfer_troops = yes
+				}
+		}
+		TUR = {
+				annex_country = {
+					target = KUR
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = STR
+					transfer_troops = yes
+				}
+				transfer_state = 339
+				transfer_state = 341
+				transfer_state = 919
+				transfer_state = 354
+				transfer_state = 800
+				transfer_state = 342
+		}
+		FRA = {
+			transfer_state = 29
+			transfer_state = 785
+			transfer_state = 18
+			transfer_state = 28
+			transfer_state = 17
+			transfer_state = 16
+			transfer_state = 15
+			transfer_state = 24
+			transfer_state = 27
+			transfer_state = 20
+			transfer_state = 32
+			transfer_state = 735
+			transfer_state = 1
+			transfer_state = 21
+			transfer_state = 851
+			transfer_state = 22
+			transfer_state = 26
+			transfer_state = 33
+			transfer_state = 25
+			transfer_state = 31
+			transfer_state = 806
+			transfer_state = 19
+			transfer_state = 23
+			transfer_state = 30
+			transfer_state = 14
+			transfer_state = 459
+			transfer_state = 460
+			transfer_state = 513
+			transfer_state = 514
+			transfer_state = 268
+			transfer_state = 713
+			transfer_state = 635
+			transfer_state = 310
+		}
+		BEL = {
+			transfer_state = 6
+			transfer_state = 34
+			transfer_state = 921
+		}
+		LUX = {
+			transfer_state = 8
+			}
+		HOL = {
+			transfer_state = 7
+			transfer_state = 36
+			transfer_state = 35
+			transfer_state = 309
+		}
+		HUN = {
+			transfer_state = 155
+			transfer_state = 154
+			transfer_state = 43
+		}
+		CZE = {
+			set_cosmetic_tag = CZE_SLO_IS_COUNTRY
+			annex_country = {
+					target = SLO
+					transfer_troops = yes
+				}
+			transfer_state = 71
+			transfer_state = 73
+			transfer_state = 664
+			transfer_state = 70
+			transfer_state = 75
+			transfer_state = 72
+			transfer_state = 69
+			transfer_state = 9
+			transfer_state = 74
+			transfer_state = 923
+		}
+		ROM = {
+			transfer_state = 911
+			transfer_state = 83
+			transfer_state = 82
+		}
+		YUG = {
+			transfer_state = 764
+			transfer_state = 45
+		}
+		AUS = {
+			transfer_state = 848
+			transfer_state = 153
+			transfer_state = 152
+			transfer_state = 4
+		}
+		MEN = {
+			set_cosmetic_tag = MEN_CHIN_IL_PHA
+			transfer_state = 611
+			transfer_state = 612
+		}
+		MAN = {
+			set_cosmetic_tag = MAN_CHIN_IL_PHA
+			JAP ={
+				create_faction = JAP_faction_debug
+				puppet = MAN
+				puppet = MEN
+				transfer_state = 745
+				transfer_state = 609
+			}
+			transfer_state = 716
+		}
+		PRC = {
+			transfer_state = 622
+		}
+		SHX = {
+			leave_faction = yes
+			transfer_state = 621
+			transfer_state = 746
+		}
+		XSM = {
+			set_cosmetic_tag = XSM_VANILLA
+			transfer_state = 753
+			transfer_state = 283
+			transfer_state = 922
+			transfer_state = 756
+			transfer_state = 616
+			leave_faction = yes
+		}
+		MON = {
+			leave_faction = yes
+			set_cosmetic_tag = MON_VANILLA
+		}
+		SIK = {
+			leave_faction = yes
+			set_cosmetic_tag = SIK_VANILLA
+		}
+		TIB = {
+		leave_faction = yes
+		set_cosmetic_tag = TIB_vanilla
+		}
+		CHI = {
+			transfer_state = 602
+			transfer_state = 605
+			transfer_state = 751
+			transfer_state = 752
+			transfer_state = 601
+			transfer_state = 748
+			transfer_state = 603
+			transfer_state = 743
+			leave_faction = yes
+			GXC = {
+			transfer_state = 591
+			transfer_state = 592
+			transfer_state = 593
+			}
+			end_puppet = SHX
+			end_puppet = XSM
+			end_puppet = SIK
+			end_puppet = TIB
+			end_puppet = MON
+			end_puppet = YUN
+			end_puppet = GXC
+		}
+		
+	}
+}
+GERMANY_IS_SO_STRONG_WE_ARE_SLAVE = {
+	GER = {
+		create_faction = GER_IS_STRONG_GUYSLOL
+			set_cosmetic_tag = GER_IS_STRONG_LOL_LOL
+				annex_country = {
+					target = SGE
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = RHI
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = HOL
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = FRA
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = AUS
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = CZE
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = POL
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = HUN
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = SLO
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = BLR
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = UKR
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = SOV 
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = KUB
+					transfer_troops = yes
+				}
+		}
+}
+JAPAN_IS_EUROPA = {
+	GSC = {
+		leave_faction = yes
+	}
+	XSM = {
+		leave_faction = yes
+	}
+	SIC = {
+		leave_faction = yes
+	}
+	TIB = {
+		leave_faction = yes
+	}
+	SIK = {
+		leave_faction = yes
+	}
+	SOV = {
+		transfer_state = 820
+		transfer_state = 818
+		transfer_state = 329
+	}
+	MEN = {
+		set_cosmetic_tag = MEN_CHIN_IL_PHA
+		transfer_state = 611
+		transfer_state = 612
+		transfer_state = 819
+		transfer_state = 817
+		transfer_state = 330
+		transfer_state = 621
+		transfer_state = 746
+	}
+	JAP = {
+		create_faction = JAP_faction_debug
+			annex_country = {
+				target = KOR
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = CHO 
+				transfer_troops = yes
+				}
+			annex_country = {
+				target = KRF 
+				transfer_troops = yes
+				}
+			annex_country = {
+				target = TAI
+				transfer_troops = yes
+				}
+		puppet = MAN
+		puppet = CHI
+		puppet = MEN
+		puppet = SHX
+		puppet = GDC
+		puppet = GXC
+		puppet = YUN
+		puppet = GJC
+		puppet = SIA
+		puppet = BHU
+		puppet = INS
+		puppet = PHI
+		transfer_state = 745
+		transfer_state = 609
+		transfer_state = 638
+		transfer_state = 925
+		transfer_state = 743
+		transfer_state = 632
+		transfer_state = 639
+		transfer_state = 725
+		transfer_state = 643
+		transfer_state = 737
+		transfer_state = 634
+		transfer_state = 734
+		transfer_state = 629
+		transfer_state = 631
+		transfer_state = 630
+	}
+	MAN = {
+		set_cosmetic_tag = MAN_CHIN_IL_PHA
+		annex_country = {
+				target = MRC
+				transfer_troops = yes
+		}
+		annex_country = {
+				target = RUS
+				transfer_troops = yes
+		}
+		annex_country = {
+				target = VLA
+				transfer_troops = yes
+		}
+	}
+	SHX = {
+		set_cosmetic_tag = SHX_TNO_GINBBAI
+		transfer_state = 744
+	}
+	CHI = {
+		set_cosmetic_tag = CHI_TNO_GINBBAI
+		transfer_state = 602
+		transfer_state = 605
+		transfer_state = 748
+	}
+	GDC = {
+		set_cosmetic_tag = GDC_TNI_GINBBAI
+		transfer_state = 729
+		transfer_state = 326
+		transfer_state = 728
+	}
+	GSC = {
+		set_cosmetic_tag = GSC_TNO_GINBBAI
+		transfer_state = 616
+		transfer_state = 756	
+	}
+	SIC = {
+		transfer_state = 601
+		set_cosmetic_tag = SIC_TNO_GINBBAI
+	}
+	XSM = {
+		set_cosmetic_tag = XSM_TNO_GINBBAI
+	}
+	TIB = {
+		set_cosmetic_tag = TIB_TNO_GINBBAI
+		transfer_state = 604
+		transfer_state = 434
+	}
+	SIA = {
+		set_cosmetic_tag = SIA_TNO_GINBBAI
+		transfer_state = 670
+		transfer_state = 671
+		transfer_state = 741
+		transfer_state = 286
+		transfer_state = 288
+		transfer_state = 640
+		transfer_state = 431
+		transfer_state = 432
+		transfer_state = 430
+		transfer_state = 435
+		transfer_state = 336
+	}
+	INS = {
+		set_cosmetic_tag = INS_TNO_GINBBAI
+		transfer_state = 333
+		transfer_state = 721
+		transfer_state = 523
+	}
+	PHI = {
+		set_cosmetic_tag = PHO_TNO_GINBBAI
+	}
+}
+LR_origin = {
+	BEL = {
+		transfer_state = 6
+		transfer_state = 34
+		transfer_state = 921
+		set_autonomy = {
+			target = COG
+			autonomous_state = autonomy_integrated_puppet
+		}
+	}
+	LUX = {
+		transfer_state = 8
+	}
+	GER = {
+		transfer_state = 42
+		transfer_state = 910
+		transfer_state = 51
+		transfer_state = 55
+		transfer_state = 57
+		transfer_state = 56
+		transfer_state = 50
+		transfer_state = 52
+		transfer_state = 53
+		transfer_state = 54
+		transfer_state = 5
+		transfer_state = 763
+		set_cosmetic_tag = GER_hoi4_vanila
+		every_owned_state = { add_core_of = GER }
+	}
+	ENG = {
+		set_cosmetic_tag = ENG_pink
+	}
+	CZE = {
+		transfer_state = 70
+		transfer_state = 664
+		transfer_state = 71
+		transfer_state = 71
+		transfer_state = 73
+	}
+	LIT = {
+		transfer_state = 188
+		transfer_state = 189
+		transfer_state = 11
+		transfer_state = 814
+		transfer_state = 815
+	}
+	YUG = {
+		transfer_state = 45
+		transfer_state = 764
+	}
+	ROM = {
+		transfer_state = 82
+		transfer_state = 83
+		transfer_state = 83
+		transfer_state = 911
+	}
+	TUR = {
+		transfer_state = 914
+		transfer_state = 797
+		transfer_state = 341
+		transfer_state = 347
+		transfer_state = 340
+		transfer_state = 339
+		transfer_state = 187
+		transfer_state = 342
+		transfer_state = 350
+		transfer_state = 352
+		transfer_state = 353
+		transfer_state = 800
+		transfer_state = 354
+		transfer_state = 919
+		transfer_state = 799
+	}
+	TAN = {
+		transfer_state = 329
+	}
+	MON = {
+		set_politics = {
+			ruling_party = communism
+		}
+	}
+	POL = {
+		transfer_state = 96
+	}
+	ENG = {
+		end_puppet = IRE
+	}
+	UKS = {
+		annex_country = {
+			target = UKR
+			transfer_troops = yes
+		}
+		every_state = {
+			limit = {
+				is_core_of = UKR
+			}
+			add_core_of = UKS
+			remove_core_of = UKR
+		}
+	}
+	SOV = {
+		annex_country = {
+			target = BLR
+			transfer_troops = YES
+		}
+	}
+	KAZ = {
+		annex_country = {
+			target = KHI
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = BUK
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = TUK
+			transfer_troops = yes
+		}
+	}
+	KUB = {
+		annex_country = {
+			target = DAG
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = GEO
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = AZR
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = ARM
+			transfer_troops = yes
+		}
+	}
+	FER = {
+		annex_country = {
+			target = RAW
+			transfer_troops = yes
+		}
+	}
+	MAN = {
+		annex_country = {
+			target = MRC
+			transfer_troops = yes
+		}
+	}
+	JAP = {
+		set_politics = {
+			ruling_party = fascism
+		}
+		transfer_state = 745
+		set_autonomy = {
+			target = MAN
+			autonomous_state = autonomy_wtt_imperial_protectorate
+		}
+		set_autonomy = {
+			target = MEN
+			autonomous_state = autonomy_wtt_imperial_protectorate
+		}
+		annex_country = {
+			target = CHO
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = TAI
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = KRF
+			transfer_troops = yes
+		}
+	}
+	MEN = {
+		transfer_state = 612
+		transfer_state = 611
+	}
+	CHI = {
+		end_puppet = SIK
+		end_puppet = TIB
+		end_puppet = YUN
+		end_puppet = GXC
+		end_puppet = XSM
+		end_puppet = SHX
+		end_puppet = MON
+		annex_country = {
+			target = SIC
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = HNC
+			transfer_troops = yes
+		}
+		transfer_state = 601
+		transfer_state = 603
+		transfer_state = 748
+		transfer_state = 743
+	}
+	PRC = {
+		transfer_state = 622
+	}
+	SHX = {
+		transfer_state = 746
+		transfer_state = 621
+	}
+	XSM = {
+		annex_country = {
+			target = GSC
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = YHC
+			transfer_troops = yes
+		}
+	}
+	GXC = {
+		transfer_state = 591
+		transfer_state = 592
+		transfer_state = 593
+	}
+}
+LR_WW2_END = {
+	LR_origin = yes
+	SOV = {
+		annex_country = {
+			target = UKS
+		}
+		annex_country = {
+			target = KUB
+		}
+		annex_country = {
+			target = KAZ
+		}
+		annex_country = {
+			target = PRM
+		}
+		annex_country = {
+			target = WSY
+		}
+		annex_country = {
+			target = MSY
+		}
+		annex_country = {
+			target = TAN
+		}
+		annex_country = {
+			target = BYA
+		}
+		annex_country = {
+			target = FER
+		}
+		annex_country = {
+			target = RUS
+		}
+		annex_country = {
+			target = VLA
+		}
+		annex_country = {
+			target = LIT
+		}
+		annex_country = {
+			target = LAT
+		}
+		annex_country = {
+			target = EST
+		}
+		transfer_state = 93
+		transfer_state = 91
+		transfer_state = 89
+		transfer_state = 80
+		transfer_state = 78
+		transfer_state = 766
+		transfer_state = 94
+		transfer_state = 95
+		transfer_state = 784
+		transfer_state = 96
+		transfer_state = 763
+		transfer_state = 73
+		set_autonomy = {
+			target = ROM
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = YUG
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = BUL
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = ROM
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = ALB
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = CZE
+			autonomous_state = autonomy_colony
+		}
+		set_autonomy = {
+			target = HUN
+			autonomous_state = autonomy_colony
+		}
+	}
+	POL = {
+		transfer_state = 5
+		transfer_state = 68
+		transfer_state = 63
+		transfer_state = 66
+		transfer_state = 67
+		transfer_state = 85
+		transfer_state = 1002
+	}
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 50
+		transfer_state = 42
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		FRA = {			
+            transfer_state = 735
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #French occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 50
+		transfer_state = 42
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		FRA = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_supervised_state
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	create_dynamic_country = { #American occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 55
+		transfer_state = 54
+		transfer_state = 53
+		transfer_state = 52
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		USA = {			
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_supervised_state
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	ENG = {
+		set_autonomy = {
+			target = GER
+			autonomy_state = autonomy_supervised_state
+			end_wars = yes
+			end_civil_wars = yes
+		}
+		set_autonomy = {
+			target = LBA
+			autonomy_state = autonomy_supervised_state
+			end_wars = yes
+			end_civil_wars = yes
+		}
+	}
+	create_dynamic_country = { #Fuckin' Red occupation zone in Germany
+		original_tag = GER
+		copy_tag = GER
+		add_political_power = 100
+		transfer_state = 60
+		transfer_state = 65 
+		transfer_state = 64
+		transfer_state = 62
+		transfer_state = 61
+		transfer_state = 981
+        set_capital = {
+            state = 981
+            remember_old_state = no
+        }
+		set_politics = {
+			ruling_party = neutrality
+			last_election = "1934.3.8"
+			election_frequency = 60
+			elections_allowed = no
+		}
+		SOV = {	
+            transfer_state = 763		
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_puppet
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}	
+	set_global_flag = yalta_agreed_flag
+    SOV = {
+		transfer_state = 555
+		transfer_state = 537
+        transfer_state = 73
+        transfer_state = 188
+         set_autonomy = {
+			target = HUN
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+		set_autonomy = {
+			target = ROM
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+		set_autonomy = {
+			target = CZE
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+		set_autonomy = {
+			target = POL
+			autonomy_state = dominion
+			end_wars = no
+			end_civil_wars = no
+		}
+    }
+	PRC = {
+		annex_country = {
+			target = SHX
+		}
+		annex_country = {
+			target = MEN
+		}
+		annex_country = {
+			target = MAN
+		}
+		transfer_state = 931
+		transfer_state = 930
+		transfer_state = 614
+		transfer_state = 608
+		transfer_state = 920
+		transfer_state = 935
+		transfer_state = 597
+		transfer_state = 743
+		transfer_state = 925
+	}
+	CHI = {
+		annex_country = {
+			target = YUN
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = GXC
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = XSM
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = SIK
+			transfer_troops = yes
+		}
+		transfer_state = 524
+	}
+	USA = {
+		set_autonomy = {
+			target = JAP
+			autonomous_state = autonomy_supervised_state	
+		}
+		set_autonomy = {
+			target = KOR
+			autonomous_state = autonomy_supervised_state	
+		}
+		transfer_state = 526
+	}
+	KOR = {
+		every_state = {
+			limit = {
+				is_core_of = CHO
+			}
+			transfer_state_to = KOR
+		}
+		add_core_of = KOR
+	}
+	FRA = {
+		annex_country = {
+			target = VIN
+		}
+		annex_country = {
+			target = MOR
+		}
+		annex_country = {
+			target = TUN
+		}
+		annex_country = {
+			target = MLI
+		}
+		annex_country = {
+			target = CHA
+		}
+		annex_country = {
+			target = MAD
+		}
+	}
+	ENG = {
+		annex_country = EGY
+	}
+	BEL = {
+		annex_country = [ 
+			target = COG
+		]
+	}
+}

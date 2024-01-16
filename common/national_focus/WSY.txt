@@ -1,0 +1,43 @@
+focus_tree = {
+	id = WSY_focus
+	country = {
+		factor = 0
+		modifier = {
+			tag = WSY
+			add = 30
+		}
+	}
+	focus = {
+		id = WSY_focus.1
+		cost = 0.1
+		x = 5
+		y = 1
+		completion_reward = {
+			unlock_decision_category_tooltip = WSY_knife
+			set_variable = {
+				WSY_dec = 1
+			}	
+		}
+	}
+	focus = {
+		id = WSY_focus.2
+		cost = 15
+		x = 8
+		y = 1
+		available = {
+			MSY = {
+				has_country_flag = MSY_die
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = YAM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OVO
+				type = annex_everything
+			}
+		}
+	}
+}

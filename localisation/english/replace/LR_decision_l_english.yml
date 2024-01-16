@@ -1,0 +1,90 @@
+﻿l_english:
+ #결정
+ JAP_attack_mon:0 "@MON 몽골 출병"
+
+ #우한정부
+ HNC_political_wigi:0 "위기"
+ HNC_gxc_action:0 "행동하는 광서파"
+ HNC_gxc_action_defend:0 "광서파 제지"
+ HNC_ss_action:0 "서산파의 음모"
+
+
+ # 독일국 선포
+ GER_form_reich:0 "쌍두독수리의 기상"
+ GER_form_german_reich:0 "독일제국 영토 복구"
+ GER_form_german_reich_desc:0 "독일제국 영토 복구한다."
+
+ # 우크라이나 소비에트 사회주의 공화국
+ UKS_road_to_reunified:0 "하나의 우크라이나를 향해"
+ UKS_road_to_reunified_desc:0 "하나의 우크라이나를 향한 길은 우리의 역사적 사명과 우리 민족의 희망으로 이루어진 위대한 여정입니다. 우리는 두려움과 불신을 극복하고, 단결되어야만 통일을 이룰 수 있습니다. 우크라이나의 통일은 어려운 도전이지만, 우리의 역사적인 사명을 이루기 위해 굳건한 의지와 희생이 필요합니다. 우리의 미래는 통일된 우크라이나에 달려 있으며, 이를 위해 모든 인민들은 하나가 되어 함께 나아가야 합니다."
+ UKS_propaganda_for_our_territory:0 "내부 결속"
+ UKS_propaganda_for_our_territory_desc:0 "이제 우리의 역사적 임무를 달성하기 위해선 모든 인민들이 하나가 되어야 합니다. 우크라이나의 분열은 적과 우리의 적에게서 오는 약점입니다. 우리가 단합되고 단결된다면 누구도 우리를 무너뜨릴 수 없습니다. 이러한 내부 결속이 우리의 힘과 포용력을 더욱 강화시키며, 민족의 다양성과 문화적 유산을 존중하는 통일된 우크라이나를 만들 것입니다."
+ UKS_propaganda_for_another_ukraine:0 "다른 우크라이나 선동"
+ UKS_propaganda_for_another_ukraine_desc:0 "우리의 통일 지지에도 불구하고 서 우크라이나인들은 이해하지 않고 반대합니다. 선동과 불신으로 통일이 어려워지고 있습니다. 함께 이해하고 협력하여 힘을 합쳐야만 통일 가능성이 열립니다. 서로를 이해하고 두려움을 극복해야 합니다. 우크라이나의 통일은 평화적 미래를 위한 필수적 목표입니다."
+ UKS_claim_that_ukraine_finally_became_one_country:0 "우크라이나 통일 선언"
+ UKS_soviet_wheat_heil:0 "소비에트의 곡간, 우크라 인민 만세!"
+ UKS_redredred:0 "노동자의 피땀, 조국기의 적색"
+ UKS_dangyeol:0 "10월의 태양속, 노농은 단결하리라!"
+ UKS_i_hate_capitalist:0 "조국의 근본을 흔드는 악질 부르주아지들에게 죽음을!"
+ UKS_true_freedom:0 "우크라이나의 진정한 자유는 사회주의 승리체제"
+ UKS_glory_to_thee_com_ukraine:0 "노농단결 우크라이나에 영광을!"
+
+ UKS_give_me_that_fucking_damn_creamy:0 "크림반도 이양 요구"
+
+ # 프랑스
+ FRA_civil_war_is_coming:0 "프랑스 내전"
+ FRA_ready_for_the_civilwar:0 "프랑스 내전의 전조"
+ FRA_ready_for_the_civilwar_desc:0 "(추후설정) 시간이 얼마 남지 않았습니다. 프랑스 내전의 전조는 이미 시작되었으며, 우리는 이에 대비해야 합니다."
+ #일본
+ JAP_economic_crisis:0 "다가오는 위기"
+ JAP_economic_problem:0 "막아라!"
+ JAP_economic_problem_desc:0 "프랑화 위기는 대공황에서 여전히 허우적대는 우리가 간신히 쥐고 있는 나무 판자를 없애버리려 하고 있습니다."
+ JAP_falling:0 "총리의 실각 위기"
+ 
+ #헝가리 
+ HUN_threat_valkanwar:0 "인접국의 압박"
+ HUN_threat:0 "슬로바키아 봉기"
+ HUN_threat_desc:0 "§R단기간 내에 봉기를 진압할 수 없다면 금세 주변국들의 먹잇감이 되어 있을 것입니다!§!"
+ HUN_nego_slo:0 "평화 요청"
+
+ ENG_vertragsbruch_durand_linie:0 "듀랜드 조약 파기"
+ ENG_vertragsbruch_durand_linie_desc:0 "'듀랜드 라인' 협정은 1893년 영국이 그레이트 게임 국면 중 1839년 아프가니스탄이 러시아와 협력한다는 것을 명분 삼아 이전 왕조인 두라니 왕조의 적법한 지도자를 세우겠다며 아프가니스탄을 인도 제국에 완전히 병탄할 야욕을 품고 침공했으나 3년간의 전쟁 끝에 후퇴해야 했고, 이후 아프가니스탄을 한 번 더 침공하나 역시 아프간 직접 지배에는 실패하고, 친영 군주 압둘 라흐만 칸을 내세워 보호국으로 삼는 데 만족해야 했다. 이리하여 영국은 보호국 아프가니스탄과 식민지 인도 제국의 국경을 명확히 구분할 필요성을 느끼게 되어 체결한 조약입니다. 하지만 이제 아프가니스탄은 우리의 보호국도, 친영군주가 지배하는 국가도 아닙니다. 우리의 힘을 다시한번 보여줄때가 되었습니다."
+
+ fascist_propagation:0 "파시즘 선전"
+ progressive_propagation:0 "진보주의 선전"
+ democratic_propagation:0 "보수주의 선전"
+ neutrality_propagation:0 "권위주의 선전"
+ communism_propagation:0 "공산주의 선전"
+ socialism_propagation:0 "사회주의 선전"
+
+ JAP_c_dem:0 "민주주의 수호"
+ dem_unity:0 "반군부 정당 연대"
+ attack_tou:0 "통제파 비난"
+ checking_soc:0 "사회대중당 견제"
+ draft:0 "의용무사 모집"
+
+ SGE_rev:0 "혁명의 불꽃이 사그라들지 않도록"
+ sge_sta_regens:0 "레겐스부르크 확보"
+ sge_sta_nui:0 "뉘른베르크 확보"
+ sge_sta_st:0 "슈투트가르트 확보"
+
+ SGE_ele:0 "전인민 총선거"
+ sge_ele_kpd_r:0 "공산당 우파 선거 활동"
+ sge_ele_kpd_l:0 "공산당 좌파 선거 활동"
+ sge_ele_dap:0 "노동자당 좌파 선거 활동"
+ sge_ele_mission:0 "개표 임박"
+ 
+ CKK_rev:0 "반혁명에 맞서다"
+ CKK_mob:0 "혁명에 동원"
+ CKK_coup:0 "반혁명의 모래시계"
+ CKK_coup_tt:0 "§R군관구는 지금 위태롭습니다. 토착민들의 우리에 대한 지지가 악화되기 전에 어서 이곳을 빠져나가야 합니다.§!"
+
+ WSY_knife:0 "시베리아 공작"
+ WSY_attack_yam:0 "야말리아에 폭동 사주"
+ WSY_attack_sur:0 "수르구트에 폭동 사주"
+ WSY_attack_nov:0 "노보시비르스크에 폭동 사주"
+ WSY_attack_corn:0 "비료 공급원 타격"
+
+ MRC_attacks:0 "관동군 작전계획"
+ MRC_attack_sandong:0 "산동사변"
+ MRC_attack_yeolha:0 "열하사변"

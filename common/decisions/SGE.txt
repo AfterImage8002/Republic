@@ -1,0 +1,190 @@
+SGE_rev = {
+	sge_sta_regens = {
+		visible = {
+			check_variable = {
+				sge_1 = 1
+			}
+		}
+		available = {
+			divisions_in_state = {
+				size = 6
+				state = 53
+			}
+		}
+		icon = eng_ally_imperialist_coup
+		fire_only_once = yes
+		days_remove = 15
+		complete_effect = {
+			add_stability = 0.03
+		}
+		remove_effect = {
+			53 = {
+				add_core_of = SGE
+				remove_core_of = BAY
+			}
+			hidden_effect = {
+				random = {
+					chance = 80
+					country_event = SGE.5
+				}
+			}
+			clear_variable = sge_1
+			set_variable = {
+				sge_2 = 1
+			}
+			add_manpower = 400
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 400
+			}
+		}
+	}
+	sge_sta_nui = {
+		visible = {
+			check_variable = {
+				sge_2 = 1
+			}
+		}
+		available = {
+			divisions_in_state = {
+				size = 7
+				state = 54
+			}
+		}
+		icon = eng_ally_imperialist_coup
+		fire_only_once = yes
+		days_remove = 15
+		complete_effect = {
+			add_stability = 0.03
+		}
+		remove_effect = {
+			54 = {
+				add_core_of = SGE
+				remove_core_of = BAY
+			}
+			hidden_effect = {
+				random = {
+					chance = 80
+				}
+				country_event = SGE.6
+			}
+			clear_variable = sge_2
+			set_variable = {
+				sge_3 = 1
+			}
+			add_manpower = 400
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 400
+			}
+		}
+	}
+	sge_sta_st = {
+		visible = {
+			check_variable = {
+				sge_3 = 1
+			}
+		}
+		available = {
+			divisions_in_state = {
+				size = 8
+				state = 50
+			}
+		}
+		icon = eng_ally_imperialist_coup
+		fire_only_once = yes
+		days_remove = 15
+		complete_effect = {
+			add_stability = 0.05
+		}
+		remove_effect = {
+			50 = {
+				add_core_of = SGE
+				remove_core_of = BAY
+			}
+			add_manpower = 400
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 400
+			}
+			clear_variable = sge_3
+		}
+	}
+}
+SGE_ele = {
+	sge_ele_kpd_r = {
+		cost = 15
+		visible = {
+			check_variable = {
+				sge_ele = 1
+			}
+		}
+		days_remove = 7
+		remove_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.03
+			}
+		}
+	}
+	sge_ele_kpd_l = {
+		cost = 15
+		visible = {
+			check_variable = {
+				sge_ele = 1
+			}
+		}
+		days_remove = 7
+		remove_effect = {
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.03
+			}
+		}
+	}
+	sge_ele_dap = {
+		cost = 15
+		visible = {
+			check_variable = {
+				sge_ele = 1
+			}
+		}
+		days_remove = 7
+		remove_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.03
+			}
+		}
+	}
+	sge_ele_mission = {
+		allowed = {
+		}
+		available = {
+			always = no
+		}
+		visible = {
+			check_variable = {
+				sge_ele = 1
+			}
+		}
+		cancel_trigger = {
+			always = no
+		}
+		
+		activation = {
+			check_variable = {
+				sge_ele = 1
+			}
+		}
+		fire_only_once = yes
+		is_good = no
+		days_mission_timeout = 30
+		timeout_effect = {
+			hidden_effect = {
+				country_event = SGE.12
+			}
+			clear_variable = sge_ele
+		}
+	}
+}

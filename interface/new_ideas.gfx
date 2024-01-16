@@ -1,0 +1,104 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_leipzig_constitution"
+		texturefile = "gfx/interface/ideas/leipzig_constitution.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_suppression_for_kpd"
+		texturefile = "gfx/interface/ideas/suppression_for_kpd.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_threat_from_west"
+		texturefile = "gfx/interface/ideas/threat_from_west.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_political_polarization"
+		texturefile = "gfx/interface/ideas/political_polarization.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_economic_depression"
+		texturefile = "gfx/interface/ideas/economic_depression.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_revolution_propagation"
+		texturefile = "gfx/interface/ideas/revolution_propagation.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_sporadic_capitalist_resistance"
+		texturefile = "gfx/interface/ideas/sporadic_capitalist_resistance.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_Spartakusbund"
+		texturefile = "gfx/interface/ideas/Spartakusbund.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_small_scale_exile"
+		texturefile = "gfx/interface/ideas/small_scale_exile.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_large_scale_exile"
+		texturefile = "gfx/interface/ideas/large_scale_exile.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_german_economy_unity"
+		textureFile = "gfx/interface/ideas/독일경제협력.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_french_interference"
+		texturefile = "gfx/interface/ideas/french_interference.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_building_reconstruction"
+		texturefile = "gfx/interface/ideas/building_reconstruction.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_proletarian_parliament"
+		texturefile = "gfx/interface/ideas/proletarian_parliament.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_failed_natioanl_policy"
+		texturefile = "gfx/interface/ideas/failed_natioanl_policy.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_fascist_rallying"
+		texturefile = "gfx/interface/ideas/fascist_rallying.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_JAP_SMRC"
+		texturefile = "gfx/interface/ideas/SMRC.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_CHO_COL_strike"
+		texturefile = "gfx/interface/ideas/CHO_COL_strike.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_CHO_COL_complaint"
+		texturefile = "gfx/interface/ideas/CHO_COL_complaint.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_MSY_ending_ideas"
+		texturefile = "gfx/interface/ideas/outlaw_ideas_picture.png"
+	}
+	#음악 송출국
+	spriteType = {
+		name = "rev_music"
+		texturefile = "gfx/interface/rev_music_on.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "arr_music"
+		texturefile = "gfx/interface/arr_music_on.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "rd_music"
+		texturefile = "gfx/interface/rd_music_on.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "cl_music"
+		texturefile = "gfx/interface/cl_music_on.dds"
+		noOfFrames = 2
+	}
+}

@@ -1,0 +1,93 @@
+﻿l_english:
+ #사람이름 인명 캐릭터
+ #우한정부
+ HNC_exe:0 "중앙집행위원회"
+ HNC_em:0 "비상대권"
+ HNC_sov_advisor:0 "소련 고문단"
+ HNC_mao:0 "마오쩌둥"
+
+
+ LCH_wu:0 "우페이푸"
+ SIK_feng:0 "펑위샹"
+ MRC_Minami_jiro:0 "미나미 지로"
+ KOR_yeo:0 "여운형"
+ KOR_CabinetMeeting_dem:0 "국무원"
+ KOR_CabinetMeeting_com:0 "국무원"
+ SGE_Rosa:0 "로자 룩셈부르크"
+ MAN_Zhang:0 "장쉐량"
+ White_Army_Conference:0 "적군"
+ CHO_Itou:0 "이토 분키치"
+ CHO_saito_macoto:0 "사이토 마코토"
+ CHI_Sun:0 "쑨원"
+ CHI_NA:0 "국민대회"
+ UKR_Kost_Levytsky:0 "코스트 레비츠키"
+ UKR_nestor_mahkno:0 "네스토르 마흐노"
+ UKR_Stefan_Bandera:0 "스테판 반데라"
+ BLR_Vasil_Zacharka:0 "바실 자차르카"
+ GER_Otto_Wels:0 "오토 벨스"
+ RHI_konrad_adenauer:0 "콘라트 아데나워"
+ AUS_Engelbert_Dolfuss:0 "엥겔베르트 돌푸스"
+ SOV_Mikhail_Kalinin_leader:0 "미하일 칼리닌"
+ VLA_Kolchak:0 "알렉산드르 콜차크"
+ FER_tukhachevsky:0 "미하일 투하쳅스키"
+ RUS_Blyukher:0 "바실리 블류헤르"
+ JAP_reijirou:0 "와카쓰키 레이지로"
+ ITA_Luigi_Einaudi:0 "루이지 에이나우디"
+ KUB_Voroshilov:0 "클리멘트 보로실로프"
+ STR_committee:0 "해협위원회"
+ MON_prince_demchugdongrub:0 "데므치그돈로브"
+ YHC_Mahongkui:0 "마홍쿠이"
+ GDC_Xu:0 "쉬충즈"
+ GSC_Ma_Hongbin:0 "마훙빈"
+ HNC_Tanyenkai:0 "탄옌카이"
+ GJC_He:0 "허잉친"
+ BUK_Muhammad_Alim:0 "사이드 미르 무하마드 알림 칸"
+ KAZ_Baitursynuly:0 "아멧 바이투르시눌리"
+ KHI_Sayid_Abdullah:0 "사이드 압둘라"
+ KRF_Takeshi_Imamura:0 "타케시 이마무라"
+ KYR_Kichik_Ergash:0 "에르가쉬 쿠르바시"
+ DAG_Rasulbek_Kaitbekov:0 "라술벡 카이트베코프"
+ SGE_Spartacus:0 "혁명위원회"
+ SIC_Liu:0 "류샹"
+ CHO_Gov:0 "공격받은 조선총독부"
+ JAP_kudeta:0 "황도파 장교회의"
+ Tundra:0 "황량한 툰드라"
+ KAZ_Bukharin:0 "니콜라이 부하린"
+ VLA_Trotsky:0 "레프 트로츠키"
+ MSY_Khrushchev:0 "니키타 흐루쇼프"
+ KUB_Zinoviev:0 "그리고리 지노비에프"
+ BYA_Tsydenova:0 "군신 치데노바"
+ WSY_Yagoda:0 "겐리흐 야고다"
+ JAP_kita:0 "기타 잇키"
+ SLO_milan:0 "밀란 호자"
+
+ #프랑스
+ FRA_sarraut:0 "알베르 사로"
+ FRA_colony:0 "총독부"
+
+
+ #☆☆☆☆☆개쩌는 극동의 지도자들~☆☆☆☆☆☆☆☆#
+ RAW_Kolchak:0 "알렉산드르 콜차크"
+ RAW_Kolchak_desc:0 "desc 되는 지 확인 하는 용"
+ USA_arthur_morgan_name:0 "아서 모건"
+ Arthur_morgan_desc:0 "사람들이 자네를 도살자라고 부르더군. - 사이먼 피어슨\n\n총을 정말 잘 쏘는데, 모건. 인정할 건 인정해야겠어. -마이카 벨\n\n자네처럼 솜씨 좋은 사람이 왜 아직도 한물 간 더치랑 함께 다니나? -콜름 오드리스콜\n\n당신은 지명 수배자야, 미스터 모건. 당신 목에만 5,000달러의 현상금이 붙어 있어 -앤드류 밀튼"
+ Arthur_morgan_trait:0 "집행자"
+ 
+ #인물특성
+
+ #☆☆☆☆☆개쩌는 극동의 지도자들~☆☆☆☆☆☆☆☆#
+ SGE_Thalman:0 "에른스트 텔만"
+ SGE_Pick:0 "빌헬름 피크"
+ SGE_Levi:0 "파울 레비"
+ SGE_Otto:0 "오토 륄레"
+ SGE_Korsch:0 "카를 코르쉬"
+ SGE_Mattik:0 "파울 마틱"
+ SGE_Kautsky:0 "카를 카우츠키"
+ SGE_Rohm:0 "에른스트 룀"
+ SGE_Strasser:0 "오토 슈트라서"
+ CKK_Semyonov:0 "그리고리 세묘노프"
+
+
+ TUR_kemal_desc:0 "아타튀르크 대통령은 가난한 집안에서 태어나셨지만, 그의 열정과 노력으로 터키를 부국으로 만들기 위한 여정을 시작하셨습니다. 그의 통치 시기 동안, 터키는 세계에서 주목받는 개발도상국으로 성장하였습니다. 이는 아타튀르크 대통령이 가지고 계신 지혜와 우수한 리더십, 그리고 터키의 국민들과의 강한 결속력으로 이루어진 결과입니다.\n\n아타튀르크 대통령은 터키의 경제 발전을 위해 엄청난 노력을 기울였습니다. 그는 지식 기반 경제를 구축하기 위해 교육 시스템을 혁신하였고, 과학과 기술 분야의 연구 및 개발에 큰 투자를 하였습니다. 이를 통해 터키는 기술 혁신과 창업 생태계의 발전을 이루어냈으며, 글로벌 경제의 주요 선도국 중 하나로 떠오르게 되었습니다.\n\n또한, 아타튀르크 대통령은 사회적 포용과 인프라 발전을 추진하여 터키 국민들의 삶의 질을 향상시켰습니다. 빈곤층의 복지 증진과 사회 안전망의 구축에 많은 노력을 기울였으며, 국가 간의 연결성을 향상시키기 위해 광범위한 인프라 사업을 추진했습니다. 이러한 노력들은 터키 국민들에게 안정적인 삶의 기반을 마련해 주었고, 사회 전반에서 성장과 번영을 이룰 수 있는 환경을 조성했습니다.\n\n아타튀르크 대통령의 리더십은 국제 사회에서도 인정받았습니다. 그의 지도력과 외교적 솜씨는 터키를 세계에서 주목받는 주요 국가로 만들었습니다. 그는 터키의 역할을 국제 무대에서 확장시키고, 지역 간의 협력과 안정을 촉진하는 데 큰 역할을 하였습니다. 또한, 아타튀르크 대통령은 지속가능한 개발과 기후 변화 대응을 위한 전략을 추진하였으며, 국제적으로도 이를 주도하고자 앞장서고 있습니다.\n\n오늘날, 아타튀르크 대통령의 유산과 정책은 터키의 미래를 밝게 비추고 있습니다. 그의 이념과 비전은 계속해서 전해져야 하며, 그의 성과와 성공은 더욱 발전하고 번영하는 터키의 모습을 상징합니다. 우리는 아타튀르크 대통령의 통치를 기리며, 그의 이상적인 지도력과 인류애를 계승하여 제 2의 "기적"을 이루기를 기대하고 있습니다.\n\n아타튀르크 대통령께서는 터키의 발전을 위해 끊임없이 헌신하셨고\n\n각하의 그 이상적인 리더십은 터키 국민들에게 큰 변화와 희망을 안겨주었습니다.\n\n온 국민은 이 §H혼란한 터키§W를 구해내주시길 바라고 있습니다."
+
+ 

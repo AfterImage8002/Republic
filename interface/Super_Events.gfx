@@ -1,0 +1,74 @@
+spriteTypes = {
+	#메인 이미지
+	spriteType = {
+		name = "GFX_sp_event_asd"
+		texturefile = "gfx/super_events/asd.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sp_event_balkan_war"
+		texturefile = "gfx/super_events/balkan_war.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sp_event_koudouha"
+		texturefile = "gfx/super_events/koudouha.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sp_event_sup_inter"
+		texturefile = "gfx/super_events/sup_inter.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sp_event_sup_fall_of_center_siberia"
+		texturefile = "gfx/super_events/fall_of_center_siberia.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sp_event_sup_civilwar_fance"
+		texturefile = "gfx/super_events/france_civilwar.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sp_event_sup_china_civil_war"
+		texturefile = "gfx/super_events/china_civil_war.png"
+		legacy_lazy_load = no
+	}
+	#서브 이미지
+	spriteType = {
+		name = "GFX_sp_event_asd_little"
+		texturefile = "gfx/super_events/asd_little.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sp_event_china_civil_war_little"
+		texturefile = "gfx/super_events/china_civil_war_little.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sp_event_sup_civilwar_fance_little"
+		texturefile = "gfx/super_events/sup_civilwar_fance_little.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sp_event_sup_fall_of_center_siberia_little"
+		texturefile = "gfx/super_events/senter.png"
+		legacy_lazy_load = no
+	}
+	##### 기본 세팅
+	spriteType = {
+		name = "GFX_sp_event_window"
+		textureFile = "gfx/Super_Event_Window.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_close_button"
+		textureFile = "gfx/Super_Event_Close_Button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_underlay"
+		textureFile = "gfx/Super_Event_Underlay.dds"
+	}
+}
